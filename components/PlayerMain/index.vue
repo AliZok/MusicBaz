@@ -8,11 +8,18 @@ import DarkBackground from "@/components/DarkBackground"
             <div class="back-img"></div>
             <div class="back-dark"></div>
             <div class="player-box">
-                <div class="box-wrapper  curve bg-dark">
+                <div class="box-wrapper curve bg-dark">
                     <div class="cover-music">
                         <img class="curve "
                             src="https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg"
                             alt="">
+                        <div class="play-button-box">
+                            <div class="inner">
+                                <div class="play-shape">
+                                    <div class="triangle"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
                 </div>
@@ -28,8 +35,9 @@ import DarkBackground from "@/components/DarkBackground"
         width: 100%;
         text-align: center;
         max-width: 400px;
-        padding: 8px;
+        padding: 10px;
         box-shadow: 0 0 30px #111a1e;
+        display: inline-block;
     }
 
     .main-container {
@@ -68,12 +76,13 @@ import DarkBackground from "@/components/DarkBackground"
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 5;
-            padding: 12px;
+            padding: 16px;
             box-sizing: border-box;
+            text-align: center;
         }
 
         .cover-music {
-            overflow: hidden;
+            position: relative;
             display: inline-block;
 
             width: 100%;
@@ -83,6 +92,39 @@ import DarkBackground from "@/components/DarkBackground"
                 width: 100%;
             }
 
+            .play-button-box {
+                width: 50px;
+                height: 50px;
+                background-color: rgba(74, 74, 74, 0.597);
+                position: absolute;
+                bottom: 7px;
+                left: 5px;
+                border-radius: 50%;
+                opacity: 0.4;
+                cursor: pointer;
+                &:hover{
+                    opacity: 1;
+                }
+                .inner {
+                    position: relative;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+                .triangle {
+                    width: 0px;
+                    height: 0px;
+                    margin-left: 5px;
+                    border-style: solid;
+                    border-width: 0 10px 15px 10px;
+                    border-color: transparent transparent #7fc1d5 transparent;
+                    transform: rotate(90deg);
+                }
+
+            }
         }
     }
 
