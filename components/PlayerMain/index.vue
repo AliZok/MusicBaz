@@ -1,12 +1,16 @@
+<script setup>
+    import storeSimple from "@/store/storeSimple"
+    import DarkBackground from "@/components/DarkBackground"
+</script>
 <template>
     <div class="PlayerMain">
-        this is PlayerMain
-        <div>
-            {{ storeSimple.name }}
+        <div class="main-container">
+           red
         </div>
     </div>
 </template>
-
-<script setup>
-import storeSimple from "@/store/storeSimple"
-</script>
+<style>
+.main-container{
+    background-color: red;
+}
+</style>
