@@ -5,8 +5,14 @@ import DarkBackground from "@/components/DarkBackground"
 <template>
     <div class="PlayerMain">
         <div class="main-container">
-            <div class="back-img">
-
+            <div class="back-img"></div>
+            <div class="back-dark"></div>
+            <div class="player-box">
+                <div class="box-wrapper border-gold curve">
+                    <div class="cover-music">
+                        <img src="https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -28,7 +34,29 @@ import DarkBackground from "@/components/DarkBackground"
         bottom: 0;
         left: 0;
         right: 0;
-        background-image: url("https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg")
+        background-image: url("https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg");
+        filter: blur(5px);
+
+    }
+    .back-dark{
+        position: absolute;
+        background: rgba(36, 36, 36, 0.89);
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+    .player-box{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 5;
+    }
+    .cover-music{
+        overflow: hidden;
     }
 }
 }
