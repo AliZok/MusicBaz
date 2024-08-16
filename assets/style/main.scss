@@ -11,11 +11,18 @@ body {
     color: darken($primary-color, 10%);
   }
 }
-
+div{
+  box-sizing: border-box;
+}
 .border-gold{
     border: solid 1px yellow;
 }
-
+.border-primary{
+  border: solid 1px rgb(87, 211, 246);
+}
 .curve{
-    border-radius: 7px;
+    border-radius: 9px;
+}
+.bg-dark{
+  background:rgb(52, 52, 52);
 }

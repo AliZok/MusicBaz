@@ -8,57 +8,133 @@ import DarkBackground from "@/components/DarkBackground"
             <div class="back-img"></div>
             <div class="back-dark"></div>
             <div class="player-box">
-                <div class="box-wrapper border-gold curve">
+                <div class="box-wrapper  curve bg-dark">
                     <div class="cover-music">
-                        <img src="https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg" alt="">
+                        <img class="curve "
+                            src="https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg"
+                            alt="">
                     </div>
+                    <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
                 </div>
             </div>
         </div>
     </div>
 </template>
 <style lang="scss">
-.PlayerMain{
+.PlayerMain {
     height: 100vh;
+
+    .box-wrapper {
+        width: 100%;
+        text-align: center;
+        max-width: 400px;
+        padding: 8px;
+        box-shadow: 0 0 30px #111a1e;
+    }
+
     .main-container {
         height: 100%;
         width: 100%;
-    position: relative;
+        position: relative;
 
-    .back-img {
-        position: absolute;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-image: url("https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg");
-        filter: blur(5px);
+        .back-img {
+            position: absolute;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: url("https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg");
+            filter: blur(5px);
 
+        }
+
+        .back-dark {
+            position: absolute;
+            background: rgba(36, 36, 36, 0.89);
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        .player-box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            padding: 12px;
+            box-sizing: border-box;
+        }
+
+        .cover-music {
+            overflow: hidden;
+            display: inline-block;
+
+            width: 100%;
+
+            img {
+                // max-width: 400px;
+                width: 100%;
+            }
+
+        }
     }
-    .back-dark{
-        position: absolute;
-        background: rgba(36, 36, 36, 0.89);
+
+    .slidecontainer {
         width: 100%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 2;
     }
-    .player-box{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        z-index: 5;
+
+    .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        background: #52dcff;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
     }
-    .cover-music{
-        overflow: hidden;
+
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #4e4e4e;
+        cursor: pointer;
+    }
+
+    // .slider::-webkit-slider-thumb {
+    //     -webkit-appearance: none;
+    //     appearance: none;
+    //     width: 25px;
+    //     height: 25px;
+    //     border-radius: 50%;
+    //     background: #4e4e4e;
+    //     cursor: pointer;
+    // }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .player-box {
+        width: 100%;
+    }
+
+    .cover-music {
+        width: 100%;
     }
 }
-}
-
 </style>
