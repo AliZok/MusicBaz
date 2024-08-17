@@ -75,6 +75,12 @@ const goToStart = () => {
     myMusic.value.currentTime = 0
     currentTime.value = 0
 }
+const activeGenre = (item) => {
+    item.active = !item.active
+    openGenres.value = false
+    openGenres.value = true
+}
+const openGenres = ref(false)
 
 onMounted(() => {
     myMusic.value.load();
@@ -130,10 +136,29 @@ onMounted(() => {
                     </div>
                 </div>
             </div>
+
+
+            <div @mouseover="openGenres = true" @mouseleave="openGenres = false" class="genre-button-box px-1 py-1">
+                <div class="inner fs-10">
+                    <span class="text-genre">GENRE</span>
+                    <div class="position-relative h-0">
+                        <div class="genre-list" @mouseover="openGenres = true" @mouseleave="openGenres = false" :class="{ 'd-none': !openGenres }">
+                            <div v-for="(genreEl, index) in storeSimple.genres" :key="index" class="genre-element pb-2">
+                                <div class="d-flex fs-13" :class="{ 'opacity-05': !genreEl.active }"
+                                    @click="activeGenre(genreEl)">
+                                    <div>
+                                        {{ genreEl.genre }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 .PlayerMain {
     height: 100vh;
 
@@ -280,6 +305,39 @@ onMounted(() => {
 
     }
 
+    .genre-button-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgba(16, 25, 26, 0.593);
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 20;
+
+        .text-genre {
+            opacity: 0.4;
+        }
+
+        &:hover {
+            .text-genre {
+                opacity: 1;
+            }
+        }
+
+        .inner {
+            position: relative;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+    }
+
+
     .slidecontainer {
         width: 100%;
     }
@@ -320,6 +378,15 @@ onMounted(() => {
     //     cursor: pointer;
     // }
 
+}
+
+.genre-list {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    padding: 10px 13px;
+    background: #1d1d1dad;
+    border-radius: 12px;
 }
 
 @media only screen and (max-width: 768px) {
