@@ -66,7 +66,7 @@ onMounted(() => {
                     </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider" id="myRange">
 
-                    <span>{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
+                    <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
 
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" >
                         <source
