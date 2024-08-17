@@ -2,24 +2,46 @@
 import storeSimple from "@/store/storeSimple"
 import DarkBackground from "@/components/DarkBackground"
 import { ref, onMounted } from 'vue';
-const myMusic = ref(null);
-const playAudio = async () => {
 
+const myMusic = ref(null);
+const audioSrc = ref('https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3');
+const currentTime = ref(0);
+const duration = ref(0);
+
+const playAudio = async () => {
     try {
-        await myMusic.value.play(); // Attempt to play the audio
+        seekAudio()
+        await myMusic.value.play();
     } catch (error) {
         console.error("Error playing audio:", error);
-        // Optionally, you could give feedback to the user if the play fails
     }
 };
-const fuckPlay = async () => {
+
+const playMusic = async () => {
     await myMusic.value.load();
     await playAudio();
 }
-onMounted( () => {
-    setTimeout(async() => {
-        await fuckPlay()
-    }, 700);
+
+const formatTime = (value) => {
+    const minutes = Math.floor(value / 60);
+    const seconds = Math.floor(value % 60).toString().padStart(2, '0');
+    return `${minutes}:${seconds}`;
+};
+
+const updateRange = () => {
+    currentTime.value = myMusic.value.currentTime;
+};
+
+const seekAudio = () => {
+    myMusic.value.currentTime = currentTime.value;
+};
+
+onMounted(() => {
+
+    myMusic.value.load();
+    myMusic.value.addEventListener('loadedmetadata', () => {
+        duration.value = myMusic.value.duration;
+    });
 });
 
 </script>
@@ -29,12 +51,12 @@ onMounted( () => {
             <div class="back-img"></div>
             <div class="back-dark"></div>
             <div class="player-box">
-                <div class="box-wrapper curve bg-dark">
+                <div class="box-wrapper curve">
                     <div class="cover-music">
                         <img class="curve "
                             src="https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg"
                             alt="">
-                        <div @click="fuckPlay()" class="play-button-box">
+                        <div @click="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <div class="triangle"></div>
@@ -42,13 +64,15 @@ onMounted( () => {
                             </div>
                         </div>
                     </div>
-                    <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
-                    <audio ref="myMusic" class="my-music d-none" controls>
+                    <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider" id="myRange">
+
+                    <span>{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
+
+                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" >
                         <source
-                            src="https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3"
+                            :src="audioSrc"
                             type="audio/mpeg">
                     </audio>
-            
                 </div>
             </div>
         </div>
@@ -65,6 +89,7 @@ onMounted( () => {
         padding: 10px;
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
+        background: rgb(218 239 255 / 15%);
     }
 
     .main-container {
