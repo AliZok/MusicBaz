@@ -1,6 +1,27 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
 import DarkBackground from "@/components/DarkBackground"
+import { ref, onMounted } from 'vue';
+const myMusic = ref(null);
+const playAudio = async () => {
+
+    try {
+        await myMusic.value.play(); // Attempt to play the audio
+    } catch (error) {
+        console.error("Error playing audio:", error);
+        // Optionally, you could give feedback to the user if the play fails
+    }
+};
+const fuckPlay = async () => {
+    await myMusic.value.load();
+    await playAudio();
+}
+onMounted( () => {
+    setTimeout(async() => {
+        await fuckPlay()
+    }, 700);
+});
+
 </script>
 <template>
     <div class="PlayerMain">
@@ -13,7 +34,7 @@ import DarkBackground from "@/components/DarkBackground"
                         <img class="curve "
                             src="https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg"
                             alt="">
-                        <div class="play-button-box">
+                        <div @click="fuckPlay()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <div class="triangle"></div>
@@ -22,6 +43,12 @@ import DarkBackground from "@/components/DarkBackground"
                         </div>
                     </div>
                     <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                    <audio ref="myMusic" class="my-music d-none" controls>
+                        <source
+                            src="https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3"
+                            type="audio/mpeg">
+                    </audio>
+            
                 </div>
             </div>
         </div>
@@ -56,7 +83,7 @@ import DarkBackground from "@/components/DarkBackground"
             right: 0;
             background-image: url("https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg");
             filter: blur(5px);
-
+            z-index: 0;
         }
 
         .back-dark {
@@ -102,9 +129,11 @@ import DarkBackground from "@/components/DarkBackground"
                 border-radius: 50%;
                 opacity: 0.4;
                 cursor: pointer;
-                &:hover{
+
+                &:hover {
                     opacity: 1;
                 }
+
                 .inner {
                     position: relative;
                     height: 100%;

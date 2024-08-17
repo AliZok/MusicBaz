@@ -1,6 +1,7 @@
 <!-- layouts/default.vue -->
 <template>
   <div class="DefaultLayout">
+    <HeaderMain />
     <Component :is="PlayerMain">
     </Component>
   </div>
@@ -8,4 +9,5 @@
 
 <script setup>
 import PlayerMain from '@/components/PlayerMain'
+import HeaderMain from '@/components/HeaderMain'
 </script>
