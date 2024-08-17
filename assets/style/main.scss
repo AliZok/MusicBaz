@@ -1,16 +1,21 @@
 // assets/scss/main.scss
 
 $primary-color: #84f3ff;
+
 body {
   font-family: Arial, sans-serif;
   color: $primary-color;
   margin: 0;
   padding: 0;
 
-  h1 {
-    color: darken($primary-color, 10%);
+}
+
+@for $i from 8 through 30 {
+  .fs-#{$i} {
+    font-size: #{$i}px;
   }
 }
+
 div{
   box-sizing: border-box;
 }

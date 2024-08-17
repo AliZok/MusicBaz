@@ -7,19 +7,30 @@ const myMusic = ref(null);
 const audioSrc = ref('https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3');
 const currentTime = ref(0);
 const duration = ref(0);
+const isPlaying = ref(false);
 
 const playAudio = async () => {
     try {
         seekAudio()
         await myMusic.value.play();
+        isPlaying.value = true
     } catch (error) {
         console.error("Error playing audio:", error);
     }
 };
-
+const pauseAudio = async () => {
+        seekAudio()
+        await myMusic.value.pause();
+        isPlaying.value = false  
+};
 const playMusic = async () => {
     await myMusic.value.load();
-    await playAudio();
+    if(isPlaying.value){
+        pauseAudio();
+    }else{
+            await playAudio();
+    }
+
 }
 
 const formatTime = (value) => {
@@ -37,7 +48,6 @@ const seekAudio = () => {
 };
 
 onMounted(() => {
-
     myMusic.value.load();
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
@@ -59,20 +69,21 @@ onMounted(() => {
                         <div @click="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
-                                    <div class="triangle"></div>
+                                    <!-- <div class="triangle"></div> -->
+                                    <div class='button-icon' :class="{'paused': isPlaying}"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider" id="myRange">
-
-                    <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
-
-                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" >
-                        <source
-                            :src="audioSrc"
-                            type="audio/mpeg">
+                    <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
+                        id="myRange">
+                    <div class="text-right text-10 fs-9">
+                        <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
+                    </div>
+                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange">
+                        <source :src="audioSrc" type="audio/mpeg">
                     </audio>
+                   
                 </div>
             </div>
         </div>
@@ -231,6 +242,31 @@ onMounted(() => {
 
     .cover-music {
         width: 100%;
+    }
+}
+
+
+
+.button-icon {
+    box-sizing: border-box;
+    width: 0;
+    height: 10px;
+
+    border-color: transparent transparent transparent #52dcff;
+    transition: 100ms all ease;
+    cursor: pointer;
+    opacity: 0.7;
+    // play state
+    border-style: solid;
+    border-width: 7px 0 7px 10px;
+
+    &.paused {
+        border-style: double;
+        border-width: 0px 0 0px 9px;
+    }
+
+    &:hover {
+        opacity: 1;
     }
 }
 </style>
