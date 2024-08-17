@@ -16,6 +16,7 @@ const isPlaying = ref(false);
 
 
 const playAudio = async () => {
+    await myMusic.value.load();
     try {
         seekAudio()
         await myMusic.value.play();
@@ -24,19 +25,35 @@ const playAudio = async () => {
         console.error("Error playing audio:", error);
     }
 };
+
 const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
     isPlaying.value = false
 };
+
 const playMusic = async () => {
-    await myMusic.value.load();
+
     if (isPlaying.value) {
         pauseAudio();
     } else {
         await playAudio();
     }
 
+}
+
+const playNextMusic = async () => {
+    pauseAudio();
+    let lastNumber = randomNumber.value
+    getRandomNumber()
+    if (lastNumber != randomNumber.value) {
+
+        pauseAudio();
+        goToStart()
+        await playAudio();
+    } else {
+        playNextMusic()
+    }
 }
 
 const formatTime = (value) => {
@@ -52,6 +69,12 @@ const updateRange = () => {
 const seekAudio = () => {
     myMusic.value.currentTime = currentTime.value;
 };
+
+const goToStart = () => {
+    duration.value = 0
+    myMusic.value.currentTime = 0
+    currentTime.value = 0
+}
 
 onMounted(() => {
     myMusic.value.load();
@@ -72,8 +95,9 @@ onMounted(() => {
             <div class="back-dark"></div>
             <div class="player-box">
                 <div class="box-wrapper curve">
-                    <div  @click="playMusic()" class="cover-music ">
-                        <img class="curve "  :class="{ 'shine-me': isPlaying }" :src="storeSimple.musicList[randomNumber]?.cover" alt="">
+                    <div @click="playMusic()" class="cover-music ">
+                        <img class="curve " :class="{ 'shine-me': isPlaying }"
+                            :src="storeSimple.musicList[randomNumber]?.cover" alt="">
                         <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
@@ -82,6 +106,7 @@ onMounted(() => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
                         id="myRange">
@@ -92,6 +117,17 @@ onMounted(() => {
                         <source :src="storeSimple.musicList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
+                </div>
+            </div>
+
+            <div @click.stop="playNextMusic()" class="next-button-box">
+                <div class="inner">
+                    <div class="play-shape">
+                        <div class='button-icon'></div>
+                    </div>
+                    <div class="play-shape">
+                        <div class='button-icon'></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,9 +146,11 @@ onMounted(() => {
         display: inline-block;
         background: rgb(218 239 255 / 15%);
     }
-    .shine-me{
+
+    .shine-me {
         box-shadow: 0 0 9px 2px #84f3ff29;
     }
+
     .main-container {
         height: 100%;
         width: 100%;
@@ -170,7 +208,7 @@ onMounted(() => {
                 background-color: rgba(16, 25, 26, 0.593);
                 position: absolute;
                 bottom: 50%;
-                transform: translate(-50%,50%);
+                transform: translate(-50%, 50%);
                 left: 50%;
                 border-radius: 50%;
                 opacity: 0.4;
@@ -200,7 +238,46 @@ onMounted(() => {
                 }
 
             }
+
+
         }
+    }
+
+    .next-button-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgba(16, 25, 26, 0.593);
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+        opacity: 0.4;
+        cursor: pointer;
+        z-index: 20;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        .inner {
+            position: relative;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .triangle {
+            width: 0px;
+            height: 0px;
+            margin-left: 5px;
+            border-style: solid;
+            border-width: 0 10px 15px 10px;
+            border-color: transparent transparent #7fc1d5 transparent;
+            transform: rotate(90deg);
+        }
+
     }
 
     .slidecontainer {
