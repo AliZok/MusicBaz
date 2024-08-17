@@ -3,12 +3,17 @@ import storeSimple from "@/store/storeSimple"
 import DarkBackground from "@/components/DarkBackground"
 import { ref, onMounted } from 'vue';
 
+const randomNumber = ref(0)
+
+function getRandomNumber() {
+    randomNumber.value = Math.floor(Math.random() * storeSimple.musicList.length);
+}
+
 const myMusic = ref(null);
-const musicSrc = ref('https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3');
 const currentTime = ref(0);
 const duration = ref(0);
 const isPlaying = ref(false);
-const musicCover = ref('https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg');
+
 
 const playAudio = async () => {
     try {
@@ -53,20 +58,22 @@ onMounted(() => {
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
     });
+    setTimeout(() => {
+        getRandomNumber()
+    }, 200);
+
 });
 
 </script>
 <template>
     <div class="PlayerMain">
         <div class="main-container">
-            <div class="back-img" :style="`background-image: url(${musicCover})`"></div>
+            <div class="back-img" :style="`background-image: url(${storeSimple.musicList[randomNumber]?.cover})`"></div>
             <div class="back-dark"></div>
             <div class="player-box">
                 <div class="box-wrapper curve">
                     <div class="cover-music">
-                        <img class="curve "
-                            :src="musicCover"
-                            alt="">
+                        <img class="curve " :src="storeSimple.musicList[randomNumber]?.cover" alt="">
                         <div @click="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
@@ -82,7 +89,7 @@ onMounted(() => {
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange">
-                        <source :src="musicSrc" type="audio/mpeg">
+                        <source :src="storeSimple.musicList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
                 </div>
