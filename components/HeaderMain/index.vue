@@ -18,13 +18,32 @@
     padding-top: 10px;
     padding-left: 10px;
 }
-.com{
+
+.com {
     font-size: 10px;
 }
-.auto-shadow{
-    text-shadow: 5px 1px 8px #ccfbf7da;
+
+.auto-shadow {
+
+    animation: mymove 5s;
+    animation-iteration-count: infinite;
 }
-.my-brand{
+
+.my-brand {
     font-size: 18px;
+}
+
+
+@keyframes mymove {
+    0% {
+        text-shadow: 5px 1px 8px #ccfbf700;
+    }
+
+    50% {
+        text-shadow: 5px 1px 8px #ccfbf7da;
+    }
+    100% {
+        text-shadow: 5px 1px 8px #ccfbf700;
+    }
 }
 </style>
