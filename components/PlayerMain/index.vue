@@ -72,9 +72,9 @@ onMounted(() => {
             <div class="back-dark"></div>
             <div class="player-box">
                 <div class="box-wrapper curve">
-                    <div class="cover-music">
-                        <img class="curve " :src="storeSimple.musicList[randomNumber]?.cover" alt="">
-                        <div @click="playMusic()" class="play-button-box">
+                    <div  @click="playMusic()" class="cover-music ">
+                        <img class="curve "  :class="{ 'shine-me': isPlaying }" :src="storeSimple.musicList[randomNumber]?.cover" alt="">
+                        <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->
@@ -110,7 +110,9 @@ onMounted(() => {
         display: inline-block;
         background: rgb(218 239 255 / 15%);
     }
-
+    .shine-me{
+        box-shadow: 0 0 9px 2px #84f3ff29;
+    }
     .main-container {
         height: 100%;
         width: 100%;
@@ -163,12 +165,13 @@ onMounted(() => {
             }
 
             .play-button-box {
-                width: 50px;
-                height: 50px;
-                background-color: rgba(74, 74, 74, 0.597);
+                width: 200px;
+                height: 200px;
+                background-color: rgba(16, 25, 26, 0.593);
                 position: absolute;
-                bottom: 7px;
-                left: 5px;
+                bottom: 50%;
+                transform: translate(-50%,50%);
+                left: 50%;
                 border-radius: 50%;
                 opacity: 0.4;
                 cursor: pointer;
