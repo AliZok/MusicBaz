@@ -38,9 +38,8 @@
     0% {
         text-shadow: 5px 1px 8px #ccfbf700;
     }
-
     50% {
-        text-shadow: 5px 1px 8px #ccfbf7da;
+        text-shadow: 5px 1px 10px #ccfbf7da;
     }
     100% {
         text-shadow: 5px 1px 8px #ccfbf700;

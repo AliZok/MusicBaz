@@ -11,10 +11,5 @@
 import PlayerMain from '@/components/PlayerMain'
 import HeaderMain from '@/components/HeaderMain'
 
-const router = useRouter()
-const route = useRoute()
-console.log('baaaaaaaaaaaaaaa',route)
-
-router.push('/play')
 </script>
 

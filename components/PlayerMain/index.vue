@@ -4,10 +4,11 @@ import DarkBackground from "@/components/DarkBackground"
 import { ref, onMounted } from 'vue';
 
 const myMusic = ref(null);
-const audioSrc = ref('https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3');
+const musicSrc = ref('https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3');
 const currentTime = ref(0);
 const duration = ref(0);
 const isPlaying = ref(false);
+const musicCover = ref('https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg');
 
 const playAudio = async () => {
     try {
@@ -19,16 +20,16 @@ const playAudio = async () => {
     }
 };
 const pauseAudio = async () => {
-        seekAudio()
-        await myMusic.value.pause();
-        isPlaying.value = false  
+    seekAudio()
+    await myMusic.value.pause();
+    isPlaying.value = false
 };
 const playMusic = async () => {
     await myMusic.value.load();
-    if(isPlaying.value){
+    if (isPlaying.value) {
         pauseAudio();
-    }else{
-            await playAudio();
+    } else {
+        await playAudio();
     }
 
 }
@@ -58,19 +59,19 @@ onMounted(() => {
 <template>
     <div class="PlayerMain">
         <div class="main-container">
-            <div class="back-img"></div>
+            <div class="back-img" :style="`background-image: url(${musicCover})`"></div>
             <div class="back-dark"></div>
             <div class="player-box">
                 <div class="box-wrapper curve">
                     <div class="cover-music">
                         <img class="curve "
-                            src="https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg"
+                            :src="musicCover"
                             alt="">
                         <div @click="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->
-                                    <div class='button-icon' :class="{'paused': isPlaying}"></div>
+                                    <div class='button-icon' :class="{ 'paused': isPlaying }"></div>
                                 </div>
                             </div>
                         </div>
@@ -81,9 +82,9 @@ onMounted(() => {
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange">
-                        <source :src="audioSrc" type="audio/mpeg">
+                        <source :src="musicSrc" type="audio/mpeg">
                     </audio>
-                   
+
                 </div>
             </div>
         </div>
@@ -117,7 +118,6 @@ onMounted(() => {
             bottom: 0;
             left: 0;
             right: 0;
-            background-image: url("https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg");
             filter: blur(5px);
             z-index: 0;
         }
@@ -250,7 +250,7 @@ onMounted(() => {
 .button-icon {
     box-sizing: border-box;
     width: 0;
-    height: 10px;
+    height: 15px;
 
     border-color: transparent transparent transparent #52dcff;
     transition: 100ms all ease;
@@ -258,11 +258,14 @@ onMounted(() => {
     opacity: 0.7;
     // play state
     border-style: solid;
-    border-width: 7px 0 7px 10px;
+    border-width: 8px 0 8px 12px;
+    margin-left: 3px;
 
     &.paused {
         border-style: double;
-        border-width: 0px 0 0px 9px;
+        border-width: 0px 0 0px 12px;
+        margin-left: 0px;
+
     }
 
     &:hover {
