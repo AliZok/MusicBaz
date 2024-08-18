@@ -102,6 +102,7 @@ const activeGenre = (item) => {
     item.active = !item.active
     openGenres.value = false
     openGenres.value = true
+    localStorage.removeItem('myGenres')
     localStorage.setItem('myGenres', JSON.stringify(genres.value))
 }
 
@@ -203,7 +204,7 @@ onMounted(() => {
     .box-wrapper {
         width: 100%;
         text-align: center;
-        width: 400px;
+        max-width: 400px;
         min-height: 460px;
         padding: 10px;
         box-shadow: 0 0 30px #111a1e;
