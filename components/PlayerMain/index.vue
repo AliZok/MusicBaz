@@ -10,6 +10,7 @@ const isPlaying = ref(false);
 const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
+const isLoading = ref(true)
 
 
 
@@ -37,6 +38,7 @@ function getRandomNumber() {
 
 const playAudio = async () => {
     await myMusic.value.load();
+    isLoading.value = false
     try {
         seekAudio()
         await myMusic.value.play();
@@ -144,12 +146,11 @@ onMounted(() => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
                         id="myRange">
                     <div class="d-flex justify-space-between text-10 fs-9">
-                        <div class="text-left pl-1 pt-2 fs-12">
+                        <div class="text-left pl-1 pt-2 fs-12 titles">
                             <div>{{ pureList[randomNumber]?.title }}</div>
                             <div>{{ pureList[randomNumber]?.artist }}</div>
                         </div>
@@ -202,7 +203,8 @@ onMounted(() => {
     .box-wrapper {
         width: 100%;
         text-align: center;
-        max-width: 400px;
+        width: 400px;
+        min-height: 460px;
         padding: 10px;
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
@@ -256,7 +258,7 @@ onMounted(() => {
         .cover-music {
             position: relative;
             display: inline-block;
-
+            min-height: 400px;
             width: 100%;
 
             img {
@@ -384,7 +386,8 @@ onMounted(() => {
         width: 100%;
         height: 5px;
         border-radius: 5px;
-        background: #52dcff;
+        // background: #52dcff;
+        background: #58d1ef;
         outline: none;
         opacity: 0.7;
         -webkit-transition: .2s;
@@ -417,6 +420,9 @@ onMounted(() => {
 
 }
 
+.titles{
+    color: #23c1d2;
+}
 .genre-list {
     position: absolute;
     left: 0px;
