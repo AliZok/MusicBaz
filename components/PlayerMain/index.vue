@@ -185,7 +185,7 @@ onMounted(() => {
                                 <div class="d-flex fs-13" :class="{ 'opacity-05': !genreEl.active }"
                                     @click="activeGenre(genreEl)">
                                     <div>
-                                        {{ genreEl.genre }}
+                                        {{ genreEl.text }}
                                     </div>
                                 </div>
                             </div>
