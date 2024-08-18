@@ -58,6 +58,20 @@ const storeSimple = {
             audio: 'https://dc.vmusic.ir/2024/07/Markus Schulz - Global DJ Broadcast Weekly Drive 31 (2024)/128k/02) ReOrder, First Effect - Hagelslag (GDJB Weekly Drive 31).mp3',
             genre: 'electronic trance',
         },
+         {
+            title: 'I Do It For You (Everything I Do)',
+            artist: 'Bryan Adams',
+            cover: 'https://ts2.tarafdari.com/contents/user6984/content-sound/bryan_adams-everything_i_do_i_do_it_for_you_s_4.jpg',
+            audio: 'https://ts2.tarafdari.com/contents/user6984/content-sound/36.bryan_adams_-_everything_i_do_i_do_it_for_you.mp3',
+            genre: 'pop rock',
+        },
+        {
+            title: 'Atlantis',
+            artist: 'Tycoos',
+            cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Tycoos-Future-Horizons-441-2024.jpg',
+            audio: 'https://dc.vmusic.ir/2024/07/Tycoos - Future Horizons 441 (2024)/128k/03) Tycoos - Atlantis (Future Horizons 441).mp3',
+            genre: 'pop rock',
+        },
         // {
         //     title: '',
         //     cover: '',
@@ -70,7 +84,7 @@ const storeSimple = {
             genre: 'pop',
             icon: 'pop',
             text: 'پاپ',
-            active: false,
+            active: true,
         },
         {
             genre: 'relax',

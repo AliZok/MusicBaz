@@ -30,9 +30,6 @@ const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
     isPlaying.value = false
-    if(duration.value==currentTime.value){
-        playNextMusic()
-    }
 };
 
 const playMusic = async () => {
@@ -46,7 +43,6 @@ const playMusic = async () => {
 }
 
 const playNextMusic = async () => {
-    alert("fuck")
     pauseAudio();
     let lastNumber = randomNumber.value
     getRandomNumber()
@@ -126,7 +122,7 @@ onMounted(() => {
                     <div class="text-right text-10 fs-9">
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
-                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange"  @ended="playNextMusic()" >
+                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="playNextMusic()">
                         <source :src="storeSimple.musicList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
@@ -136,10 +132,10 @@ onMounted(() => {
             <div @click.stop="playNextMusic()" class="next-button-box">
                 <div class="inner">
                     <div class="play-shape">
-                        <div class='button-icon'></div>
+                        <div class='button-icon smaller'></div>
                     </div>
                     <div class="play-shape">
-                        <div class='button-icon'></div>
+                        <div class='button-icon smaller'></div>
                     </div>
                 </div>
             </div>
@@ -420,8 +416,8 @@ onMounted(() => {
     opacity: 0.7;
     // play state
     border-style: solid;
-    border-width: 8px 0 8px 12px;
-    margin-left: 3px;
+    border-width: 19px 0 19px 28px;
+    margin-left: 6px;
 
     &.paused {
         border-style: double;
@@ -432,6 +428,11 @@ onMounted(() => {
 
     &:hover {
         opacity: 1;
+    }
+
+    &.smaller {
+        border-width: 8px 0 8px 12px;
+        margin-left: 3px;
     }
 }
 </style>
