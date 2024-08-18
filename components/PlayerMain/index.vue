@@ -148,7 +148,11 @@ onMounted(() => {
                     </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
                         id="myRange">
-                    <div class="text-right text-10 fs-9">
+                    <div class="d-flex justify-space-between text-10 fs-9">
+                        <div class="text-left pl-1 pt-2 fs-12">
+                            <div>{{ pureList[randomNumber]?.title }}</div>
+                            <div>{{ pureList[randomNumber]?.artist }}</div>
+                        </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="playNextMusic()">
@@ -244,7 +248,7 @@ onMounted(() => {
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 5;
-            padding: 16px;
+            padding: 16px 32px;
             box-sizing: border-box;
             text-align: center;
         }
