@@ -10,7 +10,8 @@ const isPlaying = ref(false);
 const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
-genres.value = storeSimple.genres
+
+
 
 function pureMyList() {
     pureList.value = []
@@ -22,8 +23,6 @@ function pureMyList() {
         }
     });
 }
-
-pureMyList()
 
 watch(() => genres.value, (newStore) => {
     pureMyList()
@@ -96,20 +95,29 @@ const goToStart = () => {
     myMusic.value.currentTime = 0
     currentTime.value = 0
 }
+
 const activeGenre = (item) => {
     item.active = !item.active
     openGenres.value = false
     openGenres.value = true
+    localStorage.setItem('myGenres', JSON.stringify(genres.value))
 }
+
 const openGenres = ref(false)
 
 onMounted(() => {
+    let lastGenres = localStorage.getItem('myGenres')
+    if(!!lastGenres){
+        genres.value = JSON.parse(lastGenres)
+    }else{
+        genres.value = storeSimple.genres
+    }
+
+    pureMyList()
     myMusic.value.load();
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
     });
-
-
 
     setTimeout(() => {
         getRandomNumber()
@@ -168,7 +176,7 @@ onMounted(() => {
                     <div class="position-relative h-0">
                         <div class="genre-list" @mouseover="openGenres = true" @mouseleave="openGenres = false"
                             :class="{ 'd-none': !openGenres }">
-                            <div v-for="(genreEl, index) in genres" :key="index" class="genre-element pb-2">
+                            <div v-for="(genreEl, index) in genres" :key="index" class="genre-element py-2">
                                 <div class="d-flex fs-13" :class="{ 'opacity-05': !genreEl.active }"
                                     @click="activeGenre(genreEl)">
                                     <div>
@@ -410,8 +418,9 @@ onMounted(() => {
     left: 0px;
     bottom: 10px;
     padding: 10px 13px;
-    background: #1d1d1dad;
+    background: rgba(16, 25, 26, 0.593);
     border-radius: 12px;
+    min-width: 200px;
 }
 
 @media only screen and (max-width: 768px) {
