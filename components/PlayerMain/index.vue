@@ -30,6 +30,9 @@ const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
     isPlaying.value = false
+    if(duration.value==currentTime.value){
+        playNextMusic()
+    }
 };
 
 const playMusic = async () => {
@@ -43,6 +46,7 @@ const playMusic = async () => {
 }
 
 const playNextMusic = async () => {
+    alert("fuck")
     pauseAudio();
     let lastNumber = randomNumber.value
     getRandomNumber()
@@ -87,6 +91,9 @@ onMounted(() => {
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
     });
+
+
+
     setTimeout(() => {
         getRandomNumber()
     }, 200);
@@ -119,7 +126,7 @@ onMounted(() => {
                     <div class="text-right text-10 fs-9">
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
-                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange">
+                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange"  @ended="playNextMusic()" >
                         <source :src="storeSimple.musicList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
@@ -142,7 +149,8 @@ onMounted(() => {
                 <div class="inner fs-10">
                     <span class="text-genre">GENRE</span>
                     <div class="position-relative h-0">
-                        <div class="genre-list" @mouseover="openGenres = true" @mouseleave="openGenres = false" :class="{ 'd-none': !openGenres }">
+                        <div class="genre-list" @mouseover="openGenres = true" @mouseleave="openGenres = false"
+                            :class="{ 'd-none': !openGenres }">
                             <div v-for="(genreEl, index) in storeSimple.genres" :key="index" class="genre-element pb-2">
                                 <div class="d-flex fs-13" :class="{ 'opacity-05': !genreEl.active }"
                                     @click="activeGenre(genreEl)">
