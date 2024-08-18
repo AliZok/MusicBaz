@@ -1,18 +1,39 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
 import DarkBackground from "@/components/DarkBackground"
-import { ref, onMounted } from 'vue';
-
-const randomNumber = ref(0)
-
-function getRandomNumber() {
-    randomNumber.value = Math.floor(Math.random() * storeSimple.musicList.length);
-}
+import { ref, onMounted, watch } from 'vue';
 
 const myMusic = ref(null);
 const currentTime = ref(0);
 const duration = ref(0);
 const isPlaying = ref(false);
+const randomNumber = ref(0)
+const pureList = ref([])
+const genres = ref([])
+genres.value = storeSimple.genres
+
+function pureMyList() {
+    pureList.value = []
+    genres.value.forEach(genre => {
+        if (genre.active) {
+            let pureListTemprary = []
+            pureListTemprary = storeSimple.musicList.filter(item => item.genre.includes(genre.genre))
+            pureList.value= [...pureList.value,...pureListTemprary]
+        }
+    });
+}
+
+pureMyList()
+
+watch(() => genres.value, (newStore) => {
+    pureMyList()
+}, { deep: true })
+
+
+function getRandomNumber() {
+    randomNumber.value = Math.floor(Math.random() * pureList.value.length);
+}
+
 
 
 const playAudio = async () => {
@@ -100,13 +121,13 @@ onMounted(() => {
 <template>
     <div class="PlayerMain">
         <div class="main-container">
-            <div class="back-img" :style="`background-image: url(${storeSimple.musicList[randomNumber]?.cover})`"></div>
+            <div class="back-img" :style="`background-image: url(${pureList[randomNumber]?.cover})`"></div>
             <div class="back-dark"></div>
             <div class="player-box">
                 <div class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
                         <img class="curve " :class="{ 'shine-me': isPlaying }"
-                            :src="storeSimple.musicList[randomNumber]?.cover" alt="">
+                            :src="pureList[randomNumber]?.cover" alt="">
                         <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
@@ -123,7 +144,7 @@ onMounted(() => {
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="playNextMusic()">
-                        <source :src="storeSimple.musicList[randomNumber]?.audio" type="audio/mpeg">
+                        <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
                 </div>
@@ -147,7 +168,7 @@ onMounted(() => {
                     <div class="position-relative h-0">
                         <div class="genre-list" @mouseover="openGenres = true" @mouseleave="openGenres = false"
                             :class="{ 'd-none': !openGenres }">
-                            <div v-for="(genreEl, index) in storeSimple.genres" :key="index" class="genre-element pb-2">
+                            <div v-for="(genreEl, index) in genres" :key="index" class="genre-element pb-2">
                                 <div class="d-flex fs-13" :class="{ 'opacity-05': !genreEl.active }"
                                     @click="activeGenre(genreEl)">
                                     <div>
