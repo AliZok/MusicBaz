@@ -205,7 +205,8 @@ onMounted(() => {
         width: 100%;
         text-align: center;
         max-width: 400px;
-        min-height: 460px;
+        min-width: 300px;
+        min-height: 420px;
         padding: 10px;
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
