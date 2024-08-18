@@ -206,7 +206,7 @@ onMounted(() => {
         text-align: center;
         max-width: 400px;
         min-width: 300px;
-        min-height: 420px;
+        // min-height: 0px;
         padding: 10px;
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
@@ -260,7 +260,7 @@ onMounted(() => {
         .cover-music {
             position: relative;
             display: inline-block;
-            min-height: 400px;
+            min-height: 300px;
             width: 100%;
 
             img {
