@@ -86,6 +86,14 @@ const storeSimple = {
             audio: 'https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20%7C%20Tanha%20Nazar%20(320).mp3',
             genre: 'pop electronic',
         },
+          {
+            title: 'No Step On Wing',
+            artist: 'Nils Frahm',
+            cover: 'https://vmusic.ir/wp-content/uploads/2020/03/Nils-Frahm-Empty-2020.jpg',
+            audio:'https://dl.vmusic.ir//2020/03/Nils Frahm - Empty (2020)/128k/03) Nils Frahm - No Step On Wing - 2020.mp3',
+            genre: 'relax piano ambient',
+        },
+
         // {
         //     title: '',
         //     artist: '',
