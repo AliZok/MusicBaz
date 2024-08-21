@@ -1,6 +1,9 @@
 
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
+  router: {
+    middleware: ['auth']
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   css: [
