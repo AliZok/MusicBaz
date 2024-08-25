@@ -20,7 +20,7 @@ function pureMyList() {
         if (genre.active) {
             let pureListTemprary = []
             pureListTemprary = storeSimple.musicList.filter(item => item.genre.includes(genre.genre))
-            pureList.value= [...pureList.value,...pureListTemprary]
+            pureList.value = [...pureList.value, ...pureListTemprary]
         }
     });
 }
@@ -108,11 +108,21 @@ const activeGenre = (item) => {
 
 const openGenres = ref(false)
 
+const handleKeyPlays = (event) => {
+    if (event.code === 'Space' || event.code === 'Enter') {
+        playMusic()
+    }
+    else if (event.code === 'ArrowRight') {
+        playNextMusic()
+    }
+};
+
+
 onMounted(() => {
     let lastGenres = localStorage.getItem('myGenres')
-    if(!!lastGenres){
+    if (!!lastGenres) {
         genres.value = JSON.parse(lastGenres)
-    }else{
+    } else {
         genres.value = storeSimple.genres
     }
 
@@ -126,6 +136,12 @@ onMounted(() => {
         getRandomNumber()
     }, 200);
 
+    window.addEventListener('keydown', handleKeyPlays);
+
+});
+
+onBeforeUnmount(() => {
+    window.removeEventListener('keydown', handleKeyPlays);
 });
 
 </script>
@@ -137,8 +153,8 @@ onMounted(() => {
             <div class="player-box">
                 <div class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
-                        <img class="curve " :class="{ 'shine-me': isPlaying }"
-                            :src="pureList[randomNumber]?.cover" alt="">
+                        <img class="curve " :class="{ 'shine-me': isPlaying }" :src="pureList[randomNumber]?.cover"
+                            alt="">
                         <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
@@ -422,9 +438,10 @@ onMounted(() => {
 
 }
 
-.titles{
+.titles {
     color: #23c1d2;
 }
+
 .genre-list {
     position: absolute;
     left: 0px;

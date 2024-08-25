@@ -225,13 +225,13 @@ const storeSimple = {
             audio: 'https://cf-media.sndcdn.com/a2geNGn3kFjU.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vYTJnZU5HbjNrRmpVLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQ1NDI5fX19XX0_&Signature=Ovq-Cfe9DwKhEaFLB2B3pTSFrcF6aWEZmJ46Ymrrj1VdKjuJ7d6771N03BigwOdLJxo~~6fLDeCDyPDIo4uGMUm0yDWNafLaMdTbbkI734BMq03Ntb7TFyMCbHwrVzCrzMyVg4QnSbIGnnBVcgtkOtMAT7hdwhQRXSv5WwetDFCe3dGRD8Q1aORhdfxmOBQCPCAbFgoidpC7LHKs0iaGlRoDjyc~TGXFoJpgLREJqJrBf1eg4kh7ozRbDJdmO7nXTZVSTOh~UKBvpo7ZN8rlsY1OjSQ9CnnQKecoYECR1mPfYV-qM3k-GPsoS-6C9e7~pCvsnGt3GSCPPKT1ePHpiA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
             genre: 'electronic techno',
         },
-        {
-            title: 'All of my music is on Spotify',
-            artist: 'Wind',
-            cover: 'https://i1.sndcdn.com/artworks-000033182580-ja3l0t-t500x500.jpg',
-            audio: 'https://cf-media.sndcdn.com/gfihOXhUVnpV.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZ2ZpaE9YaFVWbnBWLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQ1OTkyfX19XX0_&Signature=PIwhLXLr-DggbJJlF1X5JfnIZONkaxH2Z3pUudPk-a3b24IjPIALkJb0eiMrAIRLTLrC4agsWTRunK0akfAGG~FliCdq28KdIN6xA66DEBunZ2hslb06qmaka32VuRWa~Awm-vQtV5sqVG0LQ27AlWc9Gnm-FSdejUtUiGrZg~FyeI08Yde9loaMGG--8uJKRWwyVe4BovRTB~dxW5YzrNt5~m6Vgsebwt4u9qKC6Tw6MRz-fRzHAEndaa042yrjUsCAXFmxzPSUh7arvE2fbXt6A4Ri8HGIJJVNcPux6kHU2Gb5Dq7Ggb-cAgNfj4BNNAfrHRA4u44NMIc8tjntjg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
-            genre: 'relax piano',
-        },
+        // {
+        //     title: 'All of my music is on Spotify',
+        //     artist: 'Wind',
+        //     cover: 'https://i1.sndcdn.com/artworks-000033182580-ja3l0t-t500x500.jpg',
+        //     audio: 'https://cf-media.sndcdn.com/gfihOXhUVnpV.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZ2ZpaE9YaFVWbnBWLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQ1OTkyfX19XX0_&Signature=PIwhLXLr-DggbJJlF1X5JfnIZONkaxH2Z3pUudPk-a3b24IjPIALkJb0eiMrAIRLTLrC4agsWTRunK0akfAGG~FliCdq28KdIN6xA66DEBunZ2hslb06qmaka32VuRWa~Awm-vQtV5sqVG0LQ27AlWc9Gnm-FSdejUtUiGrZg~FyeI08Yde9loaMGG--8uJKRWwyVe4BovRTB~dxW5YzrNt5~m6Vgsebwt4u9qKC6Tw6MRz-fRzHAEndaa042yrjUsCAXFmxzPSUh7arvE2fbXt6A4Ri8HGIJJVNcPux6kHU2Gb5Dq7Ggb-cAgNfj4BNNAfrHRA4u44NMIc8tjntjg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
+        //     genre: 'relax piano',
+        // },
         {
             title: 'The Love',
             artist: 'Florews',
@@ -257,7 +257,7 @@ const storeSimple = {
             title: 'Expectation to Arrival',
             artist: '',
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Various-Artists-Changes-Human-Stories-Factual-2024.jpg',
-            audio: 'src="https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/03) Angus Thomas Nicholson - Expectation to Arrival.mp3',
+            audio: 'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/03) Angus Thomas Nicholson - Expectation to Arrival.mp3',
             genre: 'relax piano',
         },
         {
@@ -274,7 +274,13 @@ const storeSimple = {
             audio: 'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/07) Joshua Benjamin Pacey - Introspective to Optimistic.mp3',
             genre: 'relax piano',
         },
-
+{
+            title: 'Pacha Mama',
+            artist: 'Galardo',
+            cover: 'https://vmusic.ir/wp-content/uploads/2020/12/Galardo-Pacha-Mama-2020.jpg',
+            audio: 'https://dl.vmusic.ir/2020/12/Galardo - Pacha Mama (2020)/128k/Galardo - Pacha Mama.mp3',
+            genre: 'house electronic',
+        },
     ],
     genres: [
         {
