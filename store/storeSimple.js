@@ -274,13 +274,56 @@ const storeSimple = {
             audio: 'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/07) Joshua Benjamin Pacey - Introspective to Optimistic.mp3',
             genre: 'relax piano',
         },
-{
+        {
             title: 'Pacha Mama',
             artist: 'Galardo',
             cover: 'https://vmusic.ir/wp-content/uploads/2020/12/Galardo-Pacha-Mama-2020.jpg',
             audio: 'https://dl.vmusic.ir/2020/12/Galardo - Pacha Mama (2020)/128k/Galardo - Pacha Mama.mp3',
             genre: 'house electronic',
         },
+        {
+            title: 'Middle Earth',
+            artist: 'Meeting Molly',
+            cover: 'data:image/jpeg;base64,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',
+            audio: 'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/03) Meeting Molly - Middle Earth - 2020.mp3',
+            genre: 'house electronic',
+        },
+        {
+            title: 'Perception',
+            artist: 'Jay Fm',
+            cover: 'https://f4.bcbits.com/img/a3517170947_65',
+            audio: 'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/05) Jay Fm - Perception - 2020.mp3',
+            genre: 'house electronic',
+        },
+        {
+            title: 'Exploring The Mind',
+            artist: 'Ltn & Ghostbeat',
+            cover: 'https://i1.sndcdn.com/artworks-epjigeck4UQ56i7o-ALk1nA-t500x500.jpg',
+            audio: 'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/09) Ltn & Ghostbeat - Exploring The Mind - 2020.mp3',
+            genre: 'house electronic',
+        },
+        {
+            title: 'Obsession',
+            artist: 'Jay Fm',
+            cover: 'https://f4.bcbits.com/img/a3818425134_10.jpg',
+            audio: 'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/16) Jay Fm - Obsession - 2020.mp3',
+            genre: 'house electronic',
+        },
+        {
+            title: 'Dune (Mixed)',
+            artist: 'Dekkai',
+            cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/5c/0a/665c0a17-081d-0aae-c983-24335a902e5d/cover.jpg/400x400bb.webp',
+            audio: 'https://dl.vmusic.ir/2020/06/VA - Colorize Ibiza 2020 mixed by Boxer (DJ MIX) (2020)/128k/03) Dekkai - Dune (Mixed) - 2020.mp3',
+            genre: 'house electronic',
+        },
+        // {
+        //     title: '',
+        //     artist: 'Dekkai',
+        //     cover: '',
+        //     audio: '',
+        //     genre: 'house electronic',
+        // },
+
     ],
     genres: [
         {
