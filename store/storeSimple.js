@@ -316,14 +316,20 @@ const storeSimple = {
             audio: 'https://dl.vmusic.ir/2020/06/VA - Colorize Ibiza 2020 mixed by Boxer (DJ MIX) (2020)/128k/03) Dekkai - Dune (Mixed) - 2020.mp3',
             genre: 'house electronic',
         },
-        // {
-        //     title: '',
-        //     artist: 'Dekkai',
-        //     cover: '',
-        //     audio: '',
-        //     genre: 'house electronic',
-        // },
-
+        {
+            title: 'Luminous',
+            artist: 'Tycoos, Deme3us',
+            cover: 'https://cloudinary-cdn.ffm.to/s--7QYXSxPT--/w_1108,h_1108,c_lfill/f_jpg/https%3A%2F%2Fimagestore.ffm.to%2Flink%2F33be0ebabb6ea6ed6bdfd1141f37602e.jpeg',
+            audio: 'https://dc.vmusic.ir/2024/05/Fitness & Workout Vol 26/128k/02) Tycoos, Deme3us - Luminous.mp3',
+            genre: 'trance electronic',
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: '',
+        },
     ],
     genres: [
         {
