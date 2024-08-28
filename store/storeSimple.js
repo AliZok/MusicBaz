@@ -324,11 +324,18 @@ const storeSimple = {
             genre: 'trance electronic',
         },
         {
-            title: '',
-            artist: '',
-            cover: '',
-            audio: '',
-            genre: '',
+            title: 'JOOF Radio 32',
+            artist: 'John00Fleming',
+            cover: 'https://i1.sndcdn.com/artworks-1T6wCUB1Wp3750cP-YdzegQ-t500x500.jpg',
+            audio: 'https://s32.picofile.com/d/8478708426/ab25e8ba-cb54-406d-aba3-6baad6b584f1/John_00_Fleming_JOOF_Radio_32.mp3',
+            genre: 'electronic house mix',
+        },
+        {
+            title: 'The Art Of Sound Episode 12',
+            artist: ' AFX',
+            cover: 'https://i1.sndcdn.com/artworks-6ddxIsShG5jwBn8x-8TOatA-t500x500.jpg',
+            audio: 'https://s32.picofile.com/d/8478707600/50389c93-cc84-4482-a784-a758c3c36025/The_Art_Of_Sound_Episode_12_With_AFX.mp3',
+            genre: 'electronic house mix',
         },
     ],
     genres: [
