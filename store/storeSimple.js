@@ -337,6 +337,64 @@ const storeSimple = {
             audio: 'https://s32.picofile.com/d/8478707600/50389c93-cc84-4482-a784-a758c3c36025/The_Art_Of_Sound_Episode_12_With_AFX.mp3',
             genre: 'electronic house mix',
         },
+
+        {
+            title: 'Cry For You',
+            artist: 'Andy Timmons',
+            cover: 'https://forgottenguitar.com/wp-content/uploads/2015/11/screen-shot-2015-11-27-at-20-28-41.png',
+            audio: 'https://s32.picofile.com/d/8478709018/dd12f0f7-ced3-4f7b-ae1a-05a36a1a4d49/11_Cry_For_You_live_.mp3',
+            genre: 'rock guitar solo',
+        },
+        {
+            title: 'Violet Hill',
+            artist: 'Coldplay',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/2/27/Violethillcover.jpg',
+            audio: 'https://s32.picofile.com/d/8478709042/957dbdec-9b13-47a6-a0b0-c7981a34b914/Coldplay_Violet_Hill.mp3',
+            genre: 'rock',
+        },
+        {
+            title: 'Rave Podcast 129 (September 2021)',
+            artist: 'Daniel Lesden',
+            cover: 'https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2xnL2RhbmllbGxlc2Rlbi5qcGc_ZGF0ZVVwZGF0ZWQ9MTY2NzIwOTU1MzAwMA==',
+            audio: 'https://s32.picofile.com/d/8478709126/48d2ea55-3c1d-41fe-90ba-1d0dc2515647/Daniel_Lesden_Rave_Podcast_129_September_2021_.mp3',
+            genre: 'electronic trance techno mix rave',
+        },
+        {
+            title: 'Rave Podcast 127 (July 2021)',
+            artist: 'Daniel Lesden',
+            cover: 'https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2xnL2RhbmllbGxlc2Rlbi5qcGc_ZGF0ZVVwZGF0ZWQ9MTY2NzIwOTU1MzAwMA==',
+            audio: 'https://s32.picofile.com/d/8478709384/cfea1500-6fb7-42f6-8117-b204400b1126/Daniel_Lesden_Rave_Podcast_127_July_2021_.mp3',
+            genre: 'electronic trance techno mix rave',
+        },
+        {
+            title: 'Rave Podcast 111 (March 2020)',
+            artist: 'Daniel Lesden',
+            cover: 'https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2xnL2RhbmllbGxlc2Rlbi5qcGc_ZGF0ZVVwZGF0ZWQ9MTY2NzIwOTU1MzAwMA==',
+            audio: 'https://s32.picofile.com/d/8478709618/3d8ac5ad-931f-4d65-851c-5323aa63c227/Rave_Podcast_111_March_2020_.mp3',
+            genre: 'electronic trance techno mix rave',
+        },
+        {
+            title: 'Afterglow',
+            artist: 'Interplay Records',
+            cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
+            audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/06) Interplay Records - Afterglow (Interplay 513).mp3',
+            genre: 'electronic techno',
+        },
+
+        {
+            title: 'Fever',
+            artist: 'Just Us',
+            cover: '',
+            audio: 'https://s32.picofile.com/d/8478709634/81594d98-452b-467d-8c47-0255be4942f4/Just_Us_Fever.mp3',
+            genre: 'electronic house',
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'electronic techno house',
+        },
     ],
     genres: [
         {
