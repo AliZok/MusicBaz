@@ -388,13 +388,13 @@ const storeSimple = {
             audio: 'https://s32.picofile.com/d/8478709634/81594d98-452b-467d-8c47-0255be4942f4/Just_Us_Fever.mp3',
             genre: 'electronic house',
         },
-        {
-            title: '',
-            artist: '',
-            cover: '',
-            audio: '',
-            genre: 'electronic techno house',
-        },
+        // {
+        //     title: '',
+        //     artist: '',
+        //     cover: '',
+        //     audio: '',
+        //     genre: 'electronic techno house',
+        // },
     ],
     genres: [
         {
