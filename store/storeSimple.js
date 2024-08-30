@@ -445,14 +445,14 @@ const storeSimple = {
         {
             title: '',
             artist: '',
-            cover: '',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqIFMTW0JZEpolmImjVTLHxBd15f5O-lD1lg&s',
             audio: 'https://dc.vmusic.ir/2024/07/VA - Top Singles Vol. 16 (2024)/128k/01) Mark Eliyahu - Unite.mp3',
             genre: 'relax light',
         },
         {
-            title: '',
-            artist: '',
-            cover: '',
+            title: 'Beyond Reach',
+            artist: 'Focus FL',
+            cover: 'https://i1.sndcdn.com/artworks-uYVzYT7G61wPTxze-khj5ag-t240x240.jpg',
             audio: 'https://dc.vmusic.ir/2023/08/Focus FL - Tunnel Vision (Radio Edits) (2023)/128k/03) Focus FL - Beyond Reach (Radio Edit).mp3',
             genre: 'electronic techno house',
         },
@@ -460,42 +460,42 @@ const storeSimple = {
             title: 'Easy Lover',
             artist: 'Philip Bailey ft. Phil Collins',
             cover: 'https://ts12.tarafdari.com/contents/user799730/content-sound/lty.jpg',
-            audio: 'https://ts12.tarafdari.com/contents/user799730/content-sound/easy_lover_ft._phil_collins.mp3',
+            audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Easy%20Lover.mp3',
             genre: 'rock pop',
         },
-         {
+        {
             title: 'A Groovy Kind Of Love',
             artist: 'Phil Collins',
             cover: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
             audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Groovy%20Kind%20Of%20Love.mp3',
             genre: 'rock pop',
         },
-         {
+        {
             title: 'In The Air Tonight',
             artist: 'Phil Collins',
             cover: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
             audio: 'https://dl.musicdagh.ir/songs/best/collins/In-The-Air-Tonight.mp3',
             genre: 'rock pop',
         },
-              {
+        {
             title: 'Another Day In Paradise',
             artist: 'Phil Collins',
             cover: 'https://i.scdn.co/image/ab67616d0000b27307b486f09d5c8352b5f66ea0',
             audio: 'https://dl.musicdagh.ir/songs/best/collins/Another-Day-In-Paradise.mp3',
             genre: 'rock pop',
         },
-          {
+        {
             title: 'Do You Remember',
             artist: 'Phil Collins',
             cover: 'https://static.wikia.nocookie.net/philcollins/images/1/1c/Do_You_Remember.jpg/revision/latest?cb=20230520043808',
             audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Do%20You%20Remember.mp3',
             genre: 'rock pop',
         },
-         {
-            title: '',
+        {
+            title: 'If Leaving Me Is Easy',
             artist: 'Phil Collins',
-            cover: '',
-            audio: '',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RhZAOnqhk8aY4BcQBXtHzTZA-EuxuTmSaQ&s',
+            audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20If%20Leaving%20Me%20Is%20Easy.mp3',
             genre: 'rock pop',
         },
         {
@@ -512,6 +512,42 @@ const storeSimple = {
             audio: 'https://dl6.songsara.net/FRE/9/Chill Vibes 2 (Playlist)/04 When Light Gets Dark.mp3',
             genre: 'house electronic',
         },
+        {
+            title: 'Morocco',
+            artist: 'Soft Deep',
+            cover: 'https://songsara.net/wp-content/uploads/2024/08/Morocco-Soft-Deep.jpg',
+            audio: 'https://dl6.songsara.net/FRE/10/Soft Deep - Morocco (2024) SONGSARA.NET.mp3',
+            genre: 'house electronic',
+        },
+        {
+            title: 'Gravity (feat. Laura Korinth)',
+            artist: 'Boris',
+            cover: 'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+            audio: 'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/01 Gravity (feat. Laura Korinth) (Edit).mp3',
+            genre: 'electronic techno',
+        },
+        {
+            title: 'Never Look Back',
+            artist: 'Boris',
+            cover: 'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+            audio: 'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/02 Never Look Back (Edit).mp3',
+            genre: 'electronic techno',
+        },
+         {
+            title: 'Spicy (feat. Ginger)',
+            artist: 'Boris',
+            cover: 'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+            audio: 'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/04 Spicy (feat. Ginger) (Edit).mp3',
+            genre: 'electronic techno',
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'house electronic',
+        },
+
 
     ],
     genres: [
