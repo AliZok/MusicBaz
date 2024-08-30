@@ -21,8 +21,11 @@ export default defineNuxtConfig({
       })
     },
     '@nuxt/image',
+    '@vite-pwa/nuxt',
   ],
   image: {},
+  pwa: {
+  },
   vite: {
     vue: {
       template: {
@@ -30,5 +33,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  
+
 })

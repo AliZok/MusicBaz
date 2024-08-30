@@ -12,6 +12,7 @@
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "@nuxt/image": "^1.7.0",
+    "@vite-pwa/nuxt": "^0.10.1",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
