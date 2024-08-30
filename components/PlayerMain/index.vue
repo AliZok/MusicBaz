@@ -37,7 +37,8 @@ function getRandomNumber() {
 
 
 const playAudio = async () => {
-    await myMusic.value.load();
+    
+    myMusic.value.load();
     isLoading.value = false
     try {
         seekAudio()
@@ -70,7 +71,7 @@ const playNextMusic = async () => {
     getRandomNumber()
     if (lastNumber != randomNumber.value) {
 
-        pauseAudio();
+        // pauseAudio();
         goToStart()
         await playAudio();
     } else {
