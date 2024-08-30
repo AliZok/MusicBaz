@@ -561,7 +561,20 @@ const storeSimple = {
             audio: 'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/10 Darkness (Original Mix).mp3',
             genre: 'techno electronic',
         },
-
+        {
+            title: 'Space Diver',
+            artist: 'Boris',
+            cover: 'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+            audio: 'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/12 Space Diver.mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'To The Moon And Back',
+            artist: 'Boris',
+            cover: 'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+            audio: 'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/15 To The Moon And Back (Edit).mp3',
+            genre: 'techno electronic',
+        },
 
     ],
     genres: [
