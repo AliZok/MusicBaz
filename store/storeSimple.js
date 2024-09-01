@@ -110,7 +110,7 @@ const storeSimple = {
         {
             title: 'Buck dich',
             artist: 'Rammstein',
-            cover: 'https://i.ytimg.com/vi/veZaHimbtaQ/sddefault.jpg',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIdCo_0hF5SiwaeLEhHVEbKs6rw3qGG-tePQ&s',
             audio: 'https://ememay.ir/wp-content/uploads/2024/03/Rammstein-Buck-dich.mp3',
             genre: 'rock metal',
         },
@@ -372,13 +372,6 @@ const storeSimple = {
         //     audio: 'https://s32.picofile.com/d/8478709618/3d8ac5ad-931f-4d65-851c-5323aa63c227/Rave_Podcast_111_March_2020_.mp3',
         //     genre: 'electronic trance techno mix rave',
         // },
-        {
-            title: 'Afterglow',
-            artist: 'Interplay Records',
-            cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
-            audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/06) Interplay Records - Afterglow (Interplay 513).mp3',
-            genre: 'electronic techno',
-        },
         // {
         //     title: 'Fever',
         //     artist: 'Just Us',
@@ -386,6 +379,14 @@ const storeSimple = {
         //     audio: 'https://s32.picofile.com/d/8478709634/81594d98-452b-467d-8c47-0255be4942f4/Just_Us_Fever.mp3',
         //     genre: 'electronic house',
         // },
+        {
+            title: 'Afterglow',
+            artist: 'Interplay Records',
+            cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
+            audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/06) Interplay Records - Afterglow (Interplay 513).mp3',
+            genre: 'electronic techno',
+        },
+
         {
             title: 'Apex (Santiago Luna Remix)',
             artist: 'Paul Thomas',
@@ -533,7 +534,7 @@ const storeSimple = {
             audio: 'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/02 Never Look Back (Edit).mp3',
             genre: 'electronic techno',
         },
-         {
+        {
             title: 'Spicy (feat. Ginger)',
             artist: 'Boris',
             cover: 'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
@@ -639,6 +640,74 @@ const storeSimple = {
             genre: 'relax piano',
         },
 
+        {
+            title: 'Leading Me On',
+            artist: 'Peter Pearson',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/01 Leading Me On.mp3',
+            genre: 'relax piano',
+        },
+
+        {
+            title: 'Pink Moon',
+            artist: 'Peter Pearson',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/04 Pink Moon.mp3',
+            genre: 'relax piano',
+        },
+         {
+            title: '',
+            artist: 'Pink Moon',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/05 Out the Blue.mp3',
+            genre: 'relax',
+        },
+            {
+            title: 'Elevation',
+            artist: 'Ken Verheecke',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl6.songsara.net/FRE/10/Ken Verheecke - Elevation (2024) SONGSARA.NET.mp3',
+            genre: 'relax',
+        },
+                    {
+            title: 'Gravity',
+            artist: 'Peter Ries',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/02 Translation.mp3',
+            genre: 'relax',
+        },
+                       {
+            title: 'Silence',
+            artist: 'Peter Ries',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/03 Silence.mp3',
+            genre: 'relax',
+        },
+        {
+            title: 'Breathing Silence',
+            artist: 'Peter Ries',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/05 Breathing Silence.mp3',
+            genre: 'relax',
+        }, {
+            title: 'Here',
+            artist: 'Peter Ries',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/06 Here.mp3',
+            genre: 'relax',
+        }, {
+            title: 'Homesick',
+            artist: 'Peter Ries',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/07 Homesick.mp3',
+            genre: 'relax',
+        }, {
+            title: 'Inside Outside',
+            artist: 'Peter Ries',
+            cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+            audio: 'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/08 Inside Outside.mp3',
+            genre: 'relax',
+        },
     ],
     genres: [
         {
