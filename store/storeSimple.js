@@ -829,12 +829,70 @@ const storeSimple = {
             genre: 'techno electronic',
         },
         {
-            title: '',
-            artist: '',
-            cover: '',
-            audio: '',
+            title: 'Loneliness',
+            artist: 'AKKI',
+            cover: 'https://i1.sndcdn.com/artworks-xswm4bqZAtWsupLn-OzQD4Q-t500x500.jpg',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/23 Loneliness (Original Mix).mp3',
             genre: 'techno electronic',
         },
+        {
+            title: 'We All Unite',
+            artist: 'Patrick Scuro, Celic, Sylvie Miles',
+            cover: 'https://i1.sndcdn.com/artworks-gJUcwYyImz7lVW7l-Hiq38g-t500x500.jpg',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/24 We All Unite.mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'You Are Mine',
+            artist: 'Mha Iri',
+            cover: 'https://i1.sndcdn.com/artworks-s0HYlENBaYjzxFVP-hUP1rw-t500x500.jpg',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/32 You Are Mine (Original Mix).mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'Mercury',
+            artist: 'Hi-Lo, Space 92, Oliver Heldens',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBm9Tmx7yr6MbCC-zT7uLFqE81mOzcszoZZQ&s',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/33 Mercury.mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'Acid Voices',
+            artist: 'Denise Schneider',
+            cover: 'https://i1.sndcdn.com/artworks-8W5StelTEL1k-0-t500x500.png',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/35 Acid Voices.mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'Humans Love Me',
+            artist: 'T78',
+            cover: 'data:image/jpeg;base64,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',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/40 Humans Love Me.mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'Into the Night',
+            artist: 'Slin Bourgh, Marie Vaunt',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/41 Into the Night.mp3',
+            cover: 'https://f4.bcbits.com/img/a1124458180_10.jpg',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'UFOs & LFOs',
+            artist: 'Layton Giordani',
+            cover: 'https://i1.sndcdn.com/artworks-VjE5z6tckdi2yXLM-N1ujHg-t500x500.jpg',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/46 UFOs & LFOs.mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: 'Rave (Remix)',
+            artist: '',
+            cover: '',
+            audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/51 Rave (Remix).mp3',
+            genre: 'techno electronic',
+        },
+        // PAGE https://songsara.net/107495/   
+
         {
             title: '',
             artist: '',
@@ -856,7 +914,22 @@ const storeSimple = {
             audio: '',
             genre: 'techno electronic',
         },
-        
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'techno electronic',
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'techno electronic',
+        },
+
+
 
     ],
     genres: [
