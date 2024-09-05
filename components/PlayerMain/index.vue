@@ -169,7 +169,7 @@ onBeforeUnmount(() => {
                     </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
                         id="myRange">
-                    <div class="d-flex justify-space-between text-10 fs-9">
+                    <div class="d-flex justify-space-between text-10 fs-9 overflow-hidden max-h-0">
                         <div class="text-left pl-1 pt-2 fs-12 titles">
                             <div>{{ pureList[randomNumber]?.title }}</div>
                             <div>{{ pureList[randomNumber]?.artist }}</div>
@@ -504,5 +504,8 @@ onBeforeUnmount(() => {
     top: 50%;
     transform: translate(-50%,-50%);
 
+}
+.max-h-0{
+    max-height: 0;
 }
 </style>
