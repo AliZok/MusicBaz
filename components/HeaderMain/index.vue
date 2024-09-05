@@ -5,8 +5,8 @@
     <div class="HeaderMain">
         <div class="inner-header">
             <div class="my-brand auto-shadow">
-                <span class="">MusicBaz</span>
-                <span class="com">.com</span>
+                <span class="">Dance Baby</span>
+                <span class="com"></span>
             </div>
         </div>
     </div>

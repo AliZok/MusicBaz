@@ -154,8 +154,10 @@ onBeforeUnmount(() => {
             <div class="player-box">
                 <div class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
-                        <img class="curve " :class="{ 'shine-me': isPlaying }" :src="pureList[randomNumber]?.cover"
-                            alt="">
+                        <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
+                            Dance-Baby.com
+                        </h1>
+                        <img v-else class="curve " :class="{ 'shine-me': isPlaying }" :src="pureList[randomNumber]?.cover" >
                         <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
@@ -494,5 +496,13 @@ onBeforeUnmount(() => {
         border-width: 8px 0 8px 12px;
         margin-left: 3px;
     }
+}
+.back-logo{
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
 }
 </style>
