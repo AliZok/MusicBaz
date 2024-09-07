@@ -146,25 +146,7 @@ onBeforeUnmount(() => {
 });
 
 
-//////////////////////////////////////////////////////
-if ('mediaSession' in navigator) {
-  navigator.mediaSession.metadata = new MediaMetadata({
-    title: 'Your Track Title',
-    artist: 'Your Artist',
-    album: 'Your Album',
-    artwork: [ { src: 'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg', sizes: '96x96', type: 'image/jpg' } ]
-  });
 
-  navigator.mediaSession.setActionHandler('play', function() {
-    playMusic()
-  });
-
-  navigator.mediaSession.setActionHandler('pause', function() {
-    pauseAudio()
-  });
-  
-  // Other handlers like next, previous, etc.
-}
 
 </script>
 <template>
