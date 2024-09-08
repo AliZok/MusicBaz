@@ -156,23 +156,25 @@ const setMediaControls = () => {
             artist: 'J Computer Solutions LLC',
             album: 'Pocket Radio',
             artwork: [
-                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '96x96', type: 'image/png' },
-                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '128x128', type: 'image/png' },
-                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '192x192', type: 'image/png' },
-                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '256x256', type: 'image/png' },
-                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '384x384', type: 'image/png' },
-                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '512x512', type: 'image/png' },
+                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', type: 'image/png' },
+                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '96x96', type: 'image/png' },
+                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '128x128', type: 'image/png' },
+                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '192x192', type: 'image/png' },
+                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '256x256', type: 'image/png' },
+                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '384x384', type: 'image/png' },
+                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '512x512', type: 'image/png' },
             ]
         });
 
         navigator.mediaSession.setActionHandler('play', playAudio());
         navigator.mediaSession.setActionHandler('pause', pauseAudio());
         navigator.mediaSession.setActionHandler('stop', pauseAudio());
+        navigator.mediaSession.setActionHandler('previoustrack', function () { playNextMusic() });
+        navigator.mediaSession.setActionHandler('nexttrack', function () { playNextMusic() });
         //   navigator.mediaSession.setActionHandler('seekbackward', function() { /* Code excerpted. */ });
         //   navigator.mediaSession.setActionHandler('seekforward', function() { /* Code excerpted. */ });
         //   navigator.mediaSession.setActionHandler('seekto', function() { /* Code excerpted. */ });
-        //   navigator.mediaSession.setActionHandler('previoustrack', function() { /* Code excerpted. */ });
-        //   navigator.mediaSession.setActionHandler('nexttrack', function() { /* Code excerpted. */ });
+
     }
 }
 
