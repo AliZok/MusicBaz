@@ -37,7 +37,7 @@ function getRandomNumber() {
 
 
 const playAudio = async () => {
-    
+
     myMusic.value.load();
     isLoading.value = false
     try {
@@ -135,9 +135,11 @@ onMounted(() => {
 
     setTimeout(() => {
         getRandomNumber()
+        setMediaControls()
     }, 200);
 
     window.addEventListener('keydown', handleKeyPlays);
+
 
 });
 
@@ -146,7 +148,33 @@ onBeforeUnmount(() => {
 });
 
 
+/////////////////////////
+const setMediaControls = () => {
+    if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new window.MediaMetadata({
+            title: 'Pocket Radio',
+            artist: 'J Computer Solutions LLC',
+            album: 'Pocket Radio',
+            artwork: [
+                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '96x96', type: 'image/png' },
+                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '128x128', type: 'image/png' },
+                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '192x192', type: 'image/png' },
+                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '256x256', type: 'image/png' },
+                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '384x384', type: 'image/png' },
+                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '512x512', type: 'image/png' },
+            ]
+        });
 
+        navigator.mediaSession.setActionHandler('play', playAudio());
+        navigator.mediaSession.setActionHandler('pause', pauseAudio());
+        navigator.mediaSession.setActionHandler('stop', pauseAudio());
+        //   navigator.mediaSession.setActionHandler('seekbackward', function() { /* Code excerpted. */ });
+        //   navigator.mediaSession.setActionHandler('seekforward', function() { /* Code excerpted. */ });
+        //   navigator.mediaSession.setActionHandler('seekto', function() { /* Code excerpted. */ });
+        //   navigator.mediaSession.setActionHandler('previoustrack', function() { /* Code excerpted. */ });
+        //   navigator.mediaSession.setActionHandler('nexttrack', function() { /* Code excerpted. */ });
+    }
+}
 
 </script>
 <template>
@@ -160,7 +188,8 @@ onBeforeUnmount(() => {
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
                             Dance-Baby.com
                         </h1>
-                        <img v-else class="curve " :class="{ 'shine-me': isPlaying }" :src="pureList[randomNumber]?.cover" >
+                        <img v-else class="curve " :class="{ 'shine-me': isPlaying }"
+                            :src="pureList[randomNumber]?.cover">
                         <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
@@ -500,15 +529,17 @@ onBeforeUnmount(() => {
         margin-left: 3px;
     }
 }
-.back-logo{
+
+.back-logo {
     top: 40%;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
 }
-.max-h-0{
+
+.max-h-0 {
     max-height: 0;
 }
 </style>
