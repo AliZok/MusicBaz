@@ -1050,15 +1050,15 @@ const storeSimple = {
         {
             title: '',
             artist: '',
-            cover: '',
-            audio: '',
+            cover: 'https://vmusic.ir/wp-content/uploads/2019/10/VA-ADE2019-2019.jpg',
+            audio: 'https://dl.vmusic.ir/2019/10/VA - ADE2019 (2019) 128k [Vmusic.ir]/08. Honjok - Balboa (Original Mix).mp3',
             genre: 'techno electronic',
         },
         {
             title: '',
             artist: '',
-            cover: '',
-            audio: '',
+            cover: 'https://vmusic.ir/wp-content/uploads/2019/10/VA-ADE2019-2019.jpg',
+            audio: 'https://dl.vmusic.ir/2019/10/VA - ADE2019 (2019) 128k [Vmusic.ir]/10. Tencode - Storm (Original Mix).mp3',
             genre: 'techno electronic',
         },
         {

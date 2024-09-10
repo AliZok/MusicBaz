@@ -185,12 +185,12 @@ const updateMediaSession = () => {
       title: pureList.value[randomNumber.value].title,
       artist: pureList.value[randomNumber.value].artist,
       artwork: [
-        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '96x96', type: 'image/jpeg' },
-        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '128x128', type: 'image/jpeg' },
-        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '192x192', type: 'image/jpeg' },
-        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '256x256', type: 'image/jpeg' },
-        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '384x384', type: 'image/jpeg' },
-        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '512x512', type: 'image/jpeg' },
+        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '96x96', type: 'image/jpeg' },
+        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '128x128', type: 'image/jpeg' },
+        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '192x192', type: 'image/jpeg' },
+        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '256x256', type: 'image/jpeg' },
+        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '384x384', type: 'image/jpeg' },
+        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '512x512', type: 'image/jpeg' },
       ],
     });
     navigator.mediaSession.setActionHandler('play', playMusic());
@@ -237,7 +237,7 @@ const updateMediaSession = () => {
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
-                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="playNextMusic()">
+                    <audio ref="myMusic" class="my-music d-none" @play="updateMediaSession" @pause="updateMediaSession"  @timeupdate="updateRange" @ended="playNextMusic()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
