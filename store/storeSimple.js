@@ -1064,11 +1064,45 @@ const storeSimple = {
         {
             title: '',
             artist: '',
+            cover: 'https://vmusic.ir/wp-content/uploads/2021/06/Naden-Celestial-2021.jpg',
+            audio: 'https://db.vmusic.ir/2021/06/Naden - Celestial (2021)/320k/Naden - Celestial.mp3',
+            genre: 'techno electronic',
+        },
+        {
+            title: '',
+            artist: '',
             cover: '',
             audio: '',
             genre: 'techno electronic',
         },
-
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'techno electronic',
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'techno electronic',
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'techno electronic',
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'techno electronic',
+        },
 
     ],
     genres: [

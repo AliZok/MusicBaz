@@ -45,6 +45,7 @@ const playAudio = async () => {
         seekAudio()
         await myMusic.value.play();
         isPlaying.value = true
+        updateMediaSession('playing');
     } catch (error) {
         console.error("Error playing audio:", error);
     }
@@ -54,6 +55,7 @@ const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
     isPlaying.value = false
+    updateMediaSession('paused');
 };
 
 const playMusic = async () => {
@@ -136,7 +138,7 @@ onMounted(() => {
 
     setTimeout(() => {
         // setMediaControls()
-        updateMediaSession()
+        updateMediaSession('paused');
     }, 200);
 
     window.addEventListener('keydown', handleKeyPlays);
@@ -179,7 +181,7 @@ onBeforeUnmount(() => {
 //     }
 // }
 
-const updateMediaSession = () => {
+const updateMediaSession = (state) => {
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
       title: pureList.value[randomNumber.value].title,
@@ -201,6 +203,13 @@ const updateMediaSession = () => {
     navigator.mediaSession.setActionHandler('seekforward', () => {
         playNextMusic() 
     });
+
+
+    if (state == 'playing') {
+      navigator.mediaSession.playbackState = 'playing';
+    } else if (state == 'paused') {
+      navigator.mediaSession.playbackState = 'paused';
+    }
   }
 }
 
@@ -237,7 +246,7 @@ const updateMediaSession = () => {
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
-                    <audio ref="myMusic" class="my-music d-none" @play="updateMediaSession" @pause="updateMediaSession"  @timeupdate="updateRange" @ended="playNextMusic()">
+                    <audio ref="myMusic" class="my-music d-none"  @timeupdate="updateRange" @ended="playNextMusic()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
