@@ -11,7 +11,7 @@ const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
 const isLoading = ref(true)
-
+const notShowing = ref(true)
 
 
 function pureMyList() {
@@ -31,7 +31,8 @@ watch(() => genres.value, (newStore) => {
 
 
 function getRandomNumber() {
-    randomNumber.value = Math.floor(Math.random() * pureList.value.length);
+    let lenghtMusics = pureList.value.length
+    randomNumber.value = Math.floor(Math.random() * lenghtMusics)+1;
 }
 
 
@@ -134,8 +135,8 @@ onMounted(() => {
     });
 
     setTimeout(() => {
-        getRandomNumber()
-        setMediaControls()
+        // setMediaControls()
+        updateMediaSession()
     }, 200);
 
     window.addEventListener('keydown', handleKeyPlays);
@@ -149,33 +150,58 @@ onBeforeUnmount(() => {
 
 
 /////////////////////////
-const setMediaControls = () => {
-    if ('mediaSession' in navigator) {
-        navigator.mediaSession.metadata = new window.MediaMetadata({
-            title: 'Pocket Radio',
-            artist: 'J Computer Solutions LLC',
-            album: 'Pocket Radio',
-            artwork: [
-                { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', type: 'image/png' },
-                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '96x96', type: 'image/png' },
-                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '128x128', type: 'image/png' },
-                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '192x192', type: 'image/png' },
-                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '256x256', type: 'image/png' },
-                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '384x384', type: 'image/png' },
-                // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '512x512', type: 'image/png' },
-            ]
-        });
+// const setMediaControls = () => {
+//     if ('mediaSession' in navigator) {
+//         navigator.mediaSession.metadata = new window.MediaMetadata({
+//             title: 'Pocket Radio',
+//             artist: 'J Computer Solutions LLC',
+//             album: 'Pocket Radio',
+//             artwork: [
+//                 { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', type: 'image/png' },
+//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '96x96', type: 'image/png' },
+//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '128x128', type: 'image/png' },
+//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '192x192', type: 'image/png' },
+//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '256x256', type: 'image/png' },
+//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '384x384', type: 'image/png' },
+//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '512x512', type: 'image/png' },
+//             ]
+//         });
 
-        navigator.mediaSession.setActionHandler('play', playAudio());
-        navigator.mediaSession.setActionHandler('pause', pauseAudio());
-        navigator.mediaSession.setActionHandler('stop', pauseAudio());
-        navigator.mediaSession.setActionHandler('previoustrack', function () { playNextMusic() });
-        navigator.mediaSession.setActionHandler('nexttrack', function () { playNextMusic() });
-        //   navigator.mediaSession.setActionHandler('seekbackward', function() { /* Code excerpted. */ });
-        //   navigator.mediaSession.setActionHandler('seekforward', function() { /* Code excerpted. */ });
-        //   navigator.mediaSession.setActionHandler('seekto', function() { /* Code excerpted. */ });
+//         navigator.mediaSession.setActionHandler('play', playAudio());
+//         navigator.mediaSession.setActionHandler('pause', pauseAudio());
+//         navigator.mediaSession.setActionHandler('stop', pauseAudio());
+//         navigator.mediaSession.setActionHandler('previoustrack', function () { playNextMusic() });
+//         navigator.mediaSession.setActionHandler('nexttrack', function () { playNextMusic() });
+//         //   navigator.mediaSession.setActionHandler('seekbackward', function() { /* Code excerpted. */ });
+//         //   navigator.mediaSession.setActionHandler('seekforward', function() { /* Code excerpted. */ });
+//         //   navigator.mediaSession.setActionHandler('seekto', function() { /* Code excerpted. */ });
 
-    }
+//     }
+// }
+
+const updateMediaSession = () => {
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: pureList.value[randomNumber.value].title,
+      artist: pureList.value[randomNumber.value].artist,
+      artwork: [
+        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '96x96', type: 'image/jpeg' },
+        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '128x128', type: 'image/jpeg' },
+        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '192x192', type: 'image/jpeg' },
+        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '256x256', type: 'image/jpeg' },
+        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '384x384', type: 'image/jpeg' },
+        { src: 'https://space-music.co/wp-content/uploads/2023/05/00000-1080x675.jpg', sizes: '512x512', type: 'image/jpeg' },
+      ],
+    });
+    navigator.mediaSession.setActionHandler('play', playMusic());
+    navigator.mediaSession.setActionHandler('pause', pauseAudio);
+    navigator.mediaSession.setActionHandler('seekbackward', () => {
+        playNextMusic() 
+    });
+    navigator.mediaSession.setActionHandler('seekforward', () => {
+        playNextMusic() 
+    });
+  }
 }
 
 </script>
@@ -185,7 +211,7 @@ const setMediaControls = () => {
             <div class="back-img" :style="`background-image: url(${pureList[randomNumber]?.cover})`"></div>
             <div class="back-dark"></div>
             <div class="player-box">
-                <div class="box-wrapper curve">
+                <div  @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
                             Dance-Baby.com
@@ -203,7 +229,8 @@ const setMediaControls = () => {
                     </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
                         id="myRange">
-                    <div class="d-flex justify-space-between text-10 fs-9 overflow-hidden max-h-0">
+                    <div class="d-flex justify-space-between text-10 fs-9 max-h-100 transit overflow-hidden"
+                        :class="{ 'max-h-0': notShowing }">
                         <div class="text-left pl-1 pt-2 fs-12 titles">
                             <div>{{ pureList[randomNumber]?.title }}</div>
                             <div>{{ pureList[randomNumber]?.artist }}</div>
@@ -542,6 +569,12 @@ const setMediaControls = () => {
 }
 
 .max-h-0 {
-    max-height: 0;
+    max-height: 0 !important;
+}
+.max-h-100{
+    max-height: 100px;
+}
+.transit{
+    transition: 1s;
 }
 </style>
