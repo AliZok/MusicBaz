@@ -182,35 +182,35 @@ onBeforeUnmount(() => {
 // }
 
 const updateMediaSession = (state) => {
-  if ('mediaSession' in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({
-      title: pureList.value[randomNumber.value].title,
-      artist: pureList.value[randomNumber.value].artist,
-      artwork: [
-        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '96x96', type: 'image/jpeg' },
-        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '128x128', type: 'image/jpeg' },
-        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '192x192', type: 'image/jpeg' },
-        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '256x256', type: 'image/jpeg' },
-        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '384x384', type: 'image/jpeg' },
-        { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '512x512', type: 'image/jpeg' },
-      ],
-    });
-    navigator.mediaSession.setActionHandler('play', playMusic());
-    navigator.mediaSession.setActionHandler('pause', pauseAudio);
-    navigator.mediaSession.setActionHandler('seekbackward', () => {
-        playNextMusic() 
-    });
-    navigator.mediaSession.setActionHandler('seekforward', () => {
-        playNextMusic() 
-    });
+//   if ('mediaSession' in navigator) {
+//     navigator.mediaSession.metadata = new MediaMetadata({
+//       title: pureList.value[randomNumber.value].title,
+//       artist: pureList.value[randomNumber.value].artist,
+//       artwork: [
+//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '96x96', type: 'image/jpeg' },
+//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '128x128', type: 'image/jpeg' },
+//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '192x192', type: 'image/jpeg' },
+//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '256x256', type: 'image/jpeg' },
+//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '384x384', type: 'image/jpeg' },
+//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '512x512', type: 'image/jpeg' },
+//       ],
+//     });
+//     navigator.mediaSession.setActionHandler('play', playMusic());
+//     navigator.mediaSession.setActionHandler('pause', pauseAudio);
+//     navigator.mediaSession.setActionHandler('seekbackward', () => {
+//         playNextMusic() 
+//     });
+//     navigator.mediaSession.setActionHandler('seekforward', () => {
+//         playNextMusic() 
+//     });
 
 
-    if (state == 'playing') {
-      navigator.mediaSession.playbackState = 'playing';
-    } else if (state == 'paused') {
-      navigator.mediaSession.playbackState = 'paused';
-    }
-  }
+//     if (state == 'playing') {
+//       navigator.mediaSession.playbackState = 'playing';
+//     } else if (state == 'paused') {
+//       navigator.mediaSession.playbackState = 'paused';
+//     }
+//   }
 }
 
 </script>
