@@ -32,7 +32,7 @@ watch(() => genres.value, (newStore) => {
 
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
-    randomNumber.value = Math.floor(Math.random() * lenghtMusics)+1;
+    randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
 }
 
 
@@ -68,7 +68,13 @@ const playMusic = async () => {
 
 }
 
+const isEmpty = ref(false)
+const emptyUrlImage = () => {
+    isEmpty.value = true
+}
+
 const playNextMusic = async () => {
+  
     pauseAudio();
     let lastNumber = randomNumber.value
     getRandomNumber()
@@ -182,35 +188,35 @@ onBeforeUnmount(() => {
 // }
 
 const updateMediaSession = (state) => {
-//   if ('mediaSession' in navigator) {
-//     navigator.mediaSession.metadata = new MediaMetadata({
-//       title: pureList.value[randomNumber.value].title,
-//       artist: pureList.value[randomNumber.value].artist,
-//       artwork: [
-//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '96x96', type: 'image/jpeg' },
-//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '128x128', type: 'image/jpeg' },
-//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '192x192', type: 'image/jpeg' },
-//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '256x256', type: 'image/jpeg' },
-//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '384x384', type: 'image/jpeg' },
-//         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '512x512', type: 'image/jpeg' },
-//       ],
-//     });
-//     navigator.mediaSession.setActionHandler('play', playMusic());
-//     navigator.mediaSession.setActionHandler('pause', pauseAudio);
-//     navigator.mediaSession.setActionHandler('seekbackward', () => {
-//         playNextMusic() 
-//     });
-//     navigator.mediaSession.setActionHandler('seekforward', () => {
-//         playNextMusic() 
-//     });
+    //   if ('mediaSession' in navigator) {
+    //     navigator.mediaSession.metadata = new MediaMetadata({
+    //       title: pureList.value[randomNumber.value].title,
+    //       artist: pureList.value[randomNumber.value].artist,
+    //       artwork: [
+    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '96x96', type: 'image/jpeg' },
+    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '128x128', type: 'image/jpeg' },
+    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '192x192', type: 'image/jpeg' },
+    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '256x256', type: 'image/jpeg' },
+    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '384x384', type: 'image/jpeg' },
+    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '512x512', type: 'image/jpeg' },
+    //       ],
+    //     });
+    //     navigator.mediaSession.setActionHandler('play', playMusic());
+    //     navigator.mediaSession.setActionHandler('pause', pauseAudio);
+    //     navigator.mediaSession.setActionHandler('seekbackward', () => {
+    //         playNextMusic() 
+    //     });
+    //     navigator.mediaSession.setActionHandler('seekforward', () => {
+    //         playNextMusic() 
+    //     });
 
 
-//     if (state == 'playing') {
-//       navigator.mediaSession.playbackState = 'playing';
-//     } else if (state == 'paused') {
-//       navigator.mediaSession.playbackState = 'paused';
-//     }
-//   }
+    //     if (state == 'playing') {
+    //       navigator.mediaSession.playbackState = 'playing';
+    //     } else if (state == 'paused') {
+    //       navigator.mediaSession.playbackState = 'paused';
+    //     }
+    //   }
 }
 
 </script>
@@ -220,12 +226,12 @@ const updateMediaSession = (state) => {
             <div class="back-img" :style="`background-image: url(${pureList[randomNumber]?.cover})`"></div>
             <div class="back-dark"></div>
             <div class="player-box">
-                <div  @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
+                <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
                             Dance-Baby.com
                         </h1>
-                        <img v-else class="curve " :class="{ 'shine-me': isPlaying }"
+                        <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
                         <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
@@ -246,7 +252,7 @@ const updateMediaSession = (state) => {
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
-                    <audio ref="myMusic" class="my-music d-none"  @timeupdate="updateRange" @ended="playNextMusic()">
+                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="playNextMusic()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
@@ -299,7 +305,8 @@ const updateMediaSession = (state) => {
         padding: 10px;
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
-        background: rgb(218 239 255 / 15%);
+        // background: rgb(218 239 255 / 15%);
+        background: rgb(38 40 43 / 64%)
     }
 
     .shine-me {
@@ -399,15 +406,15 @@ const updateMediaSession = (state) => {
     }
 
     .next-button-box {
-        width: 50px;
-        height: 50px;
-        background-color: rgba(16, 25, 26, 0.593);
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
+        background-color: #10191a97;
         border-radius: 50%;
-        opacity: 0.4;
+        bottom: 27px;
         cursor: pointer;
+        height: 81px;
+        opacity: .4;
+        position: absolute;
+        right: 20px;
+        width: 83px;
         z-index: 20;
 
         &:hover {
@@ -436,15 +443,18 @@ const updateMediaSession = (state) => {
     }
 
     .genre-button-box {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         background-color: rgba(16, 25, 26, 0.593);
         position: absolute;
-        bottom: 20px;
+        bottom: 27px;
         left: 20px;
         border-radius: 50%;
         cursor: pointer;
         z-index: 20;
+
+
+
 
         .text-genre {
             opacity: 0.4;
@@ -580,10 +590,12 @@ const updateMediaSession = (state) => {
 .max-h-0 {
     max-height: 0 !important;
 }
-.max-h-100{
+
+.max-h-100 {
     max-height: 100px;
 }
-.transit{
+
+.transit {
     transition: 1s;
 }
 </style>
