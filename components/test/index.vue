@@ -1,71 +1,49 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue';
 // const imageSrc = require('@/assets/images/BABAK.jpg');
 
 const fuckProps = defineProps({
-    fuckImage: {
-        type: String,
-    }
+  fuckImage: {
+    type: String,
+  }
 })
 
-const isDropped = ref(false)
-const dropIt = ()=>{
-    isDropped.value = !isDropped.value;
-}
+const inputValue = ref('');
+
+const onInputChange = (event) => {
+  const rawValue = event.target.value;
+  const digitsOnly = rawValue.replace(/\D/g, '');
+  // const formattedValue = formatNumber(digitsOnly);
+  const formattedValue = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(
+    digitsOnly,
+  );
+  inputValue.value = formattedValue;
+};
+
+const formatNumber = (value) => {
+  return Number(value).toLocaleString('en-US');
+};
+
+
+
+console.log(
+  new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(
+    1524555444,
+  ),
+);
+
 </script>
 <template>
+  <div>
+    this is fuckin test
+    <NuxtImg :src="fuckImage" />
+    <img :src="fuckImage" alt="">
     <div>
-        this is fuckin test
-        <NuxtImg :src="fuckImage" />
-        <img :src="fuckImage" alt="">
-        <button @click="dropIt">Pet Options</button>
-        {{ isDropped }}
-        <transition name="slide">
-            <ul class="list" v-if="isDropped">
-                <li>Dog</li>
-                <li>Cat</li>
-                <li>Bunny</li>
-                <li>Parrot</li>
-                <li>Fish</li>
-            </ul>
-        </transition>
+      <input type="tel" v-model="inputValue" @input="onInputChange" />
     </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-
-html{ display: grid; height: 100% }
-body{
-  margin: auto;
-  background: linear-gradient(#5e2973, #692424);
-}
-button{
-  padding: 20px 60px;
-  border: solid thin darken(#b50064, 10%);
-  background: #b50064;
-  color: #eee;
-  &:focus{
-    outline: solid thin lighten(#b50064, 20%);
-  }
-}
-.list{
-  position: absolute;
-  width: 204px;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  transform-origin: top;
-  transition: transform .4s ease-in-out;
-  overflow: hidden;
-  li{
-    padding: 10px;
-    background: white;
-    border-bottom: solid thin #eee;
-    border-left: solid medium #cbc;
-  }
-}
-.slide-enter, .slide-leave-to{
-  transform: scaleY(0);
-}
 
 </style>

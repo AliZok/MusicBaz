@@ -69,15 +69,14 @@ const playMusic = async () => {
 }
 
 const isEmpty = ref(false)
-const emptyUrlImage = () => {
-    isEmpty.value = true
-}
+
 
 const playNextMusic = async () => {
-  
+    isEmpty.value = true
     pauseAudio();
     let lastNumber = randomNumber.value
     getRandomNumber()
+    isEmpty.value = false
     if (lastNumber != randomNumber.value) {
 
         // pauseAudio();
@@ -233,7 +232,7 @@ const updateMediaSession = (state) => {
                         </h1>
                         <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
-                        <div :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
+                        <div v-if="pureList[randomNumber]?.cover" :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->
