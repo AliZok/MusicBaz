@@ -229,7 +229,7 @@ const updateMediaSession = (state) => {
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
-                            <div class="font-days">
+                            <div class="cover-text font-days ">
                                 DANCE BABY RADIO
                             </div>
                             <!-- <div class="font-days">DANCE<small>-</small>BABY<small>-</small>RADIO
@@ -527,7 +527,9 @@ const updateMediaSession = (state) => {
     // }
 
 }
-
+.cover-text{
+    width: 250px;
+}
 .titles {
     color: #23c1d2;
 }
