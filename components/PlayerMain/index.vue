@@ -136,6 +136,7 @@ onMounted(() => {
     }
 
     pureMyList()
+    getRandomNumber()
     myMusic.value.load();
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
@@ -228,11 +229,18 @@ const updateMediaSession = (state) => {
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
-                            Dance-Baby.com
+                            <div class="font-days">
+                                DANCE BABY RADIO
+                            </div>
+                            <!-- <div class="font-days">DANCE<small>-</small>BABY<small>-</small>RADIO
+                                <small>.com</small>
+                            </div> -->
                         </h1>
                         <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
-                        <div v-if="pureList[randomNumber]?.cover" :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()" class="play-button-box">
+
+                        <div v-if="!!pureList[randomNumber]" :class="{ 'opacity-0': isPlaying }"
+                            @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->

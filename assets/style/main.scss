@@ -39,5 +39,17 @@ div{
 }
 .opacity-05{
   opacity: 0.5;
+}
 
+@font-face {
+  font-family: days;
+  src: url('../fonts/28-days-later/28\ Days\ Later.ttf');
+}
+
+.font-days {
+  font-family: days;
+}
+
+small{
+  font-size: 50%;
 }

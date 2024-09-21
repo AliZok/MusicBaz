@@ -5,7 +5,13 @@
     <div class="HeaderMain">
         <div class="inner-header">
             <div class="my-brand auto-shadow">
-                <span class="">Dance Baby</span>
+
+                <!-- <div class="font-days">DANCE<small>-</small>BABY<small>-</small>RADIO
+                    <small>.com</small>
+                </div> -->
+                <div  class="font-days">
+                    DANCE BABY RADIO
+                </div>
                 <span class="com"></span>
             </div>
         </div>
@@ -39,7 +45,7 @@
         text-shadow: 5px 1px 8px #ccfbf700;
     }
     50% {
-        text-shadow: 5px 1px 10px #ccfbf7da;
+        text-shadow: 5px 1px 10px #ccfbf7a8;
     }
     100% {
         text-shadow: 5px 1px 8px #ccfbf700;
