@@ -26,7 +26,7 @@ watch(() => Route.path, (newValue) => {
 })
 
 onMounted(() => {
-  // Router.push('/dance-baby') 
+  Router.push('/dance-baby') 
 
 })
 </script>

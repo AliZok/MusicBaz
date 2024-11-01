@@ -1,7 +1,6 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
 import DarkBackground from "@/components/DarkBackground"
-import { ref, onMounted, watch } from 'vue';
 
 const myMusic = ref(null);
 const currentTime = ref(0);
@@ -10,7 +9,7 @@ const isPlaying = ref(false);
 const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
-const isLoading = ref(true)
+const isLoading = ref(false)
 const notShowing = ref(true)
 
 
@@ -39,11 +38,13 @@ function getRandomNumber() {
 
 const playAudio = async () => {
 
+
     myMusic.value.load();
-    isLoading.value = false
+    
     try {
         seekAudio()
         await myMusic.value.play();
+        isLoading.value = false
         isPlaying.value = true
         updateMediaSession('playing');
     } catch (error) {
@@ -63,6 +64,7 @@ const playMusic = async () => {
     if (isPlaying.value) {
         pauseAudio();
     } else {
+
         await playAudio();
     }
 
@@ -72,6 +74,7 @@ const isEmpty = ref(false)
 
 
 const playNextMusic = async () => {
+    isLoading.value = true
     isEmpty.value = true
     pauseAudio();
     let lastNumber = randomNumber.value
@@ -82,8 +85,10 @@ const playNextMusic = async () => {
         // pauseAudio();
         goToStart()
         await playAudio();
+
     } else {
         playNextMusic()
+
     }
 }
 
@@ -156,6 +161,9 @@ onBeforeUnmount(() => {
     window.removeEventListener('keydown', handleKeyPlays);
 });
 
+watch(() => isLoading.value, (newV) => {
+    // alert(newV)
+})
 
 /////////////////////////
 // const setMediaControls = () => {
@@ -223,8 +231,24 @@ const updateMediaSession = (state) => {
 <template>
     <div class="PlayerMain">
         <div class="main-container">
-            <div class="back-img" :style="`background-image: url(${pureList[randomNumber]?.cover})`"></div>
-            <div class="back-dark"></div>
+            <div class="back-img"
+                :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
+                <div class="">
+                    <svg v-if="isLoading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                        <circle fill="none" stroke-opacity="1" stroke="#64EEFF" stroke-width=".5" cx="100" cy="100"
+                            r="0">
+                            <animate attributeName="r" calcMode="spline" dur="2" values="1;80" keyTimes="0;1"
+                                keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
+                            <animate attributeName="stroke-width" calcMode="spline" dur="2" values="0;25" keyTimes="0;1"
+                                keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
+                            <animate attributeName="stroke-opacity" calcMode="spline" dur="2" values="1;0"
+                                keyTimes="0;1" keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
+                        </circle>
+                    </svg>
+                </div>
+            </div>
+            <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div>
+
             <div class="player-box">
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
@@ -282,8 +306,7 @@ const updateMediaSession = (state) => {
                 <div class="inner fs-10">
                     <span class="text-genre">GENRE</span>
                     <div class="position-relative h-0">
-                        <div class="genre-list" @mouseover="openGenres = true" @mouseleave="openGenres = false"
-                            :class="{ 'd-none': !openGenres }">
+                        <div class="genre-list" :class="{ 'close-genres': !openGenres }">
                             <div v-for="(genreEl, index) in genres" :key="index" class="genre-element py-2">
                                 <div class="d-flex fs-13" :class="{ 'opacity-05': !genreEl.active }"
                                     @click="activeGenre(genreEl)">
@@ -347,6 +370,10 @@ const updateMediaSession = (state) => {
             left: 0;
             right: 0;
             z-index: 2;
+
+            &.no-image {
+                background: rgb(36 36 36 / 67%);
+            }
         }
 
         .player-box {
@@ -527,21 +554,33 @@ const updateMediaSession = (state) => {
     // }
 
 }
-.cover-text{
+
+.cover-text {
     width: 250px;
 }
+
 .titles {
     color: #23c1d2;
 }
 
 .genre-list {
     position: absolute;
-    left: 0px;
-    bottom: 10px;
+    left: 5px;
+    bottom: 25px;
     padding: 10px 13px;
     background: rgba(16, 25, 26, 0.593);
     border-radius: 12px;
-    min-width: 200px;
+    width: 200px;
+    transition: 0.2s;
+
+    &.close-genres {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        min-width: 0;
+        padding: 0;
+
+    }
 }
 
 @media only screen and (max-width: 768px) {

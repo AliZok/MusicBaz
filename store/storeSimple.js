@@ -100,13 +100,13 @@ const storeSimple = {
             audio: 'https://ememay.ir/wp-content/uploads/2024/04/Linkin-Park-What-Ive-Done.mp3',
             genre: 'rock metal',
         },
-        {
-            title: 'Abri',
-            artist: 'Farvardin',
-            cover: 'https://i1.sndcdn.com/artworks-JPQ7KL2kKbzxt59y-rDIPiw-t500x500.jpg',
-            audio: 'https://cf-media.sndcdn.com/sTEmf0J8H8TO.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vc1RFbWYwSjhIOFRPLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQxNDU1fX19XX0_&Signature=InCjE8zBPpbOat~UieLY1FxrMJG6BIeUF1691S7UVrL9bA2N4FtWrgIQeq~jKJkQJlyG-YP4gmCzy4Ovm31S57y514Xh4ChYOGNWTVyeZWU8b5tX8sYDOOiS03ESuITAkb4XA5rF73vkkBe9omV3puOPm8nR~j2jk0R0BFRCPu90bFV5-vfo7nOoZ4ZeVGkqeafqvjXPQmnzdqn-IGwtlcSL7eFKvE~U5Rs4ERSqSNmO4AWvQhnbAVvKjLV1IdJsn5o0RDRL6KyKLIfZgYjc6IGqwjBw33zbNGT-uHFiaFNoyloypl10lUHUgQ-hATInAtdhwZqdcaRsjCmFhRskPA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
-            genre: 'pop',
-        },
+        // {
+        //     title: 'Abri',
+        //     artist: 'Farvardin',
+        //     cover: 'https://i1.sndcdn.com/artworks-JPQ7KL2kKbzxt59y-rDIPiw-t500x500.jpg',
+        //     audio: 'https://cf-media.sndcdn.com/sTEmf0J8H8TO.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vc1RFbWYwSjhIOFRPLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQxNDU1fX19XX0_&Signature=InCjE8zBPpbOat~UieLY1FxrMJG6BIeUF1691S7UVrL9bA2N4FtWrgIQeq~jKJkQJlyG-YP4gmCzy4Ovm31S57y514Xh4ChYOGNWTVyeZWU8b5tX8sYDOOiS03ESuITAkb4XA5rF73vkkBe9omV3puOPm8nR~j2jk0R0BFRCPu90bFV5-vfo7nOoZ4ZeVGkqeafqvjXPQmnzdqn-IGwtlcSL7eFKvE~U5Rs4ERSqSNmO4AWvQhnbAVvKjLV1IdJsn5o0RDRL6KyKLIfZgYjc6IGqwjBw33zbNGT-uHFiaFNoyloypl10lUHUgQ-hATInAtdhwZqdcaRsjCmFhRskPA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
+        //     genre: 'pop',
+        // },
         {
             title: 'Buck dich',
             artist: 'Rammstein',

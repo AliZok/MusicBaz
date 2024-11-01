@@ -41,6 +41,7 @@ console.log(
     <div>
       <input type="tel" v-model="inputValue" @input="onInputChange" />
     </div>
+    <Range />
   </div>
 </template>
 
