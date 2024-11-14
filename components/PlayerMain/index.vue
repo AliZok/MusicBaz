@@ -233,19 +233,7 @@ const updateMediaSession = (state) => {
         <div class="main-container">
             <div class="back-img"
                 :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
-                <div class="">
-                    <svg v-if="isLoading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-                        <circle fill="none" stroke-opacity="1" stroke="#64EEFF" stroke-width=".5" cx="100" cy="100"
-                            r="0">
-                            <animate attributeName="r" calcMode="spline" dur="2" values="1;80" keyTimes="0;1"
-                                keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
-                            <animate attributeName="stroke-width" calcMode="spline" dur="2" values="0;25" keyTimes="0;1"
-                                keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
-                            <animate attributeName="stroke-opacity" calcMode="spline" dur="2" values="1;0"
-                                keyTimes="0;1" keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
-                        </circle>
-                    </svg>
-                </div>
+            
             </div>
             <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div>
 
@@ -273,6 +261,19 @@ const updateMediaSession = (state) => {
                             </div>
                         </div>
                     </div>
+                    <div class="">
+                    <svg class="loading-svg" v-if="isLoading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                        <circle fill="none" stroke-opacity="1" stroke="#64EEFF" stroke-width=".5" cx="100" cy="100"
+                            r="0">
+                            <animate attributeName="r" calcMode="spline" dur="2" values="1;80" keyTimes="0;1"
+                                keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
+                            <animate attributeName="stroke-width" calcMode="spline" dur="2" values="0;25" keyTimes="0;1"
+                                keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
+                            <animate attributeName="stroke-opacity" calcMode="spline" dur="2" values="1;0"
+                                keyTimes="0;1" keySplines="0 .2 .5 1" repeatCount="indefinite"></animate>
+                        </circle>
+                    </svg>
+                </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
                         id="myRange">
                     <div class="d-flex justify-space-between text-10 fs-9 max-h-100 transit overflow-hidden"
@@ -554,7 +555,15 @@ const updateMediaSession = (state) => {
     // }
 
 }
+.loading-svg{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 50%;
+    transform: translate(-50%, 85px);
+    left: 50%;
 
+}
 .cover-text {
     width: 250px;
 }
@@ -646,4 +655,5 @@ const updateMediaSession = (state) => {
 .transit {
     transition: 1s;
 }
+
 </style>
