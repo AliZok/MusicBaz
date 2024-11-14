@@ -1,6 +1,3 @@
- <script>
-export default {
-    layout: 'default'
-}
-</script>
-
+<template>
+    <PlayerMain></PlayerMain>
+</template>

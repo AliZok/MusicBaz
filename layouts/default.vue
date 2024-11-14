@@ -3,10 +3,15 @@
   <div class="DefaultLayout">
     <!-- <Test :fuckImage="'@/assets/images/BABAK.jpg'"/> -->
     <HeaderMain />
-    <Component :is="PlayerMain">
-    </Component>
+    <!-- <Component :is="PlayerMain">
+    </Component> -->
+    <main>
+      <NuxtPage />
+    </main>
   </div>
 </template>
+
+
 
 <script setup>
 
@@ -26,7 +31,7 @@ watch(() => Route.path, (newValue) => {
 })
 
 onMounted(() => {
-  Router.push('/dance-baby') 
+  // Router.push('/dance-baby') 
 
 })
 </script>

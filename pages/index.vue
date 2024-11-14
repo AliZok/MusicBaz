@@ -1,6 +1,2 @@
-
-<script>
-export default {
-    layout: 'DefaultLayout'
-}
-</script>
+<template>
+</template>
