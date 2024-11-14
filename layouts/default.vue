@@ -1,10 +1,7 @@
 <!-- layouts/default.vue -->
 <template>
   <div class="DefaultLayout">
-    <!-- <Test :fuckImage="'@/assets/images/BABAK.jpg'"/> -->
-    <HeaderMain />
-    <!-- <Component :is="PlayerMain">
-    </Component> -->
+    <!-- <HeaderMain /> -->
     <main>
       <NuxtPage />
     </main>
@@ -15,9 +12,7 @@
 
 <script setup>
 
-import PlayerMain from '@/components/PlayerMain'
 import HeaderMain from '@/components/HeaderMain'
-import Test from '@/components/test'
 import { onMounted, watch,ref } from 'vue';
 
 const Route = useRoute()
