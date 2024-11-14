@@ -1,10 +1,10 @@
 <!-- layouts/default.vue -->
 <template>
   <div class="DefaultLayout">
-    <!-- <HeaderMain /> -->
-    <main>
-      <NuxtPage />
-    </main>
+    <HeaderMain />
+
+    <NuxtPage />
+
   </div>
 </template>
 
@@ -13,20 +13,12 @@
 <script setup>
 
 import HeaderMain from '@/components/HeaderMain'
-import { onMounted, watch,ref } from 'vue';
+import { onMounted, watch, ref } from 'vue';
 
 const Route = useRoute()
 const Router = useRouter()
 
-
-const myRoute = ref("/")
-watch(() => Route.path, (newValue) => {
- 
-
-})
-
 onMounted(() => {
-  // Router.push('/dance-baby') 
-
+  Router.push('/dance-baby-radio')
 })
 </script>
