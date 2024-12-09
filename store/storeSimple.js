@@ -6,6 +6,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Jurrivh-Universe-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/08/Jurrivh - Universe (2024)/128k/01) Jurrivh - Universe.mp3',
             genre: 'relax',
+            duration: '2:03',
         },
         {
             title: 'Øneheart',
@@ -13,6 +14,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg',
             audio: 'https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3',
             genre: 'relax',
+            duration: '1:39',
 
         },
         {
@@ -21,7 +23,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Konstantin-Tyufyakin-Unnamed-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Konstantin Tyufyakin - Unnamed (2024)/128k/01) Konstantin Tyufyakin - You can get lost among the good old movies.mp3',
             genre: 'relax',
-
+            duration: '2:25',
         },
         {
             title: 'Evolution',
@@ -29,6 +31,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/03) Interplay Records - Evolution (Interplay 51).mp3',
             genre: 'electronic trance',
+            duration: '3:40',
         },
         {
             title: 'Atlantis',
@@ -36,6 +39,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/04) Interplay Records - Atlantis (Interplay 513).mp3',
             genre: 'electronic trance',
+            duration: '3:04',
         },
         {
             title: 'Serotonin',
@@ -43,6 +47,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/17) Interplay Records - Serotonin (Interplay 513).mp3',
             genre: 'electronic trance',
+            duration: '4:10',
         },
         {
             title: 'Second Sunrise',
@@ -50,6 +55,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Markus-Schulz-Global-DJ-Broadcast-Weekly-Drive-31-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Markus Schulz - Global DJ Broadcast Weekly Drive 31 (2024)/128k/01) Daxson - Second Sunrise (GDJB Weekly Drive 31).mp3',
             genre: 'electronic trance',
+            duration: '4:01',
         },
         {
             title: 'Hagelslag ',
@@ -57,6 +63,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Markus-Schulz-Global-DJ-Broadcast-Weekly-Drive-31-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Markus Schulz - Global DJ Broadcast Weekly Drive 31 (2024)/128k/02) ReOrder, First Effect - Hagelslag (GDJB Weekly Drive 31).mp3',
             genre: 'electronic trance',
+            duration: '',
         },
         {
             title: 'I Do It For You (Everything I Do)',
@@ -64,6 +71,7 @@ const storeSimple = {
             cover: 'https://ts2.tarafdari.com/contents/user6984/content-sound/bryan_adams-everything_i_do_i_do_it_for_you_s_4.jpg',
             audio: 'https://ts2.tarafdari.com/contents/user6984/content-sound/36.bryan_adams_-_everything_i_do_i_do_it_for_you.mp3',
             genre: 'pop rock',
+            duration: '',
         },
         {
             title: 'Atlantis',
@@ -71,6 +79,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Tycoos-Future-Horizons-441-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Tycoos - Future Horizons 441 (2024)/128k/03) Tycoos - Atlantis (Future Horizons 441).mp3',
             genre: 'electronic trance',
+            duration: '',
         },
         {
             title: 'Doost Daram Zendegi ro',
@@ -78,6 +87,7 @@ const storeSimple = {
             cover: 'https://upmusics.com/wp-content/uploads/2017/07/Sirvan-Khosravi-Doost-Daram-Zendegiro.jpg',
             audio: 'https://dls.music-fa.com/tagdl/downloads/Sirvan%20Khosravi%20-%20Doost%20Daram%20Zendegiro%20(128).mp3',
             genre: 'pop',
+            duration: '',
         },
         {
             title: 'Tanha Nazar',
@@ -85,6 +95,7 @@ const storeSimple = {
             cover: 'https://www.ganja2music.com/Image/Post/7.2019/Sirvan%20Khosravi%20-%20Tanha%20Nazar.jpg',
             audio: 'https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20%7C%20Tanha%20Nazar%20(320).mp3',
             genre: 'pop electronic',
+            duration: '',
         },
         {
             title: 'No Step On Wing',
@@ -92,6 +103,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2020/03/Nils-Frahm-Empty-2020.jpg',
             audio: 'https://dl.vmusic.ir//2020/03/Nils Frahm - Empty (2020)/128k/03) Nils Frahm - No Step On Wing - 2020.mp3',
             genre: 'relax piano ambient',
+            duration: '',
         },
         {
             title: 'What I’ve Done',
@@ -99,6 +111,7 @@ const storeSimple = {
             cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yAY8vyC_ADH0A3tkOFqiDUBk5dVK3yUaRg&s',
             audio: 'https://ememay.ir/wp-content/uploads/2024/04/Linkin-Park-What-Ive-Done.mp3',
             genre: 'rock metal',
+            duration: '',
         },
         // {
         //     title: 'Abri',

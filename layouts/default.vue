@@ -2,9 +2,7 @@
 <template>
   <div class="DefaultLayout">
     <HeaderMain />
-
     <NuxtPage />
-
   </div>
 </template>
 

@@ -1,10 +1,8 @@
 <!-- pages/about.vue -->
 <template>
-    <div>
-      hello test
-    </div>
-  </template>
-  
-  <script>
-
-  </script>
+</template>
+<script setup lang="ts">
+definePageMeta({
+  layout: 'test'
+})
+</script>
