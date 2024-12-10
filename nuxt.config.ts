@@ -49,6 +49,17 @@ export default defineNuxtConfig({
       ]
     }
   },
+  app: {
+    head: {
+      link: [
+        {
+          rel: "my-icon",
+          // sizes: "180x180",
+          href: "/favicon/my-icon.ico",
+        },
+      ],
+    },
+  },
   vite: {
     vue: {
       template: {
