@@ -670,21 +670,12 @@ const storeSimple = {
             genre: 'relax piano',
         },
         {
-            title: '',
-            artist: 'Priopy',
-            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3GyXcJODn32nKB-l-C2q8gdUBUCIyn_CzGA&s',
-            audio: '',
-            genre: 'relax piano',
-        },
-
-        {
             title: 'Leading Me On',
             artist: 'Peter Pearson',
             cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
             audio: 'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/01 Leading Me On.mp3',
             genre: 'relax piano',
         },
-
         {
             title: 'Pink Moon',
             artist: 'Peter Pearson',
@@ -693,7 +684,7 @@ const storeSimple = {
             genre: 'relax piano',
         },
         {
-            title: '',
+            title: 'Out the Blue',
             artist: 'Pink Moon',
             cover: 'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
             audio: 'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/05 Out the Blue.mp3',
