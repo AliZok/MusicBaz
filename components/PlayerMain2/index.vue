@@ -155,7 +155,7 @@ const handleKeyPlays = (event) => {
 
 
 onMounted(() => {
-
+    alert("fuck you...this is under construction")
   
     let lastGenres = localStorage.getItem('myGenres')
     if (!!lastGenres) {
