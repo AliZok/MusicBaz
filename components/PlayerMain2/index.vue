@@ -1,6 +1,12 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
-import DarkBackground from "@/components/DarkBackground"
+import playListLive from "@/store/playListLive"
+
+const {
+    testComp,
+    addDurations,
+} = useGlobalFunctions();
+
 
 const myMusic = ref(null);
 const currentTime = ref(0);
@@ -11,22 +17,38 @@ const pureList = ref([])
 const genres = ref([])
 const isLoading = ref(false)
 const notShowing = ref(true)
-
+const durationAllPlaylist = ref(null)
 
 const fuckList = ref([])
 fuckList.value = storeSimple.musicList.slice(0, 7)
-console.log("baaaaaaaaaa", fuckList)
 
 function pureMyList() {
     pureList.value = []
     genres.value.forEach(genre => {
         if (genre.active) {
             let pureListTemprary = []
-            pureListTemprary = fuckList.filter(item => item.genre.includes(genre.genre))
+            pureListTemprary = fuckList.value.filter(item => item.genre.includes(genre.genre))
             pureList.value = [...pureList.value, ...pureListTemprary]
         }
     });
 }
+
+const createPlayList = () => {
+
+    for (let fuckIndex = 0; fuckIndex < 6; fuckIndex++) {
+        getRandomNumber()
+        
+        let newMusicElement = fuckList.value[randomNumber.value]
+        playListLive.musics.push(newMusicElement)
+
+        let newDurationAllPlaylist = durationAllPlaylist.value ? durationAllPlaylist.value : "0:0"
+        durationAllPlaylist.value = addDurations(newDurationAllPlaylist, newMusicElement.duration)
+
+        console.log("dddddddddddddd", playListLive.musics)
+        console.log("ssssssssssssss", durationAllPlaylist.value)
+    }
+}
+
 
 watch(() => genres.value, (newStore) => {
     pureMyList()
@@ -41,8 +63,6 @@ function getRandomNumber() {
 
 
 const playAudio = async () => {
-
-
     myMusic.value.load();
 
     try {
@@ -68,14 +88,12 @@ const playMusic = async () => {
     if (isPlaying.value) {
         pauseAudio();
     } else {
-
         await playAudio();
     }
 
 }
 
 const isEmpty = ref(false)
-
 
 const playNextMusic = async () => {
     isLoading.value = true
@@ -137,6 +155,8 @@ const handleKeyPlays = (event) => {
 
 
 onMounted(() => {
+
+  
     let lastGenres = localStorage.getItem('myGenres')
     if (!!lastGenres) {
         genres.value = JSON.parse(lastGenres)
@@ -145,6 +165,7 @@ onMounted(() => {
     }
 
     pureMyList()
+    createPlayList()
     getRandomNumber()
     myMusic.value.load();
     myMusic.value.addEventListener('loadedmetadata', () => {
