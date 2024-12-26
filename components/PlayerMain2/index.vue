@@ -33,22 +33,33 @@ function pureMyList() {
     });
 }
 
-const createPlayList = () => {
+// const createPlayList = () => {
 
-    for (let fuckIndex = 0; fuckIndex < 6; fuckIndex++) {
-        getRandomNumber()
+//     for (let fuckIndex = 0; fuckIndex < 6; fuckIndex++) {
+//         getRandomNumber()
         
-        let newMusicElement = fuckList.value[randomNumber.value]
-        playListLive.musics.push(newMusicElement)
+//         let newMusicElement = fuckList.value[randomNumber.value]
+//         playListLive.musics.push(newMusicElement)
 
-        let newDurationAllPlaylist = durationAllPlaylist.value ? durationAllPlaylist.value : "0:0"
-        durationAllPlaylist.value = addDurations(newDurationAllPlaylist, newMusicElement.duration)
+//         let newDurationAllPlaylist = durationAllPlaylist.value ? durationAllPlaylist.value : "0:0"
+//         durationAllPlaylist.value = addDurations(newDurationAllPlaylist, newMusicElement.duration)
 
-        console.log("dddddddddddddd", playListLive.musics)
-        console.log("ssssssssssssss", durationAllPlaylist.value)
-    }
+//         console.log("dddddddddddddd", playListLive.musics)
+//         console.log("ssssssssssssss", durationAllPlaylist.value)
+//     }
+// }
+
+const createPlayMusic = ()=>{
+    getRandomNumber()
+    fuckList.value[randomNumber.value]
+
+    postListToDatabase() 
 }
 
+
+const postListToDatabase = ()=>{
+    
+}
 
 watch(() => genres.value, (newStore) => {
     pureMyList()
@@ -165,7 +176,8 @@ onMounted(() => {
     }
 
     pureMyList()
-    createPlayList()
+    // createPlayList()
+    createPlayMusic()
     getRandomNumber()
     myMusic.value.load();
     myMusic.value.addEventListener('loadedmetadata', () => {
@@ -257,7 +269,7 @@ const updateMediaSession = (state) => {
 
 </script>
 <template>
-    <div class="PlayerMain">
+    <div class="PlayerMain2">
         <div class="main-container">
             <div class="back-img"
                 :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
