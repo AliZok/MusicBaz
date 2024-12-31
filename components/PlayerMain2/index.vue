@@ -7,6 +7,34 @@ const {
     addDurations,
 } = useGlobalFunctions();
 
+import {
+  createPhrase,
+  getAllPhrases,
+  deleteAllData,
+  updatePhrase,
+  deletePhrase,
+} from "@/api/SupabaseAPI";
+const getMyDataSupaBase = async () => {
+  forReset.value = true;
+  try {
+    const getAllPhrasesVals = await getAllPhrases();
+    console.log("Phrase gets here", getAllPhrasesVals);
+    phrases.value = prioritizeArray(getAllPhrasesVals);
+    forReset.value = false;
+    if (!phrases.value.length) {
+      goUpload();
+      setTimeout(() => {
+        my_notif.value = true;
+      }, 500);
+    } else {
+      RepeatCounter.value = phrases.value[phraseCounter.value].repeat;
+    }
+  } catch (error) {
+    console.error("Error grtting phrase:", error);
+  }
+};
+
+getMyDataSupaBase()
 
 const myMusic = ref(null);
 const currentTime = ref(0);
