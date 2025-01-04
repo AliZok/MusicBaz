@@ -8,24 +8,33 @@
 <script setup>
 
 import { useAPI } from '~/composables/useAPI'
-const { getData } = useAPI()
-const { data, pending, error } = await getData('https://jsonplaceholder.typicode.com/posts')
+// const { getData } = useAPI()
+// const { data, pending, error } = await getData('https://jsonplaceholder.typicode.com/posts')
 
 
-const fuckComp = computed(()=>{
-  return data.value
-})
+// const fuckComp = computed(()=>{
+//   return data.value
+// })
 
-watch(()=> data.value, ()=>{
-  alert("hell")
-})
+import { onMounted, ref } from 'vue'
+import { useSupabase } from '~/composables/useSupabase'
+const { supabase } = useSupabase()
+const users = ref(null)
+const loading = ref(true)
+const error = ref(null)
+
 
 onMounted(async () => {
-  // postApi().then(() => {
-  //   alert("alizoka is here")
-  // })
-  
-data.value = []
-
-});
+  try {
+    const { data, error: fetchError } = await supabase
+      .from('live-music') // Replace 'users' with your table name
+      .select('*')
+    if (fetchError) throw fetchError
+    users.value = data
+  } catch (err) {
+    error.value = err
+  } finally {
+    loading.value = false
+  }
+})
 </script>
