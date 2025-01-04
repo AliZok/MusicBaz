@@ -24,6 +24,7 @@ onMounted(async () => {
   // postApi().then(() => {
   //   alert("alizoka is here")
   // })
+  
 data.value = []
 
 });
