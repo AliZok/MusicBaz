@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   //     config.plugins.push(vuetify({ autoImport: true }))
   //   })
   // },
-  '@nuxt/image', '@vite-pwa/nuxt', '@nuxtjs/supabase'],
+  '@nuxt/image', '@vite-pwa/nuxt'],
   image: {},
   pwa: {
     registerType: 'autoUpdate',

@@ -1,5 +1,5 @@
 <template>
-    <!-- <PlayerMain></PlayerMain> -->
-    <PlayerMain2></PlayerMain2>
+    <PlayerMain></PlayerMain>
+
 
 </template>
