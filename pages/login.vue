@@ -4,22 +4,16 @@
 
 <script setup lang="ts">
 
-// import { supabase } from '@/plugins/supabase';
+import { useAPI } from '~/composables/useAPI'
+const { fetchData } = useAPI()
+const { data, pending, error } = await fetchData('https://jsonplaceholder.typicode.com/posts')
 
-const loading = ref(true);
-
-
-const { data, pending, error } = await useFetch('https://jsonplaceholder.typicode.com/posts', {
-  method: 'GET',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-})
-
-console.log("dataaaaaaaaaaaa",data.value)
+console.log("ffffffffffffukc", data.value)
 
 
 onMounted(async () => {
-
+  // postApi().then(() => {
+  //   alert("alizoka is here")
+  // })
 });
 </script>
