@@ -17,6 +17,6 @@ const Route = useRoute()
 const Router = useRouter()
 
 onMounted(() => {
-  Router.push('/dance-baby-radio')
+  // Router.push('/dance-baby-radio')
 })
 </script>
