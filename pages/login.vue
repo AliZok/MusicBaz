@@ -1,6 +1,6 @@
 <template>
   hello login
-  <button @click="insertData()" class="pt-10">insertData</button>
+  <button @click="postData()" class="pt-10">postData</button>
 </template>
 
 <script setup>
@@ -21,7 +21,7 @@ const loading = ref(true)
 const error = ref(null)
 
 
-async function insertData() {
+async function postData() {
   const objectToInsert = { id: "888" }
   const { data, error } = await supabase
     .from('live-music')
