@@ -1,8 +1,5 @@
 
 export function useGlobalFunctions() {
-    const testComp = () => {
-        alert("fuck you")
-    }
 
     function addDurations(duration1, duration2) {
         // Function to convert MM:SS to total seconds
@@ -12,28 +9,46 @@ export function useGlobalFunctions() {
             const seconds = parseInt(parts[1], 10);
             return (minutes * 60) + seconds;
         }
-    
+
         // Function to convert total seconds back to MM:SS format
         function formatDuration(totalSeconds) {
             const minutes = Math.floor(totalSeconds / 60);
             const seconds = totalSeconds % 60;
             return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`; // padding seconds if needed
         }
-    
+
         // Convert durations to seconds
         const totalSeconds1 = getTotalSeconds(duration1);
         const totalSeconds2 = getTotalSeconds(duration2);
-    
+
         // Add the total seconds
         const totalSeconds = totalSeconds1 + totalSeconds2;
-    
+
         // Convert back to MM:SS format
         return formatDuration(totalSeconds);
     }
-    
 
+    const createFinishTime = () => {
+        let currentDateTime = new Date()
+        const utcDateTime = currentDateTime.toUTCString();
+        console.log("this_time", utcDateTime)
+
+    }
+    const getUTCnewFormat = () => {
+        const currentDateTime = new Date();
+        const utcYear = currentDateTime.getUTCFullYear();
+        const utcMonth = String(currentDateTime.getUTCMonth() + 1).padStart(2, '0'); // Months are zero-indexed
+        const utcDate = String(currentDateTime.getUTCDate()).padStart(2, '0');
+        const utcHours = String(currentDateTime.getUTCHours()).padStart(2, '0');
+        const utcMinutes = String(currentDateTime.getUTCMinutes()).padStart(2, '0');
+        const utcSeconds = String(currentDateTime.getUTCSeconds()).padStart(2, '0');
+
+        const formattedUTCDateTime = `${utcYear}-${utcMonth}-${utcDate} ${utcHours}:${utcMinutes}:${utcSeconds} UTC`;
+        console.log("UTC_new_format:",formattedUTCDateTime);
+    }
     return {
-        testComp,
-        addDurations
+        addDurations,
+        createFinishTime,
+        getUTCnewFormat
     };
 }
