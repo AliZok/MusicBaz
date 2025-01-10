@@ -28,14 +28,20 @@ export function useGlobalFunctions() {
         return formatDuration(totalSeconds);
     }
 
-    const createFinishTime = () => {
-        let currentDateTime = new Date()
-        const utcDateTime = currentDateTime.toUTCString();
-        console.log("this_time", utcDateTime)
+    // const createFinishTime = () => {
+    //     let currentDateTime = new Date()
+    //     const utcDateTime = currentDateTime.toUTCString();
+    //     console.log("this_time", utcDateTime)
 
-    }
-    const getUTCnewFormat = () => {
-        const currentDateTime = new Date();
+    // }
+
+    const getUTCnewFormat = (inDateTime) => {
+        let currentDateTime
+        if (inDateTime) {
+            currentDateTime = inDateTime
+        } else {
+            currentDateTime = new Date();
+        }
         const utcYear = currentDateTime.getUTCFullYear();
         const utcMonth = String(currentDateTime.getUTCMonth() + 1).padStart(2, '0'); // Months are zero-indexed
         const utcDate = String(currentDateTime.getUTCDate()).padStart(2, '0');
@@ -44,11 +50,51 @@ export function useGlobalFunctions() {
         const utcSeconds = String(currentDateTime.getUTCSeconds()).padStart(2, '0');
 
         const formattedUTCDateTime = `${utcYear}-${utcMonth}-${utcDate} ${utcHours}:${utcMinutes}:${utcSeconds} UTC`;
-        console.log("UTC_new_format:",formattedUTCDateTime);
+        console.log("UTC_new_format:", formattedUTCDateTime);
+        return formattedUTCDateTime
     }
+
+
+    function createDateFromTime(time) {
+        const [hours, minutes, seconds] = time.split(':').map(Number);
+        const currentDate = new Date();
+        currentDate.setUTCHours(hours, minutes, seconds, 0);
+        console.log("settttttttttt", currentDate)
+
+        return currentDate;
+    }
+
+    function getFormattedUTCDateTime(date) {
+        const utcYear = date.getUTCFullYear();
+        const utcMonth = String(date.getUTCMonth() + 1).padStart(2, '0');
+        const utcDate = String(date.getUTCDate()).padStart(2, '0');
+        const utcHours = String(date.getUTCHours()).padStart(2, '0');
+        const utcMinutes = String(date.getUTCMinutes()).padStart(2, '0');
+        const utcSeconds = String(date.getUTCSeconds()).padStart(2, '0');
+        const formattedUTCDateTime = `${utcYear}-${utcMonth}-${utcDate} ${utcHours}:${utcMinutes}:${utcSeconds} UTC`
+        console.log("UTC_new_format:", formattedUTCDateTime);
+
+        return formattedUTCDateTime;
+    }
+
+    function createFinishTime(inputTime) {
+        const [hours, minutes, seconds] = inputTime.split(':').map(Number);
+
+        // Get current UTC time
+        const currentDateTime = new Date();
+
+        currentDateTime.setUTCHours(currentDateTime.getUTCHours() + hours);
+        currentDateTime.setUTCMinutes(currentDateTime.getUTCMinutes() + minutes);
+        currentDateTime.setUTCSeconds(currentDateTime.getUTCSeconds() + seconds);
+        console.log("Finish after:", inputTime, 'innnnnn:', getFormattedUTCDateTime(currentDateTime));
+
+        return currentDateTime;
+    }
+
     return {
         addDurations,
         createFinishTime,
-        getUTCnewFormat
+        getUTCnewFormat,
+        createDateFromTime
     };
 }

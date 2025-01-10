@@ -3,11 +3,13 @@ import storeSimple from "@/store/storeSimple"
 import playListLive from "@/store/playListLive"
 
 const { getLiveMusic } = useMusicAPI()
-const { createFinishTime,getUTCnewFormat } = useGlobalFunctions()
+const { createFinishTime,getUTCnewFormat,createDateFromTime } = useGlobalFunctions()
 
 getLiveMusic(1)
-createFinishTime()
+createFinishTime("00:10:10")
 getUTCnewFormat()
+createDateFromTime("00:10:10")
+
 const ifIsOver = () => {
     console.log(
         "liiiiiiiiiiiiiiivestooooooooooooor", playListLive.liveMusic
@@ -19,6 +21,7 @@ const ifIsOver = () => {
 
     // playListLive.liveMusic
 }
+
 ifIsOver()
 const myMusic = ref(null);
 const currentTime = ref(0);
