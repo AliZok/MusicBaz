@@ -2,6 +2,17 @@
   hello login
   <button @click="postData()" class="pt-10">postData</button>
   <button @click="updateLiveMusic(objectToInsertLive)" class="pt-10">post muuuuusic</button>
+
+
+  <div class="pt-8">
+    <div>fuuuuuuuuuuuuuuuuuuuck</div>
+    <div>
+    <h1>Set Future Time Alert</h1>
+    <input v-model="inputTime" placeholder="Enter time (HH:MM:SS)" />
+    <button @click="setFutureTime">Set Alert</button>
+    <p v-if="futureTimeString">Alert set for: {{ futureTimeString }}</p>
+  </div>
+  </div>
 </template>
 
 <script setup>
@@ -93,9 +104,51 @@ const objectToInsertLive = ref({
 })
 
 
+const inputTime = ref('');
+const futureTimeString = ref('');
+let intervalId = null;
+
+const setFutureTime = () => {
+  // Parse the input time
+  const timeParts = inputTime.value.split(':');
+  if (timeParts.length !== 3) {
+    alert('Please enter a valid time in HH:MM:SS format.');
+    return;
+  }
+
+  const [hours, minutes, seconds] = timeParts.map(Number);
+
+  // Get current UTC date and time
+  const now = new Date();
+  
+  // Calculate the future time by adding the input values
+  const futureDate = new Date(now.getTime() + (hours * 60 * 60 * 1000) + (minutes * 60 * 1000) + (seconds * 1000));
+
+  futureTimeString.value = futureDate.toUTCString(); // Store future time in string format
+
+  // Clear any existing intervals
+  if (intervalId) {
+    clearInterval(intervalId);
+  }
+
+  // Check time every second
+  intervalId = setInterval(() => {
+    const currentTime = new Date();
+
+    if (currentTime.getTime() >= futureDate.getTime()) {
+      alert(`The time is now ${currentTime.toUTCString()} UTC!`);
+      clearInterval(intervalId); // Stop checking after alert
+    }
+  }, 1000);
+};
+
 
 onMounted(async () => {
   getMusicList()
   getLiveMusic(1)
+
+  if (intervalId) {
+    clearInterval(intervalId);
+  }
 })
 </script>
