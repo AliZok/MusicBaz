@@ -5,7 +5,11 @@ import playListLive from "@/store/playListLive"
 const { getLiveMusic } = useMusicAPI()
 const { createFinishTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
-getLiveMusic(1)
+const liveMusic = ref({})
+liveMusic.value = await getLiveMusic(1)
+
+console.log('ssssssssssssaaaa',liveMusic.value)
+
 createFinishTime("00:10:10")
 getUTCnewFormat()
 // createDateFromTime("00:10:10")
@@ -250,18 +254,18 @@ const updateMediaSession = (state) => {
 
 </script>
 <template>
-    <div class="PlayerMain">
+    <div class="PlayerMain2">
         <div class="main-container">
             <div class="back-img"
-                :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
+                :style="`background-image: url(${!!liveMusic?.cover ? liveMusic?.cover : 'images/background-dance-1.jpg'})`">
 
             </div>
-            <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div>
+            <div class="back-dark" :class="{ 'no-image': !liveMusic?.cover }"></div>
 
             <div class="player-box">
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music ">
-                        <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
+                        <h1 v-if="!liveMusic?.cover" class="back-logo">
                             <div class="cover-text font-days ">
                                 DANCE BABY RADIO
                             </div>
@@ -270,9 +274,9 @@ const updateMediaSession = (state) => {
                             </div> -->
                         </h1>
                         <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
-                            :src="pureList[randomNumber]?.cover">
+                            :src="liveMusic?.cover">
 
-                        <div v-if="!!pureList[randomNumber]" :class="{ 'opacity-0': isPlaying }"
+                        <div v-if="!!liveMusic" :class="{ 'opacity-0': isPlaying }"
                             @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
@@ -301,13 +305,13 @@ const updateMediaSession = (state) => {
                     <div class="d-flex justify-space-between text-10 fs-9 max-h-100 transit overflow-hidden"
                         :class="{ 'max-h-0': notShowing }">
                         <div class="text-left pl-1 pt-2 fs-12 titles">
-                            <div>{{ pureList[randomNumber]?.title }}</div>
-                            <div>{{ pureList[randomNumber]?.artist }}</div>
+                            <div>{{ liveMusic?.title }}</div>
+                            <div>{{ liveMusic?.artist }}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="playNextMusic()">
-                        <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
+                        <source :src="liveMusic?.audio" type="audio/mpeg">
                     </audio>
 
                 </div>
@@ -346,7 +350,7 @@ const updateMediaSession = (state) => {
     </div>
 </template>
 <style lang="scss" scoped>
-.PlayerMain {
+.PlayerMain2 {
     height: 100vh;
 
     .box-wrapper {

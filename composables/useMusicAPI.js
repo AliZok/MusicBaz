@@ -14,8 +14,12 @@ export const useMusicAPI = () => {
             console.error('Fetch Error:', error);
             return null;
         }
+
         playListLive.liveMusic = data
         console.log("liiiiiiiiiiive musix:", playListLive.liveMusic );
+        
+        return playListLive.liveMusic
+
     }
 
     const updateLiveMusic = async (objectToInsert) => {

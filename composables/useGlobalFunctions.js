@@ -50,7 +50,7 @@ export function useGlobalFunctions() {
         const utcSeconds = String(currentDateTime.getUTCSeconds()).padStart(2, '0');
 
         const formattedUTCDateTime = `${utcYear}-${utcMonth}-${utcDate} ${utcHours}:${utcMinutes}:${utcSeconds} UTC`;
-        console.log("UTC_new_format:", formattedUTCDateTime);
+       
         return formattedUTCDateTime
     }
 
@@ -59,8 +59,7 @@ export function useGlobalFunctions() {
         const [hours, minutes, seconds] = time.split(':').map(Number);
         const currentDate = new Date();
         currentDate.setUTCHours(hours, minutes, seconds, 0);
-        console.log("settttttttttt", currentDate)
-
+  
         return currentDate;
     }
 
@@ -72,7 +71,6 @@ export function useGlobalFunctions() {
         const utcMinutes = String(date.getUTCMinutes()).padStart(2, '0');
         const utcSeconds = String(date.getUTCSeconds()).padStart(2, '0');
         const formattedUTCDateTime = `${utcYear}-${utcMonth}-${utcDate} ${utcHours}:${utcMinutes}:${utcSeconds} UTC`
-        console.log("UTC_new_format:", formattedUTCDateTime);
 
         return formattedUTCDateTime;
     }
@@ -80,15 +78,15 @@ export function useGlobalFunctions() {
     function createFinishTime(inputTime) {
         const [hours, minutes, seconds] = inputTime.split(':').map(Number);
 
-        // Get current UTC time
         const currentDateTime = new Date();
+        console.log('ffffffffffffffuck:', getFormattedUTCDateTime(currentDateTime));
 
         currentDateTime.setUTCHours(currentDateTime.getUTCHours() + hours);
         currentDateTime.setUTCMinutes(currentDateTime.getUTCMinutes() + minutes);
         currentDateTime.setUTCSeconds(currentDateTime.getUTCSeconds() + seconds);
         console.log("Finish after:", inputTime, 'innnnnn:', getFormattedUTCDateTime(currentDateTime));
 
-        return currentDateTime;
+        return getFormattedUTCDateTime(currentDateTime);
     }
 
     return {
