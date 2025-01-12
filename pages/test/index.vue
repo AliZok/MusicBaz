@@ -22,7 +22,7 @@ import { useAPI } from '~/composables/useAPI'
 import { useMusicAPI } from '~/composables/useMusicAPI'
 
 const { supabase } = useSupabase()
-const { getLiveMusic } = useMusicAPI()
+const { getLiveMusic,updateLiveMusic } = useMusicAPI()
 
 // const { getData } = useAPI()
 // const { data, pending, error } = await getData('https://jsonplaceholder.typicode.com/posts')
@@ -92,24 +92,14 @@ const getMusicList = async () => {
 
 // }
 
-const objectToInsertLive = ref({
-  title: 'Evolution',
-  artist: 'Interplay Records',
-  cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
-  audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/03) Interplay Records - Evolution (Interplay 51).mp3',
-  genre: 'electronic trance',
-  duration: '3:40',
-  star: 4,
-  finishAt: '',
-})
-
+const objectToInsertLive = ref({})
+objectToInsertLive.value = storeSimple.musicList[0]
 
 const inputTime = ref('');
 const futureTimeString = ref('');
 let intervalId = null;
 
 const setFutureTime = () => {
-  // Parse the input time
   const timeParts = inputTime.value.split(':');
   if (timeParts.length !== 3) {
     alert('Please enter a valid time in HH:MM:SS format.');
@@ -117,27 +107,19 @@ const setFutureTime = () => {
   }
 
   const [hours, minutes, seconds] = timeParts.map(Number);
-
-  // Get current UTC date and time
   const now = new Date();
-  
-  // Calculate the future time by adding the input values
   const futureDate = new Date(now.getTime() + (hours * 60 * 60 * 1000) + (minutes * 60 * 1000) + (seconds * 1000));
 
-  futureTimeString.value = futureDate.toUTCString(); // Store future time in string format
-
-  // Clear any existing intervals
+  futureTimeString.value = futureDate.toUTCString();
   if (intervalId) {
     clearInterval(intervalId);
   }
-
-  // Check time every second
   intervalId = setInterval(() => {
     const currentTime = new Date();
 
     if (currentTime.getTime() >= futureDate.getTime()) {
       alert(`The time is now ${currentTime.toUTCString()} UTC!`);
-      clearInterval(intervalId); // Stop checking after alert
+      clearInterval(intervalId);
     }
   }, 1000);
 };

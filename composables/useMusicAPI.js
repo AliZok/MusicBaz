@@ -45,6 +45,7 @@ export const useMusicAPI = () => {
 
 
     return {
-        getLiveMusic
+        getLiveMusic,
+        updateLiveMusic
     }
 }

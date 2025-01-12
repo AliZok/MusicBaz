@@ -50,7 +50,7 @@ export function useGlobalFunctions() {
         const utcSeconds = String(currentDateTime.getUTCSeconds()).padStart(2, '0');
 
         const formattedUTCDateTime = `${utcYear}-${utcMonth}-${utcDate} ${utcHours}:${utcMinutes}:${utcSeconds} UTC`;
-       
+
         return formattedUTCDateTime
     }
 
@@ -59,7 +59,7 @@ export function useGlobalFunctions() {
         const [hours, minutes, seconds] = time.split(':').map(Number);
         const currentDate = new Date();
         currentDate.setUTCHours(hours, minutes, seconds, 0);
-  
+
         return currentDate;
     }
 
@@ -79,7 +79,7 @@ export function useGlobalFunctions() {
         const [hours, minutes, seconds] = inputTime.split(':').map(Number);
 
         const currentDateTime = new Date();
-        console.log('ffffffffffffffuck:', getFormattedUTCDateTime(currentDateTime));
+        console.log('now time=>', getFormattedUTCDateTime(currentDateTime));
 
         currentDateTime.setUTCHours(currentDateTime.getUTCHours() + hours);
         currentDateTime.setUTCMinutes(currentDateTime.getUTCMinutes() + minutes);
@@ -89,7 +89,35 @@ export function useGlobalFunctions() {
         return getFormattedUTCDateTime(currentDateTime);
     }
 
+    let intervalId = null;
+    const setFutureTime = (inputTime) => {
+        const timeParts = inputTime.split(':');
+        if (timeParts.length !== 3) {
+            alert('Please enter a valid time in HH:MM:SS format.');
+            return;
+        }
+
+        const [hours, minutes, seconds] = timeParts.map(Number);
+        const now = new Date();
+        const futureDate = new Date(now.getTime() + (hours * 60 * 60 * 1000) + (minutes * 60 * 1000) + (seconds * 1000));
+
+        const futureTimeString = futureDate.toUTCString();
+        if (intervalId) {
+            clearInterval(intervalId);
+        }
+        intervalId = setInterval(() => {
+            const currentTime = new Date();
+
+            if (currentTime.getTime() >= futureDate.getTime()) {
+                alert(`The time is now ${currentTime.toUTCString()} UTC!`);
+                clearInterval(intervalId);
+            }
+        }, 1000);
+
+        return futureTimeString
+    };
     return {
+        setFutureTime,
         addDurations,
         createFinishTime,
         getUTCnewFormat,

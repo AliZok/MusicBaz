@@ -6,7 +6,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Jurrivh-Universe-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/08/Jurrivh - Universe (2024)/128k/01) Jurrivh - Universe.mp3',
             genre: 'relax',
-            duration: '2:03',
+            duration: '00:2:03',
         },
         {
             title: 'Øneheart',
@@ -14,7 +14,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2023/05/Oneheart-searching-for-you-2023.jpg',
             audio: 'https://db.vmusic.ir/2023/05/Øneheart - searching for you (2023)/128k/Øneheart - searching for you.mp3',
             genre: 'relax',
-            duration: '1:39',
+            duration: '00:1:39',
 
         },
         {
@@ -23,7 +23,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Konstantin-Tyufyakin-Unnamed-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Konstantin Tyufyakin - Unnamed (2024)/128k/01) Konstantin Tyufyakin - You can get lost among the good old movies.mp3',
             genre: 'relax',
-            duration: '2:25',
+            duration: '00:2:25',
         },
         {
             title: 'Evolution',
@@ -31,7 +31,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/03) Interplay Records - Evolution (Interplay 51).mp3',
             genre: 'electronic trance',
-            duration: '3:40',
+            duration: '00:3:40',
         },
         {
             title: 'Atlantis',
@@ -39,7 +39,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/04) Interplay Records - Atlantis (Interplay 513).mp3',
             genre: 'electronic trance',
-            duration: '3:04',
+            duration: '00:3:04',
         },
         {
             title: 'Serotonin',
@@ -47,7 +47,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/17) Interplay Records - Serotonin (Interplay 513).mp3',
             genre: 'electronic trance',
-            duration: '4:10',
+            duration: '00:4:10',
         },
         {
             title: 'Second Sunrise',
@@ -55,7 +55,7 @@ const storeSimple = {
             cover: 'https://vmusic.ir/wp-content/uploads/2024/08/Markus-Schulz-Global-DJ-Broadcast-Weekly-Drive-31-2024.jpg',
             audio: 'https://dc.vmusic.ir/2024/07/Markus Schulz - Global DJ Broadcast Weekly Drive 31 (2024)/128k/01) Daxson - Second Sunrise (GDJB Weekly Drive 31).mp3',
             genre: 'electronic trance',
-            duration: '4:01',
+            duration: '00:4:01',
         },
         {
             title: 'Hagelslag ',

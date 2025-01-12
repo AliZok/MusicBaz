@@ -3,14 +3,17 @@ import storeSimple from "@/store/storeSimple"
 import playListLive from "@/store/playListLive"
 
 const { getLiveMusic } = useMusicAPI()
-const { createFinishTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
+const { setFutureTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
 const liveMusic = ref({})
 liveMusic.value = await getLiveMusic(1)
 
 console.log('ssssssssssssaaaa',liveMusic.value)
 
-createFinishTime("00:10:10")
+
+
+
+
 getUTCnewFormat()
 // createDateFromTime("00:10:10")
 
@@ -179,6 +182,7 @@ onMounted(() => {
 
     window.addEventListener('keydown', handleKeyPlays);
 
+    setFutureTime(liveMusic.value.duration)
 
 });
 
