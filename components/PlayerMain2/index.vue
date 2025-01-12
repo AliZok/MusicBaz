@@ -6,30 +6,27 @@ const { getLiveMusic } = useMusicAPI()
 const { setFutureTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
 const liveMusic = ref({})
-liveMusic.value = await getLiveMusic(1)
 
-console.log('ssssssssssssaaaa',liveMusic.value)
+const initLiveMusic = async()=>{
+    liveMusic.value = await getLiveMusic(1)
+    console.log('sssssssssssssssss',liveMusic.value)
+
+    setFutureTime("0:0:3",()=>{
+        alert("alizoka is heree")
+    })
 
 
 
+}
+
+
+initLiveMusic()
 
 
 getUTCnewFormat()
 // createDateFromTime("00:10:10")
 
-const ifIsOver = () => {
-    console.log(
-        "liiiiiiiiiiiiiiivestooooooooooooor", playListLive.liveMusic
-    )
 
-    if (playListLive.liveMusic.finishAt) {
-
-    }
-
-    // playListLive.liveMusic
-}
-
-ifIsOver()
 const myMusic = ref(null);
 const currentTime = ref(0);
 const duration = ref(0);
@@ -182,7 +179,6 @@ onMounted(() => {
 
     window.addEventListener('keydown', handleKeyPlays);
 
-    setFutureTime(liveMusic.value.duration)
 
 });
 

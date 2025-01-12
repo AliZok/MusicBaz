@@ -90,7 +90,7 @@ export function useGlobalFunctions() {
     }
 
     let intervalId = null;
-    const setFutureTime = (inputTime) => {
+    const setFutureTime = (inputTime, myCallBack) => {
         const timeParts = inputTime.split(':');
         if (timeParts.length !== 3) {
             alert('Please enter a valid time in HH:MM:SS format.');
@@ -111,6 +111,7 @@ export function useGlobalFunctions() {
             if (currentTime.getTime() >= futureDate.getTime()) {
                 alert(`The time is now ${currentTime.toUTCString()} UTC!`);
                 clearInterval(intervalId);
+                myCallBack()
             }
         }, 1000);
 
