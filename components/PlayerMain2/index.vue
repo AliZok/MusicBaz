@@ -7,12 +7,13 @@ const { setFutureTime, getUTCnewFormat, createDateFromTime } = useGlobalFunction
 
 const liveMusic = ref({})
 
-const initLiveMusic = async()=>{
+const initLiveMusic = async () => {
     liveMusic.value = await getLiveMusic(1)
-    console.log('sssssssssssssssss',liveMusic.value)
+    console.log('sssssssssssssssss', liveMusic.value)
 
-    setFutureTime("0:0:3",()=>{
-        alert("alizoka is heree")
+    setFutureTime(liveMusic.value.duration, () => {
+        console.log("alizoka is heree ")
+        playNextMusic()
     })
 
 
@@ -107,6 +108,7 @@ const playNextMusic = async () => {
     isEmpty.value = false
     if (lastNumber != randomNumber.value) {
 
+        liveMusic.value = pureList.value[randomNumber.value]
         // pauseAudio();
         goToStart()
         await playAudio();
@@ -276,8 +278,8 @@ const updateMediaSession = (state) => {
                         <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
                             :src="liveMusic?.cover">
 
-                        <div v-if="!!liveMusic" :class="{ 'opacity-0': isPlaying }"
-                            @click.stop="playMusic()" class="play-button-box">
+                        <div v-if="!!liveMusic" :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()"
+                            class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->
