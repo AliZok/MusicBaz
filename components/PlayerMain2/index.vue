@@ -9,12 +9,6 @@ const liveMusic = ref({})
 
 const initLiveMusic = async () => {
     liveMusic.value = await getLiveMusic(1)
-    console.log('sssssssssssssssss', liveMusic.value)
-
-    setFutureTime(liveMusic.value.duration, () => {
-        console.log("alizoka is heree ")
-        playNextMusic()
-    })
 
 
 
@@ -92,8 +86,11 @@ const playMusic = async () => {
     } else {
 
         await playAudio();
-    }
 
+        setFutureTime(liveMusic.value.duration, () => {
+            playNextMusic()
+        })
+    }
 }
 
 const isEmpty = ref(false)
@@ -106,16 +103,14 @@ const playNextMusic = async () => {
     let lastNumber = randomNumber.value
     getRandomNumber()
     isEmpty.value = false
-    if (lastNumber != randomNumber.value) {
 
+    if (lastNumber != randomNumber.value) {
         liveMusic.value = pureList.value[randomNumber.value]
-        // pauseAudio();
         goToStart()
         await playAudio();
 
     } else {
         playNextMusic()
-
     }
 }
 

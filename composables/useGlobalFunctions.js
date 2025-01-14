@@ -109,7 +109,6 @@ export function useGlobalFunctions() {
             const currentTime = new Date();
 
             if (currentTime.getTime() >= futureDate.getTime()) {
-                alert(`The time is now ${currentTime.toUTCString()} UTC!`);
                 clearInterval(intervalId);
                 myCallBack()
             }
