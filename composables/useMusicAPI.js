@@ -3,6 +3,7 @@ import playListLive from "@/store/playListLive"
 const { supabase } = useSupabase()
 
 export const useMusicAPI = () => {
+    const TimeGetNewMusic = ref('')
     const getLiveMusic = async (id) => {
         const { data, error } = await supabase
             .from('live-music')
@@ -17,7 +18,7 @@ export const useMusicAPI = () => {
 
         playListLive.liveMusic = data
         console.log("liiiiiiiiiiive musix:", playListLive.liveMusic );
-        
+        // TimeGetNewMusic.value = 
         return playListLive.liveMusic
 
     }
@@ -33,7 +34,7 @@ export const useMusicAPI = () => {
         //     star: 4,
         //     finishAt: '',
         // }
-
+        objectToInsert.startedAt = new Date() 
         const { data, error } = await supabase.from('live-music').update(objectToInsert).eq('id', 1);
 
         if (error) {

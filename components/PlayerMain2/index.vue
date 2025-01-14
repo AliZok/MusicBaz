@@ -2,20 +2,46 @@
 import storeSimple from "@/store/storeSimple"
 import playListLive from "@/store/playListLive"
 
-const { getLiveMusic } = useMusicAPI()
+const { getLiveMusic, updateLiveMusic } = useMusicAPI()
 const { setFutureTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
 const liveMusic = ref({})
 
 const initLiveMusic = async () => {
     liveMusic.value = await getLiveMusic(1)
-
-
-
+    findCurrentTimeMusic(liveMusic.value.startedAt)
 }
 
 
 initLiveMusic()
+
+
+
+
+
+
+
+
+
+const findCurrentTimeMusic = (startedAt) => {
+    
+    const targetTime = new Date(startedAt);
+    console.log("startedAt", targetTime)
+    // Get current UTC time
+    const now = new Date();
+
+    const remainingTime = now.getTime() - targetTime.getTime();
+    const remainingSeconds = Math.ceil(remainingTime / 1000);
+    console.log(`Time is in the future. Remaining seconds: ${remainingSeconds} seconds.`);
+
+    if (remainingSeconds > liveMusic.value.duration) { playNextMusic() }
+    else {
+        currentTime.value = remainingSeconds
+        seekAudio()
+    }
+
+};
+
 
 
 getUTCnewFormat()
@@ -58,7 +84,6 @@ function getRandomNumber() {
 
 const playAudio = async () => {
 
-
     myMusic.value.load();
 
     try {
@@ -84,7 +109,7 @@ const playMusic = async () => {
     if (isPlaying.value) {
         pauseAudio();
     } else {
-
+        updateLiveMusic(liveMusic.value)
         await playAudio();
 
         setFutureTime(liveMusic.value.duration, () => {
@@ -106,6 +131,8 @@ const playNextMusic = async () => {
 
     if (lastNumber != randomNumber.value) {
         liveMusic.value = pureList.value[randomNumber.value]
+
+        updateLiveMusic(liveMusic.value)
         goToStart()
         await playAudio();
 
@@ -175,6 +202,13 @@ onMounted(() => {
     }, 200);
 
     window.addEventListener('keydown', handleKeyPlays);
+
+    let getNextMusicTimeFromLocal = localStorage.getItem('getNextMusicTimeFromLocal')
+    if (getNextMusicTimeFromLocal) {
+        setFutureTime(getNextMusicTimeFromLocal, () => {
+            playNextMusic()
+        })
+    }
 
 
 });

@@ -91,9 +91,12 @@ export function useGlobalFunctions() {
 
     let intervalId = null;
     const setFutureTime = (inputTime, myCallBack) => {
-        const timeParts = inputTime.split(':');
+        localStorage.setItem('getNextMusicTimeFromLocal', inputTime)
+        let timeParts = inputTime.split(':');
+     
         if (timeParts.length !== 3) {
-            alert('Please enter a valid time in HH:MM:SS format.');
+            console.log('Please enter a valid time in HH:MM:SS format.');
+            
             return;
         }
 
@@ -107,7 +110,7 @@ export function useGlobalFunctions() {
         }
         intervalId = setInterval(() => {
             const currentTime = new Date();
-
+           
             if (currentTime.getTime() >= futureDate.getTime()) {
                 clearInterval(intervalId);
                 myCallBack()
