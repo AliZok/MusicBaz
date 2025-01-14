@@ -91,7 +91,7 @@ export function useGlobalFunctions() {
 
     let intervalId = null;
     const setFutureTime = (inputTime, myCallBack) => {
-        localStorage.setItem('getNextMusicTimeFromLocal', inputTime)
+      
         let timeParts = inputTime.split(':');
      
         if (timeParts.length !== 3) {

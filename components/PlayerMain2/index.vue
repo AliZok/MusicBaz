@@ -109,7 +109,7 @@ const playMusic = async () => {
     if (isPlaying.value) {
         pauseAudio();
     } else {
-        updateLiveMusic(liveMusic.value)
+        // updateLiveMusic(liveMusic.value)
         await playAudio();
 
         setFutureTime(liveMusic.value.duration, () => {
@@ -202,14 +202,6 @@ onMounted(() => {
     }, 200);
 
     window.addEventListener('keydown', handleKeyPlays);
-
-    let getNextMusicTimeFromLocal = localStorage.getItem('getNextMusicTimeFromLocal')
-    if (getNextMusicTimeFromLocal) {
-        setFutureTime(getNextMusicTimeFromLocal, () => {
-            playNextMusic()
-        })
-    }
-
 
 });
 
