@@ -2,7 +2,7 @@
 import storeSimple from "@/store/storeSimple"
 import playListLive from "@/store/playListLive"
 
-const { getLiveMusic, updateLiveMusic } = useMusicAPI()
+const { getLiveMusic, updateLiveMusic,getMusicList } = useMusicAPI()
 const { setFutureTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
 const liveMusic = ref({})
@@ -12,9 +12,8 @@ const initLiveMusic = async () => {
     findCurrentTimeMusic(liveMusic.value.startedAt)
 }
 
-
 initLiveMusic()
-
+getMusicList()
 
 
 

@@ -49,17 +49,12 @@ watch(() => genres.value, (newStore) => {
     pureMyList()
 }, { deep: true })
 
-
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
     randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
 }
 
-
-
 const playAudio = async () => {
-
-
     myMusic.value.load();
 
     try {
@@ -92,8 +87,6 @@ const playMusic = async () => {
 }
 
 const isEmpty = ref(false)
-
-
 const playNextMusic = async () => {
     isLoading.value = true
     isEmpty.value = true
@@ -102,8 +95,6 @@ const playNextMusic = async () => {
     getRandomNumber()
     isEmpty.value = false
     if (lastNumber != randomNumber.value) {
-
-        // pauseAudio();
         goToStart()
         await playAudio();
 
@@ -169,7 +160,6 @@ onMounted(() => {
     });
 
     setTimeout(() => {
-        // setMediaControls()
         updateMediaSession('paused');
     }, 200);
 
@@ -186,66 +176,8 @@ watch(() => isLoading.value, (newV) => {
     // alert(newV)
 })
 
-/////////////////////////
-// const setMediaControls = () => {
-//     if ('mediaSession' in navigator) {
-//         navigator.mediaSession.metadata = new window.MediaMetadata({
-//             title: 'Pocket Radio',
-//             artist: 'J Computer Solutions LLC',
-//             album: 'Pocket Radio',
-//             artwork: [
-//                 { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', type: 'image/png' },
-//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '96x96', type: 'image/png' },
-//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '128x128', type: 'image/png' },
-//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '192x192', type: 'image/png' },
-//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '256x256', type: 'image/png' },
-//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '384x384', type: 'image/png' },
-//                 // { src: 'https://f4.bcbits.com/img/a3818425134_10.jpg', sizes: '512x512', type: 'image/png' },
-//             ]
-//         });
-
-//         navigator.mediaSession.setActionHandler('play', playAudio());
-//         navigator.mediaSession.setActionHandler('pause', pauseAudio());
-//         navigator.mediaSession.setActionHandler('stop', pauseAudio());
-//         navigator.mediaSession.setActionHandler('previoustrack', function () { playNextMusic() });
-//         navigator.mediaSession.setActionHandler('nexttrack', function () { playNextMusic() });
-//         //   navigator.mediaSession.setActionHandler('seekbackward', function() { /* Code excerpted. */ });
-//         //   navigator.mediaSession.setActionHandler('seekforward', function() { /* Code excerpted. */ });
-//         //   navigator.mediaSession.setActionHandler('seekto', function() { /* Code excerpted. */ });
-
-//     }
-// }
-
 const updateMediaSession = (state) => {
-    //   if ('mediaSession' in navigator) {
-    //     navigator.mediaSession.metadata = new MediaMetadata({
-    //       title: pureList.value[randomNumber.value].title,
-    //       artist: pureList.value[randomNumber.value].artist,
-    //       artwork: [
-    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '96x96', type: 'image/jpeg' },
-    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '128x128', type: 'image/jpeg' },
-    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '192x192', type: 'image/jpeg' },
-    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '256x256', type: 'image/jpeg' },
-    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '384x384', type: 'image/jpeg' },
-    //         { src: 'https://www.fiestaybullshit.com/wp-content/uploads/2023/04/Space-Music.png', sizes: '512x512', type: 'image/jpeg' },
-    //       ],
-    //     });
-    //     navigator.mediaSession.setActionHandler('play', playMusic());
-    //     navigator.mediaSession.setActionHandler('pause', pauseAudio);
-    //     navigator.mediaSession.setActionHandler('seekbackward', () => {
-    //         playNextMusic() 
-    //     });
-    //     navigator.mediaSession.setActionHandler('seekforward', () => {
-    //         playNextMusic() 
-    //     });
 
-
-    //     if (state == 'playing') {
-    //       navigator.mediaSession.playbackState = 'playing';
-    //     } else if (state == 'paused') {
-    //       navigator.mediaSession.playbackState = 'paused';
-    //     }
-    //   }
 }
 
 </script>

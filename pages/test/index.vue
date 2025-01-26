@@ -1,17 +1,18 @@
 <template>
-  hello login
-  <button @click="postData()" class="pt-10">postData</button>
-  <button @click="updateLiveMusic(objectToInsertLive)" class="pt-10">post muuuuusic</button>
+
 
 
   <div class="pt-8">
-    <div>fuuuuuuuuuuuuuuuuuuuck</div>
+    <button @click="postData()" class="pt-10">postData</button>
+    <button @click="updateLiveMusic(objectToInsertLive)" class="pt-10">post muuuuusic</button>
+
+    <div @click="updateList()">fuuuuuuuuuuuuuuuuuuuck</div>
     <div>
-    <h1>Set Future Time Alert</h1>
-    <input v-model="inputTime" placeholder="Enter time (HH:MM:SS)" />
-    <button @click="setFutureTime">Set Alert</button>
-    <p v-if="futureTimeString">Alert set for: {{ futureTimeString }}</p>
-  </div>
+      <h1>Set Future Time Alert</h1>
+      <input v-model="inputTime" placeholder="Enter time (HH:MM:SS)" />
+      <button @click="setFutureTime">Set Alert</button>
+      <p v-if="futureTimeString">Alert set for: {{ futureTimeString }}</p>
+    </div>
   </div>
 </template>
 
@@ -22,7 +23,7 @@ import { useAPI } from '~/composables/useAPI'
 import { useMusicAPI } from '~/composables/useMusicAPI'
 
 const { supabase } = useSupabase()
-const { getLiveMusic,updateLiveMusic } = useMusicAPI()
+const { getLiveMusic, updateLiveMusic } = useMusicAPI()
 
 // const { getData } = useAPI()
 // const { data, pending, error } = await getData('https://jsonplaceholder.typicode.com/posts')
@@ -56,6 +57,18 @@ async function postData() {
     console.error('Insert Error:', error)
   } else {
     console.log('Insert SuccessMusiiiiiics:', data)
+  }
+}
+
+async function updateList(params) {
+  jsonifyList(storeSimple.musicList)
+  const objectToInsert = { musics: jsonList.value }
+
+  const { data, error } = await supabase.from('save-json').update(objectToInsert).eq('id', 1);
+  if (error) {
+    console.error('update lisssssst Error:', error)
+  } else {
+    console.log('update lisssssst  SuccessMusiiiiiics:', data)
   }
 }
 

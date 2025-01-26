@@ -17,7 +17,7 @@ export const useMusicAPI = () => {
         }
 
         playListLive.liveMusic = data
-        console.log("liiiiiiiiiiive musix:", playListLive.liveMusic );
+        console.log("liiiiiiiiiiive musix:", playListLive.liveMusic);
         // TimeGetNewMusic.value = 
         return playListLive.liveMusic
 
@@ -34,7 +34,7 @@ export const useMusicAPI = () => {
         //     star: 4,
         //     finishAt: '',
         // }
-        objectToInsert.startedAt = new Date() 
+        objectToInsert.startedAt = new Date()
         const { data, error } = await supabase.from('live-music').update(objectToInsert).eq('id', 1);
 
         if (error) {
@@ -44,9 +44,22 @@ export const useMusicAPI = () => {
         }
     }
 
+    const getMusicList = async () => {
+        const { data, error } = await supabase.from('save-json').select('*')
+
+        if (error) {
+            console.error('gettttt Error:', error)
+        } else {
+            const pureList = data[0].musics
+            playListLive.musics = []
+             Object.entries(pureList).map(item => playListLive.musics.push(item[1]) )
+        }
+    }
+
 
     return {
         getLiveMusic,
-        updateLiveMusic
+        updateLiveMusic,
+        getMusicList
     }
 }
