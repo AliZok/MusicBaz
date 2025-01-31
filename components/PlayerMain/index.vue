@@ -183,12 +183,14 @@ const updateMediaSession = (state) => {
 </script>
 <template>
     <div class="PlayerMain">
+      
         <div class="main-container">
             <div class="back-img"
                 :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
 
             </div>
-            <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div>
+            <Stars class="bg-stars"/>
+            <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 
             <div class="player-box">
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
@@ -275,6 +277,7 @@ const updateMediaSession = (state) => {
                 </div>
             </div>
         </div>
+
     </div>
 </template>
 <style lang="scss" scoped>
@@ -329,6 +332,10 @@ const updateMediaSession = (state) => {
             &.no-image {
                 background: rgb(36 36 36 / 67%);
             }
+        }
+
+        .bg-stars{
+            opacity: 0.5;
         }
 
         .player-box {
