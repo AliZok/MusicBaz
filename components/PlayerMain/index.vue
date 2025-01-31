@@ -87,6 +87,17 @@ const playMusic = async () => {
 }
 
 const isEmpty = ref(false)
+const isRepeat = ref(false)
+
+const nextOrRepeat = () => {
+    if (isRepeat.value) {
+        goToStart()
+        playAudio();
+    } else {
+        playNextMusic()
+    }
+}
+
 const playNextMusic = async () => {
     isLoading.value = true
     isEmpty.value = true
@@ -193,8 +204,8 @@ const updateMediaSession = (state) => {
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 
             <div class="player-box" @mouseover="notShowing = false" @mouseleave="notShowing = true">
-                <div class="control-item cursor-pointer" :class="{ 'show': !notShowing }">
-                    <IconsRepeat class="repeat-icon" :class="{ 'active': false }" />
+                <div @click="isRepeat = !isRepeat" class="control-item cursor-pointer" :class="{ 'show': !notShowing }">
+                    <IconsRepeat class="repeat-icon" :class="{ 'active': isRepeat }" />
                 </div>
                 <div class="box-wrapper curve">
 
@@ -244,7 +255,7 @@ const updateMediaSession = (state) => {
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
-                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="playNextMusic()">
+                    <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="nextOrRepeat()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
 
