@@ -183,17 +183,21 @@ const updateMediaSession = (state) => {
 </script>
 <template>
     <div class="PlayerMain">
-      
+
         <div class="main-container">
             <div class="back-img"
                 :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
 
             </div>
-            <Stars class="bg-stars"/>
+            <Stars class="bg-stars" />
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 
             <div class="player-box">
+                <div class="control-item" :class="{ 'show': !notShowing }">
+                    hello test
+                </div>
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
+
                     <div @click="playMusic()" class="cover-music ">
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
                             <div class="cover-text font-days ">
@@ -294,7 +298,9 @@ const updateMediaSession = (state) => {
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
         // background: rgb(218 239 255 / 15%);
-        background: rgb(38 40 43 / 64%)
+        background: rgb(38 40 43 / 64%);
+        z-index: 10;
+        position: relative;
     }
 
     .shine-me {
@@ -334,7 +340,7 @@ const updateMediaSession = (state) => {
             }
         }
 
-        .bg-stars{
+        .bg-stars {
             opacity: 0.5;
         }
 

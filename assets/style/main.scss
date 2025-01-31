@@ -16,28 +16,35 @@ body {
   }
 }
 
-div{
+div {
   box-sizing: border-box;
 }
-.border-gold{
-    border: solid 1px yellow;
+
+.border-gold {
+  border: solid 1px yellow;
 }
-.border-primary{
+
+.border-primary {
   border: solid 1px rgb(87, 211, 246);
 }
-.curve{
-    border-radius: 9px;
+
+.curve {
+  border-radius: 9px;
 }
-.bg-dark{
-  background:rgb(52, 52, 52);
+
+.bg-dark {
+  background: rgb(52, 52, 52);
 }
-.d-none{
+
+.d-none {
   display: none;
 }
-.opacity-0{
+
+.opacity-0 {
   opacity: 0;
 }
-.opacity-05{
+
+.opacity-05 {
   opacity: 0.5;
 }
 
@@ -50,6 +57,23 @@ div{
   font-family: days;
 }
 
-small{
+small {
   font-size: 50%;
+}
+
+.control-item {
+  position: absolute;
+  right: 30px;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 1;
+  width: 0;
+  overflow: hidden;
+
+  &.show {
+    right: -50px;
+    opacity: 1;
+    width: 40px;
+
+  }
 }

@@ -2,7 +2,7 @@
 import storeSimple from "@/store/storeSimple"
 import playListLive from "@/store/playListLive"
 
-const { getLiveMusic, updateLiveMusic,getMusicList } = useMusicAPI()
+const { getLiveMusic, updateLiveMusic, getMusicList } = useMusicAPI()
 const { setFutureTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
 const liveMusic = ref({})
@@ -23,7 +23,7 @@ getMusicList()
 
 
 const findCurrentTimeMusic = (startedAt) => {
-    
+
     const targetTime = new Date(startedAt);
     console.log("startedAt", targetTime)
     // Get current UTC time
@@ -385,7 +385,9 @@ const updateMediaSession = (state) => {
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
         // background: rgb(218 239 255 / 15%);
-        background: rgb(38 40 43 / 64%)
+        background: rgb(38 40 43 / 64%);
+        z-index: 10;
+        position: relative;
     }
 
     .shine-me {
