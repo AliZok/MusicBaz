@@ -204,9 +204,12 @@ const updateMediaSession = (state) => {
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 
             <div class="player-box" @mouseover="notShowing = false" @mouseleave="notShowing = true">
-                <div @click="isRepeat = !isRepeat" class="control-item cursor-pointer" :class="{ 'show': !notShowing }">
-                    <IconsRepeat class="repeat-icon" :class="{ 'active': isRepeat }" />
+                <div @click="isRepeat = !isRepeat" class="control-item cursor-pointer" :class="{ 'show': !notShowing}">
+                    <div class="repeat-icon" :class="{ 'active': isRepeat}">
+                        <IconsRepeat />
+                    </div>
                 </div>
+
                 <div class="box-wrapper curve">
 
                     <div @click="playMusic()" class="cover-music ">
@@ -574,7 +577,7 @@ const updateMediaSession = (state) => {
 
 @media only screen and (max-width: 768px) {
     .player-box {
-        width: 100%;
+        // width: 100%;
     }
 
     .cover-music {

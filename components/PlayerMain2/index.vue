@@ -646,7 +646,7 @@ const updateMediaSession = (state) => {
 
 @media only screen and (max-width: 768px) {
     .player-box {
-        width: 100%;
+        // width: 100%;
     }
 
     .cover-music {

@@ -10,6 +10,10 @@ body {
 
 }
 
+html {
+  overflow: auto !important;
+}
+
 @for $i from 8 through 30 {
   .fs-#{$i} {
     font-size: #{$i}px;
@@ -75,19 +79,28 @@ small {
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 30px;
 
   &.show {
     right: -20px;
     opacity: 1;
     width: 40px;
     height: 40px;
-
   }
 }
 
-.repeat-icon{
+.repeat-icon {
   opacity: 0.4;
-  &.active{
+  display: flex;
+
+  &.active {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .control-item.show {
+    right: 35px;
+    top: -35px;
   }
 }
