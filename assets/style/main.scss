@@ -63,17 +63,31 @@ small {
 
 .control-item {
   position: absolute;
-  right: 30px;
+  right: 35px;
   transition: 0.5s;
   opacity: 0;
   z-index: 1;
   width: 0;
+  height: 0;
   overflow: hidden;
+  background-color: #10191a97;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &.show {
-    right: -50px;
+    right: -20px;
     opacity: 1;
     width: 40px;
+    height: 40px;
 
+  }
+}
+
+.repeat-icon{
+  opacity: 0.4;
+  &.active{
+    opacity: 1;
   }
 }

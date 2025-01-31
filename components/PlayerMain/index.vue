@@ -192,11 +192,11 @@ const updateMediaSession = (state) => {
             <Stars class="bg-stars" />
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 
-            <div class="player-box">
-                <div class="control-item" :class="{ 'show': !notShowing }">
-                    hello test
+            <div class="player-box" @mouseover="notShowing = false" @mouseleave="notShowing = true">
+                <div class="control-item cursor-pointer" :class="{ 'show': !notShowing }">
+                    <IconsRepeat class="repeat-icon" :class="{ 'active': false }" />
                 </div>
-                <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
+                <div class="box-wrapper curve">
 
                     <div @click="playMusic()" class="cover-music ">
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
