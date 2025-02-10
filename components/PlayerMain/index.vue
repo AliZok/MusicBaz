@@ -196,11 +196,13 @@ const updateMediaSession = (state) => {
     <div class="PlayerMain">
 
         <div class="main-container">
+
             <div class="back-img"
                 :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
-
             </div>
+
             <Stars class="bg-stars" />
+
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 
             <div class="player-box" @mouseover="notShowing = false" @mouseleave="notShowing = true">
