@@ -14,35 +14,46 @@ export default defineNuxtConfig({
     }
   },
   modules: [// (_options, nuxt) => {
-  //   nuxt.hooks.hook('vite:extendConfig', (config) => {
-  //     config.plugins.push(vuetify({ autoImport: true }))
-  //   })
-  // },
-  '@nuxt/image', '@vite-pwa/nuxt'],
+    //   nuxt.hooks.hook('vite:extendConfig', (config) => {
+    //     config.plugins.push(vuetify({ autoImport: true }))
+    //   })
+    // },
+    '@nuxt/image', '@vite-pwa/nuxt'],
   image: {},
   pwa: {
-    registerType: 'autoUpdate',
     manifest: {
-      name: 'FreemanZok',
-      short_name: 'FreemanZok',
-      description: 'Listen to Magics',
-      theme_color: '#ffffff',
-      // background_color: '#ffffff',
-      display: 'standalone',
-      orientation: 'portrait',
-      start_url: '/',
+      name: "alizokzaaaaaaaaaa",
+      short_name: "shooooooooooort",
+      description: "dewssssssssssssssss",
       icons: [
-        // {
-        //   src: 'icons/icon-192x192.png',
-        //   sizes: '192x192',
-        //   type: 'image/png'
-        // },
-        // {
-        //   src: 'icons/icon-512x512.png',
-        //   sizes: '512x512',
-        //   type: 'image/png'
-        // }
-      ]
+        {
+          src: 'best-144.png',
+          sizes: '144x144',
+          type: 'image/png',
+        },
+      ],
+      // screenshots: [
+      //   {
+      //     src: 'icons/best-144.png',
+      //     sizes: '144*144',
+      //     type: 'image/png',
+      //     label: 'Homepage screenshot',
+      //     form_factor: 'wide'
+      //   },
+      //   {
+      //     src: 'icons/best-144.png',
+      //     sizes: '144*144',
+      //     type: 'image/png',
+      //     label: 'Mobile view of homepage',
+      //   }
+      // ]
+    },
+    workbox: {
+      navigateFallback: '/'
+    },
+    devOptions: {
+      enabled: true,
+      type: 'module'
     }
   },
   app: {
@@ -75,7 +86,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  
+
   vite: {
     vue: {
       template: {
