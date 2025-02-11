@@ -22,35 +22,20 @@ export default defineNuxtConfig({
   image: {},
   pwa: {
     manifest: {
-      name: "alizokzaaaaaaaaaa",
-      short_name: "shooooooooooort",
-      description: "dewssssssssssssssss",
+      name: "Dance Baby",
+      short_name: "Dance Baby",
+      description: "Lissten to Beauties and Dance",
       icons: [
         {
-          src: 'best-144.png',
+          src: 'icons/gorilla-music.png',
           sizes: '144x144',
           type: 'image/png',
         },
       ],
-      // screenshots: [
-      //   {
-      //     src: 'icons/best-144.png',
-      //     sizes: '144*144',
-      //     type: 'image/png',
-      //     label: 'Homepage screenshot',
-      //     form_factor: 'wide'
-      //   },
-      //   {
-      //     src: 'icons/best-144.png',
-      //     sizes: '144*144',
-      //     type: 'image/png',
-      //     label: 'Mobile view of homepage',
-      //   }
-      // ]
     },
-    workbox: {
-      navigateFallback: '/'
-    },
+    // workbox: {
+    //   navigateFallback: '/'
+    // },
     devOptions: {
       enabled: true,
       type: 'module'
@@ -68,7 +53,7 @@ export default defineNuxtConfig({
           rel: "icon",
           type: "image/png",
           // sizes: "32x32",
-          href: "/favicon/music-girl.png",
+          href: "/favicon/gorilla-music.png",
         },
         // {
         //   rel: "icon",
