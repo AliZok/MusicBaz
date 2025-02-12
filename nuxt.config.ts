@@ -27,7 +27,7 @@ export default defineNuxtConfig({
       description: "Lissten to Beauties and Dance",
       icons: [
         {
-          src: 'icons/gorilla-music.png',
+          src: 'favicon/gorilla-music.png',
           sizes: '144x144',
           type: 'image/png',
         },
