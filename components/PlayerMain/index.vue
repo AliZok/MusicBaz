@@ -39,7 +39,7 @@ function pureMyList() {
     genres.value.forEach(genre => {
         if (genre.active) {
             let pureListTemprary = []
-            console.log("fuck:", storeSimple.musicList)
+        
             pureListTemprary = storeSimple.musicList.filter(item => item.genre.includes(genre.genre))
             pureList.value = [...pureList.value, ...pureListTemprary]
         }
@@ -52,7 +52,9 @@ watch(() => genres.value, (newStore) => {
 
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
-    randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
+    randomNumber.value = Math.floor(Math.random() * lenghtMusics);
+
+    console.log("ssssssshit",pureList.value[randomNumber.value]?.audio )
 }
 
 const playAudio = async () => {
@@ -244,6 +246,8 @@ const updateMediaSession = (state) => {
                             </div>
                         </div>
                     </div>
+                    heeeeeelll
+                    {{ pureList[randomNumber]?.audio }}
                     <div class="">
                         <svg class="loading-svg" v-if="isLoading" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 200 200">
@@ -268,6 +272,7 @@ const updateMediaSession = (state) => {
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
+                  
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="nextOrRepeat()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
