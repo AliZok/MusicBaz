@@ -206,8 +206,8 @@ const updateMediaSession = (state) => {
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 
             <div class="player-box" @mouseover="notShowing = false" @mouseleave="notShowing = true">
-                <div @click="isRepeat = !isRepeat" class="control-item cursor-pointer" :class="{ 'show': !notShowing}">
-                    <div class="repeat-icon" :class="{ 'active': isRepeat}">
+                <div @click="isRepeat = !isRepeat" class="control-item cursor-pointer" :class="{ 'show': !notShowing }">
+                    <div class="repeat-icon" :class="{ 'active': isRepeat }">
                         <IconsRepeat />
                     </div>
                 </div>
@@ -215,14 +215,19 @@ const updateMediaSession = (state) => {
                 <div class="box-wrapper curve">
 
                     <div @click="playMusic()" class="cover-music ">
-                        <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo">
+                        <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo  bance-baby-text">
                             <div class="cover-text font-days ">
                                 DANCE BABY RADIO
                             </div>
-                            <!-- <div class="font-days">DANCE<small>-</small>BABY<small>-</small>RADIO
-                                <small>.com</small>
-                            </div> -->
                         </h1>
+                        <!-- ALTERNATIVE -->
+                        <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve bance-baby-text"
+                            :class="{ 'shine-me': isPlaying }" src="/public/images/radio3.png"> -->
+                        
+                        <img v-if="!pureList[randomNumber]?.cover" class="curve"
+                            :class="{ 'shine-me': isPlaying }"
+                            src="https://media.istockphoto.com/id/514755429/vector/party-poster-design-with-abstraction.jpg?s=612x612&w=0&k=20&c=2RLFNcUQAZ1jz8peRdenrH6gHaOC1I4TF04Edg1recI=">
+
                         <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
 

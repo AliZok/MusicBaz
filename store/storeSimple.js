@@ -1674,7 +1674,7 @@ const storeSimple = {
             duration: '6:36',
         },
         {
-            title: "In The Mornin'",
+            title: "In The Mornin",
             audio: "https://dl.vmusic.ir/2020/08/A.M.R - A Place For Everything (2020)/128k/08) A.M.R - In The Mornin' - 2020.mp3",
             artist: 'A.M.R',
             cover: 'https://vmusic.ir/wp-content/uploads/2020/08/A.M.R-A-Place-For-Everything-2020.jpg',
@@ -1682,6 +1682,24 @@ const storeSimple = {
             star: 4,
             duration: '7:12',
         },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+        },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: '',
+        //     cover: '',
+        //     genre: 'electronic house',
+        //     star: 4,
+        //     duration: '',
+        // },
     ],
     genres: [
         {
