@@ -163,7 +163,7 @@ onMounted(() => {
     } else {
         genres.value = storeSimple.genres
     }
-    genres.value = storeSimple.genres
+   
 
     pureMyList()
     getRandomNumber()
