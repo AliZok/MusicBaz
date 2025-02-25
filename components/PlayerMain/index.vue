@@ -157,11 +157,13 @@ const handleKeyPlays = (event) => {
 
 onMounted(() => {
     let lastGenres = localStorage.getItem('myGenres')
+    
     if (!!lastGenres) {
         genres.value = JSON.parse(lastGenres)
     } else {
         genres.value = storeSimple.genres
     }
+    genres.value = storeSimple.genres
 
     pureMyList()
     getRandomNumber()

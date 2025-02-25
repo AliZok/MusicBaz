@@ -1,4 +1,4 @@
 <template>
-    <!-- <PlayerMain></PlayerMain> -->
-    <PlayerMain2></PlayerMain2>
+    <PlayerMain></PlayerMain>
+    <!-- <PlayerMain2></PlayerMain2> -->
 </template>

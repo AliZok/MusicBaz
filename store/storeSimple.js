@@ -1683,11 +1683,11 @@ const storeSimple = {
             duration: '7:12',
         },
         {
-            title: "",
-            audio: "",
-            artist: '',
+            title: "Dokhtar Iroony",
+            audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Dokhtar%20Irouni.mp3",
+            artist: 'Andy',
             cover: '',
-            genre: 'electronic house',
+            genre: 'peraian-pop',
             star: 4,
             duration: '',
         },
@@ -1702,6 +1702,12 @@ const storeSimple = {
         // },
     ],
     genres: [
+        {
+            genre: 'peraian-pop',
+            icon: 'pop',
+            text: 'Persion Pop',
+            active: true,
+        },
         {
             genre: 'pop',
             icon: 'pop',
