@@ -228,7 +228,7 @@ const updateMediaSession = (state) => {
                         
                         <img v-if="!pureList[randomNumber]?.cover" class="curve"
                             :class="{ 'shine-me': isPlaying }"
-                            src="https://media.istockphoto.com/id/514755429/vector/party-poster-design-with-abstraction.jpg?s=612x612&w=0&k=20&c=2RLFNcUQAZ1jz8peRdenrH6gHaOC1I4TF04Edg1recI=">
+                            src="/public/images/active-radio.jpg">
 
                         <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
