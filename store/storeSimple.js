@@ -1834,6 +1834,15 @@ const storeSimple = {
             star: 4,
             duration: '',
         },
+        {
+            title: "Daram miram be tehran",
+            audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Daram%20Miram%20Beh%20Tehran.mp3",
+            artist: 'Andy',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+        },
         // {
         //     title: "",
         //     audio: "",
