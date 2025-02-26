@@ -1687,7 +1687,7 @@ const storeSimple = {
             audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Dokhtar%20Irouni.mp3",
             artist: 'Andy',
             cover: '',
-            genre: 'peraian-pop',
+            genre: 'persian-pop',
             star: 4,
             duration: '',
         },
@@ -1696,7 +1696,7 @@ const storeSimple = {
             audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Shaytoon%20Balla.mp3",
             artist: 'Andy',
             cover: '',
-            genre: 'peraian-pop',
+            genre: 'persian-pop',
             star: 4,
             duration: '',
         },
@@ -1818,7 +1818,7 @@ const storeSimple = {
         {
             title: "Emsho Sho She",
             audio: "https://ch-ir.keylid.app/https/dl.music-irani.com/music/2023/12/03/pid_11479/sandi-10(music-irani.com).mp3",
-            artist: 'Andy',
+            artist: 'Sandy',
             cover: '',
             genre: 'persian-pop',
             star: 4,
@@ -1828,7 +1828,7 @@ const storeSimple = {
         {
             title: "Eshghe Bandar",
             audio: "https://ch-ir.keylid.app/https/dl.music-irani.com/music/2023/12/03/pid_11479/sandi-11(music-irani.com).mp3",
-            artist: 'Andy',
+            artist: 'Sandy',
             cover: '',
             genre: 'persian-pop',
             star: 4,
@@ -1865,7 +1865,7 @@ const storeSimple = {
     ],
     genres: [
         {
-            genre: 'peraian-pop',
+            genre: 'persian-pop',
             icon: 'pop',
             text: 'Persion Pop',
             active: true,

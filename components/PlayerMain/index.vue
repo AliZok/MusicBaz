@@ -42,6 +42,8 @@ function pureMyList() {
         
             pureListTemprary = storeSimple.musicList.filter(item => item.genre.includes(genre.genre))
             pureList.value = [...pureList.value, ...pureListTemprary]
+    console.log("ccccccccccccccccccc",pureList.value )
+
         }
     });
 }
@@ -52,8 +54,11 @@ watch(() => genres.value, (newStore) => {
 
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
+    console.log("ggggggggggggggg",pureList.value )
+
     randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
 
+    console.log("rrrrrrrrrrrr",randomNumber.value )
     console.log("ssssssshit",pureList.value[randomNumber.value]?.audio )
 }
 
