@@ -225,15 +225,15 @@ const updateMediaSession = (state) => {
                 <div class="box-wrapper curve">
 
                     <div @click="playMusic()" class="cover-music ">
-                        <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo  bance-baby-text">
+                        <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo  dance-baby-text">
                             <div class="cover-text font-days ">
-                                DANCE BABY RADIO
+                                DANCE BABY
                             </div>
                         </h1>
                         
                         <!-- ALTERNATIVE -->
 
-                        <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve bance-baby-text"
+                        <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve dance-baby-text"
                             :class="{ 'shine-me': isPlaying }" src="/public/images/radio3.png"> -->
                         
                         <img v-if="!pureList[randomNumber]?.cover" class="curve radio-poster"
