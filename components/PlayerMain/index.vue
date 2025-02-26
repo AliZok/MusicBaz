@@ -52,7 +52,7 @@ watch(() => genres.value, (newStore) => {
 
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
-    randomNumber.value = Math.floor(Math.random() * lenghtMusics);
+    randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
 
     console.log("ssssssshit",pureList.value[randomNumber.value]?.audio )
 }
@@ -225,15 +225,17 @@ const updateMediaSession = (state) => {
                                 DANCE BABY RADIO
                             </div>
                         </h1>
+                        
                         <!-- ALTERNATIVE -->
+
                         <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve bance-baby-text"
                             :class="{ 'shine-me': isPlaying }" src="/public/images/radio3.png"> -->
                         
-                        <img v-if="!pureList[randomNumber]?.cover" class="curve"
+                        <img v-if="!pureList[randomNumber]?.cover" class="curve radio-poster"
                             :class="{ 'shine-me': isPlaying }"
                             src="/public/images/active-radio.jpg">
 
-                        <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
+                        <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
 
                         <div v-if="!!pureList[randomNumber]" :class="{ 'opacity-0': isPlaying }"
@@ -246,8 +248,7 @@ const updateMediaSession = (state) => {
                             </div>
                         </div>
                     </div>
-                    heeeeeelll
-                    {{ pureList[randomNumber]?.audio }}
+         
                     <div class="">
                         <svg class="loading-svg" v-if="isLoading" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 200 200">
@@ -390,7 +391,7 @@ const updateMediaSession = (state) => {
             min-height: 300px;
             width: 100%;
 
-            img {
+            .cover {
                 // max-width: 400px;
                 width: 100%;
             }

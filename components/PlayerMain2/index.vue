@@ -444,7 +444,7 @@ const updateMediaSession = (state) => {
             min-height: 300px;
             width: 100%;
 
-            img {
+            .cover {
                 // max-width: 400px;
                 width: 100%;
             }
