@@ -1,8 +1,8 @@
 <!-- layouts/default.vue -->
 <template>
   <div class="test-layout">
-  
-    <Test></Test>
+    kir
+    <!-- <Test></Test> -->
   </div>
 </template>
 

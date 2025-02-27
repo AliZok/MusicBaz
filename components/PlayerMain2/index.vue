@@ -446,7 +446,9 @@ const updateMediaSession = (state) => {
 
             .cover {
                 // max-width: 400px;
-                width: 100%;
+                // width: 100%;
+                width: 300px;
+                height: 300px;
             }
 
             .play-button-box {

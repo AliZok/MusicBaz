@@ -10,19 +10,6 @@ createFinishTime("00:10:10")
 getUTCnewFormat()
 // createDateFromTime("00:10:10")
 
-const ifIsOver = () => {
-    console.log(
-        "liiiiiiiiiiiiiiivestooooooooooooor", playListLive.liveMusic
-    )
-
-    if (playListLive.liveMusic.finishAt) {
-
-    }
-
-    // playListLive.liveMusic
-}
-
-ifIsOver()
 const myMusic = ref(null);
 const currentTime = ref(0);
 const duration = ref(0);
@@ -39,10 +26,9 @@ function pureMyList() {
     genres.value.forEach(genre => {
         if (genre.active) {
             let pureListTemprary = []
-        
+
             pureListTemprary = storeSimple.musicList.filter(item => item.genre.includes(genre.genre))
             pureList.value = [...pureList.value, ...pureListTemprary]
-    console.log("ccccccccccccccccccc",pureList.value )
 
         }
     });
@@ -54,12 +40,8 @@ watch(() => genres.value, (newStore) => {
 
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
-    console.log("ggggggggggggggg",pureList.value )
 
     randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
-
-    console.log("rrrrrrrrrrrr",randomNumber.value )
-    console.log("ssssssshit",pureList.value[randomNumber.value]?.audio )
 }
 
 const playAudio = async () => {
@@ -165,13 +147,13 @@ const handleKeyPlays = (event) => {
 
 onMounted(() => {
     let lastGenres = localStorage.getItem('myGenres')
-    
+
     if (!!lastGenres) {
         genres.value = JSON.parse(lastGenres)
     } else {
         genres.value = storeSimple.genres
     }
-   
+
 
     pureMyList()
     getRandomNumber()
@@ -202,6 +184,8 @@ const updateMediaSession = (state) => {
 }
 
 </script>
+
+
 <template>
     <div class="PlayerMain">
 
@@ -230,15 +214,14 @@ const updateMediaSession = (state) => {
                                 DANCE BABY
                             </div>
                         </h1>
-                        
+
                         <!-- ALTERNATIVE -->
 
                         <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve dance-baby-text"
                             :class="{ 'shine-me': isPlaying }" src="/public/images/radio3.png"> -->
-                        
+
                         <img v-if="!pureList[randomNumber]?.cover" class="curve radio-poster"
-                            :class="{ 'shine-me': isPlaying }"
-                            src="/public/images/active-radio.jpg">
+                            :class="{ 'shine-me': isPlaying }" src="/public/images/active-radio.jpg">
 
                         <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
@@ -253,7 +236,7 @@ const updateMediaSession = (state) => {
                             </div>
                         </div>
                     </div>
-         
+
                     <div class="">
                         <svg class="loading-svg" v-if="isLoading" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 200 200">
@@ -278,7 +261,7 @@ const updateMediaSession = (state) => {
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
-                  
+
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="nextOrRepeat()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
                     </audio>
@@ -316,9 +299,11 @@ const updateMediaSession = (state) => {
                 </div>
             </div>
         </div>
-
+        <WelcomeModal @letsGo="playAudio()"/>
     </div>
 </template>
+
+
 <style lang="scss" scoped>
 .PlayerMain {
     height: 100vh;
@@ -398,7 +383,9 @@ const updateMediaSession = (state) => {
 
             .cover {
                 // max-width: 400px;
-                width: 100%;
+                // width: 100%;
+                width: 300px;
+                height: 300px;
             }
 
             .play-button-box {
