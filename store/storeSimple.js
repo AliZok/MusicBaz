@@ -1780,7 +1780,7 @@ const storeSimple = {
             genre: 'persian-pop',
             star: 4,
             duration: '',
-        },        {
+        }, {
             title: "Marde Tanha",
             audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Mardeh%20Tanha%20%28feat.%20Heaven%20and%20Ea.mp3",
             artist: 'Andy',
@@ -1788,7 +1788,7 @@ const storeSimple = {
             genre: 'persian-pop',
             star: 4,
             duration: '',
-        },        {
+        }, {
             title: "Dokhtare AtishPare",
             audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Dokhtare%20Atish%20Pareh.mp3",
             artist: 'Andy',
@@ -1843,25 +1843,121 @@ const storeSimple = {
             star: 4,
             duration: '',
         },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: 'Andy',
-        //     cover: '',
-        //     genre: 'persian-pop',
-        //     star: 4,
-        //     duration: '',
-        // },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: 'Andy',
-        //     cover: '',
-        //     genre: 'persian-pop',
-        //     star: 4,
-        //     duration: '',
-        // },
-        
+
+        {
+            title: "Whisper Softly Within",
+            audio: "https://dc.vmusic.ir/2025/01/Antarctic Wastelands - Whispers in Static (2024-10-11)/128k/02) Antarctic Wastelands - Whisper Softly Within.mp3",
+            artist: 'Whispers in Static',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/01/Antarctic-Wastelands-Whispers-in-Static-2024-10-11.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+        {
+            title: "A Silence that Becomes",
+            audio: "https://dc.vmusic.ir/2025/01/Antarctic Wastelands - Whispers in Static (2024-10-11)/128k/03) Antarctic Wastelands - A Silence that Becomes.mp3",
+            artist: 'Whispers in Static',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/01/Antarctic-Wastelands-Whispers-in-Static-2024-10-11.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: 'Whispers in Static',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/01/Antarctic-Wastelands-Whispers-in-Static-2024-10-11.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+
+        {
+            title: "Echo",
+            audio: "https://dc.vmusic.ir/2025/02/Freya Arde - E C H O (2025-02-07)/128k/01) Freya Arde - Echo.mp3",
+            artist: 'Freya Arde',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Freya-Arde-E-C-H-O-2025-02-07.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+        {
+            title: "Our Voices",
+            audio: "https://dc.vmusic.ir/2025/02/Freya Arde - E C H O (2025-02-07)/128k/03) Freya Arde - Our Voices.mp3",
+            artist: 'Freya Arde',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Freya-Arde-E-C-H-O-2025-02-07.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+        {
+            title: "Falling In Love Again",
+            audio: "https://dc.vmusic.ir/2025/02/Freya Arde - E C H O (2025-02-07)/128k/05) Freya Arde - Falling In Love Again.mp3",
+            artist: 'Freya Arde',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Freya-Arde-E-C-H-O-2025-02-07.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+
+        {
+            title: "Precious",
+            audio: "https://dc.vmusic.ir/2025/02/Freya Arde - E C H O (2025-02-07)/128k/09) Freya Arde - Precious.mp3",
+            artist: 'Freya Arde',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Freya-Arde-E-C-H-O-2025-02-07.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+
+        {
+            title: "Starlight",
+            audio: "https://dc.vmusic.ir/2025/02/VA - Heartfelt Piano (2024-03-28)/128k/01) VA - Starlight.mp3",
+            artist: 'Heartfelt Piano',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Various-Artists-Heartfelt-Piano-2024.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+       {
+            title: "Renewal",
+            audio: "https://dc.vmusic.ir/2025/02/VA - Heartfelt Piano (2024-03-28)/128k/02) VA - Renewal.mp3",
+            artist: 'Heartfelt Piano',
+            cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Various-Artists-Heartfelt-Piano-2024.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+        {
+            title: "Flow of Life",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/01) Living Room - Flow of Life.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
+
+        {
+            title: "Flow of Life",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/01) Living Room - Flow of Life.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            refrense: 'https://vmusic.ir/'
+        },
         // {
         //     title: "",
         //     audio: "",
@@ -1906,6 +2002,7 @@ const storeSimple = {
             active: true,
         },
     ],
+    go: false,
 }
 
 export default storeSimple

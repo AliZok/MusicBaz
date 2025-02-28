@@ -17,8 +17,9 @@ const isPlaying = ref(false);
 const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
-const isLoading = ref(false)
+const isLoading = ref(true)
 const notShowing = ref(true)
+const letsGoModal = ref(true)
 
 
 function pureMyList() {
@@ -66,7 +67,7 @@ const pauseAudio = async () => {
 };
 
 const playMusic = async () => {
-
+    letsGoModal.value = false
     if (isPlaying.value) {
         pauseAudio();
     } else {
@@ -299,7 +300,7 @@ const updateMediaSession = (state) => {
                 </div>
             </div>
         </div>
-        <WelcomeModal @letsGo="playAudio()"/>
+        <WelcomeModal @letsGo="playAudio()" v-if="letsGoModal"/>
     </div>
 </template>
 
