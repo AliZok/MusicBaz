@@ -1,7 +1,7 @@
 <template>
     <div class="WelcomeModal">
         <div class="inner" >
-            {{ storeSimple?.go ? 'dispaly:none !important' : 'fuck you' }}
+        
             <div class="go-button-wrap">
                 <button @click="letsGo()" class="hologram">
                     <span data-text="Let's GO">Let's GO</span>
