@@ -1852,7 +1852,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
         {
             title: "A Silence that Becomes",
@@ -1862,7 +1862,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
         {
             title: "",
@@ -1872,7 +1872,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
 
         {
@@ -1883,7 +1883,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
         {
             title: "Our Voices",
@@ -1893,7 +1893,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
         {
             title: "Falling In Love Again",
@@ -1903,7 +1903,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
 
         {
@@ -1914,7 +1914,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
 
         {
@@ -1925,9 +1925,9 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
-       {
+        {
             title: "Renewal",
             audio: "https://dc.vmusic.ir/2025/02/VA - Heartfelt Piano (2024-03-28)/128k/02) VA - Renewal.mp3",
             artist: 'Heartfelt Piano',
@@ -1935,7 +1935,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
         {
             title: "Flow of Life",
@@ -1945,7 +1945,7 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
         },
 
         {
@@ -1956,17 +1956,142 @@ const storeSimple = {
             genre: 'relax ambient',
             star: 4,
             duration: '',
-            refrense: 'https://vmusic.ir/'
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Light Rain",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/04) Living Room - Light Rain.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "In the Rice Field",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/03) Living Room - In the Rice Field.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Kyoto Sunset",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/05) Living Room - Kyoto Sunset.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Jatiluwih",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/07) Living Room - Jatiluwih.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Flight of the Dragon",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/08) Living Room - Flight of the Dragon.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Shōgun",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/09) Living Room - Shōgun.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+
+        {
+            title: "Maitrī",
+            audio: "https://dc.vmusic.ir/2025/02/Living Room - Flow Of Life (2025-02-17)/128k/14) Living Room - Maitrī.mp3",
+            artist: 'Living Room',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Temptation",
+            audio: "https://dc.vmusic.ir/2025/02/DYATHON - Dark Academia Vol. 1 (Slowed) (2025-02-21)/128k/15) DYATHON - Temptation (Slowed).mp3",
+            artist: 'DYATHON',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/Living-Room-Flow-Of-Life-2025-02-17.jpg',
+            genre: 'relax ambient',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Do You Remember",
+            audio: "https://dl.vmusic.ir/2023/06/DYATHON - Perfect Strangers (2023)/128k/01) DYATHON - Do You Remember.mp3",
+            artist: 'DYATHON',
+            cover: 'https://vmusic.ir/wp-content/uploads/2023/06/DYATHON-Perfect-Strangers-2023.jpg',
+            genre: 'relax piano',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+
+        {
+            title: "Sorry",
+            audio: "https://dc.vmusic.ir/2025/02/DYATHON - Dark Academia Vol. 1 (Slowed) (2025-02-21)/128k/02) DYATHON - Sorry (Slowed).mp3",
+            artist: 'DYATHON',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/DYATHON-Dark-Academia-Vol.-1-2025-02-21.jpg',
+            genre: 'relax piano',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+
+        {
+            title: "Forgive Them",
+            audio: "https://dc.vmusic.ir/2025/02/DYATHON - Dark Academia Vol. 1 (Slowed) (2025-02-21)/128k/05) DYATHON - Forgive Them (Slowed).mp3",
+            artist: 'DYATHON',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/DYATHON-Dark-Academia-Vol.-1-2025-02-21.jpg',
+            genre: 'relax piano',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
+        },
+        {
+            title: "Like When We Were Young ",
+            audio: "https://dc.vmusic.ir/2025/02/DYATHON - Dark Academia Vol. 1 (Slowed) (2025-02-21)/128k/09) DYATHON - Like When We Were Young (Slowed).mp3",
+            artist: 'DYATHON',
+            cover: 'http://vmusic.ir/wp-content/uploads/2025/02/DYATHON-Dark-Academia-Vol.-1-2025-02-21.jpg',
+            genre: 'relax piano',
+            star: 4,
+            duration: '',
+            reference: 'https://vmusic.ir/'
         },
         // {
         //     title: "",
         //     audio: "",
-        //     artist: '',
-        //     cover: '',
-        //     genre: 'electronic house',
+        //     artist: 'DYATHON',
+        //     cover: 'http://vmusic.ir/wp-content/uploads/2025/02/DYATHON-Dark-Academia-Vol.-1-2025-02-21.jpg',
+        //     genre: 'relax piano',
         //     star: 4,
         //     duration: '',
+        //     reference: 'https://vmusic.ir/'
         // },
+
     ],
     genres: [
         {
