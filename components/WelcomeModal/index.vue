@@ -1,6 +1,7 @@
 <template>
-    <div class="WelcomeModal" :class="{ 'hide': go }">
-        <div class="inner">
+    <div class="WelcomeModal">
+        <div class="inner" >
+            {{ storeSimple?.go ? 'dispaly:none !important' : 'fuck you' }}
             <div class="go-button-wrap">
                 <button @click="letsGo()" class="hologram">
                     <span data-text="Let's GO">Let's GO</span>
@@ -11,22 +12,22 @@
     </div>
 </template>
 <script setup>
-
+import storeSimple from '~/store/storeSimple'
 const Emit = defineEmits(['letsGo'])
-const go = ref(false)
 function letsGo() {
     Emit('letsGo')
-    go.value = true
 }
 
 </script>
+
+
 <style lang="scss">
 .WelcomeModal {
     width: 100%;
     height: 100%;
     z-index: 1100;
     position: fixed;
-    background: rgba(0, 0, 0, 0.922) !important;
+    background: rgba(0, 0, 0, 0.922);
     top: 0;
 
     .go-button-wrap {
