@@ -1510,7 +1510,7 @@ const storeSimple = {
         {
             title: 'The Secret Wedding',
             artist: 'James Horner',
-            cover: '',
+            cover: 'https://i.ytimg.com/vi/TmPGCJPxsug/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCcyComvt1qq7diWkeOJT7O4Hw6cQ',
             audio: 'https://dl.musicdagh.ir/songs/instrumental/braveheart/The-Secret-Wedding.mp3',
             genre: 'relax',
             star: 5,

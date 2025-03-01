@@ -300,7 +300,7 @@ const updateMediaSession = (state) => {
                 </div>
             </div>
         </div>
-        <WelcomeModal @letsGo="playAudio()" v-if="letsGoModal"/>
+        <WelcomeModal @letsGo="playMusic()" v-if="letsGoModal"/>
     </div>
 </template>
 
