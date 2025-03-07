@@ -4,7 +4,7 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   server: {
-    port: process.env.PORT,
+    port: 8080,
   },
   devtools: { enabled: true },
   css: ['@/assets/style/main.scss'],

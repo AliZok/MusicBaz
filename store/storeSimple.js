@@ -2081,6 +2081,119 @@ const storeSimple = {
             duration: '',
             reference: 'https://vmusic.ir/'
         },
+        {
+            title: "Arghavan",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Ariyan%20Azarfar%20-%20Arghavan%20(Ft.Amir%20Daryab).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9Bcml5YW4gQXphcmZhciAtIEFyZ2hhdmFuIChGdC5BbWlyIERhcnlhYikubXAzIiwiaWF0IjoxNzQxMzY0NjAzLCJleHAiOjE3NzI5MDA2MDN9.RQp5OD3OakPO73p8tQ70Mkku0u7dQa2pbBd7kD05yLo",
+            artist: 'Ariyan Azarfar (Ft.Amir Daryab)',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/Ariyan%20Azarfar%20-%20Arghavan%20(Ft.Amir%20Daryab).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0FyaXlhbiBBemFyZmFyIC0gQXJnaGF2YW4gKEZ0LkFtaXIgRGFyeWFiKS5qcGciLCJpYXQiOjE3NDEzNjQ2NDYsImV4cCI6MTc3MjkwMDY0Nn0.PQTAaiehexSy8krXRfiVag3yVPgKTuqWSBCXepGaH_E',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Shab",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Arman%20Garshasbi%20-%20Shab%20(DJ%20Phellix%20&%20Seventh%20Soul%20Remix).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9Bcm1hbiBHYXJzaGFzYmkgLSBTaGFiIChESiBQaGVsbGl4ICYgU2V2ZW50aCBTb3VsIFJlbWl4KS5tcDMiLCJpYXQiOjE3NDEzNjQ4MjYsImV4cCI6MTc3MjkwMDgyNn0.peQlUA-3TVpLYDK1F7cu-Wlz8rJwhXS8d6TUoIrzu-Q",
+            artist: 'Arman Garshasbi (Seventh Soul Remix)',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/Arman%20Garshasbi%20-%20Shab%20&%20Seventh%20Soul%20Remix).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0FybWFuIEdhcnNoYXNiaSAtIFNoYWIgJiBTZXZlbnRoIFNvdWwgUmVtaXgpLmpwZyIsImlhdCI6MTc0MTM2NDczMCwiZXhwIjoxNzcyOTAwNzMwfQ.ILuwqlGJDCVhSemnhiXL8K_9SAHiBO49A9TQoMvfLPk',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Miracle",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Breathe%20Carolina%20&%20GIACOBBI%20-%20Miracle.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9CcmVhdGhlIENhcm9saW5hICYgR0lBQ09CQkkgLSBNaXJhY2xlLm1wMyIsImlhdCI6MTc0MTM2NDkwNywiZXhwIjoxNzcyOTAwOTA3fQ.uSbtQ0QETjPI4iCJ1eCQsc45kT2uWEg8xEozlC06IS0s",
+            artist: 'Breathe Carolina & GIACOBBI ',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/Breathe%20Carolina%20&%20GIACOBBI%20-%20Miracle.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0JyZWF0aGUgQ2Fyb2xpbmEgJiBHSUFDT0JCSSAtIE1pcmFjbGUuanBnIiwiaWF0IjoxNzQxMzY0OTIwLCJleHAiOjE3NzI5MDA5MjB9.L74jzBXWMGzCj45fq7dIOsRSSB-Xg8ALh-OMW36WIhI',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+
+        {
+            title: "Shah Sanam",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ_Phellix_&_Amir_Sheykh_ft_Fiooji_Shah_Sanam_Original_Mix.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESl9QaGVsbGl4XyZfQW1pcl9TaGV5a2hfZnRfRmlvb2ppX1NoYWhfU2FuYW1fT3JpZ2luYWxfTWl4Lm1wMyIsImlhdCI6MTc0MTM2NTAyNCwiZXhwIjoxNzcyOTAxMDI0fQ.r9kn91e2bweCsQxbOMySSHFkITn8ajw86E2hmyc6fKs",
+            artist: 'DJ Phellix & Amir Sheykh ft Fiooji',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/DJ_Phellix_&_Amir_Sheykh_ft_Fiooji_Shah_Sanam_Original_Mix.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0RKX1BoZWxsaXhfJl9BbWlyX1NoZXlraF9mdF9GaW9vamlfU2hhaF9TYW5hbV9PcmlnaW5hbF9NaXguanBnIiwiaWF0IjoxNzQxMzY0OTc4LCJleHAiOjE3NzI5MDA5Nzh9.5sAGwSDux5L-gwrThZ6FSf2jCQapgjuX1jJ2YhiDvHk',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Ney",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ%20Phellix,%20Idin%20Gorji,%20Soudeh%20Sharhi%20&%20Ario%20Vibes%20-%20Ney.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESiBQaGVsbGl4LCBJZGluIEdvcmppLCBTb3VkZWggU2hhcmhpICYgQXJpbyBWaWJlcyAtIE5leS5tcDMiLCJpYXQiOjE3NDEzNjUxMDEsImV4cCI6MTc3MjkwMTEwMX0.WPHe4mNqGc9t4l73RvzUnrISU77iEnNk5UIDb5zzQXM",
+            artist: 'DJ Phellix, Idin Gorji, Soudeh Sharhi & Ario Vibes',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/Ney.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL05leS5qcGciLCJpYXQiOjE3NDEzNjU0MjAsImV4cCI6MTc3MjkwMTQyMH0.CJQCiN0cahGDFTT0ym4yyQRlFEPbkYgXzm9O3WdWHgw',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Shah E Man",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ_Phellix,_OF_REZZ,_Sant_IR,_Ario_Vibes_Shah_E_Man_feat_Mardan.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESl9QaGVsbGl4LF9PRl9SRVpaLF9TYW50X0lSLF9BcmlvX1ZpYmVzX1NoYWhfRV9NYW5fZmVhdF9NYXJkYW4ubXAzIiwiaWF0IjoxNzQxMzY1NTY2LCJleHAiOjE3NzI5MDE1NjZ9.y0WfWf-m2Myr1dY69R-xNg3LepO48WvbPAeZbRsC2MQ",
+            artist: 'DJ_Phellix (feat Mardan)',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/DJ_Phellix,_OF_REZZ,_Sant_IR,_Ario_Vibes_Shah_E_Man_feat_Mardan.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0RKX1BoZWxsaXgsX09GX1JFWlosX1NhbnRfSVIsX0FyaW9fVmliZXNfU2hhaF9FX01hbl9mZWF0X01hcmRhbi5qcGciLCJpYXQiOjE3NDEzNjU1NDksImV4cCI6MTc3MjkwMTU0OX0.wemI9Jxcfdr3o6rpfaIGt0eji8KACNRQM2h8wnnx5D8',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Shirin Da Macho",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/ENKINAKI%20&%20Donya%20Kamali%20-%20Shirin%20Da%20Macho.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9FTktJTkFLSSAmIERvbnlhIEthbWFsaSAtIFNoaXJpbiBEYSBNYWNoby5tcDMiLCJpYXQiOjE3NDEzNjU4NzksImV4cCI6MTc3MjkwMTg3OX0.EzVJpMLc8Sxxn3FAW2tEKfnNgkZll_i3Eomud9KpWKI",
+            artist: 'ENKINAKI & Donya Kamali',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/ENKINAKI%20&%20Donya%20Kamali%20-%20Shirin%20Da%20Macho.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0VOS0lOQUtJICYgRG9ueWEgS2FtYWxpIC0gU2hpcmluIERhIE1hY2hvLmpwZyIsImlhdCI6MTc0MTM2NTkwMCwiZXhwIjoxNzcyOTAxOTAwfQ.2gvAkmEUEUwS3EadStSSmcH-DgM4AurrXSbt8EU3-b8',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Che Danestam",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Homayoun_Shajarian_Che_Danestam_DJ_Phellix_&_Enkinaki_Remix.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9Ib21heW91bl9TaGFqYXJpYW5fQ2hlX0RhbmVzdGFtX0RKX1BoZWxsaXhfJl9FbmtpbmFraV9SZW1peC5tcDMiLCJpYXQiOjE3NDEzNjU5NjAsImV4cCI6MTc3MjkwMTk2MH0.AeV43rjvvzrm_Mj8SnyNsTjIBUwbdr1Vfug9JkNOMA8",
+            artist: 'Homayoun Shajarian (DJ Phellix & Enkinaki Remix)',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/Homayoun_Shajarian_Che_Danestam_DJ_Phellix_&_Enkinaki_Remix.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0hvbWF5b3VuX1NoYWphcmlhbl9DaGVfRGFuZXN0YW1fREpfUGhlbGxpeF8mX0Vua2luYWtpX1JlbWl4LmpwZyIsImlhdCI6MTc0MTM2NjAyMCwiZXhwIjoxNzcyOTAyMDIwfQ.9OBsdPMSSpE-NdXM-_KQOA0-myY6bRO4Wx4UxtlTDvM',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Daroone Ayene",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Houmayoun_Shajarian_Daroone_Ayene_DJ_Phellix_&_Ahira_Remix.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9Ib3VtYXlvdW5fU2hhamFyaWFuX0Rhcm9vbmVfQXllbmVfREpfUGhlbGxpeF8mX0FoaXJhX1JlbWl4Lm1wMyIsImlhdCI6MTc0MTM2NjA1OSwiZXhwIjoxNzcyOTAyMDU5fQ.D2O64iVauIyIxUtIqnxN1-mugNzF29sAtaZesSZd7xk",
+            artist: 'Homayoun Shajarian (DJ Phellix & Ahira Remix)',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/Houmayoun_Shajarian_Daroone_Ayene_DJ_Phellix_&_Ahira_Remix.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0hvdW1heW91bl9TaGFqYXJpYW5fRGFyb29uZV9BeWVuZV9ESl9QaGVsbGl4XyZfQWhpcmFfUmVtaXguanBnIiwiaWF0IjoxNzQxMzY2MTA1LCJleHAiOjE3NzI5MDIxMDV9.mU76mg6k-tBRY0myZXuVQlC22Ol51DLcORiBJBOBXm8',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Sama (Original Mix)",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Idin%20Gorji%20-%20Sama%20(Original%20Mix).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9JZGluIEdvcmppIC0gU2FtYSAoT3JpZ2luYWwgTWl4KS5tcDMiLCJpYXQiOjE3NDEzNjYxNTQsImV4cCI6MTc3MjkwMjE1NH0.rg03r13XFqRC91vko6f0mmz0mhmgp4tQ3lU9T95wSOU",
+            artist: 'Idin Gorji',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/Idin%20Gorji%20-%20Sama%20(Original%20Mix).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0lkaW4gR29yamkgLSBTYW1hIChPcmlnaW5hbCBNaXgpLmpwZyIsImlhdCI6MTc0MTM2NjE2NiwiZXhwIjoxNzcyOTAyMTY2fQ.SC-9wQd0imUrVJpw60DL04qNtnjpFsLsdCq4uvy2MWY',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+        {
+            title: "Rahe Meykhane ",
+            audio: "https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/M.R%20Shajarian%20-%20Rahe%20Meykhane%20(DJ%20K-F%20Remix).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9NLlIgU2hhamFyaWFuIC0gUmFoZSBNZXlraGFuZSAoREogSy1GIFJlbWl4KS5tcDMiLCJpYXQiOjE3NDEzNjYyMjYsImV4cCI6MTc3MjkwMjIyNn0.irX_L6mnMSMi2w61S7-wrT_JwMZEX8Xi-ZixlqjS5eU",
+            artist: 'M.R Shajarian (DJ K-F Remix)',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/M.R%20Shajarian%20-%20Rahe%20Meykhane%20(DJ%20K-F%20Remix).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL00uUiBTaGFqYXJpYW4gLSBSYWhlIE1leWtoYW5lIChESiBLLUYgUmVtaXgpLmpwZyIsImlhdCI6MTc0MTM2NjI0MSwiZXhwIjoxNzcyOTAyMjQxfQ.NhpNxgLT-voPXH-BXs_OKvQvvEracUmu4756kKwn5IY',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://t.me/ariorecords'
+        },
+
+
         // {
         //     title: "",
         //     audio: "",
