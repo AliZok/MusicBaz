@@ -370,7 +370,7 @@ const updateMediaSession = (state) => {
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 5;
-            padding: 16px 32px;
+            padding: 16px;
             box-sizing: border-box;
             text-align: center;
         }
