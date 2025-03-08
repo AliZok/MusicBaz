@@ -286,16 +286,16 @@ const updateMediaSession = (state) => {
 
             <div class="player-box">
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
-                    <div @click="playMusic()" class="cover-music ">
+                    <div @click="playMusic()" class="cover-music">
                         <h1 v-if="!liveMusic?.cover" class="back-logo">
-                            <div class="cover-text font-days ">
+                            <div class="font-days cover-text">
                                 DANCE BABY RADIO
                             </div>
                             <!-- <div class="font-days">DANCE<small>-</small>BABY<small>-</small>RADIO
                                 <small>.com</small>
                             </div> -->
                         </h1>
-                        <img v-else-if="!isEmpty" class="curve " :class="{ 'shine-me': isPlaying }"
+                        <img v-else-if="!isEmpty" class="curve" :class="{ 'shine-me': isPlaying }"
                             :src="liveMusic?.cover">
 
                         <div v-if="!!liveMusic" :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()"
@@ -324,9 +324,9 @@ const updateMediaSession = (state) => {
                     </div>
                     <input v-model="currentTime" :max="duration" @input="seekAudio" type="range" class="slider"
                         id="myRange">
-                    <div class="d-flex justify-space-between text-10 fs-9 max-h-100 transit overflow-hidden"
+                    <div class="d-flex justify-space-between max-h-100 overflow-hidden text-10 fs-9 transit"
                         :class="{ 'max-h-0': notShowing }">
-                        <div class="text-left pl-1 pt-2 fs-12 titles">
+                        <div class="pt-2 pl-1 text-left fs-12 titles">
                             <div>{{ liveMusic?.title }}</div>
                             <div>{{ liveMusic?.artist }}</div>
                         </div>
@@ -351,12 +351,12 @@ const updateMediaSession = (state) => {
             </div>
 
 
-            <div @mouseover="openGenres = true" @mouseleave="openGenres = false" class="genre-button-box px-1 py-1">
+            <div @mouseover="openGenres = true" @mouseleave="openGenres = false" class="px-1 py-1 genre-button-box">
                 <div class="inner fs-10">
                     <span class="text-genre">GENRE</span>
                     <div class="position-relative h-0">
                         <div class="genre-list" :class="{ 'close-genres': !openGenres }">
-                            <div v-for="(genreEl, index) in genres" :key="index" class="genre-element py-2">
+                            <div v-for="(genreEl, index) in genres" :key="index" class="py-2 genre-element">
                                 <div class="d-flex fs-13" :class="{ 'opacity-05': !genreEl.active }"
                                     @click="activeGenre(genreEl)">
                                     <div>
@@ -376,18 +376,17 @@ const updateMediaSession = (state) => {
     height: 100vh;
 
     .box-wrapper {
-        width: 100%;
-        text-align: center;
-        max-width: 400px;
-        min-width: 300px;
-        // min-height: 0px;
-        padding: 10px;
+        background: #0c0c0ca3;
         box-shadow: 0 0 30px #111a1e;
         display: inline-block;
-        // background: rgb(218 239 255 / 15%);
-        background: rgb(38 40 43 / 64%);
-        z-index: 10;
+        max-width: 400px;
+        min-width: 300px;
+        padding: 18px;
         position: relative;
+        text-align: center;
+        width: 100%;
+        z-index: 10;
+        border: solid 1px #003e47;
     }
 
     .shine-me {
