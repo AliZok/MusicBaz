@@ -4,7 +4,7 @@
 
             <div class="go-button-wrap">
                 <button class="hologram">
-                    <span data-text="Let's GO">Let's GO</span>
+                    <span data-text="Let's GO" class="text-go">Let's GO</span>
                     <div class="scan-line"></div>
                 </button>
             </div>
@@ -54,6 +54,10 @@ onBeforeUnmount(() => {
         position: relative;
     }
 
+    .text-go {
+        transition: 0.7s;
+    }
+
     .hologram {
         position: relative;
         padding: 1.5rem 3rem;
@@ -66,8 +70,13 @@ onBeforeUnmount(() => {
         overflow: hidden;
         transition: all 0.4s ease;
 
+
         &:hover {
-            box-shadow: 0 0 10px 3px #952059ad;
+            box-shadow: 0 0 10px 4px #c7387ead;
+
+            .text-go {
+                font-size: 26px;
+            }
         }
     }
 
