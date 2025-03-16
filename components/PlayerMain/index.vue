@@ -317,7 +317,7 @@ watch(() => isLoading.value, (newV) => {
                     </div>
 
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="nextOrRepeat()">
-                        <source :src="pureList[randomNumber]?.audio" type="audio/mpeg">
+                        <source :src="pureList[randomNumber]?.audio" type="audio/mpeg" preload="auto">
                     </audio>
 
                 </div>
