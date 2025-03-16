@@ -3196,28 +3196,145 @@ const storeSimple = {
             duration: '',
             reference: 'https://ememay.ir/'
         },
+        {
+            title: "Nazi Joon",
+            audio: "https://sv.jenabmusic.com/1400/Mordad/07/Shahram%20Kashani%20-%20Nazi%20Joon%28128%29.mp3",
+            artist: 'Shahram Kashani',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://www.jenabmusic.com/'
+        },
+        {
+            title: "Alaleh",
+            audio: "https://sv.jenabmusic.com/1400/Mordad/07/Shahram%20Kashani%20-%20Alaleh%20-%20128.mp3",
+            artist: 'Shahram Kashani',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://www.jenabmusic.com/'
+        },
         // {
         //     title: "",
         //     audio: "",
-        //     artist: 'Ebi',
+        //     artist: 'Shahram Kashani',
         //     cover: '',
         //     genre: 'persian-pop',
         //     star: 4,
         //     duration: '',
-        //     reference: 'https://ememay.ir/'
+        //     reference: 'https://www.jenabmusic.com/'
         // },
         // {
         //     title: "",
         //     audio: "",
-        //     artist: 'Ebi',
+        //     artist: 'Shahram Kashani',
         //     cover: '',
         //     genre: 'persian-pop',
         //     star: 4,
         //     duration: '',
-        //     reference: 'https://ememay.ir/'
+        //     reference: 'https://www.jenabmusic.com/'
+        // },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: 'Shahram Kashani',
+        //     cover: '',
+        //     genre: 'persian-pop',
+        //     star: 4,
+        //     duration: '',
+        //     reference: 'https://www.jenabmusic.com/'
+        // },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: 'Shahram Kashani',
+        //     cover: '',
+        //     genre: 'persian-pop',
+        //     star: 4,
+        //     duration: '',
+        //     reference: 'https://www.jenabmusic.com/'
         // },
 
 
+
+
+
+
+
+        {
+            title: "",
+            audio: "https://dl.uptrack.ir/Uptrack-ROOt/1401/11%20Bahman/01/Party/1.mp3?_=1",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+        },
+        {
+            title: "",
+            audio: "https://dl.uptrack.ir/Uptrack-ROOt/1401/11%20Bahman/01/Party/4.mp3?_=4",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+        },
+        {
+            title: "",
+            audio: "https://dl.uptrack.ir/Uptrack-ROOt/1401/11%20Bahman/01/Party/5.mp3?_=5",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Dark Cartoons",
+            audio: "https://dl.iraniandj.ir/2025/1/16/3.mp3",
+            artist: 'Bam Signal',
+            cover: 'https://i1.sndcdn.com/artworks-lrgdRwnO9DhKwmC4-3Hq4Mg-t500x500.jpg',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "Atmosphere Between (Ash Roy Remix)",
+            audio: "https://dl.iraniandj.ir/2025/1/16/4.mp3",
+            artist: 'Bam Signal',
+            cover: 'https://i1.sndcdn.com/artworks-lrgdRwnO9DhKwmC4-3Hq4Mg-t500x500.jpg',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "Illusion of Humanity (Ocular Scope remix)",
+            audio: "https://dl.iraniandj.ir/2025/1/16/5.mp3",
+            artist: 'Bam Signal',
+            cover: 'https://i1.sndcdn.com/artworks-lrgdRwnO9DhKwmC4-3Hq4Mg-t500x500.jpg',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2025/1/12/1.mp3",
+            artist: 'VA',
+            cover: 'https://i1.sndcdn.com/artworks-lrgdRwnO9DhKwmC4-3Hq4Mg-t500x500.jpg',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+ 
 
 
     ],
