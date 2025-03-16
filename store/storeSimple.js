@@ -2549,16 +2549,454 @@ const storeSimple = {
         },
 
 
+        {
+            title: "Bargaye Narenji",
+            audio: "https://irsv.upmusics.com/dlw/Sirvan%20Khosravi%20%7C%20Bargaye%20Narenji%20(320).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'persian-pop pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://upmusics.com/'
+        },
+        {
+            title: "On Rooza Ro Mikham",
+            audio: "https://irsv.upmusics.com/AliBZ/Sirvan%20Khosravi%20-%20Oon%20Rooza%20Ro%20Mikham%20(320).mp3",
+            artist: 'Sirvan',
+            cover: 'https://upmusics.com/wp-content/uploads/2023/12/Oon-Rooza-Ro-Mikham-Small.jpg',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Man Moghaseram",
+            audio: 'https://irsv.upmusics.com/99/Sirvan%20Khosravi%20-%20Man%20Moghasram%20(128).mp3',
+            artist: "Sirvan",
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Divoonegi",
+            audio: "https://irsv.upmusics.com/99/Sirvan%20Khosravi%20-%20Divoonegi%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop electronic farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Bonbast",
+            audio: "https://irsv.upmusics.com/99/Sirvan%20Khosravi%20-%20Bon%20Bast%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'rock farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Soojehat Tekrarie",
+            audio: "https://irsv.upmusics.com/Up-Song/Sirvan%20Khosravi%20-%20Sopjehat%20Tekrarie%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Nemiram Aghab",
+            audio: "https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20-%20Nemiram%20Aghab%20(2).mp3",
+            artist: 'Sirvan & Xaniar',
+            cover: '',
+            genre: 'pop rock farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Tanha Nazar (Remix)",
+            audio: "https://irsv.upmusics.com/99/Sirvan%20Khosravi%20%E2%80%93%20Tanha%20Nazar%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop electronic farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "In Hess Naabe",
+            audio: "https://irsv.upmusics.com/Up-Song/Sirvan%20Khosravi%20%7C%20In%20Hess%20Naabe%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Emrooz Mikham Behet Begam",
+            audio: "https://irsv.upmusics.com/Up-Song/Sirvan%20Khosravi%20%7C%20Emrooz%20Mikham%20Behet%20Begam%20(128).mp3",
+            artist: 'Sirvan',
+            cover: 'https://www.mybia2music.com/assets/thumbs/113866558_500.jpg',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Bahar Nazdike",
+            audio: "https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20%7C%20Bahar%20Nazdike%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop rock farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "70 Million Setare",
+            audio: "https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20%7C%20Haftad%20Milion%20Setare%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "To Khial Kardi Beri",
+            audio: "https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20%7C%20To%20Khial%20Kardi%20Beri%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Bazam Betab",
+            audio: "https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20%7C%20Bazam%20Betab%20(128).mp3",
+            artist: 'Sirvan',
+            cover: '',
+            genre: 'pop electronic farsi',
+            star: 5,
+            duration: '',
+            reference: 'upmusics.com'
+        },
+        {
+            title: "Ghalbamo Ba Arezo Dobare Dar Amikhti",
+            audio: "https://dl.uptrack.ir/Uptrack-ROOt/1401/07%20Mehr/28/Ghalbamo%20Ba%20Arezo%20Song.mp3",
+            artist: 'Hayde',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+        },
+        {
+            title: "Bekhand",
+            audio: "https://dl.musicdel.ir/tag/music/1402/08/22/Ragheb%20Ft%20Hamid%20Hiraad%20-%20Bekhand%20(128).mp3",
+            artist: 'Sirvan',
+            cover: 'https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-768x768.jpg 768w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-300x300.jpg 300w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-1024x1024.jpg 1024w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-150x150.jpg 150w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand.jpg 1250w',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdel.ir/'
+        },
+        {
+            title: "Zare Zare",
+            audio: "https://dl.musicdel.ir/Music/1402/03/ashvan_zare_zare.jpg",
+            artist: 'Ashvan',
+            cover: 'https://dl.musicdel.ir/Music/1402/03/ashvan_zare_zare.jpg',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdel.ir/'
+        },
+        {
+            title: "Damad",
+            audio: "https://dl.somemusic.ir/Music/1402/00/Hasan Shamaizade - Damad.mp3",
+            artist: 'Shamaizade',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "Jadeye Eshgh",
+            audio: "https://dlmuweb.musicmellnet.com/musics/02/06/Siavash%20Shams%20-%201%20-%20128.mp3",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicsweb.ir/'
+        },
+        {
+            title: "Dokhtar Irooni",
+            audio: "https://dlmuweb.musicmellnet.com/musics/02/06/Siavash%20Shams%20-%203%20-%20128.mp3",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicsweb.ir/'
+        },
+        {
+            title: "Dokhtare Choopoon",
+            audio: "https://dl.mehrdl.top/Music/A/I/Siavash%20Shams/01.%20Dokhtare%20Choopoon.mp3",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://music-mehr.com/'
+        },
+
+        {
+            title: "Yavash Yavash",
+            audio: "https://dl.mehrdl.top/Music/A/I/Siavash%20Shams/02.%20Yavash%20Yavash.mp3",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://music-mehr.com/'
+
+        },
+
+        {
+            title: "Hamsayeha",
+            audio: "https://dl.mehrdl.top/Music/A/I/Siavash%20Shams/08.%20Hamsayeha.mp3",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://musicsweb.ir/'
+        },
+
+        {
+            title: "Sahne",
+            audio: "https://radiodl2.musicmelnet.com/Music/1400/8/Siavash%20Shams%20-%20Sahneh.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'pop farsi',
+            star: 5,
+            duration: '',
+            reference: 'https://musiketo.com/'
+        },
+        {
+            title: "Male Mani",
+            audio: "https://radiodl2.musicmelnet.com/Music/1403/2/SiavashShams/Siavash%20Shams%20Male%20Mani%28MusiceTo.com%29.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musiketo.com/'
+        },
+        {
+            title: "Bargard",
+            audio: "https://radiodl2.musicmelnet.com/Music/1403/2/SiavashShams/Siavash%20Shams%20Bargard%28MusiceTo.com%29.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musiketo.com/'
+
+        },
+        {
+            title: "Nagoo Kie",
+            audio: "https://radiodl2.musicmelnet.com/Music/1403/2/SiavashShams/Siavash%20Shams%20Nagoo%20Kiye%28MusiceTo.com%29.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'persian-pop',
+            star: 3,
+            duration: '',
+            reference: 'https://musiketo.com/'
+
+        },
+        {
+            title: "Beraghs",
+            audio: "https://radiodl2.musicmelnet.com/Music/1403/2/SiavashShams/Siavash%20Shams%20Beraghs%28MusiceTo.com%29.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musiketo.com/'
+
+        },
+        {
+            title: "Chike Chike",
+            audio: "https://radiodl2.musicmelnet.com/Music/1403/2/SiavashShams/Siavash%20Shams%20Chikeh%20Chikeh%28MusiceTo.com%29.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://musiketo.com/'
+        },
+        {
+            title: "Bacheha",
+            audio: "https://radiodl2.musicmelnet.com/Music/1403/2/SiavashShams/SiavashShamsBachehHa%28MusiceTo.com%29.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'pop',
+            star: 5,
+            duration: '',
+            reference: 'https://musiketo.com/'
+        },
+        {
+            title: "Aghaze Eshgh",
+            audio: "https://radiodl2.musicmelnet.com/Music/1403/2/SiavashShams/AghazeEshgh%28MusiceTo.com%29.mp3?_=1",
+            artist: 'Siavash Shams',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musiketo.com/'
+
+        },
+        {
+            title: "Mano Del",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Mano Del 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Dafi Joon",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Dafi Joon 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Paasho",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Paasho 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Emshab",
+            audio: "https://dl.uptrack.ir/Uptrack-ROOt/1399/10%20Dey/12/Black%20Cats%20-%20Emshab.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Jonoon",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Jonoon 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Aftab",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Aftab 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Ma Dota",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Ma Dota 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Naz",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Naz 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Joone Khodet",
+            audio: "https://dl.uptrack.ir///Uptrack-ROOt/1399/01Farvardin/13/ROBOT/Black Cats – Jon Khodet 128.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://uptrack.ir/'
+
+        },
+        {
+            title: "Mashregh Zamin",
+            audio: "https://dl.musichi.ir/1401/05/03/Black%20Cats%20-%20Sad%20Sale%20Pish%20Too%20Shahri%20Az%20Mashregh%20Zamin.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musichi.ir/'
+        },
         // {
         //     title: "",
         //     audio: "",
-        //     artist: 'DYATHON',
-        //     cover: 'http://vmusic.ir/wp-content/uploads/2025/02/DYATHON-Dark-Academia-Vol.-1-2025-02-21.jpg',
-        //     genre: 'relax piano',
+        //     artist: 'Black Cats',
+        //     cover: '',
+        //     genre: 'persian-pop',
         //     star: 4,
         //     duration: '',
-        //     reference: 'https://vmusic.ir/'
+        //     reference: 'https://uptrack.ir/'
         // },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: 'Black Cats',
+        //     cover: '',
+        //     genre: 'persian-pop',
+        //     star: 4,
+        //     duration: '',
+        //     reference: 'https://uptrack.ir/'
+        // },
+
 
     ],
     genres: [
