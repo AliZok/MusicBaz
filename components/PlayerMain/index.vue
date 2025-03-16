@@ -45,19 +45,76 @@ function getRandomNumber() {
     randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
 }
 
+// const playAudio = async () => {
+//     myMusic.value.load();
+
+//     try {
+//         seekAudio()
+//         await myMusic.value.play();
+//         isLoading.value = false
+//         isPlaying.value = true
+//         updateMediaSession('playing');
+//     } catch (error) {
+//         console.error("Error playing audio:", error);
+//     }
+// };
+
 const playAudio = async () => {
+    // بررسی پشتیبانی از Media Session API
+    if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: 'TEST TITLE',
+            artist: 'TEST ARTIST',
+            album: 'TEST ALBUME',
+            artwork: [
+                { src: '/public/images/active-radio.jpg', sizes: '512x512', type: 'image/jpeg' }
+            ]
+        });
+
+        // تعریف کنترل‌های دریافت شده
+        navigator.mediaSession.setActionHandler('play', () => {
+            myMusic.value.play(); // یا هر کدی که برای پخش نیاز دارید
+            isPlaying.value = true;
+            updateMediaSession('playing');
+        });
+        
+        navigator.mediaSession.setActionHandler('pause', () => {
+            myMusic.value.pause();
+            isPlaying.value = false;
+            updateMediaSession('paused');
+        });
+        
+        navigator.mediaSession.setActionHandler('seekbackward', () => {
+            myMusic.value.currentTime -= 10; // 10 ثانیه عقب
+        });
+        
+        navigator.mediaSession.setActionHandler('seekforward', () => {
+            myMusic.value.currentTime += 10; // 10 ثانیه جلو
+        });
+    }
+
     myMusic.value.load();
 
     try {
-        seekAudio()
+        seekAudio();
         await myMusic.value.play();
-        isLoading.value = false
-        isPlaying.value = true
+        isLoading.value = false;
+        isPlaying.value = true;
+
+        // آپدیت وضعیت پخش در Media Session
         updateMediaSession('playing');
     } catch (error) {
         console.error("Error playing audio:", error);
     }
 };
+
+function updateMediaSession(state) {
+    if (state === 'playing') {
+        navigator.mediaSession.playbackState = 'playing';
+    } else {
+        navigator.mediaSession.playbackState = 'paused';
+    }
+}
 
 const pauseAudio = async () => {
     seekAudio()
@@ -179,10 +236,6 @@ onBeforeUnmount(() => {
 watch(() => isLoading.value, (newV) => {
     // alert(newV)
 })
-
-const updateMediaSession = (state) => {
-
-}
 
 </script>
 
