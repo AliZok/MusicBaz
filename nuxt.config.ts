@@ -20,8 +20,8 @@ export default defineNuxtConfig({
   image: {},
   pwa: {
     manifest: {
-      name: "Dance Baby",
-      short_name: "Dance Baby",
+      name: "Dance Baby Radio",
+      short_name: "Dance Baby Radio",
       description: "Listen to Beauties and Dance",
       start_url: "/",
       display: "standalone",

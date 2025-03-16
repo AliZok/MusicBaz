@@ -3451,52 +3451,52 @@ const storeSimple = {
             title: "Save Your Tears",
             audio: "https://dl.musicdrum.ir/uploads/2024/07/The-Weeknd-Save-Your-Tears.mp3",
             artist: 'The Weeknd',
-            cover: '',
+            cover: 'https://i1.sndcdn.com/artworks-95fDUFrdSlxnM3LH-JtlDxA-t500x500.jpg',
             genre: 'pop',
             star: 5,
             duration: '',
             reference: 'https://musicdrum.ir/'
         },
         {
-            title: "",
-            audio: "",
+            title: "In Your Eyes",
+            audio: "https://dl.musicdrum.ir/uploads/2024/07/The-Weeknd-In-Your-Eyes.mp3",
             artist: 'The Weeknd',
-            cover: '',
-            genre: 'pop',
+            cover: 'https://m.media-amazon.com/images/M/MV5BZTg5ZjlhZTctNjk3Yy00OGJkLWIxNGUtMzc3NTg1M2U5YmUwXkEyXkFqcGc@._V1_.jpg',
+            genre: 'pop electronic',
             star: 4,
             duration: '',
             reference: 'https://musicdrum.ir/'
         },
         {
-            title: "",
-            audio: "",
+            title: "Blinding Lights",
+            audio: "https://dl.musicdrum.ir/uploads/2024/07/The-Weeknd-Blinding-Lights.mp3",
             artist: 'The Weeknd',
-            cover: '',
-            genre: 'pop',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png',
+            genre: 'pop electronic',
             star: 4,
             duration: '',
             reference: 'https://musicdrum.ir/'
         },
         {
-            title: "",
-            audio: "",
-            artist: 'The Weeknd',
-            cover: '',
-            genre: 'pop',
-            star: 4,
+            title: "Love Me Harder",
+            audio: "https://dl.musicdrum.ir/uploads/2024/07/Love-Me-Harder-Ariana-Grande-Feat.-The-Weeknd.mp3",
+            artist: 'Ariana Grande Feat. The Weeknd',
+            cover: 'https://i1.sndcdn.com/artworks-000103566691-8kh6se-t500x500.jpg',
+            genre: 'pop electronic',
+            star: 5,
             duration: '',
             reference: 'https://musicdrum.ir/'
         },
-        {
-            title: "",
-            audio: "",
-            artist: 'The Weeknd',
-            cover: '',
-            genre: 'pop',
-            star: 4,
-            duration: '',
-            reference: 'https://musicdrum.ir/'
-        },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: '',
+        //     cover: '',
+        //     genre: 'pop',
+        //     star: 4,
+        //     duration: '',
+        //     reference: 'https://musicdrum.ir/'
+        // },
         
         
 
