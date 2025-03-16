@@ -262,7 +262,7 @@ watch(() => isLoading.value, (newV) => {
                     <div @click="playMusic()" class="cover-music">
                         <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo dance-baby-text">
                             <div class="font-days cover-text">
-                                DANCE BABY
+                                DANCE BABY RADIO
                             </div>
                         </h1>
 
@@ -272,7 +272,7 @@ watch(() => isLoading.value, (newV) => {
                             :class="{ 'shine-me': isPlaying }" src="/public/images/radio3.png"> -->
 
                         <img v-if="!pureList[randomNumber]?.cover" class="curve radio-poster"
-                            :class="{ 'shine-me': isPlaying }" src="/public/images/active-radio.jpg">
+                            :class="{ 'shine-me': isPlaying }" src="/images/background-dance-1.jpg">
 
                         <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': isPlaying }"
                             :src="pureList[randomNumber]?.cover">
@@ -677,10 +677,9 @@ watch(() => isLoading.value, (newV) => {
 }
 
 .back-logo {
-    top: 40%;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 71%;
     transform: translate(-50%, -50%);
 
 }

@@ -3216,52 +3216,79 @@ const storeSimple = {
             duration: '',
             reference: 'https://www.jenabmusic.com/'
         },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: 'Shahram Kashani',
-        //     cover: '',
-        //     genre: 'persian-pop',
-        //     star: 4,
-        //     duration: '',
-        //     reference: 'https://www.jenabmusic.com/'
-        // },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: 'Shahram Kashani',
-        //     cover: '',
-        //     genre: 'persian-pop',
-        //     star: 4,
-        //     duration: '',
-        //     reference: 'https://www.jenabmusic.com/'
-        // },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: 'Shahram Kashani',
-        //     cover: '',
-        //     genre: 'persian-pop',
-        //     star: 4,
-        //     duration: '',
-        //     reference: 'https://www.jenabmusic.com/'
-        // },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: 'Shahram Kashani',
-        //     cover: '',
-        //     genre: 'persian-pop',
-        //     star: 4,
-        //     duration: '',
-        //     reference: 'https://www.jenabmusic.com/'
-        // },
+        {
+            title: "Aftab",
+            audio: "https://sv.jenabmusic.com/1400/Mordad/07/Shahram%20Kashani%20-%20Aftab%20-%20128.mp3",
+            artist: 'Shahram Kashani',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://www.jenabmusic.com/'
+        },
+        {
+            title: "Bonbast",
+            audio: "https://sv.jenabmusic.com/1400/Mordad/07/Shahram%20Kashani%20-%20%20Bonbast%20-%20128.mp3",
+            artist: 'Shahram Kashani',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://www.jenabmusic.com/'
+        },
+        {
+            title: "Hame Migan",
+            audio: "https://sv.jenabmusic.com/1400/Mordad/07/Shahram%20Kashani%20-%20Hameh%20Migan%20-%20128.mp3",
+            artist: 'Shahram Kashani',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://www.jenabmusic.com/'
+        },
+        {
+            title: "Dokhtare AhmadAbad",
+            audio: "https://dl.uptrack.ir/Uptrack-ROOt/1401/04%20Tir/20/Dokhtare%20Ahmadabad%20Song.mp3",
+            artist: 'The Boys',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://download1music.ir/'
+        },
+        {
+            title: "Bigharar",
+            audio: "https://dl6.download1music.ir/Music/2023/The Boyz/The Boyz - Bigharar 128.mp3",
+            artist: 'The Boys',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://download1music.ir/'
+        },
 
+        {
+            title: "Naro Naro",
+            audio: "https://dl6.download1music.ir/Music/2020/The%20Boyz/The%20Boyz%20-%20Che%20Khosh%20Migzareh%20Emshab%20128.mp3",
+            artist: 'The Boys',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://download1music.ir/'
 
+        },
+        {
+            title: "Abadan",
+            audio: "https://dl.bandmusic.ir/files/1403/07/05/The Boys - Abadan (128).mp3",
+            artist: 'The Boys',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://bandmusic.ir/'
 
-
-
-
+        },
 
         {
             title: "",
@@ -3334,7 +3361,145 @@ const storeSimple = {
             duration: '',
             reference: 'https://pro.iraniandj.ir/'
         },
- 
+        {
+            title: "Asse Asse",
+            audio: "https://dl.musicdrum.ir/uploads/2023/03/Sheila-Aseh-Aseh.mp3",
+            artist: 'Sheila',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+
+        },
+        {
+            title: "Baraye",
+            audio: "https://dl.musicdrum.ir/uploads/2023/02/Shervin-Baraye-320.mp3",
+            artist: 'Shervin',
+            cover: '',
+            genre: 'pop farsi',
+            star: 5,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+
+        },
+        {
+            title: "Ashghalaye Rangi",
+            audio: "https://dl.musicdrum.ir/uploads/2022/11/Shervin-Ashghalyae-Rangi.mp3",
+            artist: 'Shervin',
+            cover: '',
+            genre: 'pop farsi',
+            star: 3,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+
+        },
+        {
+            title: "Daemi",
+            audio: "https://dl.musicdrum.ir/uploads/2022/11/Shervin-Hajipour-Daemi.mp3",
+            artist: 'Shervin',
+            cover: '',
+            genre: 'pop',
+            star: 3,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+        {
+            title: "Roozaye Khoob",
+            audio: "https://dl.musicdrum.ir/uploads/2022/11/Shervin-Hajipour-Roozaye-Khoob.mp3",
+            artist: 'Shervin',
+            cover: '',
+            genre: 'pop',
+            star: 3,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+
+        {
+            title: "Be Donya Nemidamesh",
+            audio: "https://dl.musicdrum.ir/uploads/2022/11/Shervin-Hajipour-Be-Donya-Nemidamesh.mp3",
+            artist: 'Shervin',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+
+        {
+            title: "Bade Man",
+            audio: "https://dl.musicdrum.ir/uploads/2022/10/Bade-Man-Shervin-Hajipour.mp3",
+            artist: 'Shervin',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+
+        {
+            title: "Bahar Oomad",
+            audio: "https://dl.musicdrum.ir/uploads/2022/10/Bahar-Oomad-Shervin-Hajipour320.mp3",
+            artist: 'Shervin',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+        {
+            title: "Save Your Tears",
+            audio: "https://dl.musicdrum.ir/uploads/2024/07/The-Weeknd-Save-Your-Tears.mp3",
+            artist: 'The Weeknd',
+            cover: '',
+            genre: 'pop',
+            star: 5,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: 'The Weeknd',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: 'The Weeknd',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: 'The Weeknd',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: 'The Weeknd',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://musicdrum.ir/'
+        },
+        
+        
+
 
 
     ],

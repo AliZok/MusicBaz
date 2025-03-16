@@ -689,10 +689,9 @@ const updateMediaSession = (state) => {
 }
 
 .back-logo {
-    top: 40%;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 71%;
     transform: translate(-50%, -50%);
 
 }
