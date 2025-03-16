@@ -2976,26 +2976,248 @@ const storeSimple = {
             duration: '',
             reference: 'https://musichi.ir/'
         },
+        {
+            title: "Del Ey Del",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Del-Ey-Del.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Roozegare Eshgh",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Roozegare-Eshgh.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Jooni Joonom",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Jooni-Joonom.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Viroon Beshi Ey Del",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Viroon-Beshi-Ey-Del.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Asir",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Aseer.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Eshghe Taze",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Eshghe-Tazeh.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Chi Seda Konam",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Chi-Seda-Konam.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Pardis",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Pardis.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Bahare Eshgh",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Bahare-Eshgh.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Delbar",
+            audio: "https://dl.mp3index.ir/teerex/2024/03/leila_foruhar%20_ey_del%20balaei%20delbar%20bala%20balaei%20delbar%20%20128.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://teereex.ir/'
+        },
+        {
+            title: "Delam",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Delam.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Vadeh",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Vadeh.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Bahaneh",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Bahaneh.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Yare Shirin",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Leila-Forouhar-Yare-Shirin.mp3",
+            artist: 'Leila Forouhar',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Pichak",
+            audio: "https://ememay.ir/wp-content/uploads/2024/08/Ebi-Pichak.mp3",
+            artist: 'Ebi',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Gheseye Eshgh",
+            audio: "https://ememay.ir/wp-content/uploads/2024/08/Ebi-Gheseh-Eshgh.mp3",
+            artist: 'Ebi',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Gol Vajhe",
+            audio: "https://dl.mehrdl.top/Music/A/F/Hayedeh-golvajeh/3.Gol%20Vajeh.mp3",
+            artist: 'Hayde',
+            cover: '',
+            genre: 'persian-pop',
+            star: 4,
+            duration: '',
+            reference: 'https://music-mehr.com/'
+        },
+        {
+            title: "Harighe Sabz",
+            audio: "https://ememay.ir/wp-content/uploads/2024/08/Ebi-Harighe-Sabz.mp3",
+            artist: 'Ebi',
+            cover: '',
+            genre: 'persian-pop',
+            star: 3,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Masteh Cheshaat",
+            audio: "https://ememay.ir/wp-content/uploads/2024/08/Ebi-Masteh-Cheshaat.mp3",
+            artist: 'Ebi',
+            cover: '',
+            genre: 'pop farsi',
+            star: 3,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Khanom Gol",
+            audio: "https://ememay.ir/wp-content/uploads/2024/08/Ebi-Khanom-Gol.mp3",
+            artist: 'Ebi',
+            cover: '',
+            genre: 'persian-pop',
+            star: 3,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Geryeh Nakon",
+            audio: "https://ememay.ir/wp-content/uploads/2024/08/Ebi-Geryeh-Nakon.mp3",
+            artist: 'Ebi',
+            cover: '',
+            genre: 'pop farsi',
+            star: 3,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Ghebleh",
+            audio: "https://ememay.ir/wp-content/uploads/2024/08/Ebi-Ghebleh.mp3",
+            artist: 'Ebi',
+            cover: '',
+            genre: 'persian-pop',
+            star: 3,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
         // {
         //     title: "",
         //     audio: "",
-        //     artist: 'Black Cats',
+        //     artist: 'Ebi',
         //     cover: '',
         //     genre: 'persian-pop',
         //     star: 4,
         //     duration: '',
-        //     reference: 'https://uptrack.ir/'
+        //     reference: 'https://ememay.ir/'
         // },
         // {
         //     title: "",
         //     audio: "",
-        //     artist: 'Black Cats',
+        //     artist: 'Ebi',
         //     cover: '',
         //     genre: 'persian-pop',
         //     star: 4,
         //     duration: '',
-        //     reference: 'https://uptrack.ir/'
+        //     reference: 'https://ememay.ir/'
         // },
+
+
 
 
     ],
