@@ -3487,18 +3487,67 @@ const storeSimple = {
             duration: '',
             reference: 'https://musicdrum.ir/'
         },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: '',
-        //     cover: '',
-        //     genre: 'pop',
-        //     star: 4,
-        //     duration: '',
-        //     reference: 'https://musicdrum.ir/'
-        // },
-        
-        
+        {
+            title: "Disconnected",
+            audio: "https://dl.iraniandj.ir/2022/03/53/3.mp3",
+            artist: 'VA feat. Tomsky & Billy Taner',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "Hawk",
+            audio: "https://dl.iraniandj.ir/2022/03/53/5.mp3",
+            artist: 'VA',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://pro.iraniandj.ir/'
+        },
+
 
 
 
