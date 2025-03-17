@@ -5,15 +5,14 @@
     <div class="HeaderMain">
         <div class="inner-header">
             <div class="my-brand auto-shadow">
-
-                <!-- <div class="font-days">DANCE<small>-</small>BABY<small>-</small>RADIO
-                    <small>.com</small>
-                </div> -->
                 <div  class="font-days">
                     DANCE BABY RADIO
                 </div>
                 <span class="com"></span>
             </div>
+            <!-- <div>
+                <img src="" alt="">
+            </div> -->
         </div>
     </div>
 </template>

@@ -3354,7 +3354,7 @@ const storeSimple = {
         {
             title: "",
             audio: "https://dl.iraniandj.ir/2025/1/12/1.mp3",
-            artist: 'VA',
+            artist: '',
             cover: 'https://i1.sndcdn.com/artworks-lrgdRwnO9DhKwmC4-3Hq4Mg-t500x500.jpg',
             genre: 'electronic techno',
             star: 4,
@@ -3490,7 +3490,7 @@ const storeSimple = {
         {
             title: "Disconnected",
             audio: "https://dl.iraniandj.ir/2022/03/53/3.mp3",
-            artist: 'VA feat. Tomsky & Billy Taner',
+            artist: '',
             cover: '',
             genre: 'electronic techno',
             star: 4,
@@ -3500,16 +3500,6 @@ const storeSimple = {
         {
             title: "Hawk",
             audio: "https://dl.iraniandj.ir/2022/03/53/5.mp3",
-            artist: 'VA',
-            cover: '',
-            genre: 'electronic techno',
-            star: 4,
-            duration: '',
-            reference: 'https://pro.iraniandj.ir/'
-        },
-        {
-            title: "",
-            audio: "",
             artist: '',
             cover: '',
             genre: 'electronic techno',
@@ -3519,13 +3509,245 @@ const storeSimple = {
         },
         {
             title: "",
-            audio: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/1.mp3",
             artist: '',
             cover: '',
             genre: 'electronic techno',
             star: 4,
             duration: '',
-            reference: 'https://pro.iraniandj.ir/'
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/3.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/4.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/5.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 5,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/6.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/7.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/8.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/9.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/10.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/11.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2025/1/1/2.mp3",
+            artist: 'Monococ',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: 'https://dl.iraniandj.ir'
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/34/2.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/34/4.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/34/6.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/34/7.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/25/1.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/25/2.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 5,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/25/5.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/25/8.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/25/9.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/25/16.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/25/18.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/19/2.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/12/19/4.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
         },
         {
             title: "",
@@ -3535,7 +3757,7 @@ const storeSimple = {
             genre: 'electronic techno',
             star: 4,
             duration: '',
-            reference: 'https://pro.iraniandj.ir/'
+            reference: ''
         },
         {
             title: "",
@@ -3545,8 +3767,39 @@ const storeSimple = {
             genre: 'electronic techno',
             star: 4,
             duration: '',
-            reference: 'https://pro.iraniandj.ir/'
+            reference: ''
         },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+
 
 
 
