@@ -3731,7 +3731,7 @@ const storeSimple = {
         {
             title: "",
             audio: "https://dl.iraniandj.ir/2024/12/19/2.mp3",
-            artist: '',
+            artist: 'Cosmic Boys',
             cover: '',
             genre: 'electronic techno',
             star: 4,
@@ -3742,7 +3742,7 @@ const storeSimple = {
         {
             title: "",
             audio: "https://dl.iraniandj.ir/2024/12/19/4.mp3",
-            artist: '',
+            artist: 'Cosmic Boys',
             cover: '',
             genre: 'electronic techno',
             star: 4,
@@ -3751,8 +3751,8 @@ const storeSimple = {
         },
         {
             title: "",
-            audio: "",
-            artist: '',
+            audio: "https://dl.iraniandj.ir/2024/12/19/5.mp3",
+            artist: 'Cosmic Boys',
             cover: '',
             genre: 'electronic techno',
             star: 4,
@@ -3761,44 +3761,44 @@ const storeSimple = {
         },
         {
             title: "",
-            audio: "",
-            artist: '',
+            audio: "https://dl.iraniandj.ir/2024/12/19/6.mp3",
+            artist: 'Cosmic Boys',
             cover: '',
             genre: 'electronic techno',
             star: 4,
             duration: '',
             reference: ''
         },
-        {
-            title: "",
-            audio: "",
-            artist: '',
-            cover: '',
-            genre: 'electronic techno',
-            star: 4,
-            duration: '',
-            reference: ''
-        },
-        {
-            title: "",
-            audio: "",
-            artist: '',
-            cover: '',
-            genre: 'electronic techno',
-            star: 4,
-            duration: '',
-            reference: ''
-        },
-        {
-            title: "",
-            audio: "",
-            artist: '',
-            cover: '',
-            genre: 'electronic techno',
-            star: 4,
-            duration: '',
-            reference: ''
-        },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: '',
+        //     cover: '',
+        //     genre: 'electronic techno',
+        //     star: 4,
+        //     duration: '',
+        //     reference: ''
+        // },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: '',
+        //     cover: '',
+        //     genre: 'electronic techno',
+        //     star: 4,
+        //     duration: '',
+        //     reference: ''
+        // },
+        // {
+        //     title: "",
+        //     audio: "",
+        //     artist: '',
+        //     cover: '',
+        //     genre: 'electronic techno',
+        //     star: 4,
+        //     duration: '',
+        //     reference: ''
+        // },
 
 
 
