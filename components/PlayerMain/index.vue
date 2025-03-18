@@ -27,7 +27,6 @@ function pureMyList() {
     genres.value.forEach(genre => {
         if (genre.active) {
             let pureListTemprary = []
-
             pureListTemprary = storeSimple.musicList.filter(item => item.genre.includes(genre.genre))
             pureList.value = [...pureList.value, ...pureListTemprary]
 
