@@ -2703,7 +2703,7 @@ const storeSimple = {
             title: "Bekhand",
             audio: "https://dl.musicdel.ir/tag/music/1402/08/22/Ragheb%20Ft%20Hamid%20Hiraad%20-%20Bekhand%20(128).mp3",
             artist: 'Sirvan',
-            cover: 'https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-768x768.jpg 768w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-300x300.jpg 300w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-1024x1024.jpg 1024w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand-150x150.jpg 150w, https://musicdel.ir/wp-content/uploads/2024/08/ragheb_ft_hamid_hiraad_bekhand.jpg 1250w',
+            cover: 'https://upmusics.com/wp-content/uploads/2023/11/photo_2023-11-13_20-00-05.jpg',
             genre: 'raghsi',
             star: 4,
             duration: '',
@@ -3840,6 +3840,7 @@ const storeSimple = {
         },
     ],
     go: false,
+    isPlaying: false,
 }
 
 export default storeSimple

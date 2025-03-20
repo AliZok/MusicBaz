@@ -50,7 +50,6 @@ getUTCnewFormat()
 const myMusic = ref(null);
 const currentTime = ref(0);
 const duration = ref(0);
-const isPlaying = ref(false);
 const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
@@ -89,7 +88,7 @@ const playAudio = async () => {
         seekAudio()
         await myMusic.value.play();
         isLoading.value = false
-        isPlaying.value = true
+        storeSimple.isPlaying= true
         updateMediaSession('playing');
     } catch (error) {
         console.error("Error playing audio:", error);
@@ -99,13 +98,13 @@ const playAudio = async () => {
 const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
-    isPlaying.value = false
+    storeSimple.isPlaying= false
     updateMediaSession('paused');
 };
 
 const playMusic = async () => {
 
-    if (isPlaying.value) {
+    if (storeSimple.isPlaying) {
         pauseAudio();
     } else {
         // updateLiveMusic(liveMusic.value)
@@ -295,15 +294,15 @@ const updateMediaSession = (state) => {
                                 <small>.com</small>
                             </div> -->
                         </h1>
-                        <img v-else-if="!isEmpty" class="curve" :class="{ 'shine-me': isPlaying }"
+                        <img v-else-if="!isEmpty" class="curve" :class="{ 'shine-me': storeSimple.isPlaying }"
                             :src="liveMusic?.cover">
 
-                        <div v-if="!!liveMusic" :class="{ 'opacity-0': isPlaying }" @click.stop="playMusic()"
+                        <div v-if="!!liveMusic" :class="{ 'opacity-0': storeSimple.isPlaying }" @click.stop="playMusic()"
                             class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->
-                                    <div class='button-icon' :class="{ 'paused': isPlaying }"></div>
+                                    <div class='button-icon' :class="{ 'paused': storeSimple.isPlaying }"></div>
                                 </div>
                             </div>
                         </div>

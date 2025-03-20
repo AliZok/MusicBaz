@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxt/image', '@vite-pwa/nuxt'],
+  modules: ['@nuxt/image', '@vite-pwa/nuxt','@pinia/nuxt'],
   image: {},
   pwa: {
     manifest: {

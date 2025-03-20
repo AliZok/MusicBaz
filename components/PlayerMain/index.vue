@@ -1,5 +1,6 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
+import { useGlobalStore } from  "@/store/myPinia";
 import playListLive from "@/store/playListLive"
 
 const { getLiveMusic } = useMusicAPI()
@@ -13,7 +14,7 @@ getUTCnewFormat()
 const myMusic = ref(null);
 const currentTime = ref(0);
 const duration = ref(0);
-const isPlaying = ref(false);
+
 const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
@@ -22,6 +23,9 @@ const notShowing = ref(true)
 const letsGoModal = ref(true)
 
 
+const useGlobalStoresssss = useGlobalStore();
+
+console.log("iraaaaaaaaaaaaaan",useGlobalStoresssss)
 function pureMyList() {
     pureList.value = []
     genres.value.forEach(genre => {
@@ -51,7 +55,7 @@ function getRandomNumber() {
 //         seekAudio()
 //         await myMusic.value.play();
 //         isLoading.value = false
-//         isPlaying.value = true
+//         storeSimple.isPlaying = true
 //         updateMediaSession('playing');
 //     } catch (error) {
 //         console.error("Error playing audio:", error);
@@ -70,13 +74,13 @@ const playAudio = async () => {
 
         navigator.mediaSession.setActionHandler('play', () => {
             myMusic.value.play();
-            isPlaying.value = true;
+            storeSimple.isPlaying = true;
             updateMediaSession('playing');
         });
 
         navigator.mediaSession.setActionHandler('pause', () => {
             myMusic.value.pause();
-            isPlaying.value = false;
+            storeSimple.isPlaying = false;
             updateMediaSession('paused');
         });
 
@@ -95,7 +99,7 @@ const playAudio = async () => {
         seekAudio();
         await myMusic.value.play();
         isLoading.value = false;
-        isPlaying.value = true;
+        storeSimple.isPlaying = true;
 
         // آپدیت وضعیت پخش در Media Session
         updateMediaSession('playing');
@@ -115,13 +119,13 @@ function updateMediaSession(state) {
 const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
-    isPlaying.value = false
+    storeSimple.isPlaying = false
     updateMediaSession('paused');
 };
 
 const playMusic = async () => {
     letsGoModal.value = false
-    if (isPlaying.value) {
+    if (storeSimple.isPlaying) {
         pauseAudio();
     } else {
 
@@ -268,20 +272,20 @@ watch(() => isLoading.value, (newV) => {
                         <!-- ALTERNATIVE -->
 
                         <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve dance-baby-text"
-                            :class="{ 'shine-me': isPlaying }" src="/public/images/radio3.png"> -->
+                            :class="{ 'shine-me': storeSimple.isPlaying }" src="/public/images/radio3.png"> -->
 
                         <img v-if="!pureList[randomNumber]?.cover" class="curve radio-poster"
-                            :class="{ 'shine-me': isPlaying }" src="/images/background-dance-1.jpg">
+                            :class="{ 'shine-me': storeSimple.isPlaying }" src="/images/background-dance-1.jpg">
 
-                        <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': isPlaying }"
+                        <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': storeSimple.isPlaying }"
                             :src="pureList[randomNumber]?.cover">
 
-                        <div v-if="!!pureList[randomNumber]" :class="{ 'opacity-0': isPlaying }"
+                        <div v-if="!!pureList[randomNumber]" :class="{ 'opacity-0': storeSimple.isPlaying }"
                             @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->
-                                    <div class='button-icon' :class="{ 'paused': isPlaying }"></div>
+                                    <div class='button-icon' :class="{ 'paused': storeSimple.isPlaying }"></div>
                                 </div>
                             </div>
                         </div>
