@@ -1,4 +1,5 @@
-const storeSimple = {
+import { ref } from "vue"
+const storeSimple = ref({
     musicList: [
         {
             title: 'Universe',
@@ -3815,7 +3816,7 @@ const storeSimple = {
             artist: 'Bryan Adams',
             cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCJI341HULtVVSEiNblbUDK18-pThKbnhCg&s',
             genre: 'pop rock',
-            star: 4,
+            star: 5,
             duration: '',
             reference: 'https://www.musicdagh.ir/'
         },
@@ -3869,6 +3870,6 @@ const storeSimple = {
     ],
     go: false,
     isPlaying: false,
-}
+})
 
 export default storeSimple

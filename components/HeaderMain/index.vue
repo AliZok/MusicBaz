@@ -1,7 +1,7 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
 
-const fuckComputed = computed(()=>storeSimple.isPlaying)
+const isPlaying = computed(()=>storeSimple.value.isPlaying)
 
 </script>
 <template>
@@ -13,8 +13,7 @@ const fuckComputed = computed(()=>storeSimple.isPlaying)
                 </h1>
                 <span class="com"></span>
             </div>
-            bagher {{ fuckComputed }}
-            <div v-if="fuckComputed" class="">
+            <div v-if="isPlaying" class="">
                 <div class="tape-wrapper ">
                     <img class="visual" src="/public/test-pics/radio-playing-2.webp" alt="">
                 </div>

@@ -1,11 +1,12 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
-import { useGlobalStore } from  "@/store/myPinia";
+// import { useGlobalStore } from  "@/store/myPinia";
 import playListLive from "@/store/playListLive"
 
 const { getLiveMusic } = useMusicAPI()
 const { createFinishTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
+console.log('zzzzzzzzzzzzzzzzzz',storeSimple.value.genres)
 getLiveMusic(1)
 createFinishTime("00:10:10")
 getUTCnewFormat()
@@ -23,15 +24,14 @@ const notShowing = ref(true)
 const letsGoModal = ref(true)
 
 
-const useGlobalStoresssss = useGlobalStore();
-
-console.log("iraaaaaaaaaaaaaan",useGlobalStoresssss)
+// const useGlobalStoresssss = useGlobalStore();
+// console.log("iraaaaaaaaaaaaaan",useGlobalStoresssss)
 function pureMyList() {
     pureList.value = []
     genres.value.forEach(genre => {
         if (genre.active) {
             let pureListTemprary = []
-            pureListTemprary = storeSimple.musicList.filter(item => item.genre.includes(genre.genre))
+            pureListTemprary = storeSimple.value.musicList.filter(item => item.genre.includes(genre.genre))
             pureList.value = [...pureList.value, ...pureListTemprary]
 
         }
@@ -55,7 +55,7 @@ function getRandomNumber() {
 //         seekAudio()
 //         await myMusic.value.play();
 //         isLoading.value = false
-//         storeSimple.isPlaying = true
+//         storeSimple.value.isPlaying = true
 //         updateMediaSession('playing');
 //     } catch (error) {
 //         console.error("Error playing audio:", error);
@@ -74,13 +74,13 @@ const playAudio = async () => {
 
         navigator.mediaSession.setActionHandler('play', () => {
             myMusic.value.play();
-            storeSimple.isPlaying = true;
+            storeSimple.value.isPlaying = true;
             updateMediaSession('playing');
         });
 
         navigator.mediaSession.setActionHandler('pause', () => {
             myMusic.value.pause();
-            storeSimple.isPlaying = false;
+            storeSimple.value.isPlaying = false;
             updateMediaSession('paused');
         });
 
@@ -99,7 +99,7 @@ const playAudio = async () => {
         seekAudio();
         await myMusic.value.play();
         isLoading.value = false;
-        storeSimple.isPlaying = true;
+        storeSimple.value.isPlaying = true;
 
         // آپدیت وضعیت پخش در Media Session
         updateMediaSession('playing');
@@ -119,13 +119,13 @@ function updateMediaSession(state) {
 const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
-    storeSimple.isPlaying = false
+    storeSimple.value.isPlaying = false
     updateMediaSession('paused');
 };
 
 const playMusic = async () => {
     letsGoModal.value = false
-    if (storeSimple.isPlaying) {
+    if (storeSimple.value.isPlaying) {
         pauseAudio();
     } else {
 
@@ -209,7 +209,7 @@ onMounted(() => {
     if (!!lastGenres) {
         genres.value = JSON.parse(lastGenres)
     } else {
-        genres.value = storeSimple.genres
+        genres.value = storeSimple.value.genres
     }
 
 
