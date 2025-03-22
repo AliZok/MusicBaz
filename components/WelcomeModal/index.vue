@@ -1,5 +1,5 @@
 <template>
-    <div @click="fuckLetsGo()" class="WelcomeModal">
+    <div @click="fuckLetsGo()" v-if="showMe" class="WelcomeModal">
         <div class="inner">
 
             <div class="go-button-wrap">
@@ -14,7 +14,9 @@
 <script setup>
 
 const Emit = defineEmits(['letsGo'])
+const showMe = ref(true)
 function fuckLetsGo() {
+    showMe.value = false
     Emit('letsGo')
 }
 

@@ -128,7 +128,6 @@ const playMusic = async () => {
     if (storeSimple.value.isPlaying) {
         pauseAudio();
     } else {
-
         await playAudio();
     }
 

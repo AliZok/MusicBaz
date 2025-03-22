@@ -3839,26 +3839,26 @@ const storeSimple = ref({
             genre: 'raghsi',
             icon: 'pop',
             text: 'Persian Pop',
-            active: true,
+            active: false,
         },
         {
             genre: 'pop',
             icon: 'pop',
             text: 'Pop',
-            active: true,
+            active: false,
         },
         {
             genre: 'relax',
             icon: 'pop',
             text: 'Relax',
-            active: true,
+            active: false,
 
         },
         {
             genre: 'rock',
             icon: 'pop',
             text: 'Rock',
-            active: true,
+            active: false,
 
         },
         {
