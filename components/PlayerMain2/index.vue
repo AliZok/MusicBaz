@@ -2,6 +2,7 @@
 import storeSimple from "@/store/storeSimple"
 import playListLive from "@/store/playListLive"
 
+
 const { getLiveMusic, updateLiveMusic, getMusicList } = useMusicAPI()
 const { setFutureTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
@@ -88,7 +89,7 @@ const playAudio = async () => {
         seekAudio()
         await myMusic.value.play();
         isLoading.value = false
-        storeSimple.isPlaying= true
+        storeSimple.value.isPlaying = true
         updateMediaSession('playing');
     } catch (error) {
         console.error("Error playing audio:", error);
@@ -98,13 +99,13 @@ const playAudio = async () => {
 const pauseAudio = async () => {
     seekAudio()
     await myMusic.value.pause();
-    storeSimple.isPlaying= false
+    storeSimple.value.isPlaying = false
     updateMediaSession('paused');
 };
 
 const playMusic = async () => {
 
-    if (storeSimple.isPlaying) {
+    if (storeSimple.value.isPlaying) {
         pauseAudio();
     } else {
         // updateLiveMusic(liveMusic.value)
@@ -282,7 +283,6 @@ const updateMediaSession = (state) => {
 
             </div>
             <div class="back-dark" :class="{ 'no-image': !liveMusic?.cover }"></div>
-
             <div class="player-box">
                 <div @mouseover="notShowing = false" @mouseleave="notShowing = true" class="box-wrapper curve">
                     <div @click="playMusic()" class="cover-music">
@@ -297,8 +297,8 @@ const updateMediaSession = (state) => {
                         <img v-else-if="!isEmpty" class="curve" :class="{ 'shine-me': storeSimple.isPlaying }"
                             :src="liveMusic?.cover">
 
-                        <div v-if="!!liveMusic" :class="{ 'opacity-0': storeSimple.isPlaying }" @click.stop="playMusic()"
-                            class="play-button-box">
+                        <div v-if="!!liveMusic" :class="{ 'opacity-0': storeSimple.isPlaying }"
+                            @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <!-- <div class="triangle"></div> -->

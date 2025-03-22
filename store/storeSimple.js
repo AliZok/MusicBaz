@@ -843,13 +843,13 @@ const storeSimple = ref({
             audio: 'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/03 Finding Yourself.mp3',
             genre: 'techno electronic',
         },
-        {
-            title: 'Nothing Else Matters',
-            artist: 'Metallica',
-            cover: 'https://m.media-amazon.com/images/I/714xqpfy8yL._AC_UF1000,1000_QL80_.jpg',
-            audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Metallica/Metallica%20-%20Nothing%20Else%20Matters.mp3',
-            genre: 'rock',
-        },
+        // {
+        //     title: 'Nothing Else Matters',
+        //     artist: 'Metallica',
+        //     cover: 'https://m.media-amazon.com/images/I/714xqpfy8yL._AC_UF1000,1000_QL80_.jpg',
+        //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Metallica/Metallica%20-%20Nothing%20Else%20Matters.mp3',
+        //     genre: 'rock',
+        // },
         {
             title: 'The Sound Of Space',
             artist: 'Enrico Sangiuliano',

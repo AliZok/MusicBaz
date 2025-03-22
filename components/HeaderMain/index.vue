@@ -1,7 +1,7 @@
 <script setup>
 import storeSimple from "@/store/storeSimple"
 
-const isPlaying = computed(()=>storeSimple.value.isPlaying)
+const isPlaying = computed(() => storeSimple.value.isPlaying)
 
 </script>
 <template>
@@ -9,12 +9,12 @@ const isPlaying = computed(()=>storeSimple.value.isPlaying)
         <div class="inner-header">
             <div class="my-brand auto-shadow mb-2">
                 <h1 class="font-days home-link-title">
-                    DANCE BABY RADIO
+                    <NuxtLink to="/">DANCE BABY RADIO</NuxtLink>
                 </h1>
                 <span class="com"></span>
             </div>
-            <div v-if="isPlaying" class="">
-                <div class="tape-wrapper ">
+            <div class="">
+                <div v-if="isPlaying" class="tape-wrapper ">
                     <img class="visual" src="/public/test-pics/radio-playing-2.webp" alt="">
                 </div>
             </div>
@@ -23,7 +23,7 @@ const isPlaying = computed(()=>storeSimple.value.isPlaying)
 </template>
 <style lang="scss">
 .home-link-title {
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .tape-wrapper {
@@ -31,11 +31,13 @@ const isPlaying = computed(()=>storeSimple.value.isPlaying)
     height: 38px;
     overflow: hidden;
     border-radius: 0px;
+    opacity: 0.5;
 
     .visual {
-        width: 116%;
+        width: 117%;
         height: 126%;
-        transform: translate(-6px, -7px);
+        transform: translate(-5px, -7px);
+        border-radius: 15px;
     }
 }
 
@@ -52,12 +54,16 @@ const isPlaying = computed(()=>storeSimple.value.isPlaying)
 
 .auto-shadow {
 
-    animation: mymove 5s;
-    animation-iteration-count: infinite;
+    // animation: mymove 5s;
+    // animation-iteration-count: infinite;
 }
 
 .my-brand {
     font-size: 18px;
+    a{
+        text-decoration: none;
+        color: #7edee3;
+    }
 }
 
 
