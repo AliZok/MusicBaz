@@ -3769,38 +3769,66 @@ const storeSimple = {
             duration: '',
             reference: ''
         },
+        {
+            title: "Please Forgive Me",
+            audio: "https://dl.musicdagh.ir/songs/best/adams/Please-Forgive-Me.mp3",
+            artist: 'Bryan Adams',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/9/90/Please_forgive_me.jpg',
+            genre: 'pop rock',
+            star: 4,
+            duration: '',
+            reference: 'https://www.musicdagh.ir/'
+        },
+        {
+            title: "Straight From The Heart",
+            audio: "https://dl.musicdagh.ir/songs/best/adams/Straight-From-The-Heart.mp3",
+            artist: 'Bryan Adams',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/9/96/Straight_From_the_Heart_%28Bryan_Adams_single_-_cover_art%29.jpg',
+            genre: 'pop rock',
+            star: 4,
+            duration: '',
+            reference: 'https://www.musicdagh.ir/'
+        },
+        {
+            title: "Heaven",
+            audio: "https://dl.musicdagh.ir/songs/best/adams/Heaven.mp3",
+            artist: 'Bryan Adams',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvOuXs5xA1xwlKCY1kP4Up9ax9rc9EXy1iXXzv_r1ihJnTeiHL21dOXF02esQ-cP2XXPg&usqp=CAU',
+            genre: 'pop rock',
+            star: 4,
+            duration: '',
+            reference: 'https://www.musicdagh.ir/'
+        },
+        {
+            title: "Have You Ever Really Loved A Woman",
+            audio: "https://dl.musicdagh.ir/songs/best/adams/Have-You-Ever-Really-Loved-A-Woman.mp3",
+            artist: 'Bryan Adams',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzFTPOg1yusIn6PGYSMH30W-0GB50XiDf4ug&s',
+            genre: 'pop rock',
+            star: 4,
+            duration: '',
+            reference: 'https://www.musicdagh.ir/'
+        },
+        {
+            title: "Summer Of 69",
+            audio: "https://dl.musicdagh.ir/songs/best/adams/Summer-Of-69.mp3",
+            artist: 'Bryan Adams',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCJI341HULtVVSEiNblbUDK18-pThKbnhCg&s',
+            genre: 'pop rock',
+            star: 4,
+            duration: '',
+            reference: 'https://www.musicdagh.ir/'
+        },
         // {
         //     title: "",
         //     audio: "",
-        //     artist: '',
+        //     artist: 'Bryan Adams',
         //     cover: '',
-        //     genre: 'electronic techno',
+        //     genre: 'pop rock',
         //     star: 4,
         //     duration: '',
-        //     reference: ''
+        //     reference: 'https://www.musicdagh.ir/'
         // },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: '',
-        //     cover: '',
-        //     genre: 'electronic techno',
-        //     star: 4,
-        //     duration: '',
-        //     reference: ''
-        // },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: '',
-        //     cover: '',
-        //     genre: 'electronic techno',
-        //     star: 4,
-        //     duration: '',
-        //     reference: ''
-        // },
-
-
 
 
 
