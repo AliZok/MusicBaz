@@ -29,17 +29,17 @@ export default defineNuxtConfig({
       theme_color: "#ffffff",
       icons: [
         {
-          src: "/favicon/gorilla-music.png",
+          src: "/favicon/dancy-girl.png",
           sizes: "144x144",
           type: "image/png",
         },
         {
-          src: "/icons/gorilla-music.png",
+          src: "/icons/dancy-girl.png",
           sizes: "192x192",
           type: "image/png",
         },
         {
-          src: "/icons/gorilla-music.png",
+          src: "/icons/dancy-girl.png",
           sizes: "512x512",
           type: "image/png",
         },
@@ -75,7 +75,7 @@ export default defineNuxtConfig({
         {
           rel: "icon",
           type: "image/png",
-          href: "/favicon/gorilla-music.png",
+          href: "/favicon/dancy-girl.png",
         },
         { rel: "manifest", href: "/manifest.webmanifest" },
       ],
