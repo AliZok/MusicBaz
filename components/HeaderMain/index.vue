@@ -31,13 +31,13 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
     height: 38px;
     overflow: hidden;
     border-radius: 0px;
-    opacity: 0.5;
-
+    opacity: 0.6;
+    border-radius: 4px;
     .visual {
         width: 117%;
         height: 126%;
         transform: translate(-5px, -7px);
-        border-radius: 15px;
+       
     }
 }
 

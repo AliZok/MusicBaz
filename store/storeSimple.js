@@ -495,13 +495,13 @@ const storeSimple = ref({
             audio: 'https://dc.vmusic.ir/2023/08/Focus FL - Tunnel Vision (Radio Edits) (2023)/128k/03) Focus FL - Beyond Reach (Radio Edit).mp3',
             genre: 'electronic techno house',
         },
-        {
-            title: 'Easy Lover',
-            artist: 'Philip Bailey ft. Phil Collins',
-            cover: 'https://ts12.tarafdari.com/contents/user799730/content-sound/lty.jpg',
-            audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Easy%20Lover.mp3',
-            genre: 'rock pop',
-        },
+        // {
+        //     title: 'Easy Lover',
+        //     artist: 'Philip Bailey ft. Phil Collins',
+        //     cover: 'https://ts12.tarafdari.com/contents/user799730/content-sound/lty.jpg',
+        //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Easy%20Lover.mp3',
+        //     genre: 'rock pop',
+        // },
         {
             title: 'A Groovy Kind Of Love',
             artist: 'Phil Collins',
