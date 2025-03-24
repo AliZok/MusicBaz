@@ -6,7 +6,6 @@ import playListLive from "@/store/playListLive"
 const { getLiveMusic } = useMusicAPI()
 const { createFinishTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
-console.log('zzzzzzzzzzzzzzzzzz',storeSimple.value.genres)
 getLiveMusic(1)
 createFinishTime("00:10:10")
 getUTCnewFormat()
@@ -15,7 +14,7 @@ getUTCnewFormat()
 const myMusic = ref(null);
 const currentTime = ref(0);
 const duration = ref(0);
-
+const coverMusic = ref('')
 const randomNumber = ref(0)
 const pureList = ref([])
 const genres = ref([])
@@ -44,8 +43,8 @@ watch(() => genres.value, (newStore) => {
 
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
-
     randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
+    coverMusic.value = pureList.value[randomNumber.value]?.cover
 }
 
 // const playAudio = async () => {
@@ -68,7 +67,7 @@ const playAudio = async () => {
             title: pureList.value[randomNumber.value]?.title,
             artist: pureList.value[randomNumber.value]?.artist,
             artwork: [
-                { src: !!pureList.value[randomNumber.value]?.cover ? pureList.value[randomNumber.value]?.cover : 'images/background-dance-1.jpg', sizes: '512x512', type: 'image/jpeg' }
+                { src: coverMusic.value ? coverMusic.value : 'images/background-dance-1.jpg', sizes: '512x512', type: 'image/jpeg' }
             ]
         });
 
@@ -245,7 +244,7 @@ watch(() => isLoading.value, (newV) => {
         <div class="main-container">
 
             <div class="back-img"
-                :style="`background-image: url(${!!pureList[randomNumber]?.cover ? pureList[randomNumber]?.cover : 'images/background-dance-1.jpg'})`">
+                :style="`background-image: url(${!!coverMusic ? coverMusic : 'images/background-dance-1.jpg'})`">
             </div>
 
             <Stars class="bg-stars" />
@@ -262,7 +261,7 @@ watch(() => isLoading.value, (newV) => {
                 <div class="box-wrapper curve">
 
                     <div @click="playMusic()" class="cover-music">
-                        <h1 v-if="!pureList[randomNumber]?.cover" class="back-logo dance-baby-text">
+                        <h1 v-if="!coverMusic" class="back-logo dance-baby-text">
                             <div class="font-days cover-text">
                                 DANCE BABY RADIO
                             </div>
@@ -273,11 +272,11 @@ watch(() => isLoading.value, (newV) => {
                         <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve dance-baby-text"
                             :class="{ 'shine-me': storeSimple.isPlaying }" src="/public/images/radio3.png"> -->
 
-                        <img v-if="!pureList[randomNumber]?.cover" class="curve radio-poster"
+                        <img v-if="!coverMusic" class="curve radio-poster"
                             :class="{ 'shine-me': storeSimple.isPlaying }" src="/images/background-dance-1.jpg">
 
                         <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': storeSimple.isPlaying }"
-                            :src="pureList[randomNumber]?.cover">
+                            :src="coverMusic">
 
                         <div v-if="!!pureList[randomNumber]" :class="{ 'opacity-0': storeSimple.isPlaying }"
                             @click.stop="playMusic()" class="play-button-box">
