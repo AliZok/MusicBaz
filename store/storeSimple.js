@@ -3312,9 +3312,9 @@ const storeSimple = ref({
             reference: 'https://uptrack.ir/'
         },
         {
-            title: "",
+            title: "Flames",
             audio: "https://dl.uptrack.ir/Uptrack-ROOt/1401/11%20Bahman/01/Party/5.mp3?_=5",
-            artist: '',
+            artist: 'David Guetta & Sia',
             cover: '',
             genre: 'electronic techno',
             star: 4,
