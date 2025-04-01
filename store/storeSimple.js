@@ -1720,15 +1720,6 @@ const storeSimple = ref({
             duration: '',
         },
         {
-            title: "Balaa",
-            audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Balla.mp3",
-            artist: 'Andy',
-            cover: '',
-            genre: 'raghsi',
-            star: 4,
-            duration: '',
-        },
-        {
             title: "Shahre Ghesse",
             audio: "https://sv.ahoramusics.ir/iran/Andy/Andy-Parieh%20Shahreh%20gheseh.mp3",
             artist: 'Andy',
@@ -1902,6 +1893,26 @@ const storeSimple = ref({
             star: 4,
             duration: '',
             reference: 'https://musicrooz.com/'
+        },
+        {
+            title: "Raghse Javoona",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Sandy-Raghse-Javoona/Party.MP3",
+            artist: 'Sandy',
+            cover: '',
+            genre: 'raghsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Ramezun",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Sandy-Raghse-Javoona/Remezun.MP3",
+            artist: 'Sandy',
+            cover: '',
+            genre: 'raghsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
         },
         {
             title: "Khosh Be Halam",
@@ -3820,16 +3831,1119 @@ const storeSimple = ref({
             duration: '',
             reference: 'https://www.musicdagh.ir/'
         },
-        // {
-        //     title: "",
-        //     audio: "",
-        //     artist: 'Bryan Adams',
-        //     cover: '',
-        //     genre: 'pop rock',
-        //     star: 4,
-        //     duration: '',
-        //     reference: 'https://www.musicdagh.ir/'
-        // },
+        {
+            title: "I Feel You",
+            audio: "https://dl.songsara.net/RaMt!N/98/6-Shahrivar/TOP%2030%20Schiller%20(Selected%20BY%20SONGSARA.NET)%20128K/02%20Leben...I%20Feel%20You.mp3",
+            artist: 'Schiller',
+            cover: '',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://songsara.net/'
+        },
+        {
+            title: "In Between",
+            audio: "https://dl.songsara.net/RaMt!N/98/6-Shahrivar/TOP%2030%20Schiller%20(Selected%20BY%20SONGSARA.NET)%20128K/03%20In%20Between.mp3",
+            artist: 'Schiller',
+            cover: '',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://songsara.net/'
+        },
+        {
+            title: "In Paradisum",
+            audio: "https://dl.songsara.net/RaMt!N/98/6-Shahrivar/TOP%2030%20Schiller%20(Selected%20BY%20SONGSARA.NET)%20128K/04%20In%20Paradisum.mp3",
+            artist: 'Schiller',
+            cover: '',
+            genre: 'relax',
+            star: 4,
+            duration: '',
+            reference: 'https://songsara.net/'
+        },
+        {
+            title: "Ruhe (Live)",
+            audio: "https://dl.songsara.net/RaMt!N/98/6-Shahrivar/TOP%2030%20Schiller%20(Selected%20BY%20SONGSARA.NET)%20128K/06%20Ruhe%20(Live).mp3",
+            artist: 'Schiller',
+            cover: '',
+            genre: 'electronic house',
+            star: 5,
+            duration: '',
+            reference: 'https://songsara.net/'
+        },
+        {
+            title: "Salton Sea",
+            audio: "https://dl.songsara.net/RaMt!N/98/6-Shahrivar/TOP%2030%20Schiller%20(Selected%20BY%20SONGSARA.NET)%20128K/08%20Salton%20Sea.mp3",
+            artist: 'Schiller',
+            cover: '',
+            genre: 'electronic house',
+            star: 4,
+            duration: '',
+            reference: 'https://songsara.net/'
+        },
+        {
+            title: "Himalayas",
+            audio: "https://dl6.songsara.net/FRE/14/Borrtex - Everest (2025) SONGSARA.NET/01 Himalayas.mp3",
+            artist: 'Borrtex',
+            cover: '',
+            genre: 'relax',
+            star: 4,
+            duration: '',
+            reference: 'https://songsara.net/'
+        },
+        {
+            title: "Broken Angel",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Broken-Angel-feat.-Helena.mp3",
+            artist: 'Arash feat Helena',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+
+        {
+            title: "One Day",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-One-Day-feat.-Helena-Radio-Edit.mp3",
+            artist: 'Arash feat Helena',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Pure Love",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Pure-Love-feat.-Helena.mp3",
+            artist: 'Arash feat Helena',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Temptation",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Temptation.mp3",
+            artist: 'Arash',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Hulu",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Hulu.mp3",
+            artist: 'Arash ft Sasy',
+            cover: '',
+            genre: 'raghsi',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Tike Tike Kardi",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Tike-Tike-Kardi.mp3",
+            artist: 'Arash',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Donya",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Donya-feat.-Shaggy-Single-Version.mp3",
+            artist: 'Arash feat Shaggy',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "BOMBE",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-BOMBE.mp3",
+            artist: 'Arash',
+            cover: '',
+            genre: 'raghsi',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Dasa Bala",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Dasa-Bala-feat.-Timbuktu-Yag.mp3",
+            artist: 'Arash feat. Timbuktu Yag',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Boro Boro (Funky Sunday)",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Boro-Boro-vs-Nexus.mp3",
+            artist: 'Arash',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Mary Jane",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Mary-Jane.mp3",
+            artist: 'Arash',
+            cover: '',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+        {
+            title: "Tekoon Bede",
+            audio: "https://ememay.ir/wp-content/uploads/2024/09/Arash-Tekoon-Bede.mp3",
+            artist: 'Arash',
+            cover: '',
+            genre: 'raghsi',
+            star: 4,
+            duration: '',
+            reference: 'https://ememay.ir/'
+        },
+
+        {
+            title: "Baraat Mimiram",
+            audio: "https://dl.aftabmusic.com/1403/9/Album/Shahram-Shabpareh-Tapesh/Shahram-Shabpareh-Baraat-Mimiram-256.mp3",
+            artist: 'Shahram Shabpare',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Vaveyla",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Shahram-Shabpareh-Taar-Ta-Gitar/03%20-%20(Aghasi)%20-%20Vaveyla%20,%20Labe%20Karoon.mp3",
+            artist: 'Shahram Shabpare',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Terme O Atlas",
+            audio: "https://dl.aftabmusic.com/1403/3/album/Sohbet%20Bekheir%20Azizam%20-%20Moein/02%20Terme%20O%20Atlas.mp3",
+            artist: 'Moein',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Tolou",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Toloo%20[320].mp3",
+            artist: 'Shohre',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30Xoviog9Z6wj4RQ9fISpmuZ_uQGgnfox0g&s',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Esrar",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Esrar%20[320].mp3",
+            artist: 'Shohre',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Ayeneh",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Ayeneh%20[320].mp3",
+            artist: 'Shohre',
+            cover: 'https://sahand-music.ir/photos/2000/14/12622.webp',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Panjereha",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Panjereha%20[320].mp3",
+            artist: 'Shohre',
+            cover: 'https://sahand-music.ir/photos/2000/14/12622.webp',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Shabe Sher",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Shab%20Sher%20[320].mp3",
+            artist: 'Shohre',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Kalaghe Domsiah",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Kalagheh%20Domsiah%20[320].mp3",
+            artist: 'Shohre',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Dele Bigharar",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Dele%20Beh%20Gharar%20[320].mp3",
+            artist: 'Shohre',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Salam",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Best Of Shohreh/Shohreh%20-%20Salam%20[320].mp3",
+            artist: 'Shohre',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Hame Shahr",
+            audio: "https://dl.aftabmusic.com/1403/6/New/Asef%20Aria%20-%20Hame%20Shahr%20(128).mp3",
+            artist: 'Asef Arya',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2024/09/%D8%B3%DB%8C.jpg',
+            genre: 'pop',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Koja Residi",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Dorcci-Young-Morvarid/02.Dorcci%20-%20Be%20Koja%20Residi%20(320).mp3",
+            artist: 'Dorcci',
+            cover: 'https://kelmusic.ir/wp-content/uploads/2025/02/Dorcci-Be-Koja-Residi.webp',
+            genre: 'electronic rap pop',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "H2CO3",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Dorcci-Young-Morvarid/03.Dorcci%20-%20H2CO3%20(320).mp3",
+            artist: 'Dorcci',
+            cover: 'https://kelmusic.ir/wp-content/uploads/2025/02/Dorcci-Be-Koja-Residi.webp',
+            genre: 'electronic rap pop',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Too Late",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Dorcci-Young-Morvarid/08.Dorcci%20-%20Too%20Late%20(320).mp3",
+            artist: 'Dorcci',
+            cover: 'https://kelmusic.ir/wp-content/uploads/2025/02/Dorcci-Be-Koja-Residi.webp',
+            genre: 'electronic rap pop',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Addi",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Dorcci-Young-Morvarid/10.Dorcci%20-%20Addi%20(320).mp3",
+            artist: 'Dorcci',
+            cover: 'https://kelmusic.ir/wp-content/uploads/2025/02/Dorcci-Be-Koja-Residi.webp',
+            genre: 'electronic rap pop',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Engar Na Engar",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Mansoor-Ghashange/03%20-%20Engar%20Na%20Engar.mp3",
+            artist: 'Mansor',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Bari Bakh",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Mansour-No-Limit/14%20Bari%20Bakh.mp3",
+            artist: 'Mansor',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Setareh",
+            audio: "https://dl.aftabmusic.com/1403/6/New/Majid Razavi - Setareh (128).mp3",
+            artist: 'Majid Razavi',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2024/09/new-3.jpg',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Bi To",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Black-Cats-Rise-of-The-Cats/Black%20Cats%20-%20Bi%20Tou.mp3",
+            artist: 'Black Cats',
+            cover: '',
+            genre: 'raghsi',
+            star: 3,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Ashofte Hali",
+            audio: "https://dl.mehrdl.top/Music/A/A/Shakila/Shakila%20-%20Ashofteh%20Haali%20[320].mp3",
+            artist: 'Shakila',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://music-mehr.com/'
+        },
+
+        {
+            title: "Rosvaye Zamane",
+            audio: "https://dl.mehrdl.top/Music/A/A/Shakila/Shakila%20-%20Rosvaye%20Zamaneh%20[320].mp3",
+            artist: 'Shakila',
+            cover: '',
+            genre: 'pop farsi',
+            star: 5,
+            duration: '',
+            reference: 'https://music-mehr.com/'
+
+        },
+        {
+            title: "Shahzadeye Royaye Man",
+            audio: "https://dl.mehrdl.top/Music/A/A/Shakila/Shakila%20-%20Shahzadeye%20Royaye%20Man%20[320].mp3",
+            artist: 'Shakila',
+            cover: '',
+            genre: 'pop farsi',
+            star: 5,
+            duration: '',
+            reference: 'https://music-mehr.com/'
+
+        },
+        {
+            title: "Ghoghaye Setaregan",
+            audio: "https://dl.mehrdl.top/Music/A/B/New/03%20Ghoghaye%20Setaregan.mp3",
+            artist: 'Shakila',
+            cover: 'data:image/jpeg;base64,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',
+            genre: 'pop farsi',
+            star: 5,
+            duration: '',
+            reference: 'https://music-mehr.com/'
+
+        },
+        {
+            title: "Sinderella",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Kamran-homan-Cinderella/Black%20Cats%20-%2001%20-%20Cinderella.mp3",
+            artist: 'Black Cats',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2025/02/%D8%A2%D9%84%D8%A8%D9%88%D9%85.webp',
+            genre: 'raghsi farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Aftab",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Kamran-homan-Cinderella/Black%20Cats%20-%2003%20-%20Aftab.mp3",
+            artist: 'Black Cats',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2025/02/%D8%A2%D9%84%D8%A8%D9%88%D9%85.webp',
+            genre: 'raghsi farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Naroo",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Kamran-homan-Cinderella/Black%20Cats%20-%2004%20-%20Naroo.mp3",
+            artist: 'Black Cats',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2025/02/%D8%A2%D9%84%D8%A8%D9%88%D9%85.webp',
+            genre: 'pop farsi',
+            star: 5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Haramsara",
+            audio: "https://dl.aftabmusic.com/1403/11/Album/Kamran-homan-Cinderella/Black%20Cats%20-%2006%20-%20Haramsara.mp3",
+            artist: 'Black Cats',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2025/02/%D8%A2%D9%84%D8%A8%D9%88%D9%85.webp',
+            genre: 'raghsi farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Behtarini",
+            audio: "https://dl.aftabmusic.com/1403/8/Album/Kamran-Hooman-Shenasnameh/Kamran-Hooman-Behtarini-320.mp3",
+            artist: 'Black Cats',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2024/11/%D8%A2%D9%84%D8%A8%D9%88%D9%85-%DA%A9%D8%A7%D9%85%D8%B1%D8%A7%D9%86-%D9%87%D9%88%D9%85%D9%86-%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87-.webp',
+            genre: 'raghsi farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Age Donya Daste Man Bood",
+            audio: "https://dl.aftabmusic.com/1403/8/Album/Kamran-Hooman-Shenasnameh/Kamran-Hooman-Age-Donya-Daste-Man-Bood-320.mp3",
+            artist: 'Black Cats',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2024/11/%D8%A2%D9%84%D8%A8%D9%88%D9%85-%DA%A9%D8%A7%D9%85%D8%B1%D8%A7%D9%86-%D9%87%D9%88%D9%85%D9%86-%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87-.webp',
+            genre: 'raghsi farsi',
+            star: 3.5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "20",
+            audio: "https://dl.aftabmusic.com/1403/8/Album/Kamran%20&%20Hooman-20/Kamran-Hooman-20-320.mp3",
+            artist: 'Black Cats',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2024/11/%D8%A2%D9%84%D8%A8%D9%88%D9%85-%DA%A9%D8%A7%D9%85%D8%B1%D8%A7%D9%86-%D9%87%D9%88%D9%85%D9%86-%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87-.webp',
+            genre: 'raghsi farsi',
+            star: 3.5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Faghat Be Khatere To",
+            audio: "https://dl.aftabmusic.com/1403/7/Album/Mansour - Faghat Be Khatere To/01-%20Faghat%20Be%20Khatere%20To.MP3",
+            artist: 'Mansour',
+            cover: '',
+            genre: 'raghsi farsi',
+            star: 3.5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Another Brick in the Wall",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Another%20Brick%20in%20the%20Wall%2C%20Pt.%202.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+
+        {
+            title: "Coming Back to Life",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Coming%20Back%20to%20Life.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+
+        {
+            title: "Dogs",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Dogs.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Fearless",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Fearless.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Learning to Fly",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Learning%20to%20Fly.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Lost for Words",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Lost%20for%20Words.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Marooned",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Marooned.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "On the Turning Away",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-On%20the%20Turning%20Away.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "One of the Few",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-One%20of%20the%20Few.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "One of These Days",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-One%20of%20These%20Days.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Poles Apart",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Poles%20Apart.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Sheeps",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Sheep.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Shine On You Crazy Diamond",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Shine%20On%20You%20Crazy%20Diamond%20%28Pts.%201-5%29.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://i1.sndcdn.com/artworks-000202128953-9k4u41-t500x500.jpg',
+            genre: 'rock',
+            star: 5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Take It Back",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Take%20It%20Back.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://m.media-amazon.com/images/M/MV5BNzMwYjRmNjItZmZlMS00YmZlLWJmODQtNjBlODQxYzBlYjQ0XkEyXkFqcGc@._V1_.jpg',
+            genre: 'rock',
+            star: 5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Time",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Time.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://oss.sazito.com/apiuploads/kamkarmusic/uploads/image/rootimage/113/bacb5e1889f6c51d92d3485558eab319.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Us and Them",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Us%20and%20Them.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273ea7caaff71dea1051d49b2fe',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Welcome to the Machine",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Welcome%20to%20the%20Machine.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://i1.sndcdn.com/artworks-000109780940-w1tbsc-t500x500.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "What Do You Want from Me",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-What%20Do%20You%20Want%20from%20Me.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Wish You Were Here",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Wish%20You%20Were%20Here.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://i.pinimg.com/736x/80/0d/96/800d96788ee9dcfc25c67c111e366b9a.jpg',
+            genre: 'rock',
+            star: 5,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Young Lust",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Young%20Lust.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Lost for Words",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Lost%20for%20Words.mp3",
+            artist: 'Pink Floyd',
+            cover: 'https://i.scdn.co/image/ab67616d0000b2738431fb4cb38f8ee96d3434c0',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "In Memory",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/EdSheeran//Ed%20Sheeran-%20In%20Memory.mp3",
+            artist: 'Ed Sheeran',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuccCLLPmcR01PguodiRJJiS5dRedholaYpro4Meu4bWnfYBEanpJN8z5WXuVRz1AL2Dc&usqp=CAU',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Afterglow",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/EdSheeran//Ed%20Sheeran-Afterglow.mp3",
+            artist: 'Ed Sheeran',
+            cover: 'https://production-digtracks-com.s3-ap-northeast-1.amazonaws.com/uploads/cover_art/file/51318/coverart.jpg',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Beyond The Pale",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/EdSheeran//Ed%20Sheeran-Beyond%20The%20Pale.mp3",
+            artist: 'Ed Sheeran',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1YoQiHwS3ih7VXsmkjERbMlVybYg2xa9y2Q&s',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Bloodstream",
+            audio: "https://dl.aftabmusic.com/1403/7/Other/EdSheeran//Ed%20Sheeran-Bloodstream.mp3",
+            artist: 'Ed Sheeran',
+            cover: 'https://i.scdn.co/image/ab67616d0000b2738df49889b9167bcb6c1c61e5',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Way Down We Go",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//Kaleo%20-%20Way%20Down%20We%20Go.mp3",
+            artist: 'Kaleo',
+            cover: 'http://upload.wikimedia.org/wikipedia/en/a/a1/KaleoWayDownWeGo.jpg',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Wake Me Up When September Ends",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//Green%20Day%20-%20Wake%20Me%20Up%20When%20September%20Ends.mp3",
+            artist: 'Green Day',
+            cover: 'http://m.media-amazon.com/images/I/715oSyF69WL._UF1000,1000_QL80_.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "abcdefu (angrier)",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//GAYLE%20-%20abcdefu%20%28angrier%29.mp3",
+            artist: 'GAYLE',
+            cover: 'https://i1.sndcdn.com/artworks-3IHpyuI3eiTd-0-t500x500.jpg',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Yellow",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//Coldplay%20-%20Yellow.mp3",
+            artist: 'Coldplay',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/9/9b/Yellow_cover_art.JPG',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Viva La Vida",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//Coldplay%20-%20Viva%20La%20Vida.mp3",
+            artist: 'Coldplay',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e21cc1db05580b6f2d2a3b6e',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Rock and a Hard Place",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//Bailey%20Zimmerman%20-%20Rock%20and%20a%20Hard%20Place.mp3",
+            artist: 'https://i.scdn.co/image/ab67616d0000b273f282daf9f783241294438aab',
+            cover: 'Bailey Zimmerman',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "The Only Exception",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//Paramore%20-%20The%20Only%20Exception.mp3",
+            artist: 'Paramore',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e01d7d558032457b0e4883f6',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Running up That Hill",
+            audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//MEG%20MYERS%20-%20Running%20up%20That%20Hill.mp3",
+            artist: 'MEG MYERS',
+            cover: 'https://i1.sndcdn.com/artworks-000499381992-u9okpp-t1080x1080.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Should’ve Said No",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/24.Taylor-Swift-Should%20ve-Said-No-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5tWDLREvcvxR_H4oV-d0tr_tnz48DzE2lw&s',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Stay Beautiful",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/25.Taylor-Swift-Stay-Beautiful-128.mp3",
+            artist: 'Taylor Swift',
+            cover: '',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "The Outside",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/29.Taylor-Swift-The-Outside-128.mp3",
+            artist: 'Taylor Swift',
+            cover: '',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "The Way I Loved You",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/30.Taylor-Swift-The-Way-I-Loved-You-128.mp3",
+            artist: 'Taylor Swift',
+            cover: '',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: " Tim Mcgraw",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/32.Taylor-Swift-Tim-Mcgraw-128.mp3",
+            artist: 'Taylor Swift',
+            cover: '',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Hey Stephen",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/18.Taylor-Swift-Hey-Stephen-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://i1.sndcdn.com/artworks-000065654007-vzqahe-t500x500.jpg',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Invisible",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/20.Taylor-Swift-Invisible-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Mary’s Song (Oh My My My)",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/21.Taylor-Swift-Mary%20s-Song-%28Oh-My-My-My%29-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "the lakes",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/11.the%20lakes.mp3",
+            artist: 'Taylor Swift',
+            cover: 'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "A Perfectly Good Heart",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/12.Taylor-Swift-A-Perfectly-Good-Heart-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Fearless",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/01.Taylor-Swift-Fearless-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvWiLNknuoX8tlydgSO49aep7Zn_BRptTmgQ&s',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Love Story",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/02.Taylor-Swift-Love-Story-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/0/01/Taylor_Swift_-_Love_Story.png',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "You Belong With Me",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/03.Taylor-Swift-You-Belong-With-Me-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_You_Belong_with_Me.png',
+            genre: 'rock pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Mine",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/05.Taylor-Swift-Mine-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/5/56/Taylor_Swift_-_Mine.png',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "I Knew You Were Trouble",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/08.-%20Taylor%20Swift%20-%20I%20Knew%20You%20Were%20Trouble.%20%28128%29.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://i1.sndcdn.com/artworks-000038140006-wopgzj-t500x500.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "A Place In This World",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/13.Taylor-Swift-A-Place-In-This-World-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'http://i1.sndcdn.com/artworks-000421008288-8i2q2a-t500x500.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+
+        {
+            title: "Change",
+            audio: "https://dl.aftabmusic.com/1403/3/other/Taylor Swift/15.Taylor-Swift-Change-128.mp3",
+            artist: 'Taylor Swift',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/8/84/Taylor_Swift_-_Change.png',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+
+        {
+            title: "Wherever I May Roam",
+            audio: "https://dl.aftabmusic.com/1403/3/other/khareji/Metallica-Wherever-I-May-Roam-gahmusic-320.mp3",
+            artist: 'Metallica',
+            cover: 'https://i1.sndcdn.com/artworks-000070557592-5bo74j-t500x500.jpg',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Blow Your Mind",
+            audio: "https://dl.aftabmusic.com/1403/3/other/khareji/Dua-Lipa-Blow-Your-Mind-Mwah-gahmusic-320.mp3",
+            artist: 'Dua Lipa',
+            cover: 'https://images.genius.com/044900c3a798fb934e1fe85f3aeea361.500x500x1.jpg',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Diamonds",
+            audio: "https://dl.aftabmusic.com/1403/3/other/khareji/Rihanna%20-%20Diamonds.mp3",
+            artist: 'Rihanna',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/e/e8/Diamonds_-_Rihanna.png',
+            genre: 'pop',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "My Defence",
+            audio: "https://dl.aftabmusic.com/1403/3/other/khareji/Queen-In-My-Defence-gahmusic-320.mp3",
+            artist: 'Queen',
+            cover: 'https://static.wikia.nocookie.net/queen/images/b/b1/In_My_Defence_-_Cover.JPG/revision/latest?cb=20220316185340&path-prefix=de',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+
+        {
+            title: "",
+            audio: "",
+            artist: '',
+            cover: '',
+            genre: 'rock',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
 
 
 
