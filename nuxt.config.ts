@@ -33,7 +33,7 @@ export default defineNuxtConfig({
       description: "Listen to Beauties and Dance",
       start_url: "/",
       display: "standalone",
-      background_color: "#3d3d3d",
+      background_color: "#fff",
       theme_color: "#84f3ff",
       icons: [
         {
