@@ -16,7 +16,15 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxt/image', '@vite-pwa/nuxt','@pinia/nuxt'],
+  modules: ['@nuxt/image', '@vite-pwa/nuxt','@pinia/nuxt', '@nuxtjs/sitemap'],
+  
+  sitemap: {
+    hostname: 'https://dance-baby-radio.com', // آدرس دامنه خود را وارد کنید
+    gzip: true, // در صورت نیاز، برای فشرده‌سازی
+    routes: [
+      '/', // صفحات خاص خود را اینجا وارد کنید
+    ],
+  },
   image: {},
   pwa: {
     manifest: {
