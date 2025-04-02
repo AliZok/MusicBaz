@@ -2723,7 +2723,7 @@ const storeSimple = ref({
         },
         {
             title: "Zare Zare",
-            audio: "https://dl.musicdel.ir/Music/1402/03/ashvan_zare_zare.jpg",
+            audio: "http://irsv.upmusics.com/AliBZ/Ashvan%20-%20Zare%20Zare%20(320).mp3",
             artist: 'Ashvan',
             cover: 'https://dl.musicdel.ir/Music/1402/03/ashvan_zare_zare.jpg',
             genre: 'raghsi',
@@ -4892,60 +4892,87 @@ const storeSimple = ref({
             reference: 'https://aftabmusic.com/'
         },
         {
-            title: "",
-            audio: "",
+            title: "Aroosi",
+            audio: "https://irsv.upmusics.com/Tracks/Songs/Aroosi%20Songs%20(4).mp3?_=156",
             artist: '',
             cover: '',
-            genre: 'rock',
+            genre: 'raghsi',
             star: 4,
             duration: '',
             reference: 'https://aftabmusic.com/'
         },
         {
-            title: "",
-            audio: "",
-            artist: '',
-            cover: '',
-            genre: 'rock',
+            title: "Khaterkhatam",
+            audio: "https://irsv.upmusics.com/dlw/Sina%20Derakhshande%20-%20Khater%20Khatam%20(320).mp3",
+            artist: 'Sina Derakhshande',
+            cover: 'https://upmusics.com/wp-content/uploads/2024/11/photo_2024-11-27_19-53-40.jpg',
+            genre: 'raghsi',
             star: 4,
             duration: '',
-            reference: 'https://aftabmusic.com/'
+            reference: 'https://upmusics.com/'
         },
 
         {
-            title: "",
-            audio: "",
-            artist: '',
-            cover: '',
-            genre: 'rock',
+            title: "Dokhtar Irooni",
+            audio: "https://irsv.upmusics.com/AliBZ/Sohrab%20Pakzad%20-%20Dokhtar%20Irooni(320).mp3",
+            artist: 'Sohrab Pakzad',
+            cover: 'https://rozmusic.com/wp-content/uploads/2024/09/Sohrab-Pakzad-Dokhtar-Irooni.jpg',
+            genre: 'raghsi',
             star: 4,
             duration: '',
-            reference: 'https://aftabmusic.com/'
+            reference: 'https://upmusics.com/'
         },
-
         {
-            title: "",
-            audio: "",
-            artist: '',
+            title: "Mosafer",
+            audio: "https://irsv.upmusics.com/dlw/Majid%20Vahedi%20-%202%20Mosafer%20(320).mp3",
+            artist: 'Majid Vahedi',
             cover: '',
-            genre: 'rock',
+            genre: 'raghsi',
             star: 4,
             duration: '',
-            reference: 'https://aftabmusic.com/'
+            reference: 'https://upmusics.com/'
         },
-
         {
-            title: "",
-            audio: "",
-            artist: '',
-            cover: '',
-            genre: 'rock',
+            title: "Gole Hayahoo",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Fereydoun-Asraei-Gharibeh/01.%20Fereydoun%20Asraei%20-%20Gole%20Hayahoo.mp3",
+            artist: 'Fereydoun Asraei',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2025/02/Fereydoun-Asraei-Gharibeh.jpg',
+            genre: 'pop farsi',
             star: 4,
             duration: '',
             reference: 'https://aftabmusic.com/'
         },
-
-
+        {
+            title: "Kabootar",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Fereydoun-Asraei-Gharibeh/03.%20Fereydoun%20Asraei%20-%20Kabootar.mp3",
+            artist: 'Fereydoun Asraei',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2025/02/Fereydoun-Asraei-Gharibeh.jpg',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Khooneh Be Khooneh",
+            audio: "https://dl.aftabmusic.com/1403/12/Album/Fereydoun-Asraei-Gharibeh/05.%20Fereydoun%20Asraei%20-%20Khooneh%20Be%20Khooneh.mp3",
+            artist: 'Fereydoun Asraei',
+            cover: 'https://aftabmusic.com/wp-content/uploads/2025/02/Fereydoun-Asraei-Gharibeh.jpg',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+        {
+            title: "Kabe",
+            audio: "https://dl.aftabmusic.com/1403/3/album/Kabeh%20Moein/01%20Kabeh.mp3",
+            artist: 'Moein',
+            cover: '',
+            genre: 'pop farsi',
+            star: 4,
+            duration: '',
+            reference: 'https://aftabmusic.com/'
+        },
+      
 
     ],
     genres: [
