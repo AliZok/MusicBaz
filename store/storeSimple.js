@@ -748,14 +748,14 @@ const storeSimple = ref({
         {
             title: 'Now',
             artist: '',
-            cover: 'https://songsara.net/wp-content/uploads/2023/08/Electronic-Rising-4.jpg',
+            cover: '',
             audio: 'https://dl6.songsara.net/FRE/3/Electronic Rising 4 (Playlist)/01 Now (Original Mix).mp3',
             genre: 'techno electronic',
         },
         {
             title: 'Trouble so Hard',
             artist: 'Umek, Matteo Vitanza',
-            cover: 'https://songsara.net/wp-content/uploads/2023/08/Electronic-Rising-4.jpg',
+            cover: 'https://i1.sndcdn.com/artworks-yGGyLv9zhFMYMANl-BoT7MQ-t500x500.jpg',
             audio: 'https://dl6.songsara.net/FRE/3/Electronic Rising 4 (Playlist)/07 Trouble so Hard.mp3',
             genre: 'techno electronic',
         },
