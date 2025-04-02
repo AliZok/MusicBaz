@@ -25,8 +25,8 @@ export default defineNuxtConfig({
       description: "Listen to Beauties and Dance",
       start_url: "/",
       display: "standalone",
-      background_color: "#ffffff",
-      theme_color: "#ffffff",
+      background_color: "#3d3d3d",
+      theme_color: "#84f3ff",
       icons: [
         {
           src: "/favicon/dancy-girl.png",
