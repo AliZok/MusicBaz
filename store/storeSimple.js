@@ -4652,8 +4652,8 @@ const storeSimple = ref({
         {
             title: "Rock and a Hard Place",
             audio: "https://dl.aftabmusic.com/1403/6/Other/Rock//Bailey%20Zimmerman%20-%20Rock%20and%20a%20Hard%20Place.mp3",
-            artist: 'https://i.scdn.co/image/ab67616d0000b273f282daf9f783241294438aab',
-            cover: 'Bailey Zimmerman',
+            artist: 'Bailey Zimmerman',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273f282daf9f783241294438aab',
             genre: 'rock pop',
             star: 4,
             duration: '',
