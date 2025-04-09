@@ -4972,6 +4972,15 @@ const storeSimple = ref({
             duration: '',
             reference: 'https://aftabmusic.com/'
         },
+        {
+            title: 'Dideye Tora',
+            artist: 'DJ Phellix & Seventh Soul & ShezRiri',
+            cover:'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0RKX1BoZWxsaXgsX1NldmVudGhfU291bF9EaWRleWVfVG9yYV9mZWF0X1NoZXpyaXJpX09yaWdpbmFsX01peC5qcGciLCJpYXQiOjE3NDQxODc2NTQsImV4cCI6MTkwMTg2NzY1NH0.JzK8Lqiznc66uuyIX5Sv75moBEqsTkp6TlncStC53js',
+            audio:'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESl9QaGVsbGl4LF9TZXZlbnRoX1NvdWxfRGlkZXllX1RvcmFfZmVhdF9TaGV6cmlyaV9PcmlnaW5hbF9NaXgubXAzIiwiaWF0IjoxNzQ0MTg3NDA1LCJleHAiOjE5MDE4Njc0MDV9.xwln96Rp3w0L6gxKCeYlwiRmvJT6_bpfDji-UfEt1Vw',
+            genre: 'techno electronic',
+            duration: '',
+            reference: 'www.ArioRecords.com'
+          }
       
 
     ],
