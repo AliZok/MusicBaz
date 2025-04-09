@@ -4383,7 +4383,7 @@ const storeSimple = ref({
             title: "Learning to Fly",
             audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Learning%20to%20Fly.mp3",
             artist: 'Pink Floyd',
-            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/d/da/Pink_Floyd_-_Learning_to_Fly.jpg',
             genre: 'rock',
             star: 4,
             duration: '',
