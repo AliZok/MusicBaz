@@ -4980,7 +4980,7 @@ const storeSimple = ref({
             genre: 'house electronic',
             duration: '',
             reference: 'www.ArioRecords.com'
-          }
+          },
           {
             title: 'Azizam',
             artist: 'Ed Sheeran',
