@@ -4977,9 +4977,18 @@ const storeSimple = ref({
             artist: 'DJ Phellix & Seventh Soul & ShezRiri',
             cover:'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0RKX1BoZWxsaXgsX1NldmVudGhfU291bF9EaWRleWVfVG9yYV9mZWF0X1NoZXpyaXJpX09yaWdpbmFsX01peC5qcGciLCJpYXQiOjE3NDQxODc2NTQsImV4cCI6MTkwMTg2NzY1NH0.JzK8Lqiznc66uuyIX5Sv75moBEqsTkp6TlncStC53js',
             audio:'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESl9QaGVsbGl4LF9TZXZlbnRoX1NvdWxfRGlkZXllX1RvcmFfZmVhdF9TaGV6cmlyaV9PcmlnaW5hbF9NaXgubXAzIiwiaWF0IjoxNzQ0MTg3NDA1LCJleHAiOjE5MDE4Njc0MDV9.xwln96Rp3w0L6gxKCeYlwiRmvJT6_bpfDji-UfEt1Vw',
-            genre: 'techno electronic',
+            genre: 'house electronic',
             duration: '',
             reference: 'www.ArioRecords.com'
+          }
+          {
+            title: 'Azizam',
+            artist: 'Ed Sheeran',
+            cover:'https://ava-music.com/wp-content/uploads/2025/04/Ed-Sheeran-Azizam.jpg',
+            audio:'https://dl.ava-music.com/music/1404/01/15/Ed%20Sheeran%20-%20Azizam%20(128).mp3',
+            genre: 'pop',
+            duration: '',
+            reference: 'https://ava-music.com/'
           }
       
 
