@@ -4933,6 +4933,16 @@ const storeSimple = ref({
             reference: 'https://upmusics.com/'
         },
         {
+            title: "Janan",
+            audio: "https://irsv.upmusics.com/99/Ali%20Montazeri%20%E2%80%93%20Janan%20(320).mp3",
+            artist: 'Ali Montazeri',
+            cover: '',
+            genre: 'raghsi',
+            star: 4,
+            duration: '',
+            reference: 'https://upmusics.com/'
+        },
+        {
             title: "Gole Hayahoo",
             audio: "https://dl.aftabmusic.com/1403/12/Album/Fereydoun-Asraei-Gharibeh/01.%20Fereydoun%20Asraei%20-%20Gole%20Hayahoo.mp3",
             artist: 'Fereydoun Asraei',
