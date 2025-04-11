@@ -2178,6 +2178,36 @@ const storeSimple = ref({
             reference: 'https://ahoramusics.ir/'
         },
         {
+            title: 'Norouz',
+            artist: 'Andy',
+            cover: 'https://javanmelody.ir/wp-content/uploads/2023/02/Andy20-20Norouz.jpg',
+            audio: 'https://dl.javanmelody.ir/dl/1401/12/Andy-Norouz-abanmusics.com-128.mp3',
+            genre: 'pop raghsi',
+            duration: '',
+            star: 5,
+            reference: 'https://javanmelody.ir/'
+        },
+        {
+            title: 'Stand By Me',
+            artist: 'Andy & Bon Jovi',
+            cover: 'https://javanmelody.ir/wp-content/uploads/2023/02/Andy-7.jpg',
+            audio: 'https://dl.javanmelody.ir/dl/1401/12/Andy-&-038;-Bon-Jovi-Stand-By-Me-abanmusics.com-128.mp3 ',
+            genre: 'pop rock',
+            duration: '',
+            star: 5,
+            reference: 'https://javanmelody.ir/'
+        },
+        {
+            title: 'Kaghaze Bi Khat',
+            artist: 'Andy',
+            cover: 'https://assets.rjassets.com/static/mp3/andy-kaghaze-bi-khat/9a58b404.jpg',
+            audio: 'https://dl.javanmelody.ir/dl/1401/12/Andy-Kaghaze-Bi-Khat-abanmusics.com-128.mp3',
+            genre: 'pop',
+            duration: '',
+            star: 4,
+            reference: 'https://javanmelody.ir/'
+        },
+        {
             title: "Shabe Asheghi",
             audio: "https://sv.ahoramusics.ir/ton/1403/12/aron-afshar-shabe-asheghi-128.mp3",
             artist: 'Aron Afshar',
@@ -4985,23 +5015,113 @@ const storeSimple = ref({
         {
             title: 'Dideye Tora',
             artist: 'DJ Phellix & Seventh Soul & ShezRiri',
-            cover:'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0RKX1BoZWxsaXgsX1NldmVudGhfU291bF9EaWRleWVfVG9yYV9mZWF0X1NoZXpyaXJpX09yaWdpbmFsX01peC5qcGciLCJpYXQiOjE3NDQxODc2NTQsImV4cCI6MTkwMTg2NzY1NH0.JzK8Lqiznc66uuyIX5Sv75moBEqsTkp6TlncStC53js',
-            audio:'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESl9QaGVsbGl4LF9TZXZlbnRoX1NvdWxfRGlkZXllX1RvcmFfZmVhdF9TaGV6cmlyaV9PcmlnaW5hbF9NaXgubXAzIiwiaWF0IjoxNzQ0MTg3NDA1LCJleHAiOjE5MDE4Njc0MDV9.xwln96Rp3w0L6gxKCeYlwiRmvJT6_bpfDji-UfEt1Vw',
+            cover: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-pictures/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LXBpY3R1cmVzL0RKX1BoZWxsaXgsX1NldmVudGhfU291bF9EaWRleWVfVG9yYV9mZWF0X1NoZXpyaXJpX09yaWdpbmFsX01peC5qcGciLCJpYXQiOjE3NDQxODc2NTQsImV4cCI6MTkwMTg2NzY1NH0.JzK8Lqiznc66uuyIX5Sv75moBEqsTkp6TlncStC53js',
+            audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ_Phellix,_Seventh_Soul_Dideye_Tora_feat_Shezriri_Original_Mix.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESl9QaGVsbGl4LF9TZXZlbnRoX1NvdWxfRGlkZXllX1RvcmFfZmVhdF9TaGV6cmlyaV9PcmlnaW5hbF9NaXgubXAzIiwiaWF0IjoxNzQ0MTg3NDA1LCJleHAiOjE5MDE4Njc0MDV9.xwln96Rp3w0L6gxKCeYlwiRmvJT6_bpfDji-UfEt1Vw',
             genre: 'house electronic',
             duration: '',
             reference: 'www.ArioRecords.com'
-          },
-          {
+        },
+        {
             title: 'Azizam',
             artist: 'Ed Sheeran',
-            cover:'https://ava-music.com/wp-content/uploads/2025/04/Ed-Sheeran-Azizam.jpg',
-            audio:'https://dl.ava-music.com/music/1404/01/15/Ed%20Sheeran%20-%20Azizam%20(128).mp3',
+            cover: 'https://ava-music.com/wp-content/uploads/2025/04/Ed-Sheeran-Azizam.jpg',
+            audio: 'https://dl.ava-music.com/music/1404/01/15/Ed%20Sheeran%20-%20Azizam%20(128).mp3',
             genre: 'pop',
             duration: '',
             reference: 'https://ava-music.com/'
-          }
-      
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2025/1/42/1.mp3',
+            genre: 'electronic',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2025/1/42/3.mp3',
+            genre: 'electronic',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: 'Hymn',
+            artist: 'Unusual Cosmic Process',
+            cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/Unusual-Cosmic-Process-Hymn.jpg',
+            audio: 'https://dl.iraniandj.ir/2025/1/41/1.mp3',
+            genre: 'relax',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
 
+        {
+            title: 'Once upon a time in silence',
+            artist: 'Unusual Cosmic Process',
+            cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/Unusual-Cosmic-Process-Hymn.jpg',
+            audio: 'https://dl.iraniandj.ir/2025/1/41/3.mp3',
+            genre: 'relax',
+            duration: '',
+            star: 5,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: 'Train to the past',
+            artist: 'Unusual Cosmic Process',
+            cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/Unusual-Cosmic-Process-Hymn.jpg',
+            audio: 'https://dl.iraniandj.ir/2025/1/41/4.mp3',
+            genre: 'relax',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/31/3.mp3',
+            genre: 'electronic',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/35/1.mp3',
+            genre: 'electronic trance',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/29/1.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/29/1.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
     ],
     genres: [
         {
