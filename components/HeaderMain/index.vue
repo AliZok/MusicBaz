@@ -7,14 +7,14 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
 <template>
     <div class="HeaderMain">
         <div class="inner-header">
-            <div class="my-brand auto-shadow mb-2">
+            <div class="auto-shadow my-brand mb-2">
                 <h1 class="font-days home-link-title">
                     <NuxtLink to="/">DANCE BABY RADIO</NuxtLink>
                 </h1>
                 <span class="com"></span>
             </div>
             <div class="">
-                <div v-if="isPlaying" class="tape-wrapper ">
+                <div v-if="isPlaying" class="tape-wrapper">
                     <img class="visual" src="/public/test-pics/radio-playing-2.webp" alt="">
                 </div>
             </div>
@@ -63,6 +63,7 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
     a{
         text-decoration: none;
         color: #7edee3;
+        color: #94d4e3;
     }
 }
 
