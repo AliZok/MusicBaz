@@ -5122,6 +5122,98 @@ const storeSimple = ref({
             star: 4,
             reference: 'https://pro.iraniandj.ir/'
         },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/29/3.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/29/7.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/27/2.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/27/3.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/27/5.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/10/27/7.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: '',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+
     ],
     genres: [
         {

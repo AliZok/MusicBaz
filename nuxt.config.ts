@@ -33,7 +33,7 @@ export default defineNuxtConfig({
       start_url: "/",
       display: "standalone",
       background_color: "#fff",
-      theme_color: "#84f3ff",
+      theme_color: "#fff",
       icons: [
         {
           src: "/favicon/dancy-girl.png",
@@ -90,6 +90,17 @@ export default defineNuxtConfig({
         { name: "theme-color", content: "#ffffff" },
         { name: "apple-mobile-web-app-capable", content: "yes" },
         { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
+         // NEW: Open Graph (OG) tags for social sharing
+         { property: "og:type", content: "website" },
+         { property: "og:title", content: "Dance Baby Radio" }, // Customize this!
+         { property: "og:description", content: "Listen to Beauties and Dance" }, // Customize!
+         { property: "og:image", content: "https://dance-baby-radio.com/images/background-dance-1.jpg" }, // Absolute URL required
+         { property: "og:url", content: "https://dance-baby-radio.com" }, // Homepage URL
+         { property: "og:image:width", content: "1200" }, // Optimized for WhatsApp/Facebook
+         { property: "og:image:height", content: "630" },
+         
+         // Twitter Card (optional)
+         { name: "twitter:card", content: "https://dance-baby-radio.com/images/background-dance-1.jpg" },
       ],
     },
   },
