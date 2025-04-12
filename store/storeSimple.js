@@ -1590,15 +1590,6 @@ const storeSimple = ref({
             star: 5,
         },
         {
-            title: 'https://vmusic.ir/wp-content/uploads/2020/12/Ytram-Alive-2020.jpg',
-            audio: '',
-            artist: 'Daniel Philip',
-            cover: 'https://vmusic.ir/wp-content/uploads/2024/11/0.jpg',
-            genre: 'relax piano',
-            star: 5,
-        },
-
-        {
             title: 'Alive',
             artist: 'Ytram',
             cover: 'https://vmusic.ir/wp-content/uploads/2020/12/Ytram-Alive-2020.jpg',
