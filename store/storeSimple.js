@@ -5053,7 +5053,7 @@ const storeSimple = ref({
         {
             title: 'Hymn',
             artist: 'Unusual Cosmic Process',
-            cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/Unusual-Cosmic-Process-Hymn.jpg',
+            cover: 'https://geo-media.beatport.com/image_size/1400x1400/68585d1d-b4bf-42f6-811e-887e3923c474.jpg',
             audio: 'https://dl.iraniandj.ir/2025/1/41/1.mp3',
             genre: 'relax',
             duration: '',
@@ -5064,7 +5064,7 @@ const storeSimple = ref({
         {
             title: 'Once upon a time in silence',
             artist: 'Unusual Cosmic Process',
-            cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/Unusual-Cosmic-Process-Hymn.jpg',
+            cover: 'https://geo-media.beatport.com/image_size/1400x1400/68585d1d-b4bf-42f6-811e-887e3923c474.jpg',
             audio: 'https://dl.iraniandj.ir/2025/1/41/3.mp3',
             genre: 'relax',
             duration: '',
@@ -5074,7 +5074,7 @@ const storeSimple = ref({
         {
             title: 'Train to the past',
             artist: 'Unusual Cosmic Process',
-            cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/Unusual-Cosmic-Process-Hymn.jpg',
+            cover: 'https://geo-media.beatport.com/image_size/1400x1400/68585d1d-b4bf-42f6-811e-887e3923c474.jpg',
             audio: 'https://dl.iraniandj.ir/2025/1/41/4.mp3',
             genre: 'relax',
             duration: '',
