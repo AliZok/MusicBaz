@@ -4896,7 +4896,7 @@ const storeSimple = ref({
             title: "My Defence",
             audio: "https://dl.aftabmusic.com/1403/3/other/khareji/Queen-In-My-Defence-gahmusic-320.mp3",
             artist: 'Queen',
-            cover: 'https://static.wikia.nocookie.net/queen/images/b/b1/In_My_Defence_-_Cover.JPG/revision/latest?cb=20220316185340&path-prefix=de',
+            cover: 'https://i.discogs.com/Ywo-UzXrgAirwCWn75BSEnuk7LoBY3yxlXnTYWtod8w/rs:fit/g:sm/q:90/h:515/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MzI2/ODUtMTIzOTgxODE2/OC5qcGVn.jpeg',
             genre: 'rock',
             star: 4,
             duration: '',
