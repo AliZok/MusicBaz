@@ -4421,16 +4421,6 @@ const storeSimple = ref({
             reference: 'https://aftabmusic.com/'
         },
         {
-            title: "",
-            audio: "",
-            artist: 'Pink Floyd',
-            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
-            genre: 'rock',
-            star: 4,
-            duration: '',
-            reference: 'https://aftabmusic.com/'
-        },
-        {
             title: "Marooned",
             audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Marooned.mp3",
             artist: 'Pink Floyd',
