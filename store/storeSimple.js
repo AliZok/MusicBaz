@@ -4434,7 +4434,7 @@ const storeSimple = ref({
             title: "Marooned",
             audio: "https://dl.aftabmusic.com/1403/7/Other/PinkFloyd//Pink%20Floyd-Marooned.mp3",
             artist: 'Pink Floyd',
-            cover: 'https://files.musicfeed.ir/2018/12/Pink-Floyd-The-Wall-cover.jpg',
+            cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeY1GcFrzkHQtW908VtQ1m88Ka4dbL398o7w&s',
             genre: 'rock',
             star: 5,
             duration: '',
