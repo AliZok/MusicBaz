@@ -141,6 +141,17 @@ const storeSimple = ref({
       genre: 'rock metal',
       duration: ''
     },
+    {
+      title: 'Breaking the Habit',
+      artist: 'LinkinPark',
+      cover: 'https://i1.sndcdn.com/artworks-000116080355-gatn8i-t500x500.jpg',
+      audio:
+        'https://emmusicdl.ir/Music/Linkin-Park/Papercuts/Breaking-the-Habit-Linkin-Park-320.mp3',
+      genre: 'rock metal',
+      star: 5,
+      duration: '',
+      reference: 'https://ememay.ir/'
+    },
     // {
     //     title: 'Abri',
     //     artist: 'Farvardin',
@@ -5920,7 +5931,104 @@ const storeSimple = ref({
       duration: '',
       star: 4,
       reference: 'https://dl.uptrack.ir'
-    }
+    },
+    {
+      title: 'Still Loving You',
+      artist: 'Scorpions',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Love-At-First-Sting-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Scorpions/Love-At-First-Sting-Deluxe-Edition/_Still_Loving_You_Live_at_Madison_Square_Garden_1984_Scorpions.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    },
+    {
+      title: 'Rhythm of Love',
+      artist: 'Scorpions',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Savage-Amusement-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Scorpions/Savage-Amusement/Rhythm-of-Love-2015-Remaster-Scorpions-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    },
+    {
+      title: 'Believe in Love',
+      artist: 'Scorpions',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Savage-Amusement-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Scorpions/Savage-Amusement/Believe-in-Love-2015-Remaster-Scorpions-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    },
+    {
+      title: "Don't Stop at the Top",
+      artist: 'Scorpions',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Savage-Amusement-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Scorpions/Savage-Amusement/_Dont_Stop_at_the_Top_2015_Remaster_Scorpions_320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    },
+    {
+      title: 'Du hast',
+      artist: 'Rammstein',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Du-hast-Rammstein-320.mp3',
+      genre: 'rock metal',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    },
+    {
+      title: 'Engel',
+      artist: 'Rammstein',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Engel-Rammstein-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    },
+    {
+      title: 'Tier',
+      artist: 'Rammstein',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Tier-Rammstein-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    },
+    {
+        title: 'Bück Dich',
+        artist: 'Rammstein',
+        cover:
+          'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
+        audio:
+          'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Bück-dich-Rammstein-320.mp3',
+        genre: 'rock',
+        duration: '',
+        star: 4,
+        reference: 'https://ememay.ir'
+      },
+
   ],
   genres: [
     {
