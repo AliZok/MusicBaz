@@ -138,6 +138,16 @@ const storeSimple = ref({
             duration: ':',
         },
         {
+            title: 'Somewhere I Belong',
+            artist: 'LinkinPark',
+            audio: 'https://emmusicdl.ir/Music/Linkin-Park/Meteora-Bonus-Edition/Somewhere-I-Belong-Linkin-Park-320.mp3',
+            cover: '',
+            genre: 'rock ',
+            duration: '',
+            star: 4,
+            reference: ''
+        },
+        {
             title: 'Khanom Gol',
             artist: 'Ebi',
             cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThIfO_ydjF7ly2z_kVJOZt5ssTf1hODhSRuP-AS8eJGnTpOv5rFzP7ZpFzmIzrvwoXBbc&usqp=CAU',
@@ -526,7 +536,7 @@ const storeSimple = ref({
         {
             title: 'Do You Remember',
             artist: 'Phil Collins',
-            cover: 'https://static.wikia.nocookie.net/philcollins/images/1/1c/Do_You_Remember.jpg/revision/latest?cb=20230520043808',
+            cover: '',
             audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Do%20You%20Remember.mp3',
             genre: 'rock pop',
         },
@@ -3418,13 +3428,13 @@ const storeSimple = ref({
             title: "Baraye",
             audio: "https://dl.musicdrum.ir/uploads/2023/02/Shervin-Baraye-320.mp3",
             artist: 'Shervin',
-            cover: '',
+            cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-72.jpeg',
             genre: 'pop farsi',
             star: 5,
             duration: '',
-            reference: 'https://musicdrum.ir/'
-
+            reference: 'https://ememay.ir'
         },
+        
         {
             title: "Ashghalaye Rangi",
             audio: "https://dl.musicdrum.ir/uploads/2022/11/Shervin-Ashghalyae-Rangi.mp3",
@@ -3552,6 +3562,16 @@ const storeSimple = ref({
         {
             title: "",
             audio: "https://dl.iraniandj.ir/2024/10/28/1.mp3",
+            artist: '',
+            cover: '',
+            genre: 'electronic techno',
+            star: 4,
+            duration: '',
+            reference: ''
+        },
+        {
+            title: "",
+            audio: "https://dl.iraniandj.ir/2024/10/28/2.mp3",
             artist: '',
             cover: '',
             genre: 'electronic techno',
@@ -5224,6 +5244,16 @@ const storeSimple = ref({
             reference: 'https://pro.iraniandj.ir/'
         },
         {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2025/1/7/2.mp3',
+            genre: 'electronic techno',
+            duration: '',
+            star: 4,
+            reference: 'https://pro.iraniandj.ir/'
+        },
+        {
             title: 'Khiaboona',
             artist: 'Kiarash Ft Aaren',
             cover: '',
@@ -5232,6 +5262,26 @@ const storeSimple = ref({
             duration: '',
             star: 4,
             reference: 'https://dl.uptrack.ir'
+        },
+        {
+            title: '',
+            artist: '',
+            cover: '',
+            audio: 'https://dl.iraniandj.ir/2024/12/28/2.mp3',
+            genre: 'electronic',
+            duration: '',
+            star: 4,
+            reference: 'https://dl.iraniandj.ir'
+        },
+        {
+            title: '',
+            artist: 'Zero Cult',
+            cover: 'https://f4.bcbits.com/img/a3038984863_16.jpg',
+            audio: 'https://dl.iraniandj.ir/2025/1/23/1.mp3',
+            genre: 'electronic',
+            duration: '',
+            star: 4,
+            reference: 'https://dl.iraniandj.ir'
         },
 
     ],
