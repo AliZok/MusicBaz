@@ -520,6 +520,1131 @@ const storeSimple = ref({
     },
 
     {
+      title: 'You can get lost among the good old movies',
+      artist: '',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Konstantin-Tyufyakin-Unnamed-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Konstantin Tyufyakin - Unnamed (2024)/128k/01) Konstantin Tyufyakin - You can get lost among the good old movies.mp3',
+      genre: 'relax',
+      duration: '00:2:25'
+    },
+    {
+      title: 'Evolution',
+      artist: 'Interplay Records',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/03) Interplay Records - Evolution (Interplay 51).mp3',
+      genre: 'electronic trance',
+      duration: '00:3:40'
+    },
+    {
+      title: 'Atlantis',
+      artist: 'Interplay Records',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/04) Interplay Records - Atlantis (Interplay 513).mp3',
+      genre: 'electronic trance',
+      duration: '00:3:04'
+    },
+    {
+      title: 'Serotonin',
+      artist: 'Interplay Records',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/17) Interplay Records - Serotonin (Interplay 513).mp3',
+      genre: 'electronic trance',
+      duration: '00:4:10'
+    },
+    {
+      title: 'Second Sunrise',
+      artist: 'Global DJ Broadcast Weekly Drive 31',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Markus-Schulz-Global-DJ-Broadcast-Weekly-Drive-31-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Markus Schulz - Global DJ Broadcast Weekly Drive 31 (2024)/128k/01) Daxson - Second Sunrise (GDJB Weekly Drive 31).mp3',
+      genre: 'electronic trance',
+      duration: '00:4:01'
+    },
+    {
+      title: 'Hagelslag ',
+      artist: 'Global DJ Broadcast Weekly Drive 31',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Markus-Schulz-Global-DJ-Broadcast-Weekly-Drive-31-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Markus Schulz - Global DJ Broadcast Weekly Drive 31 (2024)/128k/02) ReOrder, First Effect - Hagelslag (GDJB Weekly Drive 31).mp3',
+      genre: 'electronic trance',
+      duration: ':'
+    },
+    {
+      title: 'I Do It For You (Everything I Do)',
+      artist: 'Bryan Adams',
+      cover:
+        'https://ts2.tarafdari.com/contents/user6984/content-sound/bryan_adams-everything_i_do_i_do_it_for_you_s_4.jpg',
+      audio:
+        'https://ts2.tarafdari.com/contents/user6984/content-sound/36.bryan_adams_-_everything_i_do_i_do_it_for_you.mp3',
+      genre: 'pop rock',
+      duration: ''
+    },
+    {
+      title: 'Atlantis',
+      artist: 'Tycoos',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Tycoos-Future-Horizons-441-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Tycoos - Future Horizons 441 (2024)/128k/03) Tycoos - Atlantis (Future Horizons 441).mp3',
+      genre: 'electronic trance',
+      duration: ''
+    },
+    {
+      title: 'Doost Daram Zendegi ro',
+      artist: 'Sirvan',
+      cover:
+        'https://upmusics.com/wp-content/uploads/2017/07/Sirvan-Khosravi-Doost-Daram-Zendegiro.jpg',
+      audio:
+        'https://dls.music-fa.com/tagdl/downloads/Sirvan%20Khosravi%20-%20Doost%20Daram%20Zendegiro%20(128).mp3',
+      genre: 'pop',
+      duration: ''
+    },
+    {
+      title: 'Tanha Nazar',
+      artist: 'Sirvan',
+      cover:
+        'https://www.ganja2music.com/Image/Post/7.2019/Sirvan%20Khosravi%20-%20Tanha%20Nazar.jpg',
+      audio:
+        'https://irsv.upmusics.com/Downloads/Musics/Sirvan%20Khosravi%20%7C%20Tanha%20Nazar%20(320).mp3',
+      genre: 'pop electronic',
+      duration: ''
+    },
+    {
+      title: 'No Step On Wing',
+      artist: 'Nils Frahm',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2020/03/Nils-Frahm-Empty-2020.jpg',
+      audio:
+        'https://dl.vmusic.ir//2020/03/Nils Frahm - Empty (2020)/128k/03) Nils Frahm - No Step On Wing - 2020.mp3',
+      genre: 'relax piano ambient',
+      duration: ''
+    },
+    {
+      title: 'What I’ve Done',
+      artist: 'LinkinPark',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yAY8vyC_ADH0A3tkOFqiDUBk5dVK3yUaRg&s',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2024/04/Linkin-Park-What-Ive-Done.mp3',
+      genre: 'rock metal',
+      duration: ''
+    },
+    // {
+    //     title: 'Abri',
+    //     artist: 'Farvardin',
+    //     cover: 'https://i1.sndcdn.com/artworks-JPQ7KL2kKbzxt59y-rDIPiw-t500x500.jpg',
+    //     audio: 'https://cf-media.sndcdn.com/sTEmf0J8H8TO.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vc1RFbWYwSjhIOFRPLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQxNDU1fX19XX0_&Signature=InCjE8zBPpbOat~UieLY1FxrMJG6BIeUF1691S7UVrL9bA2N4FtWrgIQeq~jKJkQJlyG-YP4gmCzy4Ovm31S57y514Xh4ChYOGNWTVyeZWU8b5tX8sYDOOiS03ESuITAkb4XA5rF73vkkBe9omV3puOPm8nR~j2jk0R0BFRCPu90bFV5-vfo7nOoZ4ZeVGkqeafqvjXPQmnzdqn-IGwtlcSL7eFKvE~U5Rs4ERSqSNmO4AWvQhnbAVvKjLV1IdJsn5o0RDRL6KyKLIfZgYjc6IGqwjBw33zbNGT-uHFiaFNoyloypl10lUHUgQ-hATInAtdhwZqdcaRsjCmFhRskPA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
+    //     genre: 'pop',
+    // },
+    {
+      title: 'Buck dich',
+      artist: 'Rammstein',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIdCo_0hF5SiwaeLEhHVEbKs6rw3qGG-tePQ&s',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2024/03/Rammstein-Buck-dich.mp3',
+      genre: 'rock metal',
+      duration: ':'
+    },
+    {
+      title: 'In the End',
+      artist: 'LinkinPark',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYwGBA3Zch4vi2eD2aEH_Cq136VyvxSQHHDA&s',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2024/04/Linkin-Park-In-the-End.mp3',
+      genre: 'rock',
+      duration: ':'
+    },
+    {
+      title: 'Somewhere I Belong',
+      artist: 'LinkinPark',
+      audio:
+        'https://emmusicdl.ir/Music/Linkin-Park/Meteora-Bonus-Edition/Somewhere-I-Belong-Linkin-Park-320.mp3',
+      cover: '',
+      genre: 'rock ',
+      duration: '',
+      star: 4,
+      reference: ''
+    },
+    {
+      title: 'Khanom Gol',
+      artist: 'Ebi',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThIfO_ydjF7ly2z_kVJOZt5ssTf1hODhSRuP-AS8eJGnTpOv5rFzP7ZpFzmIzrvwoXBbc&usqp=CAU',
+      audio:
+        'https://dl.shabamusic.com/Music/1402/09/19/Ebi - Khanom Gol (128).mp3',
+      genre: 'nostalgy',
+      duration: ':'
+    },
+    {
+      title: 'Zombies',
+      artist: 'The Cranberries',
+      cover:
+        'https://m.media-amazon.com/images/M/MV5BZWQ1ODZjM2YtYmU2Yy00NTNjLTg3MzYtZmU1MzgyOWYyYzg5XkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_FMjpg_UX1000_.jpg',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2023/12/Zombie-The-Cranberries.mp3',
+      genre: 'rock',
+      duration: ':'
+    },
+    {
+      title: 'You',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/01) Rostislav Khalikov - You.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Melody Box',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/02) Rostislav Khalikov - Melody Box.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Awakening',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/03) Rostislav Khalikov - Awakening.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Echo of the First Love',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/04) Rostislav Khalikov - Echo of the First Love.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Memories',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/05) Rostislav Khalikov - Memories.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Night Dream',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/07) Rostislav Khalikov - Night Dream.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Good Night',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/10) Rostislav Khalikov - Good Night.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Your Smile',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/16) Rostislav Khalikov - Your Smile.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Magical Woman',
+      artist: 'Rostislav Khalikov',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Rostislav-Khalikov-Waiting-for-a-Miracle-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Rostislav Khalikov - Waiting for a Miracle (2024)/128k/19) Rostislav Khalikov - Magical Woman.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'sahdana',
+      artist: 'Ildio',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/ildio-sahdana-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/ildio - sahdana (2024)/128k/01) ildio - sahdana.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Surya namaskar',
+      artist: 'Ildio',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/ildio-sahdana-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/ildio - sahdana (2024)/128k/02) ildio - surya namaskar.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    // {
+    //     title: 'Maste Cheshat',
+    //     artist: 'Farvardin',
+    //     cover: 'https://i1.sndcdn.com/artworks-hgLIhtAvtsVE-0-t500x500.jpg',
+    //     audio: 'https://cf-media.sndcdn.com/024Z8rUxjRF0.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vMDI0WjhyVXhqUkYwLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQ1MDk2fX19XX0_&Signature=EbcwBFiCvopzqG0ZbfKshq5UxnDsB-wXjAi85UyNylJOKL9jjQGoaf~rq9NWzPJq9TIAuos-LNEcGWA97nE9a-Ihnzv0PRJzIyQ1jXX~~RB6lPkHZn0kYSTJhd63n-XhI8mCcJlyFCnLrlF6IfIbDwqfZGlcNP4abTWmj1R7N64-MwbwGcaJq0ticLwQfGuI05G6H~5dbfnl6aeXqgWhYOLGQaWHEHBIaTZq9b06J0CozmOfW6xucCN938Sb04YKU9Q8xuvfg5VfkG1gZrrTPW674X9cpm6HHxdrzZGtTgOLeqMvvKiKxVyf4q37WBNAcftrN~gUNl~o4MkC4LDnMQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
+    //     genre: 'pop electronic',
+    // },
+    // {
+    //     title: 'Never Alone',
+    //     artist: 'Carbon & Lampé',
+    //     cover: 'https://i1.sndcdn.com/artworks-MEy6VBgvP1BMdtsR-PPz8jA-t500x500.jpg',
+    //     audio: 'https://cf-media.sndcdn.com/a2geNGn3kFjU.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vYTJnZU5HbjNrRmpVLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQ1NDI5fX19XX0_&Signature=Ovq-Cfe9DwKhEaFLB2B3pTSFrcF6aWEZmJ46Ymrrj1VdKjuJ7d6771N03BigwOdLJxo~~6fLDeCDyPDIo4uGMUm0yDWNafLaMdTbbkI734BMq03Ntb7TFyMCbHwrVzCrzMyVg4QnSbIGnnBVcgtkOtMAT7hdwhQRXSv5WwetDFCe3dGRD8Q1aORhdfxmOBQCPCAbFgoidpC7LHKs0iaGlRoDjyc~TGXFoJpgLREJqJrBf1eg4kh7ozRbDJdmO7nXTZVSTOh~UKBvpo7ZN8rlsY1OjSQ9CnnQKecoYECR1mPfYV-qM3k-GPsoS-6C9e7~pCvsnGt3GSCPPKT1ePHpiA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
+    //     genre: 'electronic techno',
+    // },
+    // {
+    //     title: 'All of my music is on Spotify',
+    //     artist: 'Wind',
+    //     cover: 'https://i1.sndcdn.com/artworks-000033182580-ja3l0t-t500x500.jpg',
+    //     audio: 'https://cf-media.sndcdn.com/gfihOXhUVnpV.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZ2ZpaE9YaFVWbnBWLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzI0NTQ1OTkyfX19XX0_&Signature=PIwhLXLr-DggbJJlF1X5JfnIZONkaxH2Z3pUudPk-a3b24IjPIALkJb0eiMrAIRLTLrC4agsWTRunK0akfAGG~FliCdq28KdIN6xA66DEBunZ2hslb06qmaka32VuRWa~Awm-vQtV5sqVG0LQ27AlWc9Gnm-FSdejUtUiGrZg~FyeI08Yde9loaMGG--8uJKRWwyVe4BovRTB~dxW5YzrNt5~m6Vgsebwt4u9qKC6Tw6MRz-fRzHAEndaa042yrjUsCAXFmxzPSUh7arvE2fbXt6A4Ri8HGIJJVNcPux6kHU2Gb5Dq7Ggb-cAgNfj4BNNAfrHRA4u44NMIc8tjntjg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ',
+    //     genre: 'relax piano',
+    // },
+    {
+      title: 'The Love',
+      artist: 'Florews',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Florews-Cinematic-Piano-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/Florews - Cinematic Piano (2024)/128k/01) Florews - The Love.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Tension to Relief',
+      artist: '',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Various-Artists-Changes-Human-Stories-Factual-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/01) Theo Vidgen - Tension to Relief.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Struggle to Survival',
+      artist: '',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Various-Artists-Changes-Human-Stories-Factual-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/02) Isabella Catherine Lau - Struggle to Survival.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Expectation to Arrival',
+      artist: '',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Various-Artists-Changes-Human-Stories-Factual-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/03) Angus Thomas Nicholson - Expectation to Arrival.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Calm to Busy',
+      artist: '',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Various-Artists-Changes-Human-Stories-Factual-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/05) Chris Doney - Calm to Busy.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Introspective to Optimistic',
+      artist: '',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/08/Various-Artists-Changes-Human-Stories-Factual-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/08/Various Artists - Changes - Human Stories & Factual (2024)/128k/07) Joshua Benjamin Pacey - Introspective to Optimistic.mp3',
+      genre: 'relax piano',
+      duration: ':'
+    },
+    {
+      title: 'Pacha Mama',
+      artist: 'Galardo',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2020/12/Galardo-Pacha-Mama-2020.jpg',
+      audio:
+        'https://dl.vmusic.ir/2020/12/Galardo - Pacha Mama (2020)/128k/Galardo - Pacha Mama.mp3',
+      genre: 'house electronic',
+      duration: ':'
+    },
+    {
+      title: 'Middle Earth',
+      artist: 'Meeting Molly',
+      cover:
+        'data:image/jpeg;base64,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',
+      audio:
+        'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/03) Meeting Molly - Middle Earth - 2020.mp3',
+      genre: 'house electronic',
+      duration: ':'
+    },
+    {
+      title: 'Perception',
+      artist: 'Jay Fm',
+      cover: 'https://f4.bcbits.com/img/a3517170947_65',
+      audio:
+        'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/05) Jay Fm - Perception - 2020.mp3',
+      genre: 'house electronic'
+    },
+    {
+      title: 'Exploring The Mind',
+      artist: 'Ltn & Ghostbeat',
+      cover:
+        'https://i1.sndcdn.com/artworks-epjigeck4UQ56i7o-ALk1nA-t500x500.jpg',
+      audio:
+        'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/09) Ltn & Ghostbeat - Exploring The Mind - 2020.mp3',
+      genre: 'house electronic'
+    },
+    {
+      title: 'Obsession',
+      artist: 'Jay Fm',
+      cover: 'https://f4.bcbits.com/img/a3818425134_10.jpg',
+      audio:
+        'https://dl.vmusic.ir/2020/06/VA - Deep House Summer Essentials 2020 - EDM Comps (2020)/128k/16) Jay Fm - Obsession - 2020.mp3',
+      genre: 'house electronic'
+    },
+    {
+      title: 'Dune (Mixed)',
+      artist: 'Dekkai',
+      cover:
+        'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/5c/0a/665c0a17-081d-0aae-c983-24335a902e5d/cover.jpg/400x400bb.webp',
+      audio:
+        'https://dl.vmusic.ir/2020/06/VA - Colorize Ibiza 2020 mixed by Boxer (DJ MIX) (2020)/128k/03) Dekkai - Dune (Mixed) - 2020.mp3',
+      genre: 'house electronic'
+    },
+    {
+      title: 'Luminous',
+      artist: 'Tycoos, Deme3us',
+      cover:
+        'https://cloudinary-cdn.ffm.to/s--7QYXSxPT--/w_1108,h_1108,c_lfill/f_jpg/https%3A%2F%2Fimagestore.ffm.to%2Flink%2F33be0ebabb6ea6ed6bdfd1141f37602e.jpeg',
+      audio:
+        'https://dc.vmusic.ir/2024/05/Fitness & Workout Vol 26/128k/02) Tycoos, Deme3us - Luminous.mp3',
+      genre: 'trance electronic'
+    },
+    // {
+    //     title: 'JOOF Radio 32',
+    //     artist: 'John00Fleming',
+    //     cover: 'https://i1.sndcdn.com/artworks-1T6wCUB1Wp3750cP-YdzegQ-t500x500.jpg',
+    //     audio: 'https://s32.picofile.com/d/8478708426/ab25e8ba-cb54-406d-aba3-6baad6b584f1/John_00_Fleming_JOOF_Radio_32.mp3',
+    //     genre: 'electronic house mix',
+    // },
+    // {
+    //     title: 'The Art Of Sound Episode 12',
+    //     artist: ' AFX',
+    //     cover: 'https://i1.sndcdn.com/artworks-6ddxIsShG5jwBn8x-8TOatA-t500x500.jpg',
+    //     audio: 'https://s32.picofile.com/d/8478707600/50389c93-cc84-4482-a784-a758c3c36025/The_Art_Of_Sound_Episode_12_With_AFX.mp3',
+    //     genre: 'electronic house mix',
+    // },
+    // {
+    //     title: 'Cry For You',
+    //     artist: 'Andy Timmons',
+    //     cover: 'https://forgottenguitar.com/wp-content/uploads/2015/11/screen-shot-2015-11-27-at-20-28-41.png',
+    //     audio: 'https://s32.picofile.com/d/8478709018/dd12f0f7-ced3-4f7b-ae1a-05a36a1a4d49/11_Cry_For_You_live_.mp3',
+    //     genre: 'rock guitar solo',
+    // },
+    // {
+    //     title: 'Violet Hill',
+    //     artist: 'Coldplay',
+    //     cover: 'https://upload.wikimedia.org/wikipedia/en/2/27/Violethillcover.jpg',
+    //     audio: 'https://s32.picofile.com/d/8478709042/957dbdec-9b13-47a6-a0b0-c7981a34b914/Coldplay_Violet_Hill.mp3',
+    //     genre: 'rock',
+    // },
+    // {
+    //     title: 'Rave Podcast 129 (September 2021)',
+    //     artist: 'Daniel Lesden',
+    //     cover: 'https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2xnL2RhbmllbGxlc2Rlbi5qcGc_ZGF0ZVVwZGF0ZWQ9MTY2NzIwOTU1MzAwMA==',
+    //     audio: 'https://s32.picofile.com/d/8478709126/48d2ea55-3c1d-41fe-90ba-1d0dc2515647/Daniel_Lesden_Rave_Podcast_129_September_2021_.mp3',
+    //     genre: 'electronic trance techno mix rave',
+    // },
+    // {
+    //     title: 'Rave Podcast 127 (July 2021)',
+    //     artist: 'Daniel Lesden',
+    //     cover: 'https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2xnL2RhbmllbGxlc2Rlbi5qcGc_ZGF0ZVVwZGF0ZWQ9MTY2NzIwOTU1MzAwMA==',
+    //     audio: 'https://s32.picofile.com/d/8478709384/cfea1500-6fb7-42f6-8117-b204400b1126/Daniel_Lesden_Rave_Podcast_127_July_2021_.mp3',
+    //     genre: 'electronic trance techno mix rave',
+    // },
+    // {
+    //     title: 'Rave Podcast 111 (March 2020)',
+    //     artist: 'Daniel Lesden',
+    //     cover: 'https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2xnL2RhbmllbGxlc2Rlbi5qcGc_ZGF0ZVVwZGF0ZWQ9MTY2NzIwOTU1MzAwMA==',
+    //     audio: 'https://s32.picofile.com/d/8478709618/3d8ac5ad-931f-4d65-851c-5323aa63c227/Rave_Podcast_111_March_2020_.mp3',
+    //     genre: 'electronic trance techno mix rave',
+    // },
+    // {
+    //     title: 'Fever',
+    //     artist: 'Just Us',
+    //     cover: '',
+    //     audio: 'https://s32.picofile.com/d/8478709634/81594d98-452b-467d-8c47-0255be4942f4/Just_Us_Fever.mp3',
+    //     genre: 'electronic house',
+    // },
+    {
+      title: 'Afterglow',
+      artist: 'Interplay Records',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2024/07/Interplay-Records-Interplay-Radio-Episode-513-2024.jpg',
+      audio:
+        'https://dc.vmusic.ir/2024/07/Interplay Records - Interplay Radio Episode 513 (2024)/128k/06) Interplay Records - Afterglow (Interplay 513).mp3',
+      genre: 'electronic techno'
+    },
+
+    {
+      title: 'Apex (Santiago Luna Remix)',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/01) Paul Thomas - Apex (Santiago Luna Remix).mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: 'Note to Self',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/03) Paul Thomas - Note to Self.mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: 'Infinite',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/04) Paul Thomas - Infinite.mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: 'Feel',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/05) Paul Thomas - Feel.mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: 'Weights',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/07) Paul Thomas - Weights.mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: 'The Sound of Aurora',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/13) Paul Thomas - The Sound of Aurora.mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: 'Light',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/15) Paul Thomas - Light.mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: '',
+      artist: 'Paul Thomas',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/10/Cosmaks & Armedio - Faster (2023)/128k/Cosmaks & Armedio - Faster.mp3',
+      genre: 'electronic techno house'
+    },
+    {
+      title: '',
+      artist: '',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqIFMTW0JZEpolmImjVTLHxBd15f5O-lD1lg&s',
+      audio:
+        'https://dc.vmusic.ir/2024/07/VA - Top Singles Vol. 16 (2024)/128k/01) Mark Eliyahu - Unite.mp3',
+      genre: 'relax light'
+    },
+    {
+      title: 'Beyond Reach',
+      artist: 'Focus FL',
+      cover:
+        'https://i1.sndcdn.com/artworks-uYVzYT7G61wPTxze-khj5ag-t240x240.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/08/Focus FL - Tunnel Vision (Radio Edits) (2023)/128k/03) Focus FL - Beyond Reach (Radio Edit).mp3',
+      genre: 'electronic techno house'
+    },
+    // {
+    //     title: 'Easy Lover',
+    //     artist: 'Philip Bailey ft. Phil Collins',
+    //     cover: 'https://ts12.tarafdari.com/contents/user799730/content-sound/lty.jpg',
+    //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Easy%20Lover.mp3',
+    //     genre: 'rock pop',
+    // },
+    {
+      title: 'A Groovy Kind Of Love',
+      artist: 'Phil Collins',
+      cover:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
+      audio:
+        'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Groovy%20Kind%20Of%20Love.mp3',
+      genre: 'rock pop'
+    },
+    {
+      title: 'In The Air Tonight',
+      artist: 'Phil Collins',
+      cover:
+        'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
+      audio:
+        'https://dl.musicdagh.ir/songs/best/collins/In-The-Air-Tonight.mp3',
+      genre: 'rock pop'
+    },
+    {
+      title: 'Another Day In Paradise',
+      artist: 'Phil Collins',
+      cover: 'https://i.scdn.co/image/ab67616d0000b27307b486f09d5c8352b5f66ea0',
+      audio:
+        'https://dl.musicdagh.ir/songs/best/collins/Another-Day-In-Paradise.mp3',
+      genre: 'rock pop'
+    },
+    {
+      title: 'Do You Remember',
+      artist: 'Phil Collins',
+      cover: '',
+      audio:
+        'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Do%20You%20Remember.mp3',
+      genre: 'rock pop'
+    },
+    {
+      title: 'If Leaving Me Is Easy',
+      artist: 'Phil Collins',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RhZAOnqhk8aY4BcQBXtHzTZA-EuxuTmSaQ&s',
+      audio:
+        'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20If%20Leaving%20Me%20Is%20Easy.mp3',
+      genre: 'rock pop'
+    },
+    {
+      title: 'Escape',
+      artist: 'Monomy',
+      cover:
+        'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/4e/90/d54e9011-c427-2da4-194d-7af00ab92c97/4250523830745.png/1200x1200bb.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Chill Vibes 2 (Playlist)/01 Escape.mp3',
+      genre: 'house electronic pop'
+    },
+    {
+      title: 'Nina Young',
+      artist: 'When Light Gets Dark',
+      cover: 'https://i1.sndcdn.com/artworks-DTaCpOejJykS-0-t500x500.png',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Chill Vibes 2 (Playlist)/04 When Light Gets Dark.mp3',
+      genre: 'house electronic'
+    },
+    {
+      title: 'Morocco',
+      artist: 'Soft Deep',
+      cover:
+        'https://songsara.net/wp-content/uploads/2024/08/Morocco-Soft-Deep.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/10/Soft Deep - Morocco (2024) SONGSARA.NET.mp3',
+      genre: 'house electronic'
+    },
+    {
+      title: 'Gravity (feat. Laura Korinth)',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/01 Gravity (feat. Laura Korinth) (Edit).mp3',
+      genre: 'electronic techno'
+    },
+    {
+      title: 'Never Look Back',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/02 Never Look Back (Edit).mp3',
+      genre: 'electronic techno'
+    },
+    {
+      title: 'Spicy (feat. Ginger)',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/04 Spicy (feat. Ginger) (Edit).mp3',
+      genre: 'techno techno'
+    },
+    {
+      title: 'Vienna',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/05 Vienna (Edit).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Purple Noise',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/09 Purple Noise.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Darkness',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/10 Darkness (Original Mix).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Space Diver',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/12 Space Diver.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'To The Moon And Back',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/15 To The Moon And Back (Edit).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Take It Smart',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/16 Take It Smart.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Level One',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/17 Level One (Original Mix).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Atomic Heart',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/19 Atomic Heart (Original Mix).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Blue Lake',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/21 Blue Lake.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Thunderstorm',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/26 Thunderstorm.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Moondancer',
+      artist: 'Boris',
+      cover:
+        'https://songsara.net/wp-content/uploads/2023/10/Boris-Brejcha-1.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/5/The Best Of Boris Brejcha (Playlist)/27 Moondancer (Original Mix).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Memory of Water',
+      artist: 'Priopy',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3GyXcJODn32nKB-l-C2q8gdUBUCIyn_CzGA&s',
+      audio:
+        'https://dl6.songsara.net/FRE/9/The Best Of RIOPY (Playlist)/01 Memory of Water.mp3',
+      genre: 'relax piano'
+    },
+    {
+      title: 'I Love You',
+      artist: 'Priopy',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3GyXcJODn32nKB-l-C2q8gdUBUCIyn_CzGA&s',
+      audio:
+        'https://dl6.songsara.net/FRE/9/The Best Of RIOPY (Playlist)/02 I Love You.mp3',
+      genre: 'relax piano'
+    },
+    {
+      title: 'Leading Me On',
+      artist: 'Peter Pearson',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/01 Leading Me On.mp3',
+      genre: 'relax piano'
+    },
+    {
+      title: 'Pink Moon',
+      artist: 'Peter Pearson',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/04 Pink Moon.mp3',
+      genre: 'relax piano'
+    },
+    {
+      title: 'Out the Blue',
+      artist: 'Pink Moon',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl.songsara.net/FRE/2021/6/Peter Pearson - Pink Moon (2021) SONGSARA.NET/05 Out the Blue.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Elevation',
+      artist: 'Ken Verheecke',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/10/Ken Verheecke - Elevation (2024) SONGSARA.NET.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Gravity',
+      artist: 'Peter Ries',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/02 Translation.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Silence',
+      artist: 'Peter Ries',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/03 Silence.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Breathing Silence',
+      artist: 'Peter Ries',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/05 Breathing Silence.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Here',
+      artist: 'Peter Ries',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/06 Here.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Homesick',
+      artist: 'Peter Ries',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/07 Homesick.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Inside Outside',
+      artist: 'Peter Ries',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/05/Peter-Pearson-Pink-Moon-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Peter Ries - Gravity (2024) SONGSARA.NET/08 Inside Outside.mp3',
+      genre: 'relax'
+    },
+    {
+      title: 'Pretoria',
+      artist: 'Nora',
+      cover:
+        'https://songsara.net/wp-content/uploads/2024/06/Pretoria-Nora-En-Pure-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/9/Nora En Pure - Pretoria (2024) SONGSARA.NET/01 Pretoria.mp3',
+      genre: 'techno house electronic'
+    },
+    {
+      title: 'Now',
+      artist: '',
+      cover: '',
+      audio:
+        'https://dl6.songsara.net/FRE/3/Electronic Rising 4 (Playlist)/01 Now (Original Mix).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Trouble so Hard',
+      artist: 'Umek, Matteo Vitanza',
+      cover:
+        'https://i1.sndcdn.com/artworks-yGGyLv9zhFMYMANl-BoT7MQ-t500x500.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/3/Electronic Rising 4 (Playlist)/07 Trouble so Hard.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'My Gasoline',
+      artist: 'Maddix, Feles',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRROVwM__szsOQ9ZLybqpxj6uwn62I0L8Q6w&s',
+      audio:
+        'https://dl6.songsara.net/FRE/3/Electronic Rising 4 (Playlist)/08 My Gasoline.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Dusty',
+      artist: 'Marek Hemmann',
+      cover:
+        'https://i1.sndcdn.com/artworks-fGCY54QC2LoZWkOX-9uENZw-t500x500.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/3/Electronic Rising 4 (Playlist)/11 Dusty.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Joker',
+      artist: 'Daniel Levak',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30ySqf9mQkwj_1BReGr9aSMQ5RXV41ix1Aw&s',
+      audio:
+        'https://dl6.songsara.net/FRE/3/Electronic Rising 4 (Playlist)/21 Joker.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'The Captain',
+      artist: 'Hijckd',
+      cover:
+        'https://i1.sndcdn.com/artworks-a9vx5Fr48yz3bMNb-dKvdIA-t1080x1080.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/05 The Captain.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Nirvana',
+      artist: 'Reinier Zonneveld, Hi-Lo, Oliver Heldens',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkkQilUDEkTbWeVEAiVOyGxP1TF-ThGKE-LQ&s',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/08 Nirvana.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Serenity',
+      artist: 'Belocca, Nusha',
+      cover:
+        'https://i1.sndcdn.com/artworks-ILe4AyvUvE3aQ73y-tKTpBg-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/09 Serenity.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Analog Girl in a Digital World',
+      artist: 'Jil Tanner',
+      cover: 'https://i1.sndcdn.com/artworks-AaHOBsysJcgp-0-t500x500.png',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/10 Analog Girl in a Digital World.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Colonia',
+      artist: 'Space 92',
+      cover:
+        'https://i1.sndcdn.com/artworks-XJvKdQ4NPF1dHfAP-KyUdyg-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/11 Colonia.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Astro',
+      artist: 'Mario Ochoa',
+      cover:
+        'https://i1.sndcdn.com/artworks-3jA4RbSV1l7eh5Rl-X7GDxQ-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/12 Astro.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Silence',
+      artist: 'The YellowHeads, HLGRMS',
+      cover:
+        'https://i1.sndcdn.com/artworks-WzCQ1EZBybFJnFup-4mAohg-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/01 Silence.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Pulchra',
+      artist: 'Patrick Scuro',
+      cover:
+        'https://i1.sndcdn.com/artworks-Dytk8V0SIEcrrIsD-WJwFJw-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/02 Pulchra.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Finding Yourself',
+      artist: 'D72',
+      cover: 'https://i1.sndcdn.com/artworks-qZoPz7VROVHi-0-t500x500.png',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/03 Finding Yourself.mp3',
+      genre: 'techno electronic'
+    },
+    // {
+    //     title: 'Nothing Else Matters',
+    //     artist: 'Metallica',
+    //     cover: 'https://m.media-amazon.com/images/I/714xqpfy8yL._AC_UF1000,1000_QL80_.jpg',
+    //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Metallica/Metallica%20-%20Nothing%20Else%20Matters.mp3',
+    //     genre: 'rock',
+    // },
+    {
+      title: 'The Sound Of Space',
+      artist: 'Enrico Sangiuliano',
+      cover:
+        'https://i1.sndcdn.com/artworks-0YG84bpgUJnSywie-x8rvcg-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/22 The Sound Of Space.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Loneliness',
+      artist: 'AKKI',
+      cover:
+        'https://i1.sndcdn.com/artworks-xswm4bqZAtWsupLn-OzQD4Q-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/23 Loneliness (Original Mix).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'We All Unite',
+      artist: 'Patrick Scuro, Celic, Sylvie Miles',
+      cover:
+        'https://i1.sndcdn.com/artworks-gJUcwYyImz7lVW7l-Hiq38g-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/24 We All Unite.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'You Are Mine',
+      artist: 'Mha Iri',
+      cover:
+        'https://i1.sndcdn.com/artworks-s0HYlENBaYjzxFVP-hUP1rw-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/32 You Are Mine (Original Mix).mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Mercury',
+      artist: 'Hi-Lo, Space 92, Oliver Heldens',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBm9Tmx7yr6MbCC-zT7uLFqE81mOzcszoZZQ&s',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/33 Mercury.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Acid Voices',
+      artist: 'Denise Schneider',
+      cover: 'https://i1.sndcdn.com/artworks-8W5StelTEL1k-0-t500x500.png',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/35 Acid Voices.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Humans Love Me',
+      artist: 'T78',
+      cover:
+        'data:image/jpeg;base64,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',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/40 Humans Love Me.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Into the Night',
+      artist: 'Slin Bourgh, Marie Vaunt',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/41 Into the Night.mp3',
+      cover: 'https://f4.bcbits.com/img/a1124458180_10.jpg',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'UFOs & LFOs',
+      artist: 'Layton Giordani',
+      cover:
+        'https://i1.sndcdn.com/artworks-VjE5z6tckdi2yXLM-N1ujHg-t500x500.jpg',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/46 UFOs & LFOs.mp3',
+      genre: 'techno electronic'
+    },
+    {
+      title: 'Rave (Remix)',
+      artist: '',
+      cover: '',
+      audio:
+        'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/51 Rave (Remix).mp3',
+      genre: 'techno electronic'
+    },
+    // PAGE https://songsara.net/107495/
+    {
       title: 'Apex (Santiago Luna Remix)',
       artist: 'Paul Thomas',
       cover:
@@ -2357,6 +3482,294 @@ const storeSimple = ref({
     },
 
     {
+      title: 'Maman Mano Bebakhsh',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2024/10/Sasy-Maman-Mano-Bebakhsh.mp3',
+      artist: 'Sasy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: '',
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Shabe Royaei',
+      audio:
+        'https://irsv.upmusics.com/AliBZ/Aron%20Afshar%20%E2%80%93%20Shabe%20Royaei%203%20(320).mp3',
+      artist: 'Aron Afshar',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: '',
+      reference: 'https://upmusics.com/'
+    },
+    {
+      title: 'Gole Naz',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Goleh%20Naz.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Entezar',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Entezar.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Az Khod Gozashte',
+      audio:
+        'https://sv.ahoramusics.ir/iran/Andy/Andy-Az%20Khod%20Gozashteh.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Be Kasi Nagoo',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Be%20Kasi%20Nagoo.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Ghesseye Eshgh',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Ghesseyeh%20Eshgh.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Ghasre Kaghazi',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Ghasreh%20Kaghazi.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi pop',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Goli Joon',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Goli%20Jon.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Age Eshgh Hamine',
+      audio:
+        'https://sv.ahoramusics.ir/iran/Andy/Andy-Ageh%20Eshgh%20Hamineh.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Khoshgele Mahalamoun',
+      audio:
+        'https://sv.ahoramusics.ir/iran/Andy/Andy-Khoshgeleh%20Mahalamoun.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Emrooz Ke Man Ashegham',
+      audio:
+        'https://sv.ahoramusics.ir/iran/Andy/Andy-Emrouz%20Ke%20Man%20Ashegham.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Eshghe Aval',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Eshgeh%20Aval.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Leyla',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Leila.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Khodaye Asemoonha',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Khodaye%20Asemoonha.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Dokhtare Bandar',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Dokhtare%20Bandar.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Bargard',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Bargard.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Baran',
+      audio:
+        'https://sv.ahoramusics.ir/iran/Andy/Andy-Ghesseh%20Baran%20%28Andy%29.MP3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi pop',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Ketabe Afarinesh',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Ketabeh%20Afarinesh.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Sepide',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Sepideh.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Shabe Man',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Shabeh%20Man.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'pop',
+      star: 4,
+      duration: ''
+    },
+    {
+      title: 'Bigharar',
+      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Beegharar.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi pop',
+      star: 4,
+      duration: '',
+      reference: 'https://ahoramusics.ir/'
+    },
+    {
+      title: 'Norouz',
+      artist: 'Andy',
+      cover:
+        'https://javanmelody.ir/wp-content/uploads/2023/02/Andy20-20Norouz.jpg',
+      audio:
+        'https://dl.javanmelody.ir/dl/1401/12/Andy-Norouz-abanmusics.com-128.mp3',
+      genre: 'pop raghsi',
+      duration: '',
+      star: 5,
+      reference: 'https://javanmelody.ir/'
+    },
+    {
+      title: 'Stand By Me',
+      artist: 'Andy & Bon Jovi',
+      cover: 'https://javanmelody.ir/wp-content/uploads/2023/02/Andy-7.jpg',
+      audio:
+        'https://dl.javanmelody.ir/dl/1401/12/Andy-&-038;-Bon-Jovi-Stand-By-Me-abanmusics.com-128.mp3 ',
+      genre: 'pop rock',
+      duration: '',
+      star: 5,
+      reference: 'https://javanmelody.ir/'
+    },
+    {
+      title: 'Kaghaze Bi Khat',
+      artist: 'Andy',
+      cover:
+        'https://assets.rjassets.com/static/mp3/andy-kaghaze-bi-khat/9a58b404.jpg',
+      audio:
+        'https://dl.javanmelody.ir/dl/1401/12/Andy-Kaghaze-Bi-Khat-abanmusics.com-128.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://javanmelody.ir/'
+    },
+    {
+      title: 'Tanhaei',
+      artist: 'Andy',
+      cover: '',
+      audio:
+        'https://emmusicdl.ir/Music/Andy/Love-Songs-Vol.1/Tanhaee-Andy-320.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 5,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Shabe Asheghi',
+      audio:
+        'https://sv.ahoramusics.ir/ton/1403/12/aron-afshar-shabe-asheghi-128.mp3',
+      artist: 'Aron Afshar',
+      cover:
+        'https://ahoramusics.ir/wp-content/uploads/2025/03/aronafsharshabeasheghi.jpg',
+      genre: 'raghsi',
+      star: 4,
+      duration: '',
+      reference: 'https://ahoramusics.ir/'
+    },
+    {
+      title: 'Jaan Jaan',
+      audio:
+        'https://sv.ahoramusics.ir/ton/1403/12/aron-afshar-jaan-jaan-128.mp3',
+      artist: 'Aron Afshar',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: '',
+      reference: 'https://ahoramusics.ir/'
+    },
+    {
+      title: 'Farar',
+      audio:
+        'https://sv.ahoramusics.ir/ton/1403/12/farzad-farzin-farar-128.mp3',
+      artist: 'Farzad Farzin',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: '',
+      reference: 'https://ahoramusics.ir/'
+    },
+    {
       title: 'Saghiya',
       audio: 'https://ememay.ir/wp-content/uploads/2024/10/Sasy-Saaghiya.mp3',
       artist: 'Sasy',
@@ -2609,18 +4022,6 @@ const storeSimple = ref({
       duration: '',
       star: 4,
       reference: 'https://javanmelody.ir/'
-    },
-    {
-      title: 'Tanhaei',
-      artist: 'Andy',
-      cover:
-        '',
-      audio:
-        'https://emmusicdl.ir/Music/Andy/Love-Songs-Vol.1/Tanhaee-Andy-320.mp3',
-      genre: 'pop',
-      duration: '',
-      star: 5,
-      reference: 'https://ememay.ir/'
     },
     {
       title: 'Shabe Asheghi',
@@ -6029,18 +7430,17 @@ const storeSimple = ref({
       reference: 'https://ememay.ir'
     },
     {
-        title: 'Bück Dich',
-        artist: 'Rammstein',
-        cover:
-          'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
-        audio:
-          'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Bück-dich-Rammstein-320.mp3',
-        genre: 'rock',
-        duration: '',
-        star: 4,
-        reference: 'https://ememay.ir'
-      },
-
+      title: 'Bück Dich',
+      artist: 'Rammstein',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Bück-dich-Rammstein-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir'
+    }
   ],
   genres: [
     {
