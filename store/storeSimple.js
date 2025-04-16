@@ -2611,6 +2611,18 @@ const storeSimple = ref({
       reference: 'https://javanmelody.ir/'
     },
     {
+      title: 'Tanhaei',
+      artist: 'Andy',
+      cover:
+        '',
+      audio:
+        'https://emmusicdl.ir/Music/Andy/Love-Songs-Vol.1/Tanhaee-Andy-320.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 5,
+      reference: 'https://ememay.ir/'
+    },
+    {
       title: 'Shabe Asheghi',
       audio:
         'https://sv.ahoramusics.ir/ton/1403/12/aron-afshar-shabe-asheghi-128.mp3',
