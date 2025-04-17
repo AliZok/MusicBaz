@@ -6946,31 +6946,31 @@ const storeSimple = ref({
     genres: [
         {
             genre: 'raghsi',
-            icon: 'pop',
+            icon: '',
             text: 'Persian Pop',
             active: false
         },
         {
             genre: 'pop',
-            icon: 'pop',
+            icon: '',
             text: 'Pop',
             active: false
         },
         {
             genre: 'relax',
-            icon: 'pop',
+            icon: '',
             text: 'Relax',
             active: false
         },
         {
             genre: 'rock',
-            icon: 'pop',
+            icon: '',
             text: 'Rock',
             active: false
         },
         {
             genre: 'electronic',
-            icon: 'pop',
+            icon: '',
             text: 'Electronic',
             active: true
         }
