@@ -7440,7 +7440,131 @@ const storeSimple = ref({
       duration: '',
       star: 4,
       reference: 'https://ememay.ir'
-    }
+    },
+    {
+      title: 'State of Anxiety',
+      artist: 'Dark Life Note',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/Feelings-II-Dark-Life-Note-400x400.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Dark Life Note - Feelings II (2025) SONGSARA.NET/01 State of Anxiety.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Tuning In',
+      artist: 'Malte Marten',
+      cover: '',
+      audio:
+        'https://dl6.songsara.net/FRE/11/Malte Marten - A Prayer to God (963 Hz) (2024) SONGSARA.NET/01 Tuning In (963 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Bowing Down ',
+      artist: 'Malte Marten',
+      cover: '',
+      audio:
+        'https://dl6.songsara.net/FRE/11/Malte Marten - A Prayer to God (963 Hz) (2024) SONGSARA.NET/02 Bowing Down (963 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Tears of a lost child',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/11/Malte Marten - A Prayer to God (963 Hz) (2024) SONGSARA.NET/04 Tears of a lost child (963 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Relief',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/11/Malte Marten - A Prayer to God (963 Hz) (2024) SONGSARA.NET/07 Relief (963 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Calming',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/12/Malte Marten - Healing Frequencies (2024) SONGSARA.NET/03 Calming (1111 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Healing Frequency',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/12/Malte Marten - Healing Frequencies (2024) SONGSARA.NET/04 Healing Frequency (1111 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Seeds of Growth',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/12/Malte Marten - Healing Frequencies (2024) SONGSARA.NET/07 Seeds of Growth (1111 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Tuning In',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/12/Malte Marten - Healing Frequencies (2024) SONGSARA.NET/11 Tuning In (963 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: 'Tears of a lost child',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/12/Malte Marten - Healing Frequencies (2024) SONGSARA.NET/14 Tears of a lost child (963 Hz).mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: '',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
+    {
+      title: '',
+      artist: 'Malte Marten',
+      cover: '',
+      audio: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://dl6.songsara.net'
+    },
   ],
   genres: [
     {
