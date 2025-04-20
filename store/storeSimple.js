@@ -7533,16 +7533,30 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://songsara.net/'
     },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   cover: '',
-    //   audio: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://songsara.net/'
-    // },
+    {
+      title: 'Bemaan (Desert Dwellers Remix)',
+      artist: 'Namito, Mahbobeh Golzari',
+      cover:
+        'https://i1.sndcdn.com/artworks-6LAXbl99AgO9lAnt-a6nDkg-t500x500.jpg',
+      audio:
+        'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Bemaan%20(Desert%20Dwellers%20Remix).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9CZW1hYW4gKERlc2VydCBEd2VsbGVycyBSZW1peCkubXAzIiwiaWF0IjoxNzQ1MTM4ODg3LCJleHAiOjE5MDI4MTg4ODd9.5YjCtBNRB07VZTawFg_Py7_NzumStImiBeV7nBu5tqY',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://soundcloud.com/namito'
+    },
+    {
+      title: 'Bemaan',
+      artist: 'Namito, Mahbobeh Golzari',
+      cover:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8Q-3o6PSqgmggPRA5p9R6XecTPeJN1w2-w&s',
+      audio:
+        'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Bemaan.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9CZW1hYW4ubXAzIiwiaWF0IjoxNzQ1MTM5MTI2LCJleHAiOjE5MDI4MTkxMjZ9.7uKf1fjT43CYeFdlkYZJaCJ4FkHWeWFTtOj3d2yhby0',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://soundcloud.com/namito'
+    },
   ],
   genres: [
     {
