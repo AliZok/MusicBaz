@@ -7592,6 +7592,7 @@ const storeSimple = ref({
   ],
   go: false,
   isPlaying: false
+  
 })
 
 export default storeSimple
