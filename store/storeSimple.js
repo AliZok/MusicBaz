@@ -7557,6 +7557,116 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://soundcloud.com/namito'
     },
+    {
+      title: 'Serene Clarity',
+      artist: 'Lulu Ray',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/002 Serene Clarity.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Rymdresa',
+      artist: 'Juni Ros',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/001 Rymdresa.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Explorer',
+      artist: 'Angelic Planet',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/003 Explorer.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Sólestur',
+      artist: 'Elsa Gudmundsdottir',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/004 Sólestur.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Safe',
+      artist: 'Deruinga',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/005 Safe.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Opening Skies',
+      artist: 'Eneyo Emberence',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/006 Opening Skies.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'At Night I Fly',
+      artist: 'Heur',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/007 At Night I Fly.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Towards The Light',
+      artist: 'Vincent La Rossi',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/008 Towards The Light.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Djupet',
+      artist: 'Owen Meyers',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/009 Djupet.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Rings On Water',
+      artist: 'Nekane Silver',
+      cover: '',
+      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/010 Rings On Water.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   cover: '',
+    //   audio: '',
+    //   genre: 'relax',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://songsara.net/'
+    // },
   ],
   genres: [
     {
