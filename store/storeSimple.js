@@ -7657,16 +7657,110 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://songsara.net/'
     },
+    {
+      title: 'Deutschland',
+      artist: 'Rammstein',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-943-250x250.jpeg',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/03/Rammstein-Deutschland.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Armee der Tristen',
+      artist: 'Rammstein',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
+      audio: 'https://emmusicdl.ir/Music/Rammstein/Zeit/Armee-der-Tristen-Rammstein-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+
+    },
+    {
+      title: 'Dicke Titten',
+      artist: 'Rammstein',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
+      audio: 'https://emmusicdl.ir/Music/Rammstein/Zeit/Dicke-Titten-Rammstein-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+
+    },
+    {
+      title: 'Lügen',
+      artist: 'Rammstein',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
+      audio: 'https://emmusicdl.ir/Music/Rammstein/Zeit/Lügen-Rammstein-320.mp3',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+
+    },
+    {
+      title: 'Rockin',
+      artist: 'Weekend',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Starboy.jpeg',
+      audio: 'https://emmusicdl.ir/Music/The-Weeknd/Starboy/Rockin-The-Weeknd-320.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: "Can't Feel My Face",
+      artist: 'Weekend',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
+      audio: 'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Cant-Feel-My-Face-The-Weeknd-320.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'I Feel It Coming',
+      artist: 'Weekend',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
+      audio: 'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/I-Feel-It-Coming-The-Weeknd-Daft-Punk-320.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Call Out My Name',
+      artist: 'Weekend',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
+      audio: 'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Call-Out-My-Name-The-Weeknd-320.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Vadeh',
+      artist: 'Leyla',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Hamsafar.jpeg',
+      audio: 'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
     // {
     //   title: '',
     //   artist: '',
     //   cover: '',
     //   audio: '',
-    //   genre: 'relax',
+    //   genre: 'pop',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://songsara.net/'
+    //   reference: 'https://ememay.ir/'
     // },
+
   ],
   genres: [
     {
@@ -7702,7 +7796,7 @@ const storeSimple = ref({
   ],
   go: false,
   isPlaying: false
-  
+
 })
 
 export default storeSimple
