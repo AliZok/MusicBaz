@@ -7745,21 +7745,186 @@ const storeSimple = ref({
       artist: 'Leyla',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Hamsafar.jpeg',
       audio: 'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
-      genre: 'pop',
+      genre: 'raghsi',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
     },
+    {
+      title: '',
+      artist: 'Phellix',
+      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      audio: 'https://dl.iraniandj.ir/2025/1/28/1.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: 'Phellix',
+      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      audio: 'https://dl.iraniandj.ir/2025/1/28/2.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: 'Phellix',
+      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      audio: 'https://dl.iraniandj.ir/2025/1/28/3.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: 'Phellix',
+      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      audio: 'https://dl.iraniandj.ir/2025/1/28/4.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: 'https://dl.iraniandj.ir/2024/1/38/007-HellX Club - Techno Chart - January 2024 Vol.3 (Compiled & Mixed By DjHellX).mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: 'https://dl.iraniandj.ir/2024/1/38/2.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: 'https://dl.iraniandj.ir/2024/1/38/6.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: 'https://dl.iraniandj.ir/2024/1/38/9.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: 'https://dl.iraniandj.ir/2024/1/38/10.mp3',
+      genre: 'electronic',
+      duration: '',
+      star: 4.8,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Blossom',
+      artist: 'Sarah Watson',
+      cover: 'https://songsara.net/wp-content/uploads/2025/04/Blossom-Sarah-Watson.jpg',
+      audio: 'https://dl6.songsara.net/FRE/15/Sarah Watson - Blossom (2025) SONGSARA.NET.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Driven Snow',
+      artist: 'Dirk Maassen',
+      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/03 Driven Snow.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Awakening',
+      artist: 'Dirk Maassen',
+      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/01 Awakening.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Light Of Life',
+      artist: 'Dirk Maassen',
+      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/02 Light Of Life.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Rise',
+      artist: 'Dirk Maassen',
+      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/04 Rise.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Windsong',
+      artist: 'Dirk Maassen',
+      cover: 'https://songsara.net/wp-content/uploads/2021/03/Dirk-Maassen-Echoes.jpg',
+      audio: 'https://dl.songsara.net/FRE/2021/3/Dirk Maassen - Echoes (2021) SONGSARA.NET/03 Windsong.mp3',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+
     // {
     //   title: '',
     //   artist: '',
     //   cover: '',
     //   audio: '',
-    //   genre: 'pop',
+    //   genre: 'relax',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://ememay.ir/'
+    //   reference: 'https://songsara.net/'
     // },
+
+    // {
+    //   title: '',
+    //   artist: '',
+    //   cover: '',
+    //   audio: '',
+    //   genre: 'relax',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://songsara.net/'
+    // },
+
+
 
   ],
   genres: [
