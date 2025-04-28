@@ -7763,7 +7763,8 @@ const storeSimple = ref({
       title: 'Vadeh',
       artist: 'Leyla',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Hamsafar.jpeg',
-      audio: 'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
       genre: 'raghsi',
       duration: '',
       star: 4,
@@ -7772,7 +7773,8 @@ const storeSimple = ref({
     {
       title: '',
       artist: 'Phellix',
-      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      cover:
+        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
       audio: 'https://dl.iraniandj.ir/2025/1/28/1.mp3',
       genre: 'electronic',
       duration: '',
@@ -7782,7 +7784,8 @@ const storeSimple = ref({
     {
       title: '',
       artist: 'Phellix',
-      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      cover:
+        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
       audio: 'https://dl.iraniandj.ir/2025/1/28/2.mp3',
       genre: 'electronic',
       duration: '',
@@ -7792,7 +7795,8 @@ const storeSimple = ref({
     {
       title: '',
       artist: 'Phellix',
-      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      cover:
+        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
       audio: 'https://dl.iraniandj.ir/2025/1/28/3.mp3',
       genre: 'electronic',
       duration: '',
@@ -7802,7 +7806,8 @@ const storeSimple = ref({
     {
       title: '',
       artist: 'Phellix',
-      cover: 'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+      cover:
+        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
       audio: 'https://dl.iraniandj.ir/2025/1/28/4.mp3',
       genre: 'electronic',
       duration: '',
@@ -7813,7 +7818,8 @@ const storeSimple = ref({
       title: '',
       artist: '',
       cover: '',
-      audio: 'https://dl.iraniandj.ir/2024/1/38/007-HellX Club - Techno Chart - January 2024 Vol.3 (Compiled & Mixed By DjHellX).mp3',
+      audio:
+        'https://dl.iraniandj.ir/2024/1/38/007-HellX Club - Techno Chart - January 2024 Vol.3 (Compiled & Mixed By DjHellX).mp3',
       genre: 'electronic',
       duration: '',
       star: 4,
@@ -7863,8 +7869,10 @@ const storeSimple = ref({
     {
       title: 'Blossom',
       artist: 'Sarah Watson',
-      cover: 'https://songsara.net/wp-content/uploads/2025/04/Blossom-Sarah-Watson.jpg',
-      audio: 'https://dl6.songsara.net/FRE/15/Sarah Watson - Blossom (2025) SONGSARA.NET.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/Blossom-Sarah-Watson.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/15/Sarah Watson - Blossom (2025) SONGSARA.NET.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7873,8 +7881,10 @@ const storeSimple = ref({
     {
       title: 'Driven Snow',
       artist: 'Dirk Maassen',
-      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
-      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/03 Driven Snow.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/03 Driven Snow.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7883,8 +7893,10 @@ const storeSimple = ref({
     {
       title: 'Awakening',
       artist: 'Dirk Maassen',
-      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
-      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/01 Awakening.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/01 Awakening.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7893,8 +7905,10 @@ const storeSimple = ref({
     {
       title: 'Light Of Life',
       artist: 'Dirk Maassen',
-      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
-      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/02 Light Of Life.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/02 Light Of Life.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7903,8 +7917,10 @@ const storeSimple = ref({
     {
       title: 'Rise',
       artist: 'Dirk Maassen',
-      cover: 'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
-      audio: 'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/04 Rise.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/Awakening-Dirk-Maassen.jpg',
+      audio:
+        'https://dl6.songsara.net/FRE/15/Dirk Maassen - Awakening (2025) SONGSARA.NET/04 Rise.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7913,8 +7929,10 @@ const storeSimple = ref({
     {
       title: 'Windsong',
       artist: 'Dirk Maassen',
-      cover: 'https://songsara.net/wp-content/uploads/2021/03/Dirk-Maassen-Echoes.jpg',
-      audio: 'https://dl.songsara.net/FRE/2021/3/Dirk Maassen - Echoes (2021) SONGSARA.NET/03 Windsong.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2021/03/Dirk-Maassen-Echoes.jpg',
+      audio:
+        'https://dl.songsara.net/FRE/2021/3/Dirk Maassen - Echoes (2021) SONGSARA.NET/03 Windsong.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7924,8 +7942,10 @@ const storeSimple = ref({
     {
       title: 'This Little Life',
       artist: 'Yanson',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Yanson-This-Little-Life-2025.jpg',
-      audio: 'https://dc.vmusic.ir/2025/03/Yanson - This Little Life (2025)/128k/01) Yanson - This Little Life.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Yanson-This-Little-Life-2025.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Yanson - This Little Life (2025)/128k/01) Yanson - This Little Life.mp3',
       genre: 'relax',
       duration: '',
       star: 5,
@@ -7935,8 +7955,10 @@ const storeSimple = ref({
     {
       title: 'Places We Felt Home',
       artist: 'Yanson',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Yanson-This-Little-Life-2025.jpg',
-      audio: 'https://dc.vmusic.ir/2025/03/Yanson - This Little Life (2025)/128k/02) Yanson - Places We Felt Home.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Yanson-This-Little-Life-2025.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Yanson - This Little Life (2025)/128k/02) Yanson - Places We Felt Home.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7945,8 +7967,10 @@ const storeSimple = ref({
     {
       title: 'Memories Like Raindrops',
       artist: 'Yanson',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Yanson-This-Little-Life-2025.jpg',
-      audio: 'https://dc.vmusic.ir/2025/03/Yanson - This Little Life (2025)/128k/05) Yanson - Memories Like Raindrops.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Yanson-This-Little-Life-2025.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Yanson - This Little Life (2025)/128k/05) Yanson - Memories Like Raindrops.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7955,8 +7979,10 @@ const storeSimple = ref({
     {
       title: 'Nocturne No. II',
       artist: 'Yanson',
-      cover: 'http://vmusic.ir/wp-content/uploads/2023/09/Yanson-Four-Last-Nocturnes-EP-2023.jpg',
-      audio: 'https://dc.vmusic.ir/2023/09/Yanson - Four Last Nocturnes - EP (2023)/128k/02) Yanson - Nocturne No. II.mp3',
+      cover:
+        'http://vmusic.ir/wp-content/uploads/2023/09/Yanson-Four-Last-Nocturnes-EP-2023.jpg',
+      audio:
+        'https://dc.vmusic.ir/2023/09/Yanson - Four Last Nocturnes - EP (2023)/128k/02) Yanson - Nocturne No. II.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7965,8 +7991,10 @@ const storeSimple = ref({
     {
       title: 'Ignite',
       artist: 'Marek Iwaszkiewicz',
-      audio: 'https://dc.vmusic.ir/2025/04/Marek Iwaszkiewicz - Classics (2019)/128k/01) Marek Iwaszkiewicz - Ignite.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Marek-Iwaszkiewicz-Classics-2019.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Marek Iwaszkiewicz - Classics (2019)/128k/01) Marek Iwaszkiewicz - Ignite.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Marek-Iwaszkiewicz-Classics-2019.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7975,8 +8003,10 @@ const storeSimple = ref({
     {
       title: 'Grace and Faith',
       artist: 'Thinking Music',
-      audio: 'https://dc.vmusic.ir/2025/04/Thinking Music - Heaven Is in Worship (2025)/128k/01) Thinking Music - Grace and Faith.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/04/Thinking-Music-Heaven-Is-in-Worship-2025.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Thinking Music - Heaven Is in Worship (2025)/128k/01) Thinking Music - Grace and Faith.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Thinking-Music-Heaven-Is-in-Worship-2025.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7994,8 +8024,30 @@ const storeSimple = ref({
     },
     {
       title: '',
-      artist: '',
+      artist: 'Scent Of Electricity',
       audio: 'https://dl.iraniandj.ir/2025/2/17/2.mp3',
+      cover:
+        'https://i1.sndcdn.com/artworks-OiTnB3TO1M7QOEey-XUvUEQ-t500x500.png',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+    {
+      title: '',
+      artist: 'Scent Of Electricity',
+      audio: 'https://dl.iraniandj.ir/2025/2/17/3.mp3',
+      cover:
+        'https://i1.sndcdn.com/artworks-OiTnB3TO1M7QOEey-XUvUEQ-t500x500.png',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/2/15/1.mp3',
       cover: '',
       genre: 'electronic',
       duration: '',
@@ -8005,19 +8057,33 @@ const storeSimple = ref({
     {
       title: '',
       artist: '',
-      audio: 'https://dl.iraniandj.ir/2025/2/17/3.mp3',
+      audio: 'https://dl.iraniandj.ir/2025/2/15/2.mp3',
       cover: '',
       genre: 'electronic',
       duration: '',
       star: 4,
       reference: 'https://pro.iraniandj.ir/'
     },
-
-
-
-
-
-
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://pro.iraniandj.ir/'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://pro.iraniandj.ir/'
+    // },
   ],
   genres: [
     {
