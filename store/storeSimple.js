@@ -7561,7 +7561,8 @@ const storeSimple = ref({
       title: 'Serene Clarity',
       artist: 'Lulu Ray',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/002 Serene Clarity.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/002 Serene Clarity.mp3',
       genre: 'electronic',
       duration: '',
       star: 4,
@@ -7571,7 +7572,8 @@ const storeSimple = ref({
       title: 'Rymdresa',
       artist: 'Juni Ros',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/001 Rymdresa.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/001 Rymdresa.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7581,7 +7583,8 @@ const storeSimple = ref({
       title: 'Explorer',
       artist: 'Angelic Planet',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/003 Explorer.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/003 Explorer.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7591,7 +7594,8 @@ const storeSimple = ref({
       title: 'Sólestur',
       artist: 'Elsa Gudmundsdottir',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/004 Sólestur.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/004 Sólestur.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7601,7 +7605,8 @@ const storeSimple = ref({
       title: 'Safe',
       artist: 'Deruinga',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/005 Safe.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/005 Safe.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7611,7 +7616,8 @@ const storeSimple = ref({
       title: 'Opening Skies',
       artist: 'Eneyo Emberence',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/006 Opening Skies.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/006 Opening Skies.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7621,7 +7627,8 @@ const storeSimple = ref({
       title: 'At Night I Fly',
       artist: 'Heur',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/007 At Night I Fly.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/007 At Night I Fly.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7631,7 +7638,8 @@ const storeSimple = ref({
       title: 'Towards The Light',
       artist: 'Vincent La Rossi',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/008 Towards The Light.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/008 Towards The Light.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7641,7 +7649,8 @@ const storeSimple = ref({
       title: 'Djupet',
       artist: 'Owen Meyers',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/009 Djupet.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/009 Djupet.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7651,7 +7660,8 @@ const storeSimple = ref({
       title: 'Rings On Water',
       artist: 'Nekane Silver',
       cover: '',
-      audio: 'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/010 Rings On Water.mp3',
+      audio:
+        'https://dl6.songsara.net/FRE/5/Energy Release (Playlist)/010 Rings On Water.mp3',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -7660,8 +7670,10 @@ const storeSimple = ref({
     {
       title: 'Deutschland',
       artist: 'Rammstein',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-943-250x250.jpeg',
-      audio: 'https://ememay.ir/wp-content/uploads/2024/03/Rammstein-Deutschland.mp3',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-943-250x250.jpeg',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2024/03/Rammstein-Deutschland.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7671,40 +7683,41 @@ const storeSimple = ref({
       title: 'Armee der Tristen',
       artist: 'Rammstein',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
-      audio: 'https://emmusicdl.ir/Music/Rammstein/Zeit/Armee-der-Tristen-Rammstein-320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/Rammstein/Zeit/Armee-der-Tristen-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
-
     },
     {
       title: 'Dicke Titten',
       artist: 'Rammstein',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
-      audio: 'https://emmusicdl.ir/Music/Rammstein/Zeit/Dicke-Titten-Rammstein-320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/Rammstein/Zeit/Dicke-Titten-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
-
     },
     {
       title: 'Lügen',
       artist: 'Rammstein',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
-      audio: 'https://emmusicdl.ir/Music/Rammstein/Zeit/Lügen-Rammstein-320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/Rammstein/Zeit/Lügen-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
-
     },
     {
       title: 'Rockin',
       artist: 'Weekend',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Starboy.jpeg',
-      audio: 'https://emmusicdl.ir/Music/The-Weeknd/Starboy/Rockin-The-Weeknd-320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/The-Weeknd/Starboy/Rockin-The-Weeknd-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7713,8 +7726,10 @@ const storeSimple = ref({
     {
       title: "Can't Feel My Face",
       artist: 'Weekend',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
-      audio: 'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Cant-Feel-My-Face-The-Weeknd-320.mp3',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Cant-Feel-My-Face-The-Weeknd-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7723,8 +7738,10 @@ const storeSimple = ref({
     {
       title: 'I Feel It Coming',
       artist: 'Weekend',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
-      audio: 'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/I-Feel-It-Coming-The-Weeknd-Daft-Punk-320.mp3',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/I-Feel-It-Coming-The-Weeknd-Daft-Punk-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7733,8 +7750,10 @@ const storeSimple = ref({
     {
       title: 'Call Out My Name',
       artist: 'Weekend',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
-      audio: 'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Call-Out-My-Name-The-Weeknd-320.mp3',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
+      audio:
+        'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Call-Out-My-Name-The-Weeknd-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7744,12 +7763,43 @@ const storeSimple = ref({
       title: 'Vadeh',
       artist: 'Leyla',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Hamsafar.jpeg',
-      audio: 'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
     },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    }
     // {
     //   title: '',
     //   artist: '',
@@ -7760,7 +7810,6 @@ const storeSimple = ref({
     //   star: 4,
     //   reference: 'https://ememay.ir/'
     // },
-
   ],
   genres: [
     {
@@ -7796,7 +7845,6 @@ const storeSimple = ref({
   ],
   go: false,
   isPlaying: false
-
 })
 
 export default storeSimple
