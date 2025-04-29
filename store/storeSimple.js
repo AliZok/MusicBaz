@@ -8147,6 +8147,156 @@ const storeSimple = ref({
       star: 4.9,
       reference: 'https://vmusic.ir/'
     },
+    {
+      title: 'The Ascended',
+      artist: 'Ambinoise',
+      audio: 'https://dc.vmusic.ir/2025/03/Ambinoise - Withering (2025-02-28)/128k/03) Ambinoise - The Ascended.mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Ambinoise-Withering-2025-02-28.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Under a Starlit Sky of Dreams',
+      artist: 'Thomas Lemmer',
+      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/01) Thomas Lemmer - Under a Starlit Sky of Dreams.mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: ' Where Nightfall Meets the Horizon',
+      artist: 'Thomas Lemmer',
+      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/02) Thomas Lemmer - Where Nightfall Meets the Horizon.mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Drifting Through the Milky Way',
+      artist: 'Thomas Lemmer',
+      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/05) Thomas Lemmer - Drifting Through the Milky Way.mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'In the Arms of the Night',
+      artist: 'Thomas Lemmer',
+      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/06) Thomas Lemmer - In the Arms of the Night.mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'In the Glow of Midnight',
+      artist: 'Thomas Lemmer',
+      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/07) Thomas Lemmer - In the Glow of Midnight.mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'When the Night Whispers Secrets',
+      artist: 'Thomas Lemmer',
+      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/09) Thomas Lemmer - When the Night Whispers Secrets.mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Drifting Through the Milky Way (Lofi Version)',
+      artist: 'Thomas Lemmer',
+      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/11) Thomas Lemmer - Drifting Through the Milky Way (Lofi Version).mp3',
+      cover:'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Northwind',
+      artist: 'Be Still the Earth',
+      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/01) Be Still the Earth - Northwind.mp3',
+      cover:'',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Under the Canopy',
+      artist: 'We Dream Of Eden',
+      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/02) We Dream Of Eden - Under the Canopy.mp3',
+      cover:'',
+      genre: 'relax',
+      duration: '',
+      star: 4.9,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: '',
+      artist: 'Matt Tondut',
+      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/03) Matt Tondut - Storms are for Sleeping.mp3',
+      cover:'',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'The Rain is Almost Over',
+      artist: 'Moon Projection',
+      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/04) Moon Projection - The Rain is Almost Over.mp3',
+      cover:'',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'And Then the Heavens Opened',
+      artist: 'Retland',
+      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/05) Retland - And Then the Heavens Opened.mp3',
+      cover:'',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Life Rains',
+      artist: 'Anita Tatlow',
+      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/06) Anita Tatlow - Life Rains.mp3',
+      cover:'',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Each Raindrop Holds a Note',
+      artist: 'Applefish',
+      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/07) Applefish - Each Raindrop Holds a Note.mp3',
+      cover:'',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
     // {
     //   title: '',
     //   artist: '',
@@ -8167,6 +8317,32 @@ const storeSimple = ref({
     //   star: 4,
     //   reference: 'https://vmusic.ir/'
     // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover:'',
+    //   genre: 'relax',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://vmusic.ir/'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover:'',
+    //   genre: 'relax',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://vmusic.ir/'
+    // },
+
+
+
+
+
+
   ],
   genres: [
     {
