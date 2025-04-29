@@ -8064,25 +8064,108 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://pro.iraniandj.ir/'
     },
+    {
+      title: 'Quest of a Lifetime',
+      artist: 'Legends of Fantasia',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/01) Legends of Fantasia - Quest of a Lifetime.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Hall of the Brave',
+      artist: 'Legends of Fantasia',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/02) Legends of Fantasia - Hall of the Brave.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4.5,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Arcane',
+      artist: 'Legends of Fantasia',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/03) Legends of Fantasia - Arcane.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4.9,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Chevalerie',
+      artist: 'Legends of Fantasia',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/04) Legends of Fantasia - Chevalerie.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Fields of Avalon',
+      artist: 'Legends of Fantasia',
+      audio: 'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/05) Legends of Fantasia - Fields of Avalon.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Spirit of Winter',
+      artist: 'Legends of Fantasia',
+      audio: 'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/06) Legends of Fantasia - Spirit of Winter.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Elven Dreams',
+      artist: 'Legends of Fantasia',
+      audio: 'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/09) Legends of Fantasia - Elven Dreams.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4.9,
+      reference: 'https://vmusic.ir/'
+    },
     // {
     //   title: '',
     //   artist: '',
     //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
+    //   cover:'',
+    //   genre: 'relax',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://pro.iraniandj.ir/'
+    //   reference: 'https://vmusic.ir/'
     // },
     // {
     //   title: '',
     //   artist: '',
     //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
+    //   cover:'',
+    //   genre: 'relax',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://pro.iraniandj.ir/'
+    //   reference: 'https://vmusic.ir/'
     // },
   ],
   genres: [
