@@ -7132,7 +7132,7 @@ const storeSimple = ref({
       artist: 'Ed Sheeran',
       cover:
         'https://ava-music.com/wp-content/uploads/2025/04/Ed-Sheeran-Azizam.jpg',
-      audio: 'https://dl.behmelody.in/1404/01/15/Azizam%20%28128%29.mp3',
+      audio:'https://dl.behmelody.in/1404/01/15/Azizam%20%28128%29.mp3',
       genre: 'pop',
       duration: '',
       reference: 'https://ava-music.com/'
