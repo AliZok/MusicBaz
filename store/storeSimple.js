@@ -1114,15 +1114,15 @@ const storeSimple = ref({
     //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Easy%20Lover.mp3',
     //     genre: 'rock pop',
     // },
-    {
-      title: 'A Groovy Kind Of Love',
-      artist: 'Phil Collins',
-      cover:
-        'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
-      audio:
-        'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Groovy%20Kind%20Of%20Love.mp3',
-      genre: 'rock pop'
-    },
+    // {
+    //   title: 'A Groovy Kind Of Love',
+    //   artist: 'Phil Collins',
+    //   cover:
+    //     'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
+    //   audio:
+    //     'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Groovy%20Kind%20Of%20Love.mp3',
+    //   genre: 'rock pop'
+    // },
     {
       title: 'In The Air Tonight',
       artist: 'Phil Collins',
