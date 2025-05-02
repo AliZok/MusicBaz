@@ -7132,7 +7132,7 @@ const storeSimple = ref({
       artist: 'Ed Sheeran',
       cover:
         'https://ava-music.com/wp-content/uploads/2025/04/Ed-Sheeran-Azizam.jpg',
-      audio:'https://dl.behmelody.in/1404/01/15/Azizam%20%28128%29.mp3',
+      audio: 'https://dl.behmelody.in/1404/01/15/Azizam%20%28128%29.mp3',
       genre: 'pop',
       duration: '',
       reference: 'https://ava-music.com/'
@@ -8442,25 +8442,175 @@ const storeSimple = ref({
     {
       title: '',
       artist: '',
-      audio: '',
+      audio: "https://emmusicdl.ir/Music/Taylor-Swift/Fearless-Taylor's-Version/_The_Best_Day_Taylors_Version_Taylor_Swift_320.mp3",
       cover: '',
-      genre: 'relax',
+      genre: 'pop',
       duration: '',
       star: 4,
-      reference: 'https://vmusic.ir/'
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'We Are Never Ever Getting Back Together',
+      artist: 'Taylor Swift',
+      audio: 'https://emmusicdl.ir/Music/Taylor-Swift/Red/_We_Are_Never_Ever_Getting_Back_Together_Taylor_Swift_320.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4.5,
+      reference: 'https://ememay.ir/'
+    },
+
+    {
+      title: 'Eshareh',
+      artist: 'Hayedeh',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/02/Hayedeh-Eshareh.mp3',
+      cover: '',
+      genre: 'raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Hayedeh',
+      artist: 'Bezan Tar',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/02/Hayedeh-Bezan-Tar.mp3',
+      cover: '',
+      genre: 'raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Crawling',
+      artist: 'LinkinPark',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/04/Linkin-Park-Crawling.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-954-250x250.jpeg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Sonne',
+      artist: 'Rammstein',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/03/Rammstein-Sonne.mp3',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'What Ive Done',
+      artist: 'LinkinPark',
+      audio: 'https://emmusicdl.ir/Music/Linkin-Park/Papercuts/What-Ive-Done-Linkin-Park-320.mp3',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
     },
     {
       title: '',
       artist: '',
-      audio: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/33/1.mp3',
       cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: ''
+    },
+
+    {
+      title: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/3.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2024/10/29/13.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4.8,
+      reference: ''
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2024/10/29/10.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2024/10/29/9.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2024/10/29/8.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2024/10/13/2.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'A Walking Embrace',
+      artist: 'Nils Frahm',
+      audio: 'https://dl5.songsara.net/FRE/28-30/Nils Frahm - Encores 2 (2019) SONGSARA.NET/02 A Walking Embrace.mp3',
+      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
-      reference: 'https://vmusic.ir/'
+      reference: 'https://ememay.ir/'
     },
-
-
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://ememay.ir/'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://ememay.ir/'
+    // },
 
 
 
