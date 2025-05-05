@@ -8751,25 +8751,48 @@ const storeSimple = ref({
 
     {
       title: '',
-      artist: '',
-      audio: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/3.mp3',
       cover: '',
-      genre: 'relax',
+      genre: 'electronic',
       duration: '',
       star: 4,
-      reference: 'https://songsara.net/'
+      reference: 'https://pro.iraniandj.ir/'
     },
 
     {
       title: '',
-      artist: '',
-      audio: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/4.mp3',
       cover: '',
-      genre: 'relax',
+      genre: 'electronic',
       duration: '',
       star: 4,
-      reference: 'https://songsara.net/'
-    }
+      reference: 'https://pro.iraniandj.ir/'
+    },
+    {
+      title: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/6.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+    {
+      title: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/9.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+
+
+
 
     // {
     //   title: '',
