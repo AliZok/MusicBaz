@@ -107,7 +107,7 @@ const storeSimple = ref({
       cover:
         'https://upmusics.com/wp-content/uploads/2017/07/Sirvan-Khosravi-Doost-Daram-Zendegiro.jpg',
       audio:
-        'https://dls.music-fa.com/tagdl/downloads/Sirvan%20Khosravi%20-%20Doost%20Daram%20Zendegiro%20(128).mp3',
+        'https://aod.musiciom.ir/Tracks/Songs/Sirvan%20Khosravi%20-%20Doost%20Daram%20Zendegiro%20(UpMusic).mp3?host=upmusics.com',
       genre: 'pop',
       duration: ''
     },
