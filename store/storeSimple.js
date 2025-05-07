@@ -8588,31 +8588,160 @@ const storeSimple = ref({
       cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
       genre: 'relax',
       duration: '',
+      star: 5,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Sweet Little Lie',
+      artist: 'Nils Frahm',
+      audio: 'https://dl5.songsara.net/FRE/28-30/Nils Frahm - Encores 2 (2019) SONGSARA.NET/01 Sweet Little Lie.mp3',
+      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Talisman',
+      artist: 'Nils Frahm',
+      audio: 'https://dl5.songsara.net/FRE/28-30/Nils Frahm - Encores 2 (2019) SONGSARA.NET/03 Talisman.mp3',
+      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '',
+      artist: 'Nils Frahm',
+      audio: '',
+      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '',
+      artist: 'Nils Frahm',
+      audio: '',
+      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '',
+      artist: 'Nils Frahm',
+      audio: '',
+      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.emmusicdl.ir/Music/Enrique-Iglesias/Enrique/Rhythm-Divine-Enrique-Iglesias-320.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
     },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://ememay.ir/'
-    // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://ememay.ir/'
-    // },
+    {
+      title: 'Ashoobam',
+      artist: 'Chaartaar',
+      audio: 'https://emmusicdl.ir/Music/Chaartaar/Baaraan-Toee/Ashoobam.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Nimeye Gomshodeh',
+      artist: 'Hamed Homayoun',
+      audio: 'https://emmusicdl.ir/Music/Hamed-Homayoun/Barzakhe-Asheghi/Nimeye-Gomshodeh.mp3',
+      cover: 'raghsi',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Zelzeleh',
+      artist: 'Aron Afshar',
+      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Zelzeleh.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Giso Parishan',
+      artist: 'Aron Afshar',
+      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Giso-Parishan.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Kojaei',
+      artist: 'Aron Afshar',
+      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Kojaei.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
 
-
+    {
+      title: 'Atre Bahar',
+      artist: 'Aron Afshar',
+      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Shabe-Royaei/Atre-Bahar.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Bist',
+      artist: 'Kamran Hooman',
+      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/20.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Age Eshghe Man to Nisti',
+      artist: 'Kamran Hooman',
+      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Age-Eshghe-Man-to-Nisti.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: '',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
 
 
 
