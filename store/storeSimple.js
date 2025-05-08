@@ -3206,6 +3206,15 @@ const storeSimple = ref({
       duration: ''
     },
     {
+      title: 'Sheytanat',
+      audio: 'https://emmusicdl.ir/Music/Andy/Beegharar/Shaytanat-Andy-320.mp3',
+      artist: 'Andy',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: ''
+    },
+    {
       title: 'Balaa',
       audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Balla.mp3',
       artist: 'Andy',
@@ -3901,7 +3910,7 @@ const storeSimple = ref({
       audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Eshgeh%20Aval.mp3',
       artist: 'Andy',
       cover: '',
-      genre: 'raghsi',
+      genre: 'raghsi pop',
       star: 4,
       duration: ''
     },
@@ -3925,7 +3934,7 @@ const storeSimple = ref({
     },
     {
       title: 'Dokhtare Bandar',
-      audio: 'https://sv.ahoramusics.ir/iran/Andy/Andy-Dokhtare%20Bandar.mp3',
+      audio: 'https://emmusicdl.ir/Music/Andy/Devoted/Dokhtaré-Bandar-Andy-320.mp3',
       artist: 'Andy',
       cover: '',
       genre: 'raghsi',
@@ -4018,6 +4027,17 @@ const storeSimple = ref({
         'https://assets.rjassets.com/static/mp3/andy-kaghaze-bi-khat/9a58b404.jpg',
       audio:
         'https://dl.javanmelody.ir/dl/1401/12/Andy-Kaghaze-Bi-Khat-abanmusics.com-128.mp3',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://javanmelody.ir/'
+    },
+    {
+      title: 'Tavalod',
+      artist: 'Andy',
+      cover: '',
+      audio:
+        'https://emmusicdl.ir/Music/Andy/Devoted/Tavalod-Andy-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -5086,6 +5106,17 @@ const storeSimple = ref({
       duration: '',
       reference: 'https://ememay.ir/'
     },
+    {
+      title: 'Hel Heleh',
+      audio:'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Hel-Heleh-Leila-Forouhar-320.mp3',
+      artist: 'Leila Forouhar',
+      cover: '',
+      genre: 'raghsi',
+      star: 4,
+      duration: '',
+      reference: 'https://ememay.ir/'
+    },
+
     {
       title: 'Pichak',
       audio: 'https://ememay.ir/wp-content/uploads/2024/08/Ebi-Pichak.mp3',
@@ -8676,7 +8707,7 @@ const storeSimple = ref({
       artist: 'Aron Afshar',
       audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Zelzeleh.mp3',
       cover: '',
-      genre: 'pop',
+      genre: 'raghsi',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
@@ -8686,7 +8717,7 @@ const storeSimple = ref({
       artist: 'Aron Afshar',
       audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Giso-Parishan.mp3',
       cover: '',
-      genre: 'pop',
+      genre: 'raghsi',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
@@ -8707,7 +8738,7 @@ const storeSimple = ref({
       artist: 'Aron Afshar',
       audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Shabe-Royaei/Atre-Bahar.mp3',
       cover: '',
-      genre: 'pop',
+      genre: 'raghsi',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
@@ -8717,7 +8748,7 @@ const storeSimple = ref({
       artist: 'Kamran Hooman',
       audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/20.mp3',
       cover: '',
-      genre: 'pop',
+      genre: 'raghsi',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
@@ -8727,6 +8758,127 @@ const storeSimple = ref({
       artist: 'Kamran Hooman',
       audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Age-Eshghe-Man-to-Nisti.mp3',
       cover: '',
+      genre: 'raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Man Toro Mikham',
+      artist: 'Kamran Hooman',
+      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Man-Toro-Mikham.mp3',
+      cover: '',
+      genre: 'raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Mano Bebakhsh',
+      artist: 'Kamran Hooman',
+      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Mano-Bebakhsh.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Oonike Mikhastam',
+      artist: 'Kamran Hooman',
+      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Oonike-Mikhastam.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Shahlaye Man',
+      artist: 'Habib',
+      audio: 'https://emmusicdl.ir/Music/Habib/Mardeh-Tanhayeh-Shab/Shahlaye-Man-Habib-320.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Madar',
+      artist: 'Habib',
+      audio: 'https://emmusicdl.ir/Music/Habib/Javuni/Madar-Habib-320.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Donya',
+      artist: 'Arash feat Shaggy ',
+      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/_Donya_feat_Shaggy_Single_Version_Arash_Shaggy_320.mp3',
+      cover: '',
+      genre: 'pop raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Donya',
+      artist: 'Arash & Helena',
+      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/Pure-Love-feat-Helena-Arash-Helena-320.mp3',
+      cover: '',
+      genre: 'pop raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+
+    {
+      title: 'Dasta Baalaa',
+      artist: 'Arash ',
+      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/_Dasa_Bala_feat_Timbuktu_Yag_Arash_Timbuktu_320.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Chori Chori',
+      artist: 'Arash ',
+      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/Chori-Chori-feat-Aneela-Arash-Aneela-320.mp3',
+      cover: '',
+      genre: 'pop raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'One Day',
+      artist: 'Arash Helena',
+      audio: 'https://emmusicdl.ir/Music/Arash/SUPERMAN/_One_Day_feat_Helena_Radio_Edit_Arash_Helena_320.mp3',
+      cover: '',
+      genre: 'pop raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Scorpions',
+      artist: 'Arash ',
+      audio: 'https://emmusicdl.ir/Music/Scorpions/Lovedrive/Always-Somewhere-2015-Remaster-Scorpions-320.mp3',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Last Friday Night',
+      artist: 'Katy Perry',
+      audio: 'https://emmusicdl.ir/Music/Katy-Perry/Teenage-Dream/Last-Friday-Night-TGIF-Katy-Perry-320.mp3',
+      cover: '',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -8734,16 +8886,177 @@ const storeSimple = ref({
     },
     {
       title: '',
-      artist: '',
-      audio: '',
+      artist: 'Sirvan ',
+      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Today-I-Wanna-Tell-You-Sirvan-Khosravi-320.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Zendegy Hamin Emrooze',
+      artist: 'Sirvan ',
+      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Live-for-Today-Sirvan-Khosravi-320.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Delam Gerefte',
+      artist: 'Sirvan ',
+      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Im-Down-Sirvan-Khosravi-320.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Oon Rooza',
+      artist: 'Sirvan ',
+      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Those-Days-Sirvan-Khosravi-320.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: "Sa'ate 9",
+      artist: 'Sirvan ',
+      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/9-Oclock-Sirvan-Khosravi-320.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Na Naro',
+      artist: 'Sirvan ',
+      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Jaddeye-Royaha/Na-Naro-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
       star: 4,
       reference: 'https://ememay.ir/'
     },
+    {
 
+      title: 'Baroone Paeizy',
+      artist: 'Sirvan ',
+      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Jaddeye-Royaha/Baroone-Paizi-Sirvan-Khosravi-320.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
 
+      title: 'Na Naro (Live Version)',
+      artist: 'Sirvan ',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/11/Sirvan-Khosravi-Na-Naro-Unplugged-Tehran-2015.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-304-250x250.jpeg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+
+      title: 'Ye Roozi Miay',
+      artist: 'Sirvan ',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/11/Sirvan-Khosravi-Ye-Roozi-Miay-One-Day-You-Will-Come.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Jaye Man Nisti',
+      artist: 'Sirvan & Kave Yaghmaei',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/11/Sirvan-Khosravi-Jaye-Man-Nisti.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-308-250x250.jpeg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Bargard',
+      artist: 'Sirvan ',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/11/Sirvan-Khosravi-Bargard.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Ghabe Axe Khali',
+      artist: 'Sirvan ',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/11/Sirvan-Khosravi-Ghabe-Akse-Khali.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-295-250x250.jpeg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Tajob Nakon',
+      artist: 'Sirvan ',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/11/Sirvan-Khosravi-Tajob-Nakon.mp3',
+      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-298-250x250.jpeg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Soojehat Tekrarie',
+      artist: 'Sirvan ',
+      audio: 'https://ememay.ir/wp-content/uploads/2024/11/Sirvan-Khosravi-Soojehat-Tekrarie.mp3',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'Ghorse Ghamar 2',
+      artist: 'Bani',
+      audio: 'https://emmusicdl.ir/Music/Behnam-Bani/Best-Of-Behnam-Bani-Vol.2/Ghorse-Ghamar-2-Behnam-Bani-320.mp3',
+      cover: '',
+      genre: 'raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    {
+      title: 'In Eshgheh',
+      artist: 'Behnam Bani ',
+      audio: 'https://emmusicdl.ir/Music/Behnam-Bani/Best-Of-Behnam-Bani-Vol.2/In-Eshgheh-Behnam-Bani-320.mp3',
+      cover: '',
+      genre: 'raghsi',
+      duration: '',
+      star: 4,
+      reference: 'https://ememay.ir/'
+    },
+    // {
+    //   title: '',
+    //   artist: 'Sirvan ',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'raghsi',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://ememay.ir/'
+    // },
 
   ],
   genres: [
