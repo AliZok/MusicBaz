@@ -9327,7 +9327,7 @@ const storeSimple = ref({
     {
       title: 'Rock You Like A Hurricane',
       artist: 'Scorpions',
-      audio:"https://uploadb.me/v3q7c4p3uye4/Scorpions%20-%20Rock%20You%20Like%20A%20Hurricane%20.mp3.html",
+      audio: "https://uploadb.me/v3q7c4p3uye4/Scorpions%20-%20Rock%20You%20Like%20A%20Hurricane%20.mp3.html",
       cover: '',
       genre: 'rock',
       duration: '',
@@ -9346,6 +9346,59 @@ const storeSimple = ref({
       reference: 'https://melodicc.com/'
 
     },
+    {
+      title: 'Wind Of Change',
+      artist: 'Scorpions',
+      audio: "https://uploadb.me/6oboenipo5x0/Scorpions%20-%20Wind%20Of%20Change.mp3.html",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
+    {
+      title: 'Nothing Else Matters',
+      artist: 'Metallica',
+      audio: "https://uploadb.me/zayaiq62dmut/Metallica%20-%20Nothing%20Else%20Matters.mp3.html",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
+    {
+      title: 'Caught A Body',
+      artist: 'Alesso Ft Ty Dolla $ign',
+      audio: "https://uploadb.me/vqupe2i2n08r/Alesso%20Ft%20Ty%20Dolla%20$ign%20-%20Caught%20A%20Body%20.mp3.html",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+
+    {
+      title: 'False Need',
+      artist: 'Mochakk',
+      audio: "https://uploadb.me/vuebwt74a4ww/Mochakk%20-%20False%20Need%20.mp3.html",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Quiver',
+      artist: 'SILK',
+      audio: "https://uploadb.me/lyzpivugfuqj/SILK%20-%20Quiver%20.mp3.html",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
     // {
     //   title: '',
     //   artist: '',
@@ -9355,10 +9408,8 @@ const storeSimple = ref({
     //   duration: '',
     //   star: 4,
     //   reference: 'https://melodicc.com/'
-
     // },
-
-    //    {
+    // {
     //   title: '',
     //   artist: '',
     //   audio: '',
@@ -9367,17 +9418,6 @@ const storeSimple = ref({
     //   duration: '',
     //   star: 4,
     //   reference: 'https://melodicc.com/'
-
-    // },   {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-
     // },
 
   ],
