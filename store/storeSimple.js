@@ -5108,7 +5108,7 @@ const storeSimple = ref({
     },
     {
       title: 'Hel Heleh',
-      audio:'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Hel-Heleh-Leila-Forouhar-320.mp3',
+      audio: 'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Hel-Heleh-Leila-Forouhar-320.mp3',
       artist: 'Leila Forouhar',
       cover: '',
       genre: 'raghsi',
@@ -9247,19 +9247,139 @@ const storeSimple = ref({
       reference: 'https://pro.iraniandj.ir/'
     },
 
+    {
+      title: 'Sadeness',
+      artist: 'Enigma',
+      audio: 'https://uploadb.me/e0n551qwnq8p/Enigma%20-%20Sadeness.mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Lost On You',
+      artist: 'LP',
+      audio: 'https://uploadb.me/54syci2lsmrd/Lp%20-%20Lost%20On%20You.mp3.html',
+      cover: '',
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
 
+    },
+    {
+      title: 'Goodbye My Lover',
+      artist: 'James Blunt',
+      audio: 'https://uploadb.me/sjkxl2t1gvsd/James%20Blunt%20-%20Goodbye%20My%20Lover.mp3.html',
+      cover: '',
+      genre: 'pop relax',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
 
+    },
+    {
+      title: 'Shape of My Heart',
+      artist: 'Sting',
+      audio: 'http://uploadb.me/direct/9mh5ivlbsk7w/Sting%20-%20Shape%20of%20My%20Heart.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
 
+    },
+    {
+      title: 'Brother Louie',
+      artist: 'Modern Talking',
+      audio: 'https://uploadb.me/sgmiodt4bh2z/Modern%20Talking%20-%20Brother%20Louie.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
+    {
+      title: 'Billie Jean',
+      artist: 'Michael Jackson',
+      audio: "http://uploadb.me/direct/01utehj5lue4/Michael%20Jackson%20-%20Billie%20Jean.mp3.html",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
+    {
+      title: 'Wish You Were Here',
+      artist: 'Pink Floyd',
+      audio: "https://uploadb.me/0gmmutp4i0qm/04%20Pink%20Floyd%20-%20Wish%20You%20Were%20Here%20.mp3.html",
+      cover: '',
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
+
+    {
+      title: 'Rock You Like A Hurricane',
+      artist: 'Scorpions',
+      audio:"https://uploadb.me/v3q7c4p3uye4/Scorpions%20-%20Rock%20You%20Like%20A%20Hurricane%20.mp3.html",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
+    {
+      title: "Let's Talk About Love",
+      artist: 'Modern Talking',
+      audio: "http://uploadb.me/direct/777wogqwxw4e/Modern%20Talking%20-%20Let's%20Talk%20About%20Love.mp3.html",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
     // {
     //   title: '',
-    //   artist: 'Sirvan ',
+    //   artist: '',
     //   audio: '',
     //   cover: '',
-    //   genre: 'raghsi',
+    //   genre: 'rock',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://ememay.ir/'
+    //   reference: 'https://melodicc.com/'
+
     // },
+
+    //    {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+
+    // },   {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+
+    // },
+
   ],
   genres: [
     {
