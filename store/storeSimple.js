@@ -107,7 +107,7 @@ const storeSimple = ref({
       cover:
         'https://upmusics.com/wp-content/uploads/2017/07/Sirvan-Khosravi-Doost-Daram-Zendegiro.jpg',
       audio:
-        'https://dls.music-fa.com/tagdl/downloads/Sirvan%20Khosravi%20-%20Doost%20Daram%20Zendegiro%20(128).mp3',
+        'https://aod.musiciom.ir/Tracks/Songs/Sirvan%20Khosravi%20-%20Doost%20Daram%20Zendegiro%20(UpMusic).mp3?host=upmusics.com',
       genre: 'pop',
       duration: ''
     },
@@ -8147,7 +8147,8 @@ const storeSimple = ref({
     {
       title: 'Fields of Avalon',
       artist: 'Legends of Fantasia',
-      audio: 'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/05) Legends of Fantasia - Fields of Avalon.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/05) Legends of Fantasia - Fields of Avalon.mp3',
       cover:
         'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
       genre: 'relax',
@@ -8158,7 +8159,8 @@ const storeSimple = ref({
     {
       title: 'Spirit of Winter',
       artist: 'Legends of Fantasia',
-      audio: 'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/06) Legends of Fantasia - Spirit of Winter.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/06) Legends of Fantasia - Spirit of Winter.mp3',
       cover:
         'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
       genre: 'relax',
@@ -8169,7 +8171,8 @@ const storeSimple = ref({
     {
       title: 'Elven Dreams',
       artist: 'Legends of Fantasia',
-      audio: 'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/09) Legends of Fantasia - Elven Dreams.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/04/Legends of Fantasia - Quest of a Lifetime (2025)/128k/09) Legends of Fantasia - Elven Dreams.mp3',
       cover:
         'https://vmusic.ir/wp-content/uploads/2025/04/Legends-of-Fantasia-Quest-of-a-Lifetime-2025.jpg',
       genre: 'relax',
@@ -8180,8 +8183,10 @@ const storeSimple = ref({
     {
       title: 'The Ascended',
       artist: 'Ambinoise',
-      audio: 'https://dc.vmusic.ir/2025/03/Ambinoise - Withering (2025-02-28)/128k/03) Ambinoise - The Ascended.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Ambinoise-Withering-2025-02-28.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Ambinoise - Withering (2025-02-28)/128k/03) Ambinoise - The Ascended.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Ambinoise-Withering-2025-02-28.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8190,8 +8195,10 @@ const storeSimple = ref({
     {
       title: 'Under a Starlit Sky of Dreams',
       artist: 'Thomas Lemmer',
-      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/01) Thomas Lemmer - Under a Starlit Sky of Dreams.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/01) Thomas Lemmer - Under a Starlit Sky of Dreams.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8200,8 +8207,10 @@ const storeSimple = ref({
     {
       title: ' Where Nightfall Meets the Horizon',
       artist: 'Thomas Lemmer',
-      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/02) Thomas Lemmer - Where Nightfall Meets the Horizon.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/02) Thomas Lemmer - Where Nightfall Meets the Horizon.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8210,8 +8219,10 @@ const storeSimple = ref({
     {
       title: 'Drifting Through the Milky Way',
       artist: 'Thomas Lemmer',
-      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/05) Thomas Lemmer - Drifting Through the Milky Way.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/05) Thomas Lemmer - Drifting Through the Milky Way.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8220,8 +8231,10 @@ const storeSimple = ref({
     {
       title: 'In the Arms of the Night',
       artist: 'Thomas Lemmer',
-      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/06) Thomas Lemmer - In the Arms of the Night.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/06) Thomas Lemmer - In the Arms of the Night.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8230,8 +8243,10 @@ const storeSimple = ref({
     {
       title: 'In the Glow of Midnight',
       artist: 'Thomas Lemmer',
-      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/07) Thomas Lemmer - In the Glow of Midnight.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/07) Thomas Lemmer - In the Glow of Midnight.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8240,8 +8255,10 @@ const storeSimple = ref({
     {
       title: 'When the Night Whispers Secrets',
       artist: 'Thomas Lemmer',
-      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/09) Thomas Lemmer - When the Night Whispers Secrets.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/09) Thomas Lemmer - When the Night Whispers Secrets.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8250,8 +8267,10 @@ const storeSimple = ref({
     {
       title: 'Drifting Through the Milky Way (Lofi Version)',
       artist: 'Thomas Lemmer',
-      audio: 'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/11) Thomas Lemmer - Drifting Through the Milky Way (Lofi Version).mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/03/Thomas Lemmer - Dreamscapes (2025-03-07)/128k/11) Thomas Lemmer - Drifting Through the Milky Way (Lofi Version).mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/03/Thomas-Lemmer-Dreamscapes-2025-03-07.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8260,7 +8279,8 @@ const storeSimple = ref({
     {
       title: 'Northwind',
       artist: 'Be Still the Earth',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/01) Be Still the Earth - Northwind.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/01) Be Still the Earth - Northwind.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8270,7 +8290,8 @@ const storeSimple = ref({
     {
       title: 'Under the Canopy',
       artist: 'We Dream Of Eden',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/02) We Dream Of Eden - Under the Canopy.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/02) We Dream Of Eden - Under the Canopy.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8280,7 +8301,8 @@ const storeSimple = ref({
     {
       title: '',
       artist: 'Matt Tondut',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/03) Matt Tondut - Storms are for Sleeping.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/03) Matt Tondut - Storms are for Sleeping.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8290,7 +8312,8 @@ const storeSimple = ref({
     {
       title: 'The Rain is Almost Over',
       artist: 'Moon Projection',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/04) Moon Projection - The Rain is Almost Over.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/04) Moon Projection - The Rain is Almost Over.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8300,7 +8323,8 @@ const storeSimple = ref({
     {
       title: 'And Then the Heavens Opened',
       artist: 'Retland',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/05) Retland - And Then the Heavens Opened.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/05) Retland - And Then the Heavens Opened.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8310,7 +8334,8 @@ const storeSimple = ref({
     {
       title: 'Life Rains',
       artist: 'Anita Tatlow',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/06) Anita Tatlow - Life Rains.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/06) Anita Tatlow - Life Rains.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8320,7 +8345,8 @@ const storeSimple = ref({
     {
       title: 'Each Raindrop Holds a Note',
       artist: 'Applefish',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/07) Applefish - Each Raindrop Holds a Note.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/07) Applefish - Each Raindrop Holds a Note.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8330,7 +8356,8 @@ const storeSimple = ref({
     {
       title: 'Hidden in the Fog',
       artist: 'Lauge',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/08) Lauge - Hidden in the Fog.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/08) Lauge - Hidden in the Fog.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8340,7 +8367,8 @@ const storeSimple = ref({
     {
       title: 'Grey Skies',
       artist: 'Broken Peak',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/09) Broken Peak - Grey Skies.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/09) Broken Peak - Grey Skies.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8350,7 +8378,8 @@ const storeSimple = ref({
     {
       title: 'Hidden in the Fog',
       artist: 'Lauge',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/08) Lauge - Hidden in the Fog.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/08) Lauge - Hidden in the Fog.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8360,7 +8389,8 @@ const storeSimple = ref({
     {
       title: 'Night Falls in Balik Palu',
       artist: 'Memories of the Forgotten',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/10) Memories of the Forgotten - Night Falls in Balik Palu.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/10) Memories of the Forgotten - Night Falls in Balik Palu.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8370,7 +8400,8 @@ const storeSimple = ref({
     {
       title: 'Torrential',
       artist: 'Dear Gravity',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/11) Dear Gravity - Torrential.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/11) Dear Gravity - Torrential.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8380,7 +8411,8 @@ const storeSimple = ref({
     {
       title: 'Geosmin',
       artist: "Sky's Memoirs",
-      audio: "https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/13) Sky's Memoirs - Geosmin.mp3",
+      audio:
+        "https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/13) Sky's Memoirs - Geosmin.mp3",
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8391,7 +8423,8 @@ const storeSimple = ref({
     {
       title: 'Whispers in the Mist',
       artist: 'Eternal Meadows',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/15) Eternal Meadows - Whispers in the Mist.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/15) Eternal Meadows - Whispers in the Mist.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8402,7 +8435,8 @@ const storeSimple = ref({
     {
       title: ' A Journey Through Rain',
       artist: 'Sensitizer',
-      audio: 'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/16) Sensitizer - A Journey Through Rain.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/03/VA - Echoes in the Valley, Vol. 11 (2025)/128k/16) Sensitizer - A Journey Through Rain.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8413,7 +8447,8 @@ const storeSimple = ref({
     {
       title: 'Speechless Trees',
       artist: 'Anhidema',
-      audio: 'https://dc.vmusic.ir/2025/01/Anhidema - Speechless Trees (2018)/128k/Anhidema - Speechless Trees.mp3',
+      audio:
+        'https://dc.vmusic.ir/2025/01/Anhidema - Speechless Trees (2018)/128k/Anhidema - Speechless Trees.mp3',
       cover: '',
       genre: 'relax',
       duration: '',
@@ -8423,8 +8458,10 @@ const storeSimple = ref({
     {
       title: 'When Darkness Comes Upon You',
       artist: 'Mustafa Avşaroğlu',
-      audio: 'https://dc.vmusic.ir/2025/02/Mustafa Avşaroğlu - Exile (2025-01-27)/128k/02) Mustafa Avşaroğlu - When Darkness Comes Upon You.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/02/Mustafa Avşaroğlu - Exile (2025-01-27)/128k/02) Mustafa Avşaroğlu - When Darkness Comes Upon You.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8433,8 +8470,10 @@ const storeSimple = ref({
     {
       title: 'The Things I Suffer For',
       artist: 'Mustafa Avşaroğlu',
-      audio: 'https://dc.vmusic.ir/2025/02/Mustafa Avşaroğlu - Exile (2025-01-27)/128k/03) Mustafa Avşaroğlu - The Things I Suffer For.mp3',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
+      audio:
+        'https://dc.vmusic.ir/2025/02/Mustafa Avşaroğlu - Exile (2025-01-27)/128k/03) Mustafa Avşaroğlu - The Things I Suffer For.mp3',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8444,7 +8483,8 @@ const storeSimple = ref({
       title: '',
       artist: 'Mustafa Avşaroğlu',
       audio: '',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8454,7 +8494,8 @@ const storeSimple = ref({
       title: '',
       artist: 'Mustafa Avşaroğlu',
       audio: '',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8464,7 +8505,8 @@ const storeSimple = ref({
       title: '',
       artist: 'Mustafa Avşaroğlu',
       audio: '',
-      cover: 'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
+      cover:
+        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
       genre: 'relax',
       duration: '',
       star: 4,
@@ -8473,7 +8515,8 @@ const storeSimple = ref({
     {
       title: '',
       artist: '',
-      audio: "https://emmusicdl.ir/Music/Taylor-Swift/Fearless-Taylor's-Version/_The_Best_Day_Taylors_Version_Taylor_Swift_320.mp3",
+      audio:
+        "https://emmusicdl.ir/Music/Taylor-Swift/Fearless-Taylor's-Version/_The_Best_Day_Taylors_Version_Taylor_Swift_320.mp3",
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8483,7 +8526,8 @@ const storeSimple = ref({
     {
       title: 'We Are Never Ever Getting Back Together',
       artist: 'Taylor Swift',
-      audio: 'https://emmusicdl.ir/Music/Taylor-Swift/Red/_We_Are_Never_Ever_Getting_Back_Together_Taylor_Swift_320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/Taylor-Swift/Red/_We_Are_Never_Ever_Getting_Back_Together_Taylor_Swift_320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8504,7 +8548,8 @@ const storeSimple = ref({
     {
       title: 'Hayedeh',
       artist: 'Bezan Tar',
-      audio: 'https://ememay.ir/wp-content/uploads/2024/02/Hayedeh-Bezan-Tar.mp3',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2024/02/Hayedeh-Bezan-Tar.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8514,8 +8559,10 @@ const storeSimple = ref({
     {
       title: 'Crawling',
       artist: 'LinkinPark',
-      audio: 'https://ememay.ir/wp-content/uploads/2024/04/Linkin-Park-Crawling.mp3',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-954-250x250.jpeg',
+      audio:
+        'https://ememay.ir/wp-content/uploads/2024/04/Linkin-Park-Crawling.mp3',
+      cover:
+        'https://ememay.ir/music/wp-content/uploads/2025/02/trackname1-954-250x250.jpeg',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -8534,7 +8581,8 @@ const storeSimple = ref({
     {
       title: 'What Ive Done',
       artist: 'LinkinPark',
-      audio: 'https://emmusicdl.ir/Music/Linkin-Park/Papercuts/What-Ive-Done-Linkin-Park-320.mp3',
+      audio:
+        'https://emmusicdl.ir/Music/Linkin-Park/Papercuts/What-Ive-Done-Linkin-Park-320.mp3',
       cover: '',
       genre: 'rock',
       duration: '',
@@ -8615,8 +8663,10 @@ const storeSimple = ref({
     {
       title: 'A Walking Embrace',
       artist: 'Nils Frahm',
-      audio: 'https://dl5.songsara.net/FRE/28-30/Nils Frahm - Encores 2 (2019) SONGSARA.NET/02 A Walking Embrace.mp3',
-      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
+      audio:
+        'https://dl5.songsara.net/FRE/28-30/Nils Frahm - Encores 2 (2019) SONGSARA.NET/02 A Walking Embrace.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
       genre: 'relax',
       duration: '',
       star: 5,
@@ -9047,6 +9097,159 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://ememay.ir/'
     },
+    {
+      title: 'Wilson (feat. Roland Bingaman)',
+      artist: 'Yair Albeg Wein, Adi Goldstein, Roland Bingaman',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Yair Albeg Wein - eversafe± (2025) SONGSARA.NET/02 Wilson (feat. Roland Bingaman).mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/02/eversafe%C2%B1-Yair-Albeg-Wein-Adi-Goldstein.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4.7,
+      reference: 'https://songsara.net/'
+    },
+
+    {
+      title: '888 Sacred Tranquility, Pt. 1',
+      artist: 'Peter Ries',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Peter Ries - 888 Sacred Tranquility (2025) SONGSARA.NET/01 888 Sacred Tranquility, Pt. 1.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/888-Sacred-Tranquility-Peter-Ries-400x400.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '888 Sacred Tranquility, Pt. 2',
+      artist: 'Peter Ries',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Peter Ries - 888 Sacred Tranquility (2025) SONGSARA.NET/02 888 Sacred Tranquility, Pt. 2.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/888-Sacred-Tranquility-Peter-Ries-400x400.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '888 Sacred Tranquility, Pt. 5',
+      artist: 'Peter Ries',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Peter Ries - 888 Sacred Tranquility (2025) SONGSARA.NET/05 888 Sacred Tranquility, Pt. 5.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/888-Sacred-Tranquility-Peter-Ries-400x400.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '888 Sacred Tranquility, Pt. 6',
+      artist: 'Peter Ries',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Peter Ries - 888 Sacred Tranquility (2025) SONGSARA.NET/06 888 Sacred Tranquility, Pt. 6.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/888-Sacred-Tranquility-Peter-Ries-400x400.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '888 Sacred Tranquility, Pt. 7',
+      artist: 'Peter Ries',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Peter Ries - 888 Sacred Tranquility (2025) SONGSARA.NET/07 888 Sacred Tranquility, Pt. 7.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/888-Sacred-Tranquility-Peter-Ries-400x400.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: '888 Sacred Tranquility, Pt. 9',
+      artist: 'Peter Ries',
+      audio:
+        'https://dl6.songsara.net/FRE/14/Peter Ries - 888 Sacred Tranquility (2025) SONGSARA.NET/09 888 Sacred Tranquility, Pt. 9.mp3',
+      cover:
+        'https://songsara.net/wp-content/uploads/2025/04/888-Sacred-Tranquility-Peter-Ries-400x400.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Beautiful',
+      artist: 'David Tolk',
+      audio:
+        'https://dl6.songsara.net/FRE/15/David Tolk - Beautiful (2025) SONGSARA.NET.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+    {
+      title: 'Sphere',
+      artist: 'Peter Gregson',
+      audio:
+        'https://dl6.songsara.net/FRE/15/Peter Gregson - Peter Gregson (2025) SONGSARA.NET/01 Sphere.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://songsara.net/'
+    },
+
+    {
+      title: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/3.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+
+    {
+      title: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/4.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+    {
+      title: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/6.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+    {
+      title: '',
+      artist: 'Neurolabz',
+      audio: 'https://dl.iraniandj.ir/2024/11/36/9.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://pro.iraniandj.ir/'
+    },
+
+
+
+
     // {
     //   title: '',
     //   artist: 'Sirvan ',
@@ -9057,7 +9260,6 @@ const storeSimple = ref({
     //   star: 4,
     //   reference: 'https://ememay.ir/'
     // },
-
   ],
   genres: [
     {
