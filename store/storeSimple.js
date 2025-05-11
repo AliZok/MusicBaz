@@ -9410,55 +9410,111 @@ const storeSimple = ref({
       reference: 'https://melodicc.com/'
     },
     {
-      title: '',
-      artist: '',
-      audio: '',
-      cover: '',
-      genre: 'rock',
+      title: 'July24 (Radio Edit)',
+      artist: 'Farvardin Ft. PooBon',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Farvardin%20Ft.%20PooBon%20-%20July24%20(Radio%20Edit).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9GYXJ2YXJkaW4gRnQuIFBvb0JvbiAtIEp1bHkyNCAoUmFkaW8gRWRpdCkubXAzIiwiaWF0IjoxNzQ2OTk0NzkxLCJleHAiOjE5MDQ2NzQ3OTF9.7RXKRGzErD2OwgsX0saBxeSYBOO4TduSQshd6HGaKWc',
+      cover: 'https://www.musicema.com/sites/default/files/Farvardin%20Ft.%20PooBon%20-%20July24%20%28Radio%20Edit%29.jpg',
+      genre: 'electronic pop',
+      duration: '',
+      star: 5.8,
+      reference: ''
+    },
+    {
+      title: 'Che',
+      artist: 'Farvardin',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Farvardin%20-%20CHE%20.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9GYXJ2YXJkaW4gLSBDSEUgLm1wMyIsImlhdCI6MTc0Njk5NDk0NSwiZXhwIjoxOTA0Njc0OTQ1fQ.Ad0392HDIJAf56Ah4-XZ9tPNpDP3an28CwvehC2JMbg',
+      cover: 'https://i.scdn.co/image/ab67616d0000b27363a188203bf69a243ac9e081',
+      genre: ' pop',
       duration: '',
       star: 4,
-      reference: 'https://melodicc.com/'
+      reference: ''
+    },
+    {
+      title: 'Jazebe',
+      artist: 'Farvardin',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Jazebe.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9KYXplYmUubXAzIiwiaWF0IjoxNzQ2OTk1MTg5LCJleHAiOjE5MDQ2NzUxODl9.LD-e3-UCjyVdGD6L5FuO9p6T-S1bFJ3Wa-hkvvVQzgM',
+      cover: 'https://ts2.tarafdari.com/contents/user395334/content-sound/1530100936396-1415111127.jpg',
+      genre: 'electronic pop',
+      duration: '',
+      star: 5,
+    },
+    {
+      title: 'Mesle man',
+      artist: 'Farvardin',
+      audio: 'https://dl.musicdel.ir/Music/1403/12/Farvardin-Mesle%20Man%20-musicdel.ir%20128.mp3',
+      cover: 'https://musicdel.ir/wp-content/uploads/2025/04/Farvardin-Mesle%20Man%20-musicdel.ir.jpg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://musicdel.ir/'
+    },
+    {
+      title: 'Siah Cheshm',
+      artist: 'Farvardin',
+      audio: 'http://sv2.mybia2music.com/s2/Music/1398/02/05/02/Farvardin%20-%20Siah%20Cheshm%20%5B128%5D.mp3',
+      cover: 'https://sv2.mybia2music.com/s2/Music/1398/02/05/02/Farvardin%20-%20Siah%20Cheshm.jpg',
+      genre: 'electronic pop',
+      duration: '',
+      star: 4.2,
+      reference: 'https://www.mybia2music.com/'
     },
     {
       title: '',
       artist: '',
       audio: '',
-      cover: '',
+      cover: 'https://www.mybia2music.com/assets/thumbs/113910349_300.jpg',
       genre: 'rock',
       duration: '',
       star: 4,
-      reference: 'https://melodicc.com/'
+
     },
     {
-      title: '',
-      artist: '',
-      audio: '',
-      cover: '',
-      genre: 'rock',
+      title: 'Jaddeyh Jangali',
+      artist: 'Farvardin',
+      audio: 'http://sv2.mybia2music.com/s2/Music/1397/12%20Esfand/10/03/Farvardin%20-%20Jaddeyh%20Jangali%20%5B128%5D.mp3',
+      cover: 'https://www.mybia2music.com/assets/thumbs/113899790_500.jpg',
+      genre: ' pop',
       duration: '',
       star: 4,
-      reference: 'https://melodicc.com/'
+
     },
     {
-      title: '',
-      artist: '',
-      audio: '',
-      cover: '',
-      genre: 'rock',
+      title: 'Shabe Shahr',
+      artist: 'Farvardin',
+      audio: 'http://sv2.mybia2music.com/s2/Music/1398/08/04/01/Farvardin%20-%20Shabe%20Shahr%20%5B128%5D.mp3',
+      cover: 'https://sv2.mybia2music.com/s2/Music/1398/08/04/01/Farvardin%20-%20Shabe%20Shahr.jpg',
+      genre: 'pop',
       duration: '',
       star: 4,
-      reference: 'https://melodicc.com/'
     },
-    {
-      title: '',
-      artist: '',
-      audio: '',
-      cover: '',
-      genre: 'rock',
-      duration: '',
-      star: 4,
-      reference: 'https://melodicc.com/'
-    },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    // },
+
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    // },
   ],
   genres: [
     {
