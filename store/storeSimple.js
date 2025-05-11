@@ -9399,27 +9399,66 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://melodicc.com/'
     },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-
+    {
+      title: 'Secrets',
+      artist: 'Regard Ft Raye',
+      audio: "https://uploadb.me/jbgb9tuvo32u/Regard%20Ft%20Raye%20-%20Secrets.mp3.html",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: '',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: '',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: '',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: '',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: '',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
   ],
   genres: [
     {
