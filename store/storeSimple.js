@@ -9487,15 +9487,15 @@ const storeSimple = ref({
       duration: '',
       star: 4,
     },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    // },
+    {
+      title: 'Che Shavad',
+      artist: 'Amir Abbas Golab (Yasin Torki Remix)',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Amir%20Abbas%20Golab%20-%20Che%20Shavad%20(Yasin%20Torki%20Remix)%20(320).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9BbWlyIEFiYmFzIEdvbGFiIC0gQ2hlIFNoYXZhZCAoWWFzaW4gVG9ya2kgUmVtaXgpICgzMjApLm1wMyIsImlhdCI6MTc0Njk5NzE0NywiZXhwIjoxOTA0Njc3MTQ3fQ.a_gwPgU_CkPqUvUtzvOCeDdmHznuQlZyrGiS05u0C4I',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+    },
 
     // {
     //   title: '',
