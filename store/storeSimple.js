@@ -4035,7 +4035,7 @@ const storeSimple = ref({
     {
       title: 'Tavalod',
       artist: 'Andy',
-      cover: '',
+      cover: 'https://persianbikalam.org/wp-content/uploads/2020/07/Tavalodet-Movarak-Andy-Bikalam.jpg',
       audio:
         'https://emmusicdl.ir/Music/Andy/Devoted/Tavalod-Andy-320.mp3',
       genre: 'pop',
