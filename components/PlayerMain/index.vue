@@ -94,18 +94,48 @@ const playAudio = async () => {
 
     myMusic.value.load();
 
+    // try {
+    //     seekAudio();
+    //     await myMusic.value.play();
+    //     isLoading.value = false;
+    //     storeSimple.value.isPlaying = true;
+
+    //     updateMediaSession('playing');
+    // } catch (error) {
+    //     console.error("Error playing audio:", error);
+    // }
+    playAudioWithTimeout()
+};
+
+
+const playAudioWithTimeout = async () => {
     try {
         seekAudio();
-        await myMusic.value.play();
         isLoading.value = false;
         storeSimple.value.isPlaying = true;
 
-        // آپدیت وضعیت پخش در Media Session
+
+        const timeoutPromise = new Promise((_, reject) => {
+            setTimeout(() => reject(new Error('Playback timeout')), 9000);
+        });
+
+        await Promise.race([myMusic.value.play(), timeoutPromise]);
+
         updateMediaSession('playing');
     } catch (error) {
         console.error("Error playing audio:", error);
+
+
+        if (error.message === 'Playback timeout') {
+
+            nextOrRepeat()
+
+        } else {
+            // Handle other errors
+        }
     }
 };
+
 
 function updateMediaSession(state) {
     if (state === 'playing') {
@@ -231,23 +261,23 @@ onBeforeUnmount(() => {
     window.removeEventListener('keydown', handleKeyPlays);
 });
 
-watch(() => isLoading.value, (newV) => {
-    // alert(newV)
-})
+
 
 </script>
 
 
 <template>
     <div class="PlayerMain">
-
         <div class="main-container">
 
             <div class="back-img"
                 :style="`background-image: url(${!!coverMusic ? coverMusic : 'images/background-dance-1.jpg'})`">
             </div>
 
-            <Stars class="bg-stars" />
+            <!-- <Stars class="bg-stars" /> -->
+            <!-- <div class="video-vision bg-[red]">
+                <video src="https://rr2---sn-a5mekn6k.googlevideo.com/videoplayback?expire=1747438059&ei=i3UnaJ39AcjlxN8PgpnQ2Ao&ip=193.189.137.230&id=o-AN4lXKhySQfxhvlit7saAF4JGIzAZPenZJUDN7NO60Tk&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&siu=1&bui=AecWEAYX4P8eriniQoPX7S-Z_ZZwbs6Q8SDMzPLiL7h85qcCTEuq7JfYdNYUG67cPjK8UAhUPQ&spc=wk1kZpCxw85A&vprv=1&svpuc=1&mime=video%2Fmp4&ns=7Oe_YU-U0NbRAyJgxMz822kQ&rqh=1&gir=yes&clen=2662299822&dur=14738.421&lmt=1744387458080975&keepalive=yes&c=TVHTML5_SIMPLY_EMBEDDED_PLAYER&sefc=1&txp=5319224&n=4PJlaY-QoisApA&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Csiu%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhALonCBjYTDAoBvCSWeucfZRMwhRywjFJ1iB5Pvx7RFMlAiBgiA5PBD9J3EqjwGxNXdj_EOf7kPX_jcy4v8Sk3fihZg%3D%3D&title=%E2%9C%A8++Space+Ambient+Music.+Calm+your+Mind.+Deep+Relaxation.&redirect_counter=1&cm2rm=sn-25grr7e&rrc=80&fexp=24350590,24350737,24350827,24350961,24351173,24351177,24351495,24351528,24351594,24351638,24351658,24351662,24351759,24351790,24351864,24351866,24351907,24351984,24352018,24352023&req_id=62374ed652fca3ee&cms_redirect=yes&cmsv=e&met=1747416535,&mh=T_&mip=91.107.146.231&mm=34&mn=sn-a5mekn6k&ms=ltu&mt=1747415169&mv=D&mvi=2&pl=0&rms=ltu,au&lsparams=met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=ACuhMU0wRgIhANF811-4ZwYCRPXG7r8308Z4KV1e1dv3LjqLrvmYblFSAiEAmHAoVGSpk6fEJZ_lFJ6t3mm5YGFoq7WicqYaQhC_3jU%3D"></video>
+            </div> -->
 
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
 

@@ -27,17 +27,18 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
 }
 
 .tape-wrapper {
-    width: 61px;
-    height: 38px;
+    width: 44px;
+    height: 29px;
     overflow: hidden;
     border-radius: 0px;
     opacity: 0.6;
     border-radius: 4px;
+
     .visual {
         width: 117%;
         height: 126%;
         transform: translate(-5px, -7px);
-       
+
     }
 }
 
@@ -60,7 +61,8 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
 
 .my-brand {
     font-size: 18px;
-    a{
+
+    a {
         text-decoration: none;
         color: #7edee3;
         color: #94d4e3;

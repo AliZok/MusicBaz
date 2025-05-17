@@ -9496,11 +9496,11 @@ const storeSimple = ref({
       duration: '',
       star: 4,
     },
-
     // {
     //   title: '',
     //   artist: '',
     //   audio: '',
+      
     //   cover: '',
     //   genre: 'rock',
     //   duration: '',

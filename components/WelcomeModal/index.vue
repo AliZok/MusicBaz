@@ -1,12 +1,14 @@
 <template>
-    <div @click="fuckLetsGo()" v-if="showMe" class="WelcomeModal">
-        <div class="inner">
+    <div @click="fuckLetsGo()" class="WelcomeModal">
+        <div v-if="showMe">
+            <div class="inner">
 
-            <div class="go-button-wrap">
-                <button class="hologram">
-                    <span data-text="Let's GO" class="text-go">Let's GO</span>
-                    <div class="scan-line"></div>
-                </button>
+                <div class="go-button-wrap">
+                    <button class="hologram">
+                        <span data-text="Let's GO" class="text-go">Let's GO</span>
+                        <div class="scan-line"></div>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
