@@ -94,48 +94,24 @@ const playAudio = async () => {
 
     myMusic.value.load();
 
-    // try {
-    //     seekAudio();
-    //     await myMusic.value.play();
-    //     isLoading.value = false;
-    //     storeSimple.value.isPlaying = true;
-
-    //     updateMediaSession('playing');
-    // } catch (error) {
-    //     console.error("Error playing audio:", error);
-    // }
-    playAudioWithTimeout()
+    await playMusicProcess()
 };
 
-
-const playAudioWithTimeout = async () => {
+async function playMusicProcess() {
     try {
         seekAudio();
+        await myMusic.value.play();
         isLoading.value = false;
         storeSimple.value.isPlaying = true;
 
-
-        const timeoutPromise = new Promise((_, reject) => {
-            setTimeout(() => reject(new Error('Playback timeout')), 9000);
-        });
-
-        await Promise.race([myMusic.value.play(), timeoutPromise]);
-
+        // Update playback status in Media Session
         updateMediaSession('playing');
     } catch (error) {
         console.error("Error playing audio:", error);
+         nextOrRepeat()
 
-
-        if (error.message === 'Playback timeout') {
-
-            nextOrRepeat()
-
-        } else {
-            // Handle other errors
-        }
     }
-};
-
+}
 
 function updateMediaSession(state) {
     if (state === 'playing') {
