@@ -2664,8 +2664,8 @@ const storeSimple = ref({
 
     {
       title: 'Reminiscing',
-      artist: '',
-      cover: 'Nora En Pure',
+      artist: 'Nora En Pure',
+      cover: '',
       audio:
         'https://dl3.songsara.net/FRE/2023/2/Night Rider (Playlist)/13 Reminiscing.mp3',
       genre: 'techno electronic',
