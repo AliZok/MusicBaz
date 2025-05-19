@@ -9618,16 +9618,65 @@ const storeSimple = ref({
       duration: '',
       star: 4,
     },
-        {
+    {
       title: 'Bade Man',
       artist: 'Xaniar (AFX & Electronic Joy Remix)',
       audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Xaniar%20-%20Bade%20Man%20(AFX%20&%20Electronic%20Joy%20Remix).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9YYW5pYXIgLSBCYWRlIE1hbiAoQUZYICYgRWxlY3Ryb25pYyBKb3kgUmVtaXgpLm1wMyIsImlhdCI6MTc0NzY1MjU1OCwiZXhwIjoxOTA1MzMyNTU4fQ.3U1DfswNCGAzpwIP5dMWUt71wqDIewjQOUfgm7z1bpg',
-      cover: '',
+      cover: 'https://i1.sndcdn.com/artworks-000486594933-fzbvt2-t500x500.jpg',
       genre: 'electronic',
       duration: '',
       star: 4,
     },
-    
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    // },
+
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    // },
+
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    // },
+
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    // },
+
+
 
   ],
   genres: [
