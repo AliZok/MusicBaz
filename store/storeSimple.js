@@ -6869,7 +6869,7 @@ const storeSimple = ref({
         'https://dl.aftabmusic.com/1403/3/other/Taylor Swift/20.Taylor-Swift-Invisible-128.mp3',
       artist: 'Taylor Swift',
       cover:
-        'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+        '',
       genre: 'rock pop',
       star: 4,
       duration: '',
@@ -6881,7 +6881,7 @@ const storeSimple = ref({
         'https://dl.aftabmusic.com/1403/3/other/Taylor Swift/21.Taylor-Swift-Mary%20s-Song-%28Oh-My-My-My%29-128.mp3',
       artist: 'Taylor Swift',
       cover:
-        'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+        '',
       genre: 'rock pop',
       star: 4,
       duration: '',
@@ -6893,7 +6893,7 @@ const storeSimple = ref({
         'https://dl.aftabmusic.com/1403/3/other/Taylor Swift/11.the%20lakes.mp3',
       artist: 'Taylor Swift',
       cover:
-        'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+        '',
       genre: 'rock pop',
       star: 4,
       duration: '',
@@ -6905,7 +6905,7 @@ const storeSimple = ref({
         'https://dl.aftabmusic.com/1403/3/other/Taylor Swift/12.Taylor-Swift-A-Perfectly-Good-Heart-128.mp3',
       artist: 'Taylor Swift',
       cover:
-        'http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6GXwVmSLSq9cAoltpg15loUDGRBKMXdrfA&s',
+        '',
       genre: 'rock pop',
       star: 4,
       duration: '',

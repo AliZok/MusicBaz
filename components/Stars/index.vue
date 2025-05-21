@@ -14,7 +14,7 @@ console.log(
 <template>
   <div class="opacity-[0.1]">
     <div class="h-[100vh]">
-      some text
+      
     </div>
     <div class="opacity-[0.1]">
       <transition name="fade" enter-active-class="transition-opacity delay-500 duration-500"

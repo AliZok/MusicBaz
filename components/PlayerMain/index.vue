@@ -127,7 +127,9 @@ const playMusic = async () => {
     if (storeSimple.value.isPlaying) {
         pauseAudio();
     } else {
-        await playAudio();
+        playAudio();
+        // playVideo()
+        setupVideo()
     }
 
 }
@@ -153,7 +155,7 @@ const playNextMusic = async () => {
     isEmpty.value = false
     if (lastNumber != randomNumber.value) {
         goToStart()
-        await playAudio();
+        playAudio();
 
     } else {
         playNextMusic()
@@ -199,9 +201,59 @@ const handleKeyPlays = (event) => {
         playNextMusic()
     }
 };
+const videoElement = ref(null)
+// const playVideo = () => {
+//     if (videoElement.value) {
+//         videoElement.value.load()
+//         const playPromise = videoElement.value.play()
+//         videoElement.value.volume = 0
+
+//         if (playPromise !== undefined) {
+//             playPromise.catch(error => {
+//                 console.error('Video play failed:', error)
+//                 // You might want to show a play button here
+//             })
+//         }
+
+
+
+//     }
+// }
+
+const setupVideo = () => {
+    if (videoElement.value) {
+        // Ensure video is muted for autoplay to work
+        videoElement.value.muted = true
+        videoElement.value.volume = 0
+
+        // Remove controls if they were set by default
+        videoElement.value.controls = false
+
+        // Set to loop if desired
+        videoElement.value.loop = true
+
+        // For mobile Safari - prevents fullscreen playback
+        videoElement.value.playsinline = true
+
+        // Some browsers require explicit loading
+        videoElement.value.load()
+
+        // Attempt to play
+        const playPromise = videoElement.value.play()
+
+        // Handle autoplay restrictions
+        if (playPromise !== undefined) {
+            playPromise.catch(error => {
+                console.error('Autoplay prevented:', error)
+                // Fallback options could go here
+            })
+        }
+    }
+}
 
 
 onMounted(() => {
+
     let lastGenres = localStorage.getItem('myGenres')
 
     if (!!lastGenres) {
@@ -211,13 +263,14 @@ onMounted(() => {
     }
 
 
+
     pureMyList()
     getRandomNumber()
     myMusic.value.load();
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
     });
-
+    setupVideo()
     setTimeout(() => {
         updateMediaSession('paused');
     }, 200);
@@ -243,10 +296,16 @@ watch(() => isLoading.value, (newV) => {
 
         <div class="main-container">
 
+
+            <div class="video-wrap">
+                <video ref="videoElement" autoplay width="100%"  playsinline loop
+                    :style="{ width: '100vw' }">
+                    <source src="https://caspian20.asset.aparat.com/aparat-video/d65fe7f10a52fcc50eee1d2e77bc412162321263-480p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImI3MjBlYTg2NjAzYjQ5NDdkMjE4MTA3MDU5OTRkMTA3IiwiZXhwIjoxNzQ3ODg3NjQxLCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.GyM5uAUvHk8k6p5y6YZ1Zqu9P-V83H4M1Z3zDUdiprQ" type="video/mp4">
+                </video>
+            </div>
             <div class="back-img"
                 :style="`background-image: url(${!!coverMusic ? coverMusic : 'images/background-dance-1.jpg'})`">
             </div>
-
             <Stars class="bg-stars" />
 
             <!-- <div class="back-dark" :class="{ 'no-image': !pureList[randomNumber]?.cover }"></div> -->
@@ -382,6 +441,7 @@ watch(() => isLoading.value, (newV) => {
         height: 100%;
         width: 100%;
         position: relative;
+        overflow: hidden;
 
         .back-img {
             position: absolute;
@@ -394,6 +454,18 @@ watch(() => isLoading.value, (newV) => {
             right: 0;
             filter: blur(5px);
             z-index: 0;
+        }
+
+        .video-wrap {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+            opacity: 0.5;
         }
 
         .back-dark {
