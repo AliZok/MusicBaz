@@ -7859,26 +7859,26 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://melodicc.com/'
     },
-    {
-      title: '',
-      artist: '',
-      cover: '',
-      audio: '',
-      genre: 'pop',
-      duration: '',
-      star: 4,
-      reference: 'https://melodicc.com/'
-    },
-    {
-      title: '',
-      artist: '',
-      cover: '',
-      audio: '',
-      genre: 'pop',
-      duration: '',
-      star: 4,
-      reference: 'https://melodicc.com/'
-    },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   cover: '',
+    //   audio: '',
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   cover: '',
+    //   audio: '',
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+    // },
     {
       title: 'Vadeh',
       artist: 'Leyla',
