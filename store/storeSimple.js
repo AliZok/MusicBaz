@@ -7790,6 +7790,96 @@ const storeSimple = ref({
       reference: 'https://ememay.ir/'
     },
     {
+      title: 'Moth To A Flame',
+      artist: 'The Weeknd',
+      cover: '',
+      audio: 'https://uploadb.me/direct/riz6x9x1hc49/Swedish%20House%20Mafia%20Ft%20The%20Weeknd%20-%20Moth%20To%20A%20Flame.mp3.html',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Golden',
+      artist: 'Harry Styles',
+      cover: 'https://melodicc.com/wp-content/uploads/2021/06/Golden.jpg',
+      audio: 'https://uploadb.me/direct/ut2fgbfntj9b/Harry%20Styles%20-%20Golden.mp3.html',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Bad Habits',
+      artist: 'Ed Sheeran',
+      cover: '',
+      audio: 'https://uploadb.me/direct/4enzxihfo9bb/Ed%20Sheeran%20-%20Bad%20Habits.mp3.html',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Sign of the Times ',
+      artist: 'Harry Styles',
+      cover: '',
+      audio: 'https://uploadb.me/direct/ci6xvuv7qy9k/02%20Sign%20of%20the%20Times.mp3.html',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'The Last Dance',
+      artist: 'Maxthor',
+      cover: 'https://melodicc.com/wp-content/uploads/2025/04/Maxthor-The-Last-Dance-Melodicc.com_-300x300.jpg',
+      audio: 'https://uploadb.me/8t3n611q1zz6/Maxthor - The Last Dance (Melodicc.com).mp3.html',
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'All Of Me',
+      artist: 'John Legend',
+      cover: '',
+      audio: 'https://uploadb.me/crlgrldfuaw8/John%20Legend%20-%20All%20Of%20Me.mp3.html',
+      genre: 'pop',
+      duration: '',
+      star: 4.5,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Heavenly',
+      artist: 'Cigarettes After Sex',
+      cover: 'https://melodicc.com/wp-content/uploads/2022/09/Heavenly.jpg',
+      audio: 'https://uploadb.me/6psapwff92jf/Cigarettes%20After%20_%20-%20Heavenly.mp3.html',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: '',
+      artist: '',
+      cover: '',
+      audio: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
       title: 'Vadeh',
       artist: 'Leyla',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Hamsafar.jpeg',
