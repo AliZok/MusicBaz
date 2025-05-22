@@ -7,26 +7,33 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
 <template>
     <div class="HeaderMain">
         <div class="inner-header">
-            <div class="auto-shadow my-brand mb-2">
+            <div class="auto-shadow my-brand mb-2 ">
                 <h1 class="font-days home-link-title">
                     <NuxtLink to="/">DANCE BABY RADIO</NuxtLink>
                 </h1>
-                <span class="com"></span>
-            </div>
-            <div class="">
+
                 <div v-if="isPlaying" class="tape-wrapper">
                     <img class="visual" src="/public/test-pics/radio-playing-2.webp" alt="">
                 </div>
             </div>
+
         </div>
     </div>
 </template>
 <style lang="scss">
 .home-link-title {
-    font-size: 19px;
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 10px;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 19px;
+
+    }
 }
 
 .tape-wrapper {
+    display: inline-block;
     width: 44px;
     height: 29px;
     overflow: hidden;

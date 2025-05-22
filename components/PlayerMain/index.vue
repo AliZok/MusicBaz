@@ -295,12 +295,20 @@ watch(() => isLoading.value, (newV) => {
     <div class="PlayerMain">
 
         <div class="main-container">
-
+            <!-- <video ref="videoElement" autoplay playsinline loop class="video-content">
+                <source
+                    src="https://caspian20.asset.aparat.com/aparat-video/d65fe7f10a52fcc50eee1d2e77bc412162321263-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImMwYTNjYjhjNzdkZGQxNDEzZDNiNzE4ZDBmNzJhMzk3IiwiZXhwIjoxNzQ3ODkwNjI3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.ExnBkAqrgmrN2CHo-lR5qgpNFNFBzyvH3v3G6toq62M"
+                    type="video/mp4">
+            </video> -->
 
             <div class="video-wrap">
-                <video ref="videoElement" autoplay width="100%"  playsinline loop
-                    :style="{ width: '100vw' }">
-                    <source src="https://caspian20.asset.aparat.com/aparat-video/d65fe7f10a52fcc50eee1d2e77bc412162321263-480p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImI3MjBlYTg2NjAzYjQ5NDdkMjE4MTA3MDU5OTRkMTA3IiwiZXhwIjoxNzQ3ODg3NjQxLCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.GyM5uAUvHk8k6p5y6YZ1Zqu9P-V83H4M1Z3zDUdiprQ" type="video/mp4">
+                <video ref="videoElement" autoplay playsinline loop class="">
+                    <source
+                        src="https://caspian20.asset.aparat.com/aparat-video/d65fe7f10a52fcc50eee1d2e77bc412162321263-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImMwYTNjYjhjNzdkZGQxNDEzZDNiNzE4ZDBmNzJhMzk3IiwiZXhwIjoxNzQ3ODkwNjI3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.ExnBkAqrgmrN2CHo-lR5qgpNFNFBzyvH3v3G6toq62M"
+                        type="video/mp4">
+                    <!-- <source
+                        src="https://caspian20.asset.aparat.com/aparat-video/d65fe7f10a52fcc50eee1d2e77bc412162321263-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImMwYTNjYjhjNzdkZGQxNDEzZDNiNzE4ZDBmNzJhMzk3IiwiZXhwIjoxNzQ3ODkwNjI3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.ExnBkAqrgmrN2CHo-lR5qgpNFNFBzyvH3v3G6toq62M"
+                        type="video/mp4"> -->
                 </video>
             </div>
             <div class="back-img"
@@ -466,7 +474,26 @@ watch(() => isLoading.value, (newV) => {
             right: 0;
             z-index: 2;
             opacity: 0.5;
+            overflow: hidden;
+            video{
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+
+            }
         }
+        // .video-content {
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        //     transform: translate(-50%, -50%);
+        //     min-width: 100%;
+        //     min-height: 100%;
+        //     width: auto;
+        //     height: auto;
+        //     object-fit: cover;
+        //     z-index: -1;
+        // }
 
         .back-dark {
             position: absolute;
