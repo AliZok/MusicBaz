@@ -19,7 +19,9 @@ html {
     font-size: #{$i}px;
   }
 }
-
+.flex{
+  display: flex;
+}
 div {
   box-sizing: border-box;
 }
