@@ -9717,55 +9717,294 @@ const storeSimple = ref({
       duration: '',
       star: 4,
     },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    // },
+    {
+      title: 'Sadeness',
+      artist: 'Enigma',
+      audio: 'https://uploadb.me/e0n551qwnq8p/Enigma%20-%20Sadeness.mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+    },
+    {
+      title: 'The Mass',
+      artist: 'Enigma',
+      audio: 'https://uploadb.me/zm92xn0ug3bq/Era%20-%20The%20Mass.mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+
+    },
+
+    {
+      title: 'Voices',
+      artist: 'Vangelis',
+      audio: 'https://uploadb.me/xe2w9pffxq4l/Vangelis%20-%20Voices.MP3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Ameno',
+      artist: 'Era',
+      audio: 'https://uploadb.me/vedy32r6vvxz/Era%20-%20Ameno.mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+
+    {
+      title: 'Dance Of Sarasvati',
+      artist: 'Kitaro',
+      audio: 'https://uploadb.me/305fnfgdvjhm/Kitarō%20-%20Dance%20Of%20Sarasvati.MP3.html',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+
+    {
+      title: 'What We Do',
+      artist: 'Pink Floyd',
+      audio: "https://uploadb.me/lhfdavp4254n/02%20Pink%20Floyd%20-%20Side%201,%20Pt.%202%20It's%20What%20We%20Do.mp3.html",
+      cover: 'https://melodicc.com/wp-content/uploads/2022/07/The-Endless-River.jpg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Time',
+      artist: 'Roger Waters',
+      audio: 'https://uploadb.me/4ujhk5luc9s5/Roger%20Waters%20-%20Time%20.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'High Hopes',
+      artist: 'Pink Floyd',
+      audio: 'https://uploadb.me/f7k63v6l9zp4/11%20Pink%20Floyd%20-%20High%20Hopes%20.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Hey You',
+      artist: 'Pink Floyd',
+      audio: 'https://uploadb.me/3ozbfpo75a8z/Pink%20Floyd%20-%20Hey%20You%20.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Into You',
+      artist: 'Craset Ft Glo Σ',
+      audio: 'https://uploadb.me/ug3j7oopp3vl/Into%20You.mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Look at This',
+      artist: 'Fismoll',
+      audio: 'https://uploadb.me/lr8093kvrcg4/Look%20at%20This%20-%20Fismoll.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'On an Island',
+      artist: 'David Gilmour',
+      audio: 'https://uploadb.me/ymljtacetk6p/David%20Gilmour%20-%20On%20an%20Island.mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+
+
+    {
+      title: 'Babel',
+      artist: 'Gustavo',
+      audio: 'https://uploadb.me/m38j8onw9sqz/Gustavo%20Santaolalla%20-%20Babel.mp3.html',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Caught A Body',
+      artist: 'Ty Dolla',
+      audio: 'https://uploadb.me/vqupe2i2n08r/Alesso Ft Ty Dolla $ign - Caught A Body .mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2023/04/Caught-A-Body.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Ruhe',
+      artist: 'Schiller',
+      audio: 'https://uploadb.me/mv1vybn62hmg/SchillerRuhe%20-%20Ruhe.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2024/06/adsfghjm.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Perfect',
+      artist: 'ED SHEERAN',
+      audio: 'https://uploadb.me/nnteux3y4otf/ED%20SHEERAN%20-%20Perfect.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2020/12/Perfect.jpg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Amen',
+      artist: 'Enigma Ft Aquilo',
+      audio: 'https://uploadb.me/0tv8qsg5e5ms/Enigma%20Ft%20Aquilo%20-%20Amen.mp3.html',
+      cover: '',
+      genre: 'electronic pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Iron Sky',
+      artist: 'Paolo Nutini',
+      audio: 'https://uploadb.me/imzkmnf82apr/Paolo%20Nutini%20-%20Iron%20Sky.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'My Man',
+      artist: 'Parov Stelar Ft Lightnin Hopkins',
+      audio: 'https://uploadb.me/yers46c7yjyc/Parov%20Stelar%20Ft%20Lightnin%20Hopkins%20-%20My%20Man.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2021/11/My-Man.jpg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Marion Barf',
+      artist: 'Clint Mansell',
+      audio: 'https://uploadb.me/otzkg8054mpv/Clint%20Mansell%20-%20Marion%20Barfs.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2023/10/Marion-Barfs.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4.6,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Matsuri',
+      artist: 'Kitaro',
+      audio: 'https://uploadb.me/h2yd1asdtqdy/Kitarō%20-%20Matsuri.MP3.html',
+      cover: '',
+      genre: 'relax electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+
+    {
+      title: 'The Road to Hell',
+      artist: 'Chris Rea',
+      audio: 'https://uploadb.me/h3mc28m5sngz/Chris%20Rea%20The%20-%20Road%20To%20Hell%20Part%202.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2024/12/Chris-Rea-–-The-Road-to-Hell-Pt1.jpg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+
+    {
+      title: 'First We Take Manhattan',
+      artist: 'Joe Cocker',
+      audio: 'https://uploadb.me/jhew852295le/Joe%20Cocker%20-%20First%20We%20Take%20Manhattan.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
 
     // {
     //   title: '',
     //   artist: '',
     //   audio: '',
     //   cover: '',
-    //   genre: 'electronic',
+    //   genre: 'rock',
     //   duration: '',
     //   star: 4,
+    //   reference: 'https://melodicc.com/'
     // },
-
-    // {
+    //     {
     //   title: '',
     //   artist: '',
     //   audio: '',
     //   cover: '',
-    //   genre: 'electronic',
+    //   genre: 'rock',
     //   duration: '',
     //   star: 4,
+    //   reference: 'https://melodicc.com/'
     // },
-
-    // {
+    //     {
     //   title: '',
     //   artist: '',
     //   audio: '',
     //   cover: '',
-    //   genre: 'electronic',
+    //   genre: 'rock',
     //   duration: '',
     //   star: 4,
+    //   reference: 'https://melodicc.com/'
     // },
-
+    //     {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+    // },
+    //     {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+    // },
 
 
   ],

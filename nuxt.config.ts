@@ -88,7 +88,7 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: "theme-color", content: "#ffffff" },
-        { name: "apple-mobile-web-app-capable", content: "yes" },
+        { name: "mobile-web-app-capable", content: "yes" },
         { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
          // NEW: Open Graph (OG) tags for social sharing
          { property: "og:type", content: "website" },
