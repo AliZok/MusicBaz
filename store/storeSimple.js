@@ -3394,16 +3394,6 @@ const storeSimple = ref({
       reference: 'https://musicrooz.com/'
     },
     {
-      title: '',
-      audio: '',
-      artist: 'Sandy',
-      cover: '',
-      genre: 'raghsi',
-      star: 4,
-      duration: '',
-      reference: 'https://musicrooz.com/'
-    },
-    {
       title: 'Mashalla',
       audio:
         'https://dlrrooz.top/Music/A/C/Sandishad/Sandi%20-%20Mashala%20[320].mp3',
@@ -4096,17 +4086,6 @@ const storeSimple = ref({
       title: 'A Silence that Becomes',
       audio:
         'https://dc.vmusic.ir/2025/01/Antarctic Wastelands - Whispers in Static (2024-10-11)/128k/03) Antarctic Wastelands - A Silence that Becomes.mp3',
-      artist: 'Whispers in Static',
-      cover:
-        'https://vmusic.ir/wp-content/uploads/2025/01/Antarctic-Wastelands-Whispers-in-Static-2024-10-11.jpg',
-      genre: 'relax ambient',
-      star: 4,
-      duration: '',
-      reference: 'https://vmusic.ir/'
-    },
-    {
-      title: '',
-      audio: '',
       artist: 'Whispers in Static',
       cover:
         'https://vmusic.ir/wp-content/uploads/2025/01/Antarctic-Wastelands-Whispers-in-Static-2024-10-11.jpg',
@@ -7859,26 +7838,6 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://melodicc.com/'
     },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   cover: '',
-    //   audio: '',
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   cover: '',
-    //   audio: '',
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
     {
       title: 'Vadeh',
       artist: 'Leyla',
@@ -8571,39 +8530,6 @@ const storeSimple = ref({
     },
     {
       title: '',
-      artist: 'Mustafa Avşaroğlu',
-      audio: '',
-      cover:
-        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
-      genre: 'relax',
-      duration: '',
-      star: 4,
-      reference: 'https://vmusic.ir/'
-    },
-    {
-      title: '',
-      artist: 'Mustafa Avşaroğlu',
-      audio: '',
-      cover:
-        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
-      genre: 'relax',
-      duration: '',
-      star: 4,
-      reference: 'https://vmusic.ir/'
-    },
-    {
-      title: '',
-      artist: 'Mustafa Avşaroğlu',
-      audio: '',
-      cover:
-        'https://vmusic.ir/wp-content/uploads/2025/02/Mustafa-Avsaroglu-Exile-2025-01-27.jpg',
-      genre: 'relax',
-      duration: '',
-      star: 4,
-      reference: 'https://vmusic.ir/'
-    },
-    {
-      title: '',
       artist: '',
       audio:
         "https://emmusicdl.ir/Music/Taylor-Swift/Fearless-Taylor's-Version/_The_Best_Day_Taylors_Version_Taylor_Swift_320.mp3",
@@ -8776,36 +8702,6 @@ const storeSimple = ref({
       title: 'Talisman',
       artist: 'Nils Frahm',
       audio: 'https://dl5.songsara.net/FRE/28-30/Nils Frahm - Encores 2 (2019) SONGSARA.NET/03 Talisman.mp3',
-      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
-      genre: 'relax',
-      duration: '',
-      star: 4,
-      reference: 'https://songsara.net/'
-    },
-    {
-      title: '',
-      artist: 'Nils Frahm',
-      audio: '',
-      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
-      genre: 'relax',
-      duration: '',
-      star: 4,
-      reference: 'https://songsara.net/'
-    },
-    {
-      title: '',
-      artist: 'Nils Frahm',
-      audio: '',
-      cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
-      genre: 'relax',
-      duration: '',
-      star: 4,
-      reference: 'https://songsara.net/'
-    },
-    {
-      title: '',
-      artist: 'Nils Frahm',
-      audio: '',
       cover: 'https://songsara.net/wp-content/uploads/2019/01/Nils-Frahm-Encores-2.jpg',
       genre: 'relax',
       duration: '',
@@ -9548,16 +9444,7 @@ const storeSimple = ref({
       star: 4.2,
       reference: 'https://www.mybia2music.com/'
     },
-    {
-      title: '',
-      artist: '',
-      audio: '',
-      cover: 'https://www.mybia2music.com/assets/thumbs/113910349_300.jpg',
-      genre: 'rock',
-      duration: '',
-      star: 4,
 
-    },
     {
       title: 'Jaddeyh Jangali',
       artist: 'Farvardin',
@@ -9955,47 +9842,57 @@ const storeSimple = ref({
       reference: 'https://melodicc.com/'
     },
 
+    {
+      title: 'Sometimes',
+      artist: 'Reamonn',
+      audio: 'https://uploadb.me/f0ujqkr61p4j/Reamonn%20-%20Sometimes.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Eagles',
+      artist: 'Hotel California',
+      audio: 'https://uploadb.me/z600uq3s421t/Eagles%20-%20Hotel%20California.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'THE LONELIEST',
+      artist: 'Måneskin',
+      audio: 'https://uploadb.me/p6g38kmy4xxm/M%C3%A5neskin%20-%20THE%20LONELIEST.mp3.html',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: " Don't Cry",
+      artist: "Guns N' Roses",
+      audio: "https://uploadb.me/qt4v99pc6tfj/Guns%20N'%20Roses%20-%20Don't%20Cry.mp3.html",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Curse of the Traveller',
+      artist: 'Chris Rea',
+      audio: 'https://uploadb.me/v3gwbi3up00w/Curse%20of%20the%20Traveller%20-%20Chris%20Rea%20(Melodicc.com).mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2024/12/Chris-Rea-–-Curse-of-the-Traveller.jpg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
     // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-    //     {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-    //     {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-    //     {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-    //     {
     //   title: '',
     //   artist: '',
     //   audio: '',
