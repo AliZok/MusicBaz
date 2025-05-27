@@ -295,20 +295,11 @@ watch(() => isLoading.value, (newV) => {
     <div class="PlayerMain">
 
         <div class="main-container">
-            <!-- <video ref="videoElement" autoplay playsinline loop class="video-content">
-                <source
-                    src="https://caspian20.asset.aparat.com/aparat-video/d65fe7f10a52fcc50eee1d2e77bc412162321263-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImMwYTNjYjhjNzdkZGQxNDEzZDNiNzE4ZDBmNzJhMzk3IiwiZXhwIjoxNzQ3ODkwNjI3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.ExnBkAqrgmrN2CHo-lR5qgpNFNFBzyvH3v3G6toq62M"
-                    type="video/mp4">
-            </video> -->
-
-            <div v-if="pureList[randomNumber]?.genre.includes('electronic')" class="video-wrap">
+            <div v-if="pureList[randomNumber]?.genre.includes('electronic') || pureList[randomNumber]?.genre.includes('relax')" class="video-wrap">
                 <video ref="videoElement" autoplay playsinline loop class="">
                     <source
                         src="https://static.vecteezy.com/system/resources/previews/003/769/185/mp4/interstellar-space-travel-universe-to-the-m31-spiral-galaxy-free-video.mp4"
                         type="video/mp4">
-                    <!-- <source
-                        src="https://caspian20.asset.aparat.com/aparat-video/d65fe7f10a52fcc50eee1d2e77bc412162321263-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImMwYTNjYjhjNzdkZGQxNDEzZDNiNzE4ZDBmNzJhMzk3IiwiZXhwIjoxNzQ3ODkwNjI3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.ExnBkAqrgmrN2CHo-lR5qgpNFNFBzyvH3v3G6toq62M"
-                        type="video/mp4"> -->
                 </video>
             </div>
             <div class="back-img"

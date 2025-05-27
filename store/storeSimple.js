@@ -444,15 +444,6 @@ const storeSimple = ref({
         'https://dl.vmusic.ir/2020/06/VA - Colorize Ibiza 2020 mixed by Boxer (DJ MIX) (2020)/128k/03) Dekkai - Dune (Mixed) - 2020.mp3',
       genre: 'house electronic'
     },
-    {
-      title: 'Luminous',
-      artist: 'Tycoos, Deme3us',
-      cover:
-        'https://cloudinary-cdn.ffm.to/s--7QYXSxPT--/w_1108,h_1108,c_lfill/f_jpg/https%3A%2F%2Fimagestore.ffm.to%2Flink%2F33be0ebabb6ea6ed6bdfd1141f37602e.jpeg',
-      audio:
-        'https://dc.vmusic.ir/2024/05/Fitness & Workout Vol 26/128k/02) Tycoos, Deme3us - Luminous.mp3',
-      genre: 'trance electronic'
-    },
     // {
     //     title: 'JOOF Radio 32',
     //     artist: 'John00Fleming',
@@ -1107,22 +1098,6 @@ const storeSimple = ref({
         'https://dc.vmusic.ir/2023/08/Focus FL - Tunnel Vision (Radio Edits) (2023)/128k/03) Focus FL - Beyond Reach (Radio Edit).mp3',
       genre: 'electronic techno house'
     },
-    // {
-    //     title: 'Easy Lover',
-    //     artist: 'Philip Bailey ft. Phil Collins',
-    //     cover: 'https://ts12.tarafdari.com/contents/user799730/content-sound/lty.jpg',
-    //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Easy%20Lover.mp3',
-    //     genre: 'rock pop',
-    // },
-    // {
-    //   title: 'A Groovy Kind Of Love',
-    //   artist: 'Phil Collins',
-    //   cover:
-    //     'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
-    //   audio:
-    //     'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Groovy%20Kind%20Of%20Love.mp3',
-    //   genre: 'rock pop'
-    // },
     {
       title: 'In The Air Tonight',
       artist: 'Phil Collins',
@@ -1140,23 +1115,7 @@ const storeSimple = ref({
         'https://dl.musicdagh.ir/songs/best/collins/Another-Day-In-Paradise.mp3',
       genre: 'rock pop'
     },
-    // {
-    //   title: 'Do You Remember',
-    //   artist: 'Phil Collins',
-    //   cover: '',
-    //   audio:
-    //     'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Do%20You%20Remember.mp3',
-    //   genre: 'rock pop'
-    // },
-    {
-      title: 'If Leaving Me Is Easy',
-      artist: 'Phil Collins',
-      cover:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RhZAOnqhk8aY4BcQBXtHzTZA-EuxuTmSaQ&s',
-      audio:
-        'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20If%20Leaving%20Me%20Is%20Easy.mp3',
-      genre: 'rock pop'
-    },
+
     {
       title: 'Escape',
       artist: 'Monomy',
@@ -1549,13 +1508,7 @@ const storeSimple = ref({
         'https://dl3.songsara.net/FRE/2023/2/Techno Bunker (Playlist)/03 Finding Yourself.mp3',
       genre: 'techno electronic'
     },
-    // {
-    //     title: 'Nothing Else Matters',
-    //     artist: 'Metallica',
-    //     cover: 'https://m.media-amazon.com/images/I/714xqpfy8yL._AC_UF1000,1000_QL80_.jpg',
-    //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Metallica/Metallica%20-%20Nothing%20Else%20Matters.mp3',
-    //     genre: 'rock',
-    // },
+
     {
       title: 'The Sound Of Space',
       artist: 'Enrico Sangiuliano',
@@ -1735,20 +1688,6 @@ const storeSimple = ref({
       genre: 'electronic techno house'
     },
 
-    // {
-    //     title: 'A Groovy Kind Of Love',
-    //     artist: 'Phil Collins',
-    //     cover: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
-    //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20Groovy%20Kind%20Of%20Love.mp3',
-    //     genre: 'rock pop',
-    // },
-    // {
-    //     title: 'If Leaving Me Is Easy',
-    //     artist: 'Phil Collins',
-    //     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_RhZAOnqhk8aY4BcQBXtHzTZA-EuxuTmSaQ&s',
-    //     audio: 'https://myniloomusic2.musicmelnet.com/Niloo/Phil%20Collins/Phil%20Collins%20-%20If%20Leaving%20Me%20Is%20Easy.mp3',
-    //     genre: 'rock pop',
-    // },
     {
       title: 'Easy Lover',
       artist: 'Philip Bailey ft. Phil Collins',
