@@ -9831,12 +9831,113 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://melodicc.com/'
     },
+    {
+      title: 'Paper Aeroplane',
+      artist: 'Francesco Rossi',
+      audio: 'https://uploadb.me/vaff59qv7m2f/Francesco%20Rossi%20-%20Paper%20Aeroplane%20(Original%20Mix)%20.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2024/07/Paper-Aeroplane-Original-Mix--560x560.webp',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Beat It',
+      artist: 'Michael Jackson',
+      audio: 'https://uploadb.me/f5ppt54do07u/Michael%20Jackson%20-%20Beat%20It.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2022/07/Beat-It.jpg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Standing in Motion ',
+      artist: 'Yanni',
+      audio: 'https://uploadb.me/prq26u6indtw/Standing%20in%20Motion%20(Live)%20-%20Melodicc.com%20.mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+
+    {
+      title: 'Looking for the Summer',
+      artist: 'Chris Rea',
+      audio: 'https://uploadb.me/my1bx2c23ux4/Looking%20for%20the%20Summer%20-%20Chris%20Rea%20(Melodicc.com).mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2024/12/Chris-Rea-–-Looking-for-the-Summer.jpg',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Cheri Cheril Lady',
+      artist: 'Modern Talking',
+      audio: 'https://uploadb.me/m95doeqop8vg/Modern%20Talking%20-%20Cheri%20Cheril%20Lady.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4.7,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'We Are The World',
+      artist: 'Michael Jackson',
+      audio: 'https://uploadb.me/er68f2rfpxjb/Michael%20Jackson%20-%20We%20Are%20The%20World.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: ' Atlantis Is Calling ',
+      artist: 'Modern Talking',
+      audio: 'https://uploadb.me/yyku4pm924vl/Modern%20Talking%20-%20Atlantis%20Is%20Calling.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'You Can Win If You Want',
+      artist: 'Modern Talking',
+      audio: 'https://uploadb.me/d2v9izatmab4/Modern%20Talking%20-%20You%20Can%20Win%20If%20You%20Want.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
     // {
     //   title: '',
     //   artist: '',
     //   audio: '',
     //   cover: '',
-    //   genre: 'rock',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://melodicc.com/'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
     //   duration: '',
     //   star: 4,
     //   reference: 'https://melodicc.com/'
