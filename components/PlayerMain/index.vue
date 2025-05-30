@@ -295,7 +295,7 @@ watch(() => isLoading.value, (newV) => {
     <div class="PlayerMain">
 
         <div class="main-container">
-            <div v-if="pureList[randomNumber]?.genre.includes('electronic') || pureList[randomNumber]?.genre.includes('relax')" class="video-wrap">
+            <div v-show="pureList[randomNumber]?.genre.includes('electronic') || pureList[randomNumber]?.genre.includes('relax')" class="video-wrap">
                 <video ref="videoElement" autoplay playsinline loop class="">
                     <source
                         src="https://static.vecteezy.com/system/resources/previews/003/769/185/mp4/interstellar-space-travel-universe-to-the-m31-spiral-galaxy-free-video.mp4"
@@ -317,18 +317,12 @@ watch(() => isLoading.value, (newV) => {
                 </div>
 
                 <div class="box-wrapper curve">
-
                     <div @click="playMusic()" class="cover-music">
                         <h1 v-if="!coverMusic" class="back-logo dance-baby-text">
                             <div class="font-days cover-text">
                                 DANCE BABY RADIO
                             </div>
                         </h1>
-
-                        <!-- ALTERNATIVE -->
-
-                        <!-- <img v-if="!pureList[randomNumber]?.cover" class="curve dance-baby-text"
-                            :class="{ 'shine-me': storeSimple.isPlaying }" src="/public/images/radio3.png"> -->
 
                         <img v-if="!coverMusic" class="curve radio-poster"
                             :class="{ 'shine-me': storeSimple.isPlaying }" src="/images/background-dance-1.jpg">
@@ -340,7 +334,6 @@ watch(() => isLoading.value, (newV) => {
                             @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
-                                    <!-- <div class="triangle"></div> -->
                                     <div class='button-icon' :class="{ 'paused': storeSimple.isPlaying }"></div>
                                 </div>
                             </div>

@@ -9912,26 +9912,66 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://melodicc.com/'
     },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://melodicc.com/'
-    // },
+    {
+      title: 'Athena',
+      artist: 'Trilucid',
+      audio: 'https://uploadb.me/jsdmsloehpy5/Athena%20-%20Trilucid%20(Melodicc.com).mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2025/02/Trilucid-–-Athena.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Lost Control',
+      artist: ' SNDR',
+      audio: 'https://uploadb.me/c41q8clhgwn9/Lost%20Control%20-%20SNDR%20(Melodicc.com).mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Right Back (2nd Edit)',
+      artist: 'Stoto',
+      audio: 'https://uploadb.me/q3s9d6pjgprs/Stoto%20-%20Right%20Back%20(2nd%20Edit)%20Melodicc.com%20(320).mp3.html',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Double Fantasy',
+      artist: ' The Weeknd Ft Future',
+      audio: 'https://uploadb.me/hdsrcw7d1bna/The%20Weeknd%20Ft%20Future%20-%20Double%20Fantasy.mp3.html',
+      cover: 'https://melodicc.com/wp-content/uploads/2023/04/Double-Fantasy.jpg',
+      genre: 'electronic pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Chemical',
+      artist: 'Post Malone',
+      audio: 'https://uploadb.me/zjo55vqgecd1/Post%20Malone%20-%20Chemical.mp3.html',
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
+    {
+      title: 'Creepin',
+      artist: "Metro Boomin Ft The Weeknd",
+      audio: "https://uploadb.me/direct/4bn5rkoosa7f/10%20Metro%20Boomin%20-%20Creepin'%20(Ft%20The%20Weeknd%20Ft%2021%20Savage).mp3.html",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://melodicc.com/'
+    },
     // {
     //   title: '',
     //   artist: '',
