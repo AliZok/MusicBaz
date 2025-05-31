@@ -241,11 +241,10 @@ const setupVideo = () => {
         // Attempt to play
         const playPromise = videoElement.value.play()
 
-        // Handle autoplay restrictions
         if (playPromise !== undefined) {
             playPromise.catch(error => {
                 console.error('Autoplay prevented:', error)
-                // Fallback options could go here
+
             })
         }
     }
@@ -270,7 +269,7 @@ onMounted(() => {
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
     });
-    setupVideo()
+
     setTimeout(() => {
         updateMediaSession('paused');
     }, 200);
@@ -295,7 +294,8 @@ watch(() => isLoading.value, (newV) => {
     <div class="PlayerMain">
 
         <div class="main-container">
-            <div v-show="pureList[randomNumber]?.genre.includes('electronic') || pureList[randomNumber]?.genre.includes('relax')" class="video-wrap">
+            <div v-show="pureList[randomNumber]?.genre.includes('electronic') || pureList[randomNumber]?.genre.includes('relax')"
+                class="video-wrap">
                 <video ref="videoElement" autoplay playsinline loop class="">
                     <source
                         src="https://static.vecteezy.com/system/resources/previews/003/769/185/mp4/interstellar-space-travel-universe-to-the-m31-spiral-galaxy-free-video.mp4"
@@ -459,13 +459,15 @@ watch(() => isLoading.value, (newV) => {
             z-index: 2;
             opacity: 0.5;
             overflow: hidden;
-            video{
+
+            video {
                 width: 100vw;
                 height: 100vh;
                 object-fit: cover;
 
             }
         }
+
         // .video-content {
         //     position: absolute;
         //     top: 50%;
