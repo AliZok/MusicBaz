@@ -9972,6 +9972,146 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://melodicc.com/'
     },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/63/4.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/63/5.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/63/7.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/63/11.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/58/2.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/58/6.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/58/8.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/2/25/3.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: 'Viapo',
+      audio: 'https://dl.iraniandj.ir/2025/2/6/1.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: 'Viapo',
+      audio: 'https://dl.iraniandj.ir/2025/2/6/2.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: 'Viapo',
+      audio: 'https://dl.iraniandj.ir/2025/2/6/3.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: 'Viapo',
+      audio: 'https://dl.iraniandj.ir/2025/2/6/4.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/63/1.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://dl.iraniandj.ir/2025/1/62/3.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://dl.iraniandj.ir'
+    },
     // {
     //   title: '',
     //   artist: '',
@@ -9980,7 +10120,27 @@ const storeSimple = ref({
     //   genre: 'electronic',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://melodicc.com/'
+    //   reference: 'https://dl.iraniandj.ir'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://dl.iraniandj.ir'
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: 'https://dl.iraniandj.ir'
     // },
 
 
