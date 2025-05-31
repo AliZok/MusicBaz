@@ -120,6 +120,7 @@ const pauseAudio = async () => {
     await myMusic.value.pause();
     storeSimple.value.isPlaying = false
     updateMediaSession('paused');
+    videoElement.value.pause();
 };
 
 const playMusic = async () => {
