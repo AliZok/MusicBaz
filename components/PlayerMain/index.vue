@@ -105,6 +105,9 @@ const playAudio = async () => {
     } catch (error) {
         console.error("Error playing audio:", error);
     }
+
+    await videoElement.value.load()
+    const playPromise = videoElement.value.play()
 };
 
 function updateMediaSession(state) {
@@ -129,8 +132,7 @@ const playMusic = async () => {
         pauseAudio();
     } else {
         playAudio();
-        // playVideo()
-        setupVideo()
+    
     }
 
 }
@@ -162,6 +164,8 @@ const playNextMusic = async () => {
         playNextMusic()
 
     }
+
+    setupVideo()
 }
 
 const formatTime = (value) => {
@@ -221,7 +225,7 @@ const videoElement = ref(null)
 //     }
 // }
 
-const setupVideo = () => {
+const setupVideo = async () => {
     if (videoElement.value) {
         // Ensure video is muted for autoplay to work
         videoElement.value.muted = true
@@ -237,7 +241,7 @@ const setupVideo = () => {
         videoElement.value.playsinline = true
 
         // Some browsers require explicit loading
-        videoElement.value.load()
+        await videoElement.value.load()
 
         // Attempt to play
         const playPromise = videoElement.value.play()
