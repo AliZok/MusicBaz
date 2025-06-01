@@ -10112,6 +10112,52 @@ const storeSimple = ref({
       star: 4,
       reference: 'https://dl.iraniandj.ir'
     },
+    {
+      title: 'I Can Be Your Hero (Club Mix)',
+      artist: 'Luca Debonaire feat Chris Marina',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Xaniar%20-%20Bade%20Man%20(AFX%20&%20Electronic%20Joy%20Remix).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzQ4M2Q5ZjAxLTVmNmItNDk0MS05MTQ2LTRiNDk2ZmJjNDkyOSJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9YYW5pYXIgLSBCYWRlIE1hbiAoQUZYICYgRWxlY3Ryb25pYyBKb3kgUmVtaXgpLm1wMyIsImlhdCI6MTc0ODc4NDE5NywiZXhwIjoxOTA2NDY0MTk3fQ.yueh5aEZr2IS5ASKDN9ljM4Rsv6_k1Dk17JtXdCAmy4',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+    },
+    {
+      title: ' The Hole (Layton Giordani Remix)',
+      artist: 'Riva Starr',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Uppermost%20-%20Atoms%20(Ft%20Birsen).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzQ4M2Q5ZjAxLTVmNmItNDk0MS05MTQ2LTRiNDk2ZmJjNDkyOSJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9VcHBlcm1vc3QgLSBBdG9tcyAoRnQgQmlyc2VuKS5tcDMiLCJpYXQiOjE3NDg3ODU2NzUsImV4cCI6MTkwNjQ2NTY3NX0.PpkUh6co74wAAfMBaezfjcjhnAwAz9iFViZgYY1ZApA',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+    },
+
+    {
+      title: ' Atoms (Ft Birsen)',
+      artist: 'Uppermost',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Uppermost%20-%20Atoms%20(Ft%20Birsen).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzQ4M2Q5ZjAxLTVmNmItNDk0MS05MTQ2LTRiNDk2ZmJjNDkyOSJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9VcHBlcm1vc3QgLSBBdG9tcyAoRnQgQmlyc2VuKS5tcDMiLCJpYXQiOjE3NDg3ODY4MzAsImV4cCI6MTkwNjQ2NjgzMH0.dNacLY0MYBGYTccs9co4y69yDPXE9ByxPLqo49QMiCU',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+    },
+    {
+      title: 'Navaei',
+      artist: 'DJ Phellix Ft. Amir Sheykh',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ%20Phellix%20Ft.%20Amir%20Sheykh%20-%20Navaei.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzQ4M2Q5ZjAxLTVmNmItNDk0MS05MTQ2LTRiNDk2ZmJjNDkyOSJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESiBQaGVsbGl4IEZ0LiBBbWlyIFNoZXlraCAtIE5hdmFlaS5tcDMiLCJpYXQiOjE3NDg3ODcxOTMsImV4cCI6MTkwNjQ2NzE5M30.yxMoOdSMUa4Bwz4ewpfkvwmif6ijNPfsAn6LHYJp1CY',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+    },
+    {
+      title: 'Del Barnakanam (Ft Amir Sheykh)',
+      artist: 'DJ Phellix',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/DJ%20Phellix%20-%20Del%20Barnakanam%20(Ft%20Amir%20Sheykh).mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5XzQ4M2Q5ZjAxLTVmNmItNDk0MS05MTQ2LTRiNDk2ZmJjNDkyOSJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9ESiBQaGVsbGl4IC0gRGVsIEJhcm5ha2FuYW0gKEZ0IEFtaXIgU2hleWtoKS5tcDMiLCJpYXQiOjE3NDg3ODc1NzUsImV4cCI6MTkwNjQ2NzU3NX0.v1ZpbPxC32Tc-lM9bCkMs1Um2Go6HwjEQ2KOpCymHTI',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+    },
     // {
     //   title: '',
     //   artist: '',
@@ -10120,17 +10166,6 @@ const storeSimple = ref({
     //   genre: 'electronic',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://dl.iraniandj.ir'
-    // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://dl.iraniandj.ir'
     // },
     // {
     //   title: '',
