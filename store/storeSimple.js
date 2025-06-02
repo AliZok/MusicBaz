@@ -10158,6 +10158,377 @@ const storeSimple = ref({
       duration: '',
       star: 4,
     },
+    {
+      title: 'Reunite',
+      artist: 'Bella Element',
+      audio: 'https://dc.vmusic.ir/2024/01/Bella Element - Piano Lullabies (2024)/128k/02) Bella Element - Reunite.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+
+    },
+    {
+      title: 'Bliss',
+      artist: 'Solarsoul',
+      audio: 'https://dc.vmusic.ir/2024/02/Solarsoul - Discovery/128k/03) Solarsoul - Bliss.mp3',
+      cover: 'https://f4.bcbits.com/img/a1281692903_10.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'A Gaze Into Infinity (feat. Tigerforest)',
+      artist: 'Solarsoul',
+      audio: 'https://dc.vmusic.ir/2024/02/Solarsoul - Discovery/128k/02) Solarsoul - A Gaze Into Infinity (feat. Tigerforest).mp3',
+      cover: 'https://f4.bcbits.com/img/a1281692903_10.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Moon River (feat. DreamMan)',
+      artist: 'Solarsoul',
+      audio: 'https://dc.vmusic.ir/2024/02/Solarsoul - Discovery/128k/09) Solarsoul - Moon River (feat. DreamMan).mp3',
+      cover: 'https://f4.bcbits.com/img/a1281692903_10.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'A Dream Within a Dream',
+      artist: 'Solarsoul',
+      audio: 'https://dc.vmusic.ir/2024/02/Solarsoul - Discovery/128k/11) Solarsoul - A Dream Within a Dream.mp3',
+      cover: 'https://f4.bcbits.com/img/a1281692903_10.jpg',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Into Infinity',
+      artist: 'Solarsoul',
+      audio: 'https://dc.vmusic.ir/2024/02/Solarsoul - Discovery/128k/12) Solarsoul - Into Infinity (feat. Green Sun).mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'The Long Way Home',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/06/Scott Buckley - The Long Way Home (2021)/128k/Scott Buckley - The Long Way Home.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Sanctuary',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/07/Scott Buckley - Sanctuary (2021)/128k/Scott Buckley - Sanctuary.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Falling Together',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/08/Scott Buckley - Falling Together (2021)/128k/Scott Buckley - Falling Together.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'This Too Shall Pass',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/11/Scott Buckley - Library Songs 7 (2021)/128k/01) Scott Buckley - This Too Shall Pass.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 5,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'I Walk With Ghosts',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/11/Scott Buckley - Library Songs 7 (2021)/128k/02) Scott Buckley - I Walk With Ghosts.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Affirmations',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/11/Scott Buckley - Library Songs 7 (2021)/128k/05) Scott Buckley - Affirmations.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Falling Together',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/11/Scott Buckley - Library Songs 7 (2021)/128k/06) Scott Buckley - Falling Together.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Chasing Daylight',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/11/Scott Buckley - Library Songs 7 (2021)/128k/07) Scott Buckley - Chasing Daylight.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Beautiful Oblivion',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/11/Scott Buckley - Library Songs 7 (2021)/128k/09) Scott Buckley - Beautiful Oblivion.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Midvinter',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2021/12/Scott Buckley - Midvinter (2021)/128k/Scott Buckley - Midvinter.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Permafrost',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2023/04/Scott Buckley - Library Songs 9 (2023)/128k/02) Scott Buckley - Permafrost.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 5,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'A Kind of Hope',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2023/04/Scott Buckley - Library Songs 9 (2023)/128k/03) Scott Buckley - A Kind of Hope.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4.8,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Hymn To the Dawn',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2023/04/Scott Buckley - Library Songs 9 (2023)/128k/05) Scott Buckley - Hymn To the Dawn.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4.5,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Adrift Among Infinite Stars',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2023/04/Scott Buckley - Library Songs 9 (2023)/128k/06) Scott Buckley - Adrift Among Infinite Stars.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 5,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Cirrus',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2023/04/Scott Buckley - Library Songs 9 (2023)/128k/07) Scott Buckley - Cirrus.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Aurora',
+      artist: 'Scott Buckley',
+      audio: 'https://db.vmusic.ir/2023/04/Scott Buckley - Library Songs 9 (2023)/128k/09) Scott Buckley - Aurora.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: '',
+      artist: 'Scott Buckley',
+      audio: '',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Reverie',
+      artist: 'Scott Buckley',
+      audio: 'https://dl.vmusic.ir/2020/04/Scott Buckley - Reverie (2020)/128k/Scott Buckley - Reverie.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    }, {
+      title: 'Hiraeth',
+      artist: 'Scott Buckley',
+      audio: 'https://dl.vmusic.ir/2020/06/Scott Buckley - Hiraeth (2020)/128k/Scott Buckley - Hiraeth.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Where Stars Fall',
+      artist: 'Scott Buckley',
+      audio: 'https://dl.vmusic.ir/2021/02/Scott Buckley - Where Stars Fall (2021)/128k/Scott Buckley - Where Stars Fall.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'The Things That Keep Us Here',
+      artist: 'Scott Buckley',
+      audio: 'https://dl.vmusic.ir/2019/12/Scott Buckley - Monomyth (2019) 128k [Vmusic.ir]/03. Scott Buckley - The Things That Keep Us Here.mp3',
+      cover: '',
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Frankfurt',
+      artist: 'Nora Van Elken',
+      audio: 'https://dc.vmusic.ir/2025/05/Nora Van Elken - Deutschland (2025)/128k/01) Nora Van Elken - Frankfurt.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Hanover',
+      artist: 'Nora Van Elken',
+      audio: 'https://dc.vmusic.ir/2025/05/Nora Van Elken - Deutschland (2025)/128k/02) Nora Van Elken - Hanover.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+
+    {
+      title: 'Düsseldorf',
+      artist: 'Nora Van Elken ',
+      audio: 'https://dc.vmusic.ir/2025/05/Nora Van Elken - Deutschland (2025)/128k/03) Nora Van Elken - Düsseldorf.mp3',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Magic',
+      artist: 'Cold Play',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/coldplay%20-%20magic%20(freakme%20visionary%20re-work)_-1448731280.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9jb2xkcGxheSAtIG1hZ2ljIChmcmVha21lIHZpc2lvbmFyeSByZS13b3JrKV8tMTQ0ODczMTI4MC5tcDMiLCJpYXQiOjE3NDg4NzY2NTIsImV4cCI6MTkwNjU1NjY1Mn0.RBRRcOyPAhW7BCgelR38pPoYYALMbm4-NVnhM-lzBP0',
+      cover: 'https://i1.sndcdn.com/artworks-000140591570-gw8z7s-t1080x1080.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Museum (Matan Caspi Remix)',
+      artist: 'Jorgio Kioris',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Jorgio%20Kioris%20-%20Museum%20(Original%20Mix)Outta%20Limits.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9Kb3JnaW8gS2lvcmlzIC0gTXVzZXVtIChPcmlnaW5hbCBNaXgpT3V0dGEgTGltaXRzLm1wMyIsImlhdCI6MTc0ODg3NzI2OCwiZXhwIjoxOTA2NTU3MjY4fQ.0bH0S5bfV5Yq5hMZbhyMsixfRzAFKVQck-mh9tvZDVU',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Just Us',
+      artist: 'Fever',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Just%20Us%20-%20Fever.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9KdXN0IFVzIC0gRmV2ZXIubXAzIiwiaWF0IjoxNzQ4ODc3MzgzLCJleHAiOjE5MDY1NTczODN9.Xk66R-LAS4qbwe9I0OWXTaMpunOcOnBInCn0cYcxSHs',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Feeling Good (Nikko Culture Remix)',
+      artist: 'Nina Simone',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Nina%20Simone%20-%20Feeling%20Good%20(Nikko%20Culture%20Remix).mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9OaW5hIFNpbW9uZSAtIEZlZWxpbmcgR29vZCAoTmlra28gQ3VsdHVyZSBSZW1peCkubXAzIiwiaWF0IjoxNzQ4ODc3NTQyLCJleHAiOjE5MDY1NTc1NDJ9.67hzKzlPtoAt-WM1qVbj_tt7K0UV42wnKf93FJrna7M',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: '',
+      artist: 'Telefon Tel Aviv',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Telefon%20Tel%20Aviv.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9UZWxlZm9uIFRlbCBBdml2Lm1wMyIsImlhdCI6MTc0ODg3ODA0NywiZXhwIjoxOTA2NTU4MDQ3fQ.Knwf8oI8Ep5sQhc4-_Khe6a4SKEhtgNaAUgbeQrTX9g',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4.7,
+      reference: 'https://vmusic.ir/'
+    },
+    {
+      title: 'Hold My Hand',
+      artist: '',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/03%20-%20Hold%20My%20Hand.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy8wMyAtIEhvbGQgTXkgSGFuZC5tcDMiLCJpYXQiOjE3NDg4NzgyOTMsImV4cCI6MTkwNjU1ODI5M30.fPairRVJ1JMqnFjB4Jxexn3Z5CtRvDVtnM9Vb7iweFc',
+      cover: '',
+      genre: 'electronic rock',
+      duration: '',
+      star: 4,
+      reference: 'https://vmusic.ir/'
+    },
     // {
     //   title: '',
     //   artist: '',
@@ -10166,6 +10537,7 @@ const storeSimple = ref({
     //   genre: 'electronic',
     //   duration: '',
     //   star: 4,
+    //   reference: 'https://vmusic.ir/'
     // },
     // {
     //   title: '',
@@ -10175,7 +10547,7 @@ const storeSimple = ref({
     //   genre: 'electronic',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://dl.iraniandj.ir'
+    //   reference: 'https://vmusic.ir/'
     // },
 
 
