@@ -10477,7 +10477,7 @@ const storeSimple = ref({
       genre: 'electronic',
       duration: '',
       star: 4,
-      reference: 'https://vmusic.ir/'
+
     },
     {
       title: 'Museum (Matan Caspi Remix)',
@@ -10487,7 +10487,7 @@ const storeSimple = ref({
       genre: 'electronic',
       duration: '',
       star: 4,
-      reference: 'https://vmusic.ir/'
+
     },
     {
       title: 'Just Us',
@@ -10497,7 +10497,7 @@ const storeSimple = ref({
       genre: 'electronic',
       duration: '',
       star: 4,
-      reference: 'https://vmusic.ir/'
+
     },
     {
       title: 'Feeling Good (Nikko Culture Remix)',
@@ -10507,7 +10507,7 @@ const storeSimple = ref({
       genre: 'electronic',
       duration: '',
       star: 4,
-      reference: 'https://vmusic.ir/'
+
     },
     {
       title: '',
@@ -10517,7 +10517,7 @@ const storeSimple = ref({
       genre: 'electronic',
       duration: '',
       star: 4.7,
-      reference: 'https://vmusic.ir/'
+
     },
     {
       title: 'Hold My Hand',
@@ -10527,27 +10527,26 @@ const storeSimple = ref({
       genre: 'electronic rock',
       duration: '',
       star: 4,
-      reference: 'https://vmusic.ir/'
+
+    },
+    {
+      title: 'Summer Wine',
+      artist: '',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/05%20Summer%20Wine.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy8wNSBTdW1tZXIgV2luZS5tcDMiLCJpYXQiOjE3NDg4ODAxNDIsImV4cCI6MTkwNjU2MDE0Mn0.zQTsnU-fyzpIjKv_JFO7EYgPOrqSfKGQ7GEeMwo8rHc',
+      cover: '',
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+
     },
     // {
     //   title: '',
     //   artist: '',
     //   audio: '',
     //   cover: '',
-    //   genre: 'electronic',
+    //   genre: '',
     //   duration: '',
     //   star: 4,
-    //   reference: 'https://vmusic.ir/'
-    // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: 'https://vmusic.ir/'
     // },
 
 
