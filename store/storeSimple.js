@@ -10549,6 +10549,38 @@ const storeSimple = ref({
       reference: "https://soundcloud.com/john00fleming/john-00-fleming-global-trance-grooves-190-astropilot",
       star: 4,
     },
+    {
+      title: '',
+      artist: '',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/korolova-live-the-future-of-dance-miami-2023.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9rb3JvbG92YS1saXZlLXRoZS1mdXR1cmUtb2YtZGFuY2UtbWlhbWktMjAyMy5tcDMiLCJpYXQiOjE3NDkwNzM5ODYsImV4cCI6MTkwNjc1Mzk4Nn0.infmm_RZ1rRfJRsomjAOmCQ8Fre9WZGiRyin6Rc8ctA',
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4.8,
+      reference: ""
+    },
+    {
+      title: 'Running up that Hill Bootleg',
+      artist: '',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/Running%20up%20that%20Hill%20Bootleg.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9SdW5uaW5nIHVwIHRoYXQgSGlsbCBCb290bGVnLm1wMyIsImlhdCI6MTc0OTA3NDk1MCwiZXhwIjoxOTA2NzU0OTUwfQ.EjroF86DYFpQ3xupqTVOD2PgCgVjCvpZzpJ5ypalUd8',
+      cover: '',
+      genre: '',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+
+    {
+      title: 'The Road',
+      artist: 'Boxer & Forbes pres. Dandy feat. Tania Zygar ',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/Boxer%20&%20Forbes%20pres.%20Dandy%20feat.%20Tania%20Zygar%20-%20The%20Road.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9Cb3hlciAmIEZvcmJlcyBwcmVzLiBEYW5keSBmZWF0LiBUYW5pYSBaeWdhciAtIFRoZSBSb2FkLm1wMyIsImlhdCI6MTc0OTA3NzAwMiwiZXhwIjoxOTA2NzU3MDAyfQ.F9W46hgQ9OgfFqlY5HBSsKYEpIGJ7aQBJ4LLKB1Rfwo',
+      cover: '',
+      genre: '',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+
     // {
     //   title: '',
     //   artist: '',
@@ -10557,7 +10589,30 @@ const storeSimple = ref({
     //   genre: '',
     //   duration: '',
     //   star: 4,
+    //   reference: ""
     // },
+
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: '',
+    //   duration: '',
+    //   star: 4,
+    //   reference: ""
+    // },
+    // {
+    //   title: '',
+    //   artist: '',
+    //   audio: '',
+    //   cover: '',
+    //   genre: '',
+    //   duration: '',
+    //   star: 4,
+    //   reference: ""
+    // },
+
 
 
   ],
