@@ -10539,6 +10539,16 @@ const storeSimple = ref({
       star: 4,
 
     },
+    {
+      title: 'Global Trance Grooves 190 (+ Astropilot)--(slice)',
+      artist: 'John 00 Fleming (Radio Mix)',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/John%2000%20Fleming%20-%20Global%20Trance%20Grooves%20190%20(+%20Astropilot)--1.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9Kb2huIDAwIEZsZW1pbmcgLSBHbG9iYWwgVHJhbmNlIEdyb292ZXMgMTkwICgrIEFzdHJvcGlsb3QpLS0xLm1wMyIsImlhdCI6MTc0OTA1MTI0NiwiZXhwIjoxOTA2NzMxMjQ2fQ.T5p18O0Rk5IeyyjhRXGOyZaE63UqrgY9ghjqT-0D9rI',
+      cover: 'https://i1.sndcdn.com/artworks-000468065685-ujyrh3-t500x500.jpg',
+      genre: 'electronic',
+      duration: '',
+      reference: "https://soundcloud.com/john00fleming/john-00-fleming-global-trance-grooves-190-astropilot",
+      star: 4,
+    },
     // {
     //   title: '',
     //   artist: '',
