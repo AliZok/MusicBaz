@@ -1685,7 +1685,7 @@ const storeSimple = ref({
       cover:
         'https://ts12.tarafdari.com/contents/user799730/content-sound/lty.jpg',
       audio:
-        'https://ts12.tarafdari.com/contents/user799730/content-sound/easy_lover_ft._phil_collins.mp3',
+        'https://cdn.mp3wr.com/?h=JGraYpdVSDUTvamDxQgyIck6iOJYTonKSHlpdoIg80VOWq5iemF4V_nKo4mdUxYz1C-X3qtGWQ\\',
       genre: 'rock pop'
     },
     {
@@ -10752,56 +10752,116 @@ const storeSimple = ref({
       star: 4,
       reference: "https://mp3wr.com/"
     },
-    // {
-    //   title: '',
-    //   artist: 'Tool',
-    //   audio: "",
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
-    // {
-    //   title: '',
-    //   artist: 'Tool',
-    //   audio: "",
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
-    // {
-    //   title: '',
-    //   artist: 'Tool',
-    //   audio: "",
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
-    // {
-    //   title: '',
-    //   artist: 'Tool',
-    //   audio: "",
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
-    // {
-    //   title: '',
-    //   artist: 'Tool',
-    //   audio: "",
-    //   cover: '',
-    //   genre: 'rock',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
+    {
+      title: 'Parabola',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6pUliIcI9j8pecoyUO6RgUnrwuZE5WOgUnmRsWSDHeks\ ",
+      cover: 'https://i.scdn.co/image/ab67616d0000b273ca41a947c13b78749c4953b1',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Reflection',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6p01WLMUxl9Knd07AM5aDQIIruGlHWaFeYxZ-WQzIso2SGQ\\",
+      cover: 'https://i.scdn.co/image/ab67616d0000b273ca41a947c13b78749c4953b1',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Prison Sex',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6pVpZM888Q7ydgU7AM5ZgbGAGyYUyRMAjYxZ-WQzIso2SGQ\\",
+      cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX9L2je_iztF3I69U6uZDRlaB4gMLFKdHR-w&s',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Hush',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6nV1jKIY3h6aAUXOvGqFQO1P8xkVYatJioGNIFg\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'No More Tears',
+      artist: 'Ozzy Osbourne',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDQlzrY6pFtSL9VAkc5YV5d3HMiPbCwP5oBXaZdXjy1ASxqlnoi9TDEyofSW3Zl9ncoMig\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'I Just Want You',
+      artist: 'Ozzy Osbourne',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDQlzrY6pFtSL9VAkc5YUkihRMyRJ2Mc75MFT-BjUVlvIhuNcoTALVT0kEZXj6t9ictEzFo4",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Shot In The Dark',
+      artist: 'Ozzy Osbourne',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDQlzrY6pFtSL9VAkc5YXJDGQ3lmdSwP6YQFOtJglhZ0Seiht5PPGlUn2C1TzF58nLhDzpBEPQ\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: '',
+      artist: 'Ozzy Osbourne',
+      audio: "",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: '',
+      artist: 'Ozzy Osbourne',
+      audio: "",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: '',
+      artist: 'Ozzy Osbourne',
+      audio: "",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: '',
+      artist: 'Ozzy Osbourne',
+      audio: "",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
 
   ],
   genres: [
