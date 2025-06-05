@@ -10640,7 +10640,7 @@ const storeSimple = ref({
       genre: 'pop',
       duration: '',
       star: 4,
-      reference: ""
+      reference: "https://mp3wr.com/"
     },
     {
       title: '(Everything I Do) I Do It For You (Classic Version)',
@@ -10650,7 +10650,7 @@ const storeSimple = ref({
       genre: 'rock pop',
       duration: '',
       star: 5,
-      reference: ""
+      reference: "https://mp3wr.com/"
     },
     {
       title: 'Cloud Number Nine',
@@ -10660,17 +10660,147 @@ const storeSimple = ref({
       genre: 'rock pop',
       duration: '',
       star: 4,
-      reference: ""
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: " When You're Gone (Feat. Melanie C)",
+      artist: 'Bryan Adams',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ8CgbpZ3KMiSLn4goWZUZNYOUzZwRh-CXWe6VFEuyTNDrGEvkbsMopI_cSfYbzhL6DNRY39GH8mwV4Y\ ",
+      cover: '',
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Sound The Bugle',
+      artist: 'Bryan Adams',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ7ynfpa7762FbCz99oZRW5dXjy1cP_Sac3LDVEIHqfSW3Zl9ncoMig\\",
+      cover: '',
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Cuts Like A Knife',
+      artist: 'Bryan Adams',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ6ytfZt3G8KIbCz8oWpTX9dTSxhOUQzHsIO4CEYl0kGM2KYyTsAzllFRawzjki0jwFyWFn5ZDMiyjZIZ",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Sober',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6qFdSJdL0jM11TZCkRY50XVsn6lMLaeVPn2V-Itw\ ",
+      cover: 'https://upload.wikimedia.org/wikipedia/en/f/f5/Sobers.gif',
+      genre: 'rock',
+      duration: '',
+      star: 5,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Schism',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6qEtYKdM7SdKcRpzMRoqXcIUvw2NQHORijGSAWOiF",
+      cover: 'https://i.scdn.co/image/ab67616d0000b273ca41a947c13b78749c4953b1',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Forty Six & 2',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6m1diNNnudtKwKU53AX-Ga0kiw41GYtRBlCE-HdHHsXvJXWP9kQ\\ ",
+      cover: 'https://upload.wikimedia.org/wikipedia/en/2/2f/Aenima.jpg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Ænema',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6GG5eJc0vSdKcRpzIOaiPclkD1opQHORijGSAWOiF",
+      cover: 'https://upload.wikimedia.org/wikipedia/en/2/2f/Aenima.jpg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Vicarious',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6q1FTIdI3kt6rL5G7DMaENFEN6YQoZKcvUWN_Rh_JsFeG",
+      cover: 'https://i.scdn.co/image/ab67616d0000b273781369aabc39c792cc55604f',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Stinkfist',
+      artist: 'Tool',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6qFxZLss0jNysL5G7DKeDd4MG9FA3O9geUWN_Rh_JsFeG",
+      cover: 'https://upload.wikimedia.org/wikipedia/en/2/2f/Aenima.jpg',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
     },
     // {
     //   title: '',
-    //   artist: '',
+    //   artist: 'Tool',
     //   audio: "",
     //   cover: '',
     //   genre: 'rock',
     //   duration: '',
     //   star: 4,
-    //   reference: ""
+    //   reference: "https://mp3wr.com/"
+    // },
+    // {
+    //   title: '',
+    //   artist: 'Tool',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+    // {
+    //   title: '',
+    //   artist: 'Tool',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+    // {
+    //   title: '',
+    //   artist: 'Tool',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+    // {
+    //   title: '',
+    //   artist: 'Tool',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'rock',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
     // },
 
   ],
