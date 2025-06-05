@@ -335,7 +335,7 @@ watch(() => isLoading.value, (newV) => {
                         <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': storeSimple.isPlaying }"
                             :src="coverMusic">
 
-                        <div v-if="!!pureList[randomNumber]" :class="{ 'opacity-0': storeSimple.isPlaying }"
+                        <div v-if="!!pureList[randomNumber] && !isLoading" :class="{ 'opacity-0': storeSimple.isPlaying }"
                             @click.stop="playMusic()" class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">

@@ -81,16 +81,7 @@ const storeSimple = ref({
       genre: 'electronic trance',
       duration: ':'
     },
-    {
-      title: 'I Do It For You (Everything I Do)',
-      artist: 'Bryan Adams',
-      cover:
-        'https://ts2.tarafdari.com/contents/user6984/content-sound/bryan_adams-everything_i_do_i_do_it_for_you_s_4.jpg',
-      audio:
-        'https://ts2.tarafdari.com/contents/user6984/content-sound/36.bryan_adams_-_everything_i_do_i_do_it_for_you.mp3',
-      genre: 'pop rock',
-      duration: ''
-    },
+
     {
       title: 'Atlantis',
       artist: 'Tycoos',
@@ -574,7 +565,7 @@ const storeSimple = ref({
       title: 'I Do It For You (Everything I Do)',
       artist: 'Bryan Adams',
       cover:
-        'https://ts2.tarafdari.com/contents/user6984/content-sound/bryan_adams-everything_i_do_i_do_it_for_you_s_4.jpg',
+        '',
       audio:
         'https://ts2.tarafdari.com/contents/user6984/content-sound/36.bryan_adams_-_everything_i_do_i_do_it_for_you.mp3',
       genre: 'pop rock',
@@ -10582,38 +10573,105 @@ const storeSimple = ref({
     },
 
     {
-      title: 'Running up that Hill Bootleg',
-      artist: '',
-      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/Running%20up%20that%20Hill%20Bootleg.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9SdW5uaW5nIHVwIHRoYXQgSGlsbCBCb290bGVnLm1wMyIsImlhdCI6MTc0OTA3OTgzNCwiZXhwIjoxOTA2NzU5ODM0fQ.5g5hM61_Gn_K6Axfmy_OCpmxCwyhpfF4k-miEN-8ras',
+      title: 'Turn The Page',
+      artist: 'Metallica',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/Metallica%20-%20Turn%20The%20Page.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9NZXRhbGxpY2EgLSBUdXJuIFRoZSBQYWdlLm1wMyIsImlhdCI6MTc0OTE0MTQzNiwiZXhwIjoxOTA2ODIxNDM2fQ.p8c4VEq5TnxDVX5bCxAKMtbWEKCJrbE4dVQ43Gwb5kY',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+    {
+      title: 'Ken Tavr',
+      artist: 'Ishome',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/08%20-%20Ken%20Tavr.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy8wOCAtIEtlbiBUYXZyLm1wMyIsImlhdCI6MTc0OTE0MzA1MCwiZXhwIjoxOTA2ODIzMDUwfQ.AtIUJglwlQXfnU5bVdkUTFC0w4F5mV4DwaweuSMuZ1Y',
       cover: '',
       genre: 'electronic',
       duration: '',
       star: 4,
       reference: ""
     },
-
+    {
+      title: 'Radio Waves',
+      artist: 'Roger Waters',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/roger%20waters.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9yb2dlciB3YXRlcnMubXAzIiwiaWF0IjoxNzQ5MTQ4MzU2LCJleHAiOjE5MDY4MjgzNTZ9.FthfJ1voWDqqI27eMwW-w6xbJh6jq-aT2raaLhqP-KI',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+    {
+      title: 'Who Need Information',
+      artist: 'Roger Waters',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/Who%20Need%20Information.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9XaG8gTmVlZCBJbmZvcm1hdGlvbi5tcDMiLCJpYXQiOjE3NDkxNDg2OTUsImV4cCI6MTkwNjgyODY5NX0.fbAyIO6257ql4L5A3gUq8Qm3EnGDCpis06OFqdDaZxE',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+    {
+      title: 'The Powers That Be',
+      artist: 'Roger Waters',
+      audio: 'https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/The%20Powers%20That%20Be.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9UaGUgUG93ZXJzIFRoYXQgQmUubXAzIiwiaWF0IjoxNzQ5MTQ4ODU3LCJleHAiOjE5MDY4Mjg4NTd9.UVa0lDqKPGixxLqD7nuAmm5zgjfTOHflznRBAeAdRcU',
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4.7,
+      reference: ""
+    },
+    {
+      title: 'Hideaway (From "Wonder Park")',
+      artist: 'Grace Vanderwaal',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwdtaB_dT5RLsQzleCZapR3F8KBbG0y4pgFHrdgml0rBwLDq366WhAQwUCOi2EvkbsMp15gfC3giFhov0NRY39GH8mwV4Y\ ",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/search/grace-vanderwaal-clay"
+    },
+    {
+      title: 'Clearly',
+      artist: 'Grace Vanderwaal',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwdtaB_dT5RLsQzleCZapR3EsWCaH4n-kVOWq5DkGlUXxiXrY25HBYz1C-X3qtGWQ\\",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+    {
+      title: '(Everything I Do) I Do It For You (Classic Version)',
+      artist: 'Bryan Adams',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ5F9f43JSM2FcHoioWgFOuAXSzkrKRp0ho51Ll8ygCeS3lgxa8MwzJBwb9vXhFdp2l2ZGTFOD5G0ia5cNgGWJ23KaC-byzDNknpJ7A\\",
+      cover: '',
+      genre: 'rock pop',
+      duration: '',
+      star: 5,
+      reference: ""
+    },
+    {
+      title: 'Cloud Number Nine',
+      artist: 'Bryan Adams',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ6ykeJ2776eSdG4g8z8zX99TUVlvIgW7rk3OQjQo1UZwj6t9ictEzFo4",
+      cover: '',
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
     // {
     //   title: '',
     //   artist: '',
-    //   audio: '',
+    //   audio: "",
     //   cover: '',
-    //   genre: '',
+    //   genre: 'rock',
     //   duration: '',
     //   star: 4,
     //   reference: ""
     // },
-    // {
-    //   title: '',
-    //   artist: '',
-    //   audio: '',
-    //   cover: '',
-    //   genre: '',
-    //   duration: '',
-    //   star: 4,
-    //   reference: ""
-    // },
-
-
 
   ],
   genres: [
