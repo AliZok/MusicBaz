@@ -10823,9 +10823,69 @@ const storeSimple = ref({
       reference: "https://mp3wr.com/"
     },
     {
-      title: '',
-      artist: 'Ozzy Osbourne',
-      audio: "",
+      title: 'Cymatics',
+      artist: 'Nigel Stanford',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKWvQPLqRcG8up4hJM7NdmjVRV-6kbXTMDmM0wUKY3HU6",
+      cover: 'https://i.ytimg.com/vi/QAEsdLtjq2U/sddefault.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'One Hundred Hunters',
+      artist: 'Nigel Stanford',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKXfFNHllfHof84RJFrljmWRwVx56pn6SHFHtuf5uzY1oi6j1zJFogDD0XBY\ ",
+      cover: 'https://i.ytimg.com/vi/g9jwmplNwFg/maxresdefault.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Entropy',
+      artist: 'Nigel Stanford',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKW3FQ8uMd4Xh6oMiSaphmCZELvXBdF97W2Qh1EOWpmk\ ",
+      cover: 'https://i.ytimg.com/vi/QAEsdLtjq2U/sddefault.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Deep Space',
+      artist: 'Nigel Stanford',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKWy8NMk9Wnwc5IQLX9UrokdSRt-mdYinH2fm00KE3a18ZYg\ ",
+      cover: 'https://i.ytimg.com/vi/QAEsdLtjq2U/sddefault.jpg',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Crystal Skies',
+      artist: 'Nigel Stanford',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKWvJSMyRaHjb1IpOW-QUlFRIW_a6cV6XHFUT2CNJ3KxqnMxClk4\ ",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Stay With Me Tonight Ft Catey Shaw',
+      artist: 'Nigel Stanford',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKXvLMNI9XnUv6T8yW5FCml50TBPIXWDJCDMh1DOciYtxic71woFEQwDgjV1O6WaMPWQLHsiejspbLfE\ ",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Walk',
+      artist: 'Pantera',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUMwrF_x0kQF8E6jo-hbWXCHq9PcGAgyHBOYZdhn1F_Wh6Rbg\\",
       cover: '',
       genre: 'rock',
       duration: '',
@@ -10833,9 +10893,9 @@ const storeSimple = ref({
       reference: "https://mp3wr.com/"
     },
     {
-      title: '',
-      artist: 'Ozzy Osbourne',
-      audio: "",
+      title: 'Cowboys From Hell',
+      artist: 'Pantera',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUMwrF_x0kQA89FhdixfEidQciKJ1Qg7YsLX9UrljdZLSKgpn2rGlfm00KE3a18ZYg\ ",
       cover: '',
       genre: 'rock',
       duration: '',
@@ -10843,25 +10903,75 @@ const storeSimple = ref({
       reference: "https://mp3wr.com/"
     },
     {
-      title: '',
-      artist: 'Ozzy Osbourne',
-      audio: "",
-      cover: '',
+      title: '5 Minutes Alone',
+      artist: 'Pantera',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUMwrF_x0kQ9YAbjNetfY3K75qJdnogp4hJM-dkkzpjTAS6pJONDmM0wUKY3HU6",
+      cover: 'https://i.discogs.com/C8883o-ME5D2v_6UMasd4lNcQOU_eW0Hszs4g0F7xYs/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODcw/My0xNjIyNjMxODg1/LTkwODYuanBlZw.jpeg',
       genre: 'rock',
       duration: '',
       star: 4,
       reference: "https://mp3wr.com/"
     },
     {
-      title: '',
-      artist: 'Ozzy Osbourne',
-      audio: "",
+      title: 'The Power Of Love',
+      artist: 'Celine Dion',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSChu_amDw00QBMk9kYmMcY13H8iUbH7b0IUFQuBkkBZ0SeiWcmynLz70kzVYoV58nLhDzpBEPQ\\",
       cover: '',
-      genre: 'rock',
+      genre: 'pop',
       duration: '',
       star: 4,
       reference: "https://mp3wr.com/"
     },
+    {
+      title: 'My Heart Will Go On',
+      artist: 'Celine Dion',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSChu_amDw00QBMk9kYmFgkifNLqPeywS6otRFrhdSz95BdOgrJC6CEQoxTuIiX57l8Tve3FwgBzviEgYmhSUVEg4FM5qkpdOOTHQNUncrGqczEKWTg\\",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: " I'm Alive",
+      artist: 'Celine Dion',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSChu_amDw00QBMk9kYmBMJV3EMWGfXHh6oMib7Jjf0ViLv-admN7W2Qh1EOWpmk\ ",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Immortality',
+      artist: 'Celine Dion (Feat. Bee Gees)',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSChu_amDw00QBMk9kYmBdpXGQc1-c3Uv-j8NPNZPnx4rJxC5XWG6TWPphjeHpmxoip80ootbcPzWRVhq0mKgY0gW",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Where Does My Heart Beat Now',
+      artist: 'Celine Dion',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSChu_amDw00QBMk9kYmPcY3JNHlhdnEuoWxeFrlTjGJ_Be25no51Nl83hjeHpns-oaEow1NmXQu5RVhq0mKgY0gW",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    }, 
+    // {
+    //   title: '',
+    //   artist: 'Dreaming Cooper',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
 
   ],
   genres: [
