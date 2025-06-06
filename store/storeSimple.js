@@ -10961,17 +10961,148 @@ const storeSimple = ref({
       duration: '',
       star: 4,
       reference: "https://mp3wr.com/"
-    }, 
-    // {
-    //   title: '',
-    //   artist: 'Dreaming Cooper',
-    //   audio: "",
-    //   cover: '',
-    //   genre: 'electronic',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
+    },
+    {
+      title: 'Wide Spectrum',
+      artist: 'Dreaming Cooper',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkduZ6HvlZX4KM9ktmde0iuOL2CJ18r5oJZaOZbUVlvIuTMoHKYOUgfsBCGj6t9ictEzFo4",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Zero-G',
+      artist: 'Dreaming Cooper',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkduZ6HvlZX4KM9ktmde0ixNMuMNFPh6oMiV99IdWpxNwXIh057W2Qh1EOWpmk\ ",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Mysterious Places',
+      artist: 'Dreaming Cooper',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkduZ6HvlZX4KM9ktmde0ikSMyRbH4k8JRYFsFajFNwWNG9oVfHOFgPogV5325Zk31CzX57gS6-UA\\",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Liquid Flow',
+      artist: 'Dreaming Cooper',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkduZ6HvlZX4KM9ktmde0ijOMqScHDbx4tUbZdXjy1bOOO_g4mtUkQZ1_SW3Zl9ncoMig\\",
+      cover: '',
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Fire For You',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQBslAiIl-eJp3KMiSLXUfvplaYdJBjDpqXx3HY43JSWQ10wtU",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Bright Lights',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQAtI3itGsKXTANsGRejIk5Vw3Kp4ljFM8PtiWtEDIXFE01UFgmg\\",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Golden',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQB886h86mKVCmQcKEcHoc7YteFsFTnVZ6Vxi5oTqXYRAIwUCV4lhcnNA7vpAwMiTlXDZQyCd9XW4X-ZiwQMhcUTTVQWCa",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: ' Backwards',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQAsExjuCZe4zK9cKBRGAPxZMSI8oxnCFMCx7Ino7KWy3x",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Bad Dream',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQAsEyQ62qbonE9cKBRGsyrlNRUOY5bVxcCx7Ino7KWy3x",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4.5,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Talk Talk',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQFME6jomMapTC9cKBREQuxHJEWcA6YztyCx7Ino7KWy3x",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Neon Light',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQDsU9kYmEco-_Q3-Ga0ny51BeTNkyb2dWGdHHsXvJXWP9kQ\\",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Shadows',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQE8gvh9ivfE7AM5aXXVgvxXJLbcFFdBZ-WQzIso2SGQ\\",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Round And Round',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQEs9Dkc1YSpa776uMfHofp4hJM6pQekBMPv2gsWquDmM0wUKY3HU6",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Sex On Fire',
+      artist: 'Cannons',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQE8VGQ7imKW7AQb49L1st6oZOZNJal2krNRDGo4nHVVUkgBCciYNylr5CeWxtLAfmjlMfl1ePLTtE8MBqgooVSSXT9JbdmX2dygyK",
+      cover: '',
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
 
   ],
   genres: [
