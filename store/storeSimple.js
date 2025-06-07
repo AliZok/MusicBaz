@@ -1092,10 +1092,8 @@ const storeSimple = ref({
     {
       title: 'In The Air Tonight',
       artist: 'Phil Collins',
-      cover:
-        'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/A_Groovy_Kind_of_Love.jpg/220px-A_Groovy_Kind_of_Love.jpg',
-      audio:
-        'https://dl.musicdagh.ir/songs/best/collins/In-The-Air-Tonight.mp3',
+      cover: "https://lh3.googleusercontent.com/BUN2UyKh2zhqbeY7H45L0rt1QMscwbHZE1uDIO_mQXPTe-xtOh-RD4thq_skuGlkXf8LEXSEjBtVVYFL=w200-h200-l90-rj",
+      audio: 'https://cdn.mp3wr.com/?h=JGraYpdVSDUTvak6mFdcLMk8lomBd0irN749SHUtoXNUZNpVk2QxTg-Ri3KIIWAftRttyGgvm8swzZJ6Sew\ ',
       genre: 'rock pop'
     },
     {
@@ -1682,10 +1680,8 @@ const storeSimple = ref({
     {
       title: 'Easy Lover',
       artist: 'Philip Bailey ft. Phil Collins',
-      cover:
-        'https://ts12.tarafdari.com/contents/user799730/content-sound/lty.jpg',
-      audio:
-        'https://cdn.mp3wr.com/?h=JGraYpdVSDUTvamDxQgyIck6iOJYTonKSHlpdoIg80VOWq5iemF4V_nKo4mdUxYz1C-X3qtGWQ\\',
+      cover: 'https://lh3.googleusercontent.com/wTXvYmIuXs6giffNevgamlwI9o5q7MQMforfk0igktDkXPSc__V1Hnbc72UKdmkBodzaLua8OWfsvg=w200-h200-l90-rj',
+      audio: 'https://cdn.mp3wr.com/?h=JGraYpdVSDUTvamDxQgyIck6iOJYTonKSHlpdoIg80VOWq5iemF4V_nKo4mdUxYz1C-X3qtGWQ\\',
       genre: 'rock pop'
     },
     {
@@ -11102,6 +11098,118 @@ const storeSimple = ref({
       star: 4,
       reference: "https://mp3wr.com/"
     },
+    {
+      title: "Livin' On A Prayer",
+      artist: 'Bon Jovi',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcawl1kxF5Z4Kw3mdKmMEimPXleJ1wt4phKaJdXjy1kJw_NoEusLFwCsfSW3Zl9ncoMig\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "It's My Life",
+      artist: 'Bon Jovi',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcawl1kxF5Z4KlCStxYVqF3G8KDbDIk5VxHT6Rkg2JCSxiMqEDIXFE01UFgmg\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Always',
+      artist: 'Bon Jovi',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcawl1kxF5Z4KE6msqxfE7AM5aNZmvzsncyQsNkbBZ-WQzIso2SGQ\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'You Give Love A Bad Name',
+      artist: 'Bon Jovi',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcawl1kxF5Z4Lk9mIl_cp6876WMfXHbwj8nV9UOeVF4StG9oVeWWVPztiKT43FReX1CzX57gS6-UA\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Street Spirit (Fade Out)',
+      artist: 'Radio Head',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcMuKaJvU1RJIAhl9udbpx3IsmGeXUvoUcrV9VTSz-AWdR6pn6SGmn2yz2TmY5dgLD1zJFogDD0XBY\ ",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: ' All Of My Life',
+      artist: 'Phil Collins',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUTvak6mFdcLMk8lol5dZR3Hr89VIXbzYhLW5dXjy2BHhi5c0_IWkU1tfSW3Zl9ncoMig\\",
+      cover: '',
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'One More Night',
+      artist: 'Phil Collins',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUTvak6mFdcLMk8lomHd413HMiPbCwJ6oZNapdXjy13OfzIf462TjMNx_SW3Zl9ncoMig\\",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "That's Just The Way It Is",
+      artist: 'Phil Collins',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUTvak6mFdcLMk8lomMcYnL9sw9UYEu9T85XtYOglGEBfTIXWPIDlkknUaNz3piW5oDrm43Mi71gFlr5Ctc",
+      cover: '',
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    // {
+    //   title: '',
+    //   artist: 'Phil Collins',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+    // {
+    //   title: '',
+    //   artist: 'Phil Collins',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+    // {
+    //   title: '',
+    //   artist: 'Phil Collins',
+    //   audio: "",
+    //   cover: '',
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+
 
 
   ],
