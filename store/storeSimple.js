@@ -11022,7 +11022,7 @@ const storeSimple = ref({
       title: 'Golden',
       artist: 'Cannons',
       audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQB886h86mKVCmQcKEcHoc7YteFsFTnVZ6Vxi5oTqXYRAIwUCV4lhcnNA7vpAwMiTlXDZQyCd9XW4X-ZiwQMhcUTTVQWCa",
-      cover: '',
+      cover: 'https://lh3.googleusercontent.com/SpF7pKaJLeWuvp0H3aRC4zhsSd0JkEE9984ekK92RiqIZIoZNMQnuaI0EIn4WHwDmnw35VNfmk7LuyY=w200-h200-l90-rj',
       genre: 'pop electronic',
       duration: '',
       star: 4,
