@@ -8850,7 +8850,7 @@ const storeSimple = ref({
       title: '',
       artist: 'Sirvan ',
       audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Today-I-Wanna-Tell-You-Sirvan-Khosravi-320.mp3',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      cover: '',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -8860,7 +8860,7 @@ const storeSimple = ref({
       title: 'Zendegy Hamin Emrooze',
       artist: 'Sirvan ',
       audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Live-for-Today-Sirvan-Khosravi-320.mp3',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      cover: '',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -8870,7 +8870,7 @@ const storeSimple = ref({
       title: 'Delam Gerefte',
       artist: 'Sirvan ',
       audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Im-Down-Sirvan-Khosravi-320.mp3',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      cover: '',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -8880,7 +8880,7 @@ const storeSimple = ref({
       title: 'Oon Rooza',
       artist: 'Sirvan ',
       audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Those-Days-Sirvan-Khosravi-320.mp3',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      cover: '',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -8890,7 +8890,7 @@ const storeSimple = ref({
       title: "Sa'ate 9",
       artist: 'Sirvan ',
       audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/9-Oclock-Sirvan-Khosravi-320.mp3',
-      cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Saat-9-250x250.',
+      cover: '',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -11179,36 +11179,313 @@ const storeSimple = ref({
       star: 4,
       reference: "https://mp3wr.com/"
     },
+    {
+      title: 'Shallow ',
+      artist: 'Lady Gaga .Ft Bradley Cooper ',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEMuLY6nElXIYAhi8qkdZfO75-RJ04t4oNRW-oObl96VRDGY4O5JTQQuBZwq4NiW5Acf5B7bS_2kiIn",
+      cover: '',
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "You're Beautiful",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ8Knfk_JNHlfbG0w9YhLa90UlFRIHhu9tnHHTkUMszlJ3KxqnMxClk4\ ",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Wisemen",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ8ChfI3ENMdDcHD492VYPcVCj0VhHgR6sI62XGUznf8\ ",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Carry You Home",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ6yZe5rQ77KMfCwD8IxKHNpSaEpCPhK_g1GpUTovhkGXyqx-m5QA ",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "High",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ7GhcJB9OL1aPYQk6VYqYKEhoigxWB-1sY_IJSE\ ",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Same Mistake",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ7yZdo13HMKQe20m5kVOWq5beCU4Xh6VhYSCWxYz1C-X3qtGWQ\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "1973",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ5pxQFt9OL1aamPx1U89KrdnnzkxWB-1sY_IJSE\ ",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "Cold",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ6yndYx9OL1afILu4n4ebOZIgWcxWB-1sY_IJSE\ ",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "Ok",
+      artist: "Robin Schulz - James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcatqaIdTtTKNU6nYmHdEh_Fb5-ezrby4BSW-QObVyAUx99Y4O5JWQTvxp5tYV-mq8Yf5B7bS_2kiIn",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "Tears And Rain",
+      artist: "James Blunt",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ72daprK75qLaywN4ohTHNpSaDlqSRWnf42pWlQ3hkGXyqx-m5QA",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "It Must Have Been Love",
+      artist: "Roxette",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QCdTucN6rfUifMM-CJ04g5o0FQuBkkBAzKx3DqjqpUFXgpjeP1lgreMk0zZGALBLwjEZkkxdRWW8iF8KpU6oVWAjQ_2yPq32Jy0TMWjg\ ",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Spending My Time",
+      artist: "Roxette",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QE9Azkc2hd493HNI9W3Uo5j8NS-QObFSAUR90gInDXFUt0D2VyqqCSKQ40UYtdR--c1Rdu0-PSD8pDIhjjclJZDXTC1Q\ ",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Listen To Your Heart",
+      artist: "Roxette",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QDMlBl86mKXzG77KMfH7byYRGaOUUlFRIR964jUq5Hz0M2DlJ3KxqnMxClk4\ ",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Metropolis",
+      artist: "Schiller",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4K0zl9uneZfDOMxDcHD481ZRKqk0bGFxUfB6sI62XGUznf8\ ",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "From Here To Eternity",
+      artist: "Schiller",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4KZAktZYUY3JNHlxdiwA9YRXZNpipBZ0SejNr2zIK0Ao1gRY0F58nLhDzpBEPQ\\",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Dark Sun",
+      artist: "Schiller",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4KQvldRYXJ3F9cKBRH4T52gsJrJmn1hkCx7Ino7KWy3x",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "Berlin Tehran",
+      artist: "Schiller",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4KIzldWhd0irNMGPaHrh6oMiQ9I7oTVELtiVj4F7W2Qh1EOWpmk\ ",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "Nothing I've Ever Known",
+      artist: "Bryan Adams",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ7enfZDAPcA9UDMx5j8qbNZgSzt5VCLCY4O5JVkstD10zK1Tc5n_f5B7bS_2kiIn",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Nothing For Me Ft Zorro",
+      artist: "Lupus Nocte",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEgxLKNdTZfI9QzQ7enfZDAPcA9TXstoWxKFrdiS0p6Vx3DY4O5JUr2q0GHn4tdi7k-f5B7bS_2kiIn",
+      cover: "",
+      genre: 'electronic pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: " Without You (Extended Mix) Ft Korolova & Krismi",
+      artist: "Alar",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCYXta86rFFkKM9Dl4mReJ13956Ve3Ep5YRJFr5XoxkrKx90iInHV1wv1i9Dj1hUmsBCxoYtdR--aT5JwTulWXcZ5LdjjclJZDXTC1Q\ ",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Voyager (Extended Mix) Ft Monophase",
+      artist: "Korolova",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDAaxqyGxF5R4LY9nMqfbpp3956Ve3Ep5YRJFr5XoxkrKx90ionDV2AowUGIiWBSnID1woFEZQDJT0xFqDSROIILHsiejspbLfE\ ",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Yankı",
+      artist: "Simge",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgUwaR_dUFRLsuS1I-hbWWgGomMb3EN9H4pLpdhn1F_Wh6Rbg\\",
+      cover: "",
+      genre: 'electronic pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Mad Heart",
+      artist: "Namito",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMMwaaOxAg9IcTua86Ze5x9OL1aUoY0yWVaYt5YdCAxWB-1sY_IJSE\ ",
+      cover: "https://lh3.googleusercontent.com/KAExSLQrr_SwlEjHd9Ml4bitQTpRWimHcLEkLdoedR6IlcssRwg3bosm76psYiIYvyospDwEM2JzncyOzA=w200-h200-l90-rj",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "LP",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEbdJSCulYQF8X1lc5YUZG-N3-Ga0kU7m0uUKlFpFROJtHHsXvJXWP9kQ\\",
+      cover: "",
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Halo",
+      artist: "LP",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEbdIV7wVcQ6Kw3mc5hL5G7DMxNTl4x0ExMK-BlUWN_Rh_JsFeG",
+      cover: "",
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: " Nothing For Me (Instrumental Version)",
+      artist: "Lupus Nocte - Ft Zorro",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEgxLKNdTZfI9QzQ7enfZDAPcA9TXstoWxKFpk3mWN_VyDBoojJSVzgtjOV3KF4loDvn5EnZirzkVQc2lJoaFkt3pmnfYszVwmGQZfKrH6blAA\ ",
+      cover: "",
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Nothing For Me",
+      artist: "Lupus Nocte - Ft Zorro",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEgxLKNdTZfI9QzQ7enfZDAPcA9TXstoWxKFrdiS0p6Vx3DY4O5JUr2q0GHn4tdi7k-f5B7bS_2kiIn",
+      cover: "",
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
     // {
-    //   title: '',
-    //   artist: 'Phil Collins',
+    //   title: "",
+    //   artist: "LP",
     //   audio: "",
-    //   cover: '',
-    //   genre: 'pop',
+    //   cover: "",
+    //   genre: 'rock pop',
     //   duration: '',
     //   star: 4,
     //   reference: "https://mp3wr.com/"
     // },
     // {
-    //   title: '',
-    //   artist: 'Phil Collins',
+    //   title: "",
+    //   artist: "LP",
     //   audio: "",
-    //   cover: '',
-    //   genre: 'pop',
+    //   cover: "",
+    //   genre: 'rock pop',
     //   duration: '',
     //   star: 4,
     //   reference: "https://mp3wr.com/"
     // },
     // {
-    //   title: '',
-    //   artist: 'Phil Collins',
+    //   title: "",
+    //   artist: "LP",
     //   audio: "",
-    //   cover: '',
-    //   genre: 'pop',
+    //   cover: "",
+    //   genre: 'rock pop',
     //   duration: '',
     //   star: 4,
     //   reference: "https://mp3wr.com/"
     // },
+
 
 
 
