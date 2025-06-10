@@ -19,9 +19,11 @@ html {
     font-size: #{$i}px;
   }
 }
-.flex{
+
+.flex {
   display: flex;
 }
+
 div {
   box-sizing: border-box;
 }
@@ -117,6 +119,11 @@ small {
   &.active {
     opacity: 1;
   }
+}
+
+.hi-hello {
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
