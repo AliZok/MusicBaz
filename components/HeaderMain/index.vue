@@ -7,7 +7,7 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
 <template>
     <div class="HeaderMain">
         <div class="inner-header">
-            <div class="auto-shadow my-brand mb-2 flex hi-hello">
+            <div class="auto-shadow my-brand mb-2 flex hello">
                 <h1 class="font-days home-link-title">
                     <NuxtLink to="/">DANCE BABY RADIO</NuxtLink>
                 </h1>

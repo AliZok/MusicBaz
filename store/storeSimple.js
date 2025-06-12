@@ -7779,7 +7779,7 @@ const storeSimple = ref({
       title: '',
       artist: 'Phellix',
       cover:
-        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+        '',
       audio: 'https://dl.iraniandj.ir/2025/1/28/1.mp3',
       genre: 'electronic',
       duration: '',
@@ -7790,7 +7790,7 @@ const storeSimple = ref({
       title: '',
       artist: 'Phellix',
       cover:
-        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+        '',
       audio: 'https://dl.iraniandj.ir/2025/1/28/2.mp3',
       genre: 'electronic',
       duration: '',
@@ -7801,7 +7801,7 @@ const storeSimple = ref({
       title: '',
       artist: 'Phellix',
       cover:
-        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+        '',
       audio: 'https://dl.iraniandj.ir/2025/1/28/3.mp3',
       genre: 'electronic',
       duration: '',
@@ -7812,7 +7812,7 @@ const storeSimple = ref({
       title: '',
       artist: 'Phellix',
       cover:
-        'https://pro.iraniandj.ir/wp-content/uploads/2025/02/DJ-Phellix-Afsane.jpg',
+        '',
       audio: 'https://dl.iraniandj.ir/2025/1/28/4.mp3',
       genre: 'electronic',
       duration: '',
@@ -11455,37 +11455,98 @@ const storeSimple = ref({
       star: 4,
       reference: "https://mp3wr.com/"
     },
-    // {
-    //   title: "",
-    //   artist: "LP",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'rock pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
-    // {
-    //   title: "",
-    //   artist: "LP",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'rock pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
-    // {
-    //   title: "",
-    //   artist: "LP",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'rock pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
+    {
+      title: "Up All Night",
+      artist: "Cannons",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQFdDuZNWkKXbANsGRLXUfvplUJtImd2RWTASlY43JSWQ10wtU",
+      cover: "",
+      genre: ' pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Evening Star",
+      artist: "Cannons",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQBdYzkdKmcEiqQ7qPLXUfvpk0aqMzlT1vFe6tY43JSWQ10wtU",
+      cover: "",
+      genre: ' pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Stuck On You",
+      artist: "Cannons",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQE9RDhtRYWJZ3KMiSLXUfvkxbO8A2fSB5KvK_Y43JSWQ10wtU",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: " Pretty Boy ",
+      artist: "Cannons",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCgMwquJw1sQENIzl92xKWrGSHlFVn4k6IhTV91apBBbSh26rIzCTVTgokdDvaBuSKU0woRvbir2kU1l4FJUFnRJ6Mh2bZc1RwjKIGWqXnycuEPOkEQ9",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
 
+    {
+      title: "Shadows",
+      artist: "Cannons",
+      audio: "https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/Cannons%20Shadows.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9DYW5ub25zIFNoYWRvd3MubXAzIiwiaWF0IjoxNzQ5NzIwMTc1LCJleHAiOjE5MDc0MDAxNzV9.FsuEFXPklMp5dud3xAk3qxX9O6LxKLceuvINc0pOmdM",
+      cover: "",
+      genre: 'pop electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "",
+      artist: "",
+      audio: "https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/strong.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9zdHJvbmcubXAzIiwiaWF0IjoxNzQ5NzI0NTIwLCJleHAiOjE5MDc0MDQ1MjB9.X4Ql8wVMZsoF7681K-jDwKBCrPvgTgZfOVjFvoNxBB0",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "",
+      audio: "https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/power.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9wb3dlci5tcDMiLCJpYXQiOjE3NDk3MjYxOTAsImV4cCI6MTkwNzQwNjE5MH0.FSXWasHYVDB3j0IdhbUxtkzMxcbdBuqwflOr9_Gi4Vg",
+      cover: "",
+      genre: 'electronic',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "Cannons",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "Cannons",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
 
 
 
