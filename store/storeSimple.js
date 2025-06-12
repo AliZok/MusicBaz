@@ -11504,7 +11504,7 @@ const storeSimple = ref({
       genre: 'pop electronic',
       duration: '',
       star: 4,
-      reference: "https://mp3wr.com/"
+      reference: ""
     },
 
     {
@@ -11515,7 +11515,7 @@ const storeSimple = ref({
       genre: 'electronic',
       duration: '',
       star: 4,
-      reference: "https://mp3wr.com/"
+      reference: ""
     },
     {
       title: "",
@@ -11525,29 +11525,108 @@ const storeSimple = ref({
       genre: 'electronic',
       duration: '',
       star: 4,
-      reference: "https://mp3wr.com/"
+      reference: ""
     },
     {
       title: "",
-      artist: "Cannons",
-      audio: "",
+      artist: "",
+      audio: "https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/john-slice.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9qb2huLXNsaWNlLm1wMyIsImlhdCI6MTc0OTc0MTE0NywiZXhwIjoxOTA3NDIxMTQ3fQ.yx5Pkb3PhwXag7ENQn-qECGMz_7QCl7BeDv9ek6sb20",
       cover: "",
       genre: 'pop',
       duration: '',
       star: 4,
-      reference: "https://mp3wr.com/"
+      reference: ""
     },
     {
       title: "",
-      artist: "Cannons",
-      audio: "",
+      artist: "",
+      audio: "https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/john-slice.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZTYzZjJmNC0yNDc5LTQwYmQtOTNhYS00MzkwZDE3MjFlMDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9qb2huLXNsaWNlLm1wMyIsImlhdCI6MTc0OTc0MTg4OSwiZXhwIjoxOTA3NDIxODg5fQ.J3QdCNtfdCc1htz1VlSma1eCQ4jnUPPjsBt3XUsqwYw",
       cover: "",
       genre: 'pop',
       duration: '',
       star: 4,
-      reference: "https://mp3wr.com/"
+      reference: ""
     },
-
+    {
+      title: "I Don't Want To Talk About It",
+      artist: "Rod Stewart",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcauF1tyU1nIdJCQ7JYTZfF9s09Xm0p9T85ZZFCjFx2Bey2rI_JCDk0gPZVmWhBSKk0xn56gCDzSAtf1SukY1xc9IGlYKFPOebTQoTdrXxliA\\",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+    {
+      title: "I Don't Want To Talk About It",
+      artist: "Rod Stewart",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcauF1tyU1nIdJCQ7JYTZfF9s09Xm0p9T85ZZFCjFx2Bey2rI_JCDk0gPZUonBCSK00y5BweymqRU5armiOQENd98GRZcJfFjPUL5feq0ZZ",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+    {
+      title: "Waiting For A Girl Like You",
+      artist: "Foreigner",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCsaxqKDvFZVMoAlhNKscpa-75-MeSz8oWZOaN0Od1l2SsutrI97UVT91P6X3aB6gLEmkG4tfy_ik1pprh8\ ",
+      cover: "https://lh3.googleusercontent.com/kM3-YCGT8cK1eDvkvgPVF-2gDpZy5TepES79D-ByLD7Plfz_IfmE_QROcQQwWPLEin2xJu5zcx4kydI=w200-h200-l90-rj",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: ""
+    },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: ""
+    // },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: ""
+    // },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: ""
+    // },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: ""
+    // },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: ""
+    // },
 
 
   ],
