@@ -27,7 +27,7 @@ const isPlaying = computed(() => storeSimple.value.isPlaying)
     margin-right: 17px;
 
     @media only screen and (max-width: 768px) {
-        font-size: 19px;
+        // font-size: 19px;
 
     }
 }
