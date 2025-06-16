@@ -10621,7 +10621,7 @@ const storeSimple = ref({
     {
       title: 'Hideaway (From "Wonder Park")',
       artist: 'Grace Vanderwaal',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwdtaB_dT5RLsQzleCZapR3F8KBbG0y4pgFHrdgml0rBwLDq366WhAQwUCOi2EvkbsMp15gfC3giFhov0NRY39GH8mwV4Y\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwdtaB_dT5RLsQzleCZapR3F8KBbG0y4pgFHrdgml0rBwLDq366WhAQwUCOi2EvkbsMp15gfC3giFhov0NRY39GH8mwV4Y\\",
       cover: '',
       genre: 'pop',
       duration: '',
@@ -10661,7 +10661,7 @@ const storeSimple = ref({
     {
       title: " When You're Gone (Feat. Melanie C)",
       artist: 'Bryan Adams',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ8CgbpZ3KMiSLn4goWZUZNYOUzZwRh-CXWe6VFEuyTNDrGEvkbsMopI_cSfYbzhL6DNRY39GH8mwV4Y\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdzZ6IdSlUIc1BQ8CgbpZ3KMiSLn4goWZUZNYOUzZwRh-CXWe6VFEuyTNDrGEvkbsMopI_cSfYbzhL6DNRY39GH8mwV4Y\\",
       cover: '',
       genre: 'rock pop',
       duration: '',
@@ -10691,7 +10691,7 @@ const storeSimple = ref({
     {
       title: 'Sober',
       artist: 'Tool',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6qFdSJdL0jM11TZCkRY50XVsn6lMLaeVPn2V-Itw\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6qFdSJdL0jM11TZCkRY50XVsn6lMLaeVPn2V-Itw\\",
       cover: 'https://upload.wikimedia.org/wikipedia/en/f/f5/Sobers.gif',
       genre: 'rock',
       duration: '',
@@ -10711,7 +10711,7 @@ const storeSimple = ref({
     {
       title: 'Forty Six & 2',
       artist: 'Tool',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6m1diNNnudtKwKU53AX-Ga0kiw41GYtRBlCE-HdHHsXvJXWP9kQ\\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6m1diNNnudtKwKU53AX-Ga0kiw41GYtRBlCE-HdHHsXvJXWP9kQ\\\",
       cover: 'https://upload.wikimedia.org/wikipedia/en/2/2f/Aenima.jpg',
       genre: 'rock',
       duration: '',
@@ -10751,7 +10751,7 @@ const storeSimple = ref({
     {
       title: 'Parabola',
       artist: 'Tool',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6pUliIcI9j8pecoyUO6RgUnrwuZE5WOgUnmRsWSDHeks\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6pUliIcI9j8pecoyUO6RgUnrwuZE5WOgUnmRsWSDHeks\\",
       cover: 'https://i.scdn.co/image/ab67616d0000b273ca41a947c13b78749c4953b1',
       genre: 'rock',
       duration: '',
@@ -10831,7 +10831,7 @@ const storeSimple = ref({
     {
       title: 'One Hundred Hunters',
       artist: 'Nigel Stanford',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKXfFNHllfHof84RJFrljmWRwVx56pn6SHFHtuf5uzY1oi6j1zJFogDD0XBY\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKXfFNHllfHof84RJFrljmWRwVx56pn6SHFHtuf5uzY1oi6j1zJFogDD0XBY\\",
       cover: 'https://i.ytimg.com/vi/g9jwmplNwFg/maxresdefault.jpg',
       genre: 'electronic',
       duration: '',
@@ -10841,7 +10841,7 @@ const storeSimple = ref({
     {
       title: 'Entropy',
       artist: 'Nigel Stanford',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKW3FQ8uMd4Xh6oMiSaphmCZELvXBdF97W2Qh1EOWpmk\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKW3FQ8uMd4Xh6oMiSaphmCZELvXBdF97W2Qh1EOWpmk\\",
       cover: 'https://i.ytimg.com/vi/QAEsdLtjq2U/sddefault.jpg',
       genre: 'electronic',
       duration: '',
@@ -10851,7 +10851,7 @@ const storeSimple = ref({
     {
       title: 'Deep Space',
       artist: 'Nigel Stanford',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKWy8NMk9Wnwc5IQLX9UrokdSRt-mdYinH2fm00KE3a18ZYg\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKWy8NMk9Wnwc5IQLX9UrokdSRt-mdYinH2fm00KE3a18ZYg\\",
       cover: 'https://i.ytimg.com/vi/QAEsdLtjq2U/sddefault.jpg',
       genre: 'electronic',
       duration: '',
@@ -10861,7 +10861,7 @@ const storeSimple = ref({
     {
       title: 'Crystal Skies',
       artist: 'Nigel Stanford',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKWvJSMyRaHjb1IpOW-QUlFRIW_a6cV6XHFUT2CNJ3KxqnMxClk4\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKWvJSMyRaHjb1IpOW-QUlFRIW_a6cV6XHFUT2CNJ3KxqnMxClk4\\",
       cover: '',
       genre: 'electronic',
       duration: '',
@@ -10871,7 +10871,7 @@ const storeSimple = ref({
     {
       title: 'Stay With Me Tonight Ft Catey Shaw',
       artist: 'Nigel Stanford',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKXvLMNI9XnUv6T8yW5FCml50TBPIXWDJCDMh1DOciYtxic71woFEQwDgjV1O6WaMPWQLHsiejspbLfE\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMUu6KGdTtkIc40ktucKXvLMNI9XnUv6T8yW5FCml50TBPIXWDJCDMh1DOciYtxic71woFEQwDgjV1O6WaMPWQLHsiejspbLfE\\",
       cover: '',
       genre: 'electronic',
       duration: '',
@@ -10891,7 +10891,7 @@ const storeSimple = ref({
     {
       title: 'Cowboys From Hell',
       artist: 'Pantera',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUMwrF_x0kQA89FhdixfEidQciKJ1Qg7YsLX9UrljdZLSKgpn2rGlfm00KE3a18ZYg\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDUMwrF_x0kQA89FhdixfEidQciKJ1Qg7YsLX9UrljdZLSKgpn2rGlfm00KE3a18ZYg\\",
       cover: '',
       genre: 'rock',
       duration: '',
@@ -10931,7 +10931,7 @@ const storeSimple = ref({
     {
       title: " I'm Alive",
       artist: 'Celine Dion',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSChu_amDw00QBMk9kYmBMJV3EMWGfXHh6oMib7Jjf0ViLv-admN7W2Qh1EOWpmk\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSChu_amDw00QBMk9kYmBMJV3EMWGfXHh6oMib7Jjf0ViLv-admN7W2Qh1EOWpmk\\",
       cover: '',
       genre: 'pop',
       duration: '',
@@ -10971,7 +10971,7 @@ const storeSimple = ref({
     {
       title: 'Zero-G',
       artist: 'Dreaming Cooper',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkduZ6HvlZX4KM9ktmde0ixNMuMNFPh6oMiV99IdWpxNwXIh057W2Qh1EOWpmk\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkduZ6HvlZX4KM9ktmde0ixNMuMNFPh6oMiV99IdWpxNwXIh057W2Qh1EOWpmk\\",
       cover: '',
       genre: 'electronic',
       duration: '',
@@ -11141,7 +11141,7 @@ const storeSimple = ref({
     {
       title: 'Street Spirit (Fade Out)',
       artist: 'Radio Head',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcMuKaJvU1RJIAhl9udbpx3IsmGeXUvoUcrV9VTSz-AWdR6pn6SGmn2yz2TmY5dgLD1zJFogDD0XBY\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcMuKaJvU1RJIAhl9udbpx3IsmGeXUvoUcrV9VTSz-AWdR6pn6SGmn2yz2TmY5dgLD1zJFogDD0XBY\\",
       cover: '',
       genre: 'rock',
       duration: '',
@@ -11192,7 +11192,7 @@ const storeSimple = ref({
     {
       title: "You're Beautiful",
       artist: "James Blunt",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ8Knfk_JNHlfbG0w9YhLa90UlFRIHhu9tnHHTkUMszlJ3KxqnMxClk4\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ8Knfk_JNHlfbG0w9YhLa90UlFRIHhu9tnHHTkUMszlJ3KxqnMxClk4\\",
       cover: "",
       genre: 'pop',
       duration: '',
@@ -11202,7 +11202,7 @@ const storeSimple = ref({
     {
       title: "Wisemen",
       artist: "James Blunt",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ8ChfI3ENMdDcHD492VYPcVCj0VhHgR6sI62XGUznf8\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ8ChfI3ENMdDcHD492VYPcVCj0VhHgR6sI62XGUznf8\\",
       cover: "",
       genre: 'pop rock',
       duration: '',
@@ -11222,7 +11222,7 @@ const storeSimple = ref({
     {
       title: "High",
       artist: "James Blunt",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ7GhcJB9OL1aPYQk6VYqYKEhoigxWB-1sY_IJSE\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ7GhcJB9OL1aPYQk6VYqYKEhoigxWB-1sY_IJSE\\",
       cover: "",
       genre: 'pop',
       duration: '',
@@ -11242,7 +11242,7 @@ const storeSimple = ref({
     {
       title: "1973",
       artist: "James Blunt",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ5pxQFt9OL1aamPx1U89KrdnnzkxWB-1sY_IJSE\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ5pxQFt9OL1aamPx1U89KrdnnzkxWB-1sY_IJSE\\",
       cover: "",
       genre: 'pop',
       duration: '',
@@ -11253,7 +11253,7 @@ const storeSimple = ref({
     {
       title: "Cold",
       artist: "James Blunt",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ6yndYx9OL1afILu4n4ebOZIgWcxWB-1sY_IJSE\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8MwaKNdSpcNc5CQ6yndYx9OL1afILu4n4ebOZIgWcxWB-1sY_IJSE\\",
       cover: "",
       genre: 'pop',
       duration: '',
@@ -11286,7 +11286,7 @@ const storeSimple = ref({
     {
       title: "It Must Have Been Love",
       artist: "Roxette",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QCdTucN6rfUifMM-CJ04g5o0FQuBkkBAzKx3DqjqpUFXgpjeP1lgreMk0zZGALBLwjEZkkxdRWW8iF8KpU6oVWAjQ_2yPq32Jy0TMWjg\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QCdTucN6rfUifMM-CJ04g5o0FQuBkkBAzKx3DqjqpUFXgpjeP1lgreMk0zZGALBLwjEZkkxdRWW8iF8KpU6oVWAjQ_2yPq32Jy0TMWjg\\",
       cover: "",
       genre: 'pop rock',
       duration: '',
@@ -11296,7 +11296,7 @@ const storeSimple = ref({
     {
       title: "Spending My Time",
       artist: "Roxette",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QE9Azkc2hd493HNI9W3Uo5j8NS-QObFSAUR90gInDXFUt0D2VyqqCSKQ40UYtdR--c1Rdu0-PSD8pDIhjjclJZDXTC1Q\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QE9Azkc2hd493HNI9W3Uo5j8NS-QObFSAUR90gInDXFUt0D2VyqqCSKQ40UYtdR--c1Rdu0-PSD8pDIhjjclJZDXTC1Q\\",
       cover: "",
       genre: 'pop rock',
       duration: '',
@@ -11306,7 +11306,7 @@ const storeSimple = ref({
     {
       title: "Listen To Your Heart",
       artist: "Roxette",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QDMlBl86mKXzG77KMfH7byYRGaOUUlFRIR964jUq5Hz0M2DlJ3KxqnMxClk4\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QDMlBl86mKXzG77KMfH7byYRGaOUUlFRIR964jUq5Hz0M2DlJ3KxqnMxClk4\\",
       cover: "",
       genre: 'pop rock',
       duration: '',
@@ -11316,7 +11316,7 @@ const storeSimple = ref({
     {
       title: "Metropolis",
       artist: "Schiller",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4K0zl9uneZfDOMxDcHD481ZRKqk0bGFxUfB6sI62XGUznf8\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4K0zl9uneZfDOMxDcHD481ZRKqk0bGFxUfB6sI62XGUznf8\\",
       cover: "",
       genre: 'electronic',
       duration: '',
@@ -11347,7 +11347,7 @@ const storeSimple = ref({
     {
       title: "Berlin Tehran",
       artist: "Schiller",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4KIzldWhd0irNMGPaHrh6oMiQ9I7oTVELtiVj4F7W2Qh1EOWpmk\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4KIzldWhd0irNMGPaHrh6oMiQ9I7oTVELtiVj4F7W2Qh1EOWpmk\\",
       cover: "",
       genre: 'electronic',
       duration: '',
@@ -11378,7 +11378,7 @@ const storeSimple = ref({
     {
       title: " Without You (Extended Mix) Ft Korolova & Krismi",
       artist: "Alar",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCYXta86rFFkKM9Dl4mReJ13956Ve3Ep5YRJFr5XoxkrKx90iInHV1wv1i9Dj1hUmsBCxoYtdR--aT5JwTulWXcZ5LdjjclJZDXTC1Q\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCYXta86rFFkKM9Dl4mReJ13956Ve3Ep5YRJFr5XoxkrKx90iInHV1wv1i9Dj1hUmsBCxoYtdR--aT5JwTulWXcZ5LdjjclJZDXTC1Q\\",
       cover: "",
       genre: 'electronic',
       duration: '',
@@ -11388,7 +11388,7 @@ const storeSimple = ref({
     {
       title: "Voyager (Extended Mix) Ft Monophase",
       artist: "Korolova",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDAaxqyGxF5R4LY9nMqfbpp3956Ve3Ep5YRJFr5XoxkrKx90ionDV2AowUGIiWBSnID1woFEZQDJT0xFqDSROIILHsiejspbLfE\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDAaxqyGxF5R4LY9nMqfbpp3956Ve3Ep5YRJFr5XoxkrKx90ionDV2AowUGIiWBSnID1woFEZQDJT0xFqDSROIILHsiejspbLfE\\",
       cover: "",
       genre: 'electronic',
       duration: '',
@@ -11408,7 +11408,7 @@ const storeSimple = ref({
     {
       title: "Mad Heart",
       artist: "Namito",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMMwaaOxAg9IcTua86Ze5x9OL1aUoY0yWVaYt5YdCAxWB-1sY_IJSE\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDMMwaaOxAg9IcTua86Ze5x9OL1aUoY0yWVaYt5YdCAxWB-1sY_IJSE\\",
       cover: "https://lh3.googleusercontent.com/KAExSLQrr_SwlEjHd9Ml4bitQTpRWimHcLEkLdoedR6IlcssRwg3bosm76psYiIYvyospDwEM2JzncyOzA=w200-h200-l90-rj",
       genre: 'electronic',
       duration: '',
@@ -11438,7 +11438,7 @@ const storeSimple = ref({
     {
       title: " Nothing For Me (Instrumental Version)",
       artist: "Lupus Nocte - Ft Zorro",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEgxLKNdTZfI9QzQ7enfZDAPcA9TXstoWxKFpk3mWN_VyDBoojJSVzgtjOV3KF4loDvn5EnZirzkVQc2lJoaFkt3pmnfYszVwmGQZfKrH6blAA\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEgxLKNdTZfI9QzQ7enfZDAPcA9TXstoWxKFpk3mWN_VyDBoojJSVzgtjOV3KF4loDvn5EnZirzkVQc2lJoaFkt3pmnfYszVwmGQZfKrH6blAA\\",
       cover: "",
       genre: 'rock pop',
       duration: '',
@@ -11555,7 +11555,8 @@ const storeSimple = ref({
       genre: 'pop rock',
       duration: '',
       star: 4,
-      reference: ""
+      reference: "https://mp3wr.com/"
+
     },
     {
       title: "I Don't Want To Talk About It",
@@ -11565,58 +11566,151 @@ const storeSimple = ref({
       genre: 'pop rock',
       duration: '',
       star: 4,
-      reference: ""
+      reference: "https://mp3wr.com/"
+
     },
     {
       title: "Waiting For A Girl Like You",
       artist: "Foreigner",
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCsaxqKDvFZVMoAlhNKscpa-75-MeSz8oWZOaN0Od1l2SsutrI97UVT91P6X3aB6gLEmkG4tfy_ik1pprh8\ ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCsaxqKDvFZVMoAlhNKscpa-75-MeSz8oWZOaN0Od1l2SsutrI97UVT91P6X3aB6gLEmkG4tfy_ik1pprh8\\",
       cover: "https://lh3.googleusercontent.com/kM3-YCGT8cK1eDvkvgPVF-2gDpZy5TepES79D-ByLD7Plfz_IfmE_QROcQQwWPLEin2xJu5zcx4kydI=w200-h200-l90-rj",
       genre: 'pop rock',
       duration: '',
       star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "Stuck On You",
+      artist: "Lionel Richie",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkMyqI6m01eLMVHQ7ysfovC76iLJ2Uq9kVOWq5geDp8HRHGoIurXxYz1C-X3qtGWQ\\",
+      cover: "https://lh3.googleusercontent.com/_NYJiWu4FELJ-Gj7Rumq_vkgugDcit8xl4E1F7P2tBDUt7Vn3PzQbsTCxYjtHoBLpv8UXiLACRVQxok=w200-h200-s-l90-rj",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "November Rain",
+      artist: "Guns N' Roses",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwgwrA6ow8QEs9BiNxYV5fNNMZ_bH7b04BOZJdXjy2EGxe6iE23MCQ6mPSW3Zl9ncoMig\\",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "Sweet Child O' Mine",
+      artist: "Guns N' Roses",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwgwrA6ow8QEs9BiNxYXJ-8NM09SnQk7YMFRZgOeFl5StG9oVfENVYNtTSK06FVj31CzX57gS6-UA\\",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "Paradise City",
+      artist: "Guns N' Roses",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwgwrA6ow8QEs9BiNxYWYnJML2GenHbxIhZb5dXjy1fFQXBgoytU1I4pfSW3Zl9ncoMig\\",
+      cover: "",
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "Civil War",
+      artist: "Guns N' Roses",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwgwrA6ow8QEs9BiNxYTJHNOMU9Xm0tp4hJM9phblg_UO65i3OqDmM0wUKY3HU6",
+      cover: "",
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "21 Guns",
+      artist: "Green Day",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwduaKIdSxROYAAVIl_fpbK9cKBRGHr2YJWPKhgnDh2Cx7Ino7KWy3x",
+      cover: "",
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "You Could Be Mine",
+      artist: "Guns N' Roses",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwgwrA6ow8QEs9BiNxYYpfM75yMfHgfoWFKFr5XmVUxTg-RgXDPS0H0vzmL3IUvm8swzZJ6Sew\\",
+      cover: "",
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "Breakdown",
+      artist: "Guns N' Roses",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCwgwrA6ow8QEs9BiNxYS5q8MMSBdoMpp4hJM6g7YlFePPyFjHDMDmM0wUKY3HU6",
+      cover: "",
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "How Deep Is Your Love",
+      artist: "Bee Gees",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4Kg9mol8bo3H76KQJ2Uq9pEFQuBkkBZ0Sei-tIPATFsxuUVZ2F58nLhDzpBEPQ\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "Stayin' Alive ",
+      artist: "Bee Gees",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4LNChOKhd093EMWGfXHbqWVXZd4OTUNsWSDGoXvOCD4pxzaXiX5unrxBez1aezDvg1lo0lGWGTFOD5GEfMguMxmlGGrDaC-byzDNknpJ7A\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: "You Win Again",
+      artist: "Bee Gees",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4Lk9mImPcpZ3EMB-cHrh6oMiYqc_myRDOxqen057W2Qh1EOWpmk\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+
+    },
+    {
+      title: " Too Much Heaven",
+      artist: "Bee Gees",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4LQ9komFfou_76GCaIIg70VOWq5Vj2FhNd6JhmvGORYz1C-X3qtGWQ\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
       reference: ""
     },
-    // {
-    //   title: "",
-    //   artist: "",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: ""
-    // },
-    // {
-    //   title: "",
-    //   artist: "",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: ""
-    // },
-    // {
-    //   title: "",
-    //   artist: "",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: ""
-    // },
-    // {
-    //   title: "",
-    //   artist: "",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: ""
-    // },
     // {
     //   title: "",
     //   artist: "",
