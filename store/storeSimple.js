@@ -181,16 +181,6 @@ const storeSimple = ref({
       duration: ':'
     },
     {
-      title: 'Zombies',
-      artist: 'The Cranberries',
-      cover:
-        'https://m.media-amazon.com/images/M/MV5BZWQ1ODZjM2YtYmU2Yy00NTNjLTg3MzYtZmU1MzgyOWYyYzg5XkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_FMjpg_UX1000_.jpg',
-      audio:
-        'https://ememay.ir/wp-content/uploads/2023/12/Zombie-The-Cranberries.mp3',
-      genre: 'rock',
-      duration: ':'
-    },
-    {
       title: 'You',
       artist: 'Rostislav Khalikov',
       cover:
@@ -669,16 +659,7 @@ const storeSimple = ref({
       genre: 'nostalgy',
       duration: ':'
     },
-    {
-      title: 'Zombies',
-      artist: 'The Cranberries',
-      cover:
-        'https://m.media-amazon.com/images/M/MV5BZWQ1ODZjM2YtYmU2Yy00NTNjLTg3MzYtZmU1MzgyOWYyYzg5XkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_FMjpg_UX1000_.jpg',
-      audio:
-        'https://ememay.ir/wp-content/uploads/2023/12/Zombie-The-Cranberries.mp3',
-      genre: 'rock',
-      duration: ':'
-    },
+
     {
       title: 'You',
       artist: 'Rostislav Khalikov',
@@ -10711,7 +10692,7 @@ const storeSimple = ref({
     {
       title: 'Forty Six & 2',
       artist: 'Tool',
-      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6m1diNNnudtKwKU53AX-Ga0kiw41GYtRBlCE-HdHHsXvJXWP9kQ\\\",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkaw6k6m1diNNnudtKwKU53AX-Ga0kiw41GYtRBlCE-HdHHsXvJXWP9kQ\\",
       cover: 'https://upload.wikimedia.org/wikipedia/en/2/2f/Aenima.jpg',
       genre: 'rock',
       duration: '',
@@ -11709,18 +11690,189 @@ const storeSimple = ref({
       genre: 'pop',
       duration: '',
       star: 4,
-      reference: ""
+      reference: "https://mp3wr.com/"
     },
-    // {
-    //   title: "",
-    //   artist: "",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: ""
-    // },
+    {
+      title: "Night Fever",
+      artist: "Bee Gees",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4K43itGsKW68Rb6PJzQO5pFHV98OeFmDDtG9oVeLSmAklxWO0GhWeX1CzX57gS6-UA\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Rest Your Love On Me",
+      artist: "Bee Gees",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4LIzlt1YYpfMQXlpdoIgoW5TFr5TUVlvIvO5i4mcMDYrokFTj6t9ictEzFo4",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "More Than A Woman",
+      artist: "Bee Gees (Sg's Paradise Edit) Ft Sg Lewis",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4K09lc5YXZC4PXleJ2Mq7oBTFplBkhd-Bfu1r3u5UWMlgBOH0qwySJ1DeXBuLAfmlk5pl1ePLT80_Ky2istJNx_T9JbdmX2dygyK",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Alone",
+      artist: "Bee Gees",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcQuV1huk1j4KE6ktedL5G7DLCFaHTw6HQcPaM3UWN_Rh_JsFeG",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "La Isla Bonita",
+      artist: "Madonna",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDIMuKyIw0kQDMHubNykakiZPseGe23h6oMiK7gekVE_HNu-lE57W2Qh1EOWpmk\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4.9,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: " Hung Up",
+      artist: "Madonna",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDIMuKyIw0kQCNU8iomNeU7AM5ZPN1sC7n4SSNZQcBZ-WQzIso2SGQ\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Mama, I'm Coming Home",
+      artist: "Ozzy Osbourne",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDQlzrY6pFtSL9VAkc5YVonEMIU9UDMooWJUY9pckhBTVBi5Y4O5JTcMvyFo3X9KWbg2f5B7bS_2kiIn",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Every Breath You Take",
+      artist: "The Police",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkTuV1qxFRZI8XuaN-de6F3EcuCaIAjoXhUa5FCjFtwCxS4ekeoSUUypDaTmWs9TspDupF8f_iy",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Say You, Say Me",
+      artist: "Lionel Richie",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDEUw6t_wQhCKcM2jM5YXInQ77KMfDjb1IBeFr5TUVlvIuSjo4mpSTwY0iOSj6t9ictEzFo4",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: 'Zombies',
+      artist: 'The Cranberries',
+      cover: 'https://m.media-amazon.com/images/M/MV5BZWQ1ODZjM2YtYmU2Yy00NTNjLTg3MzYtZmU1MzgyOWYyYzg5XkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_FMjpg_UX1000_.jpg',
+      audio: 'https://ememay.ir/wp-content/uploads/2023/12/Zombie-The-Cranberries.mp3',
+      genre: 'rock',
+      star: 4,
+      reference: "https://ememay.ir"
+    },
+    {
+      title: "Dreams",
+      artist: 'The Cranberries',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkTuV1dx0leIsVAldKdfEibQb5-dH_h6oMiSdZooDZ9LRiMo0p7W2Qh1EOWpmk\\",
+      cover: "",
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Ode To My Family",
+      artist: 'The Cranberries',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkTuV1dx0leIsVAldKdfEimM749W3vbzpgFPNJblFyECxS4emiiQif0zBJn12pKTspDupF8f_iy",
+      cover: "",
+      genre: 'rock pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "When You're Gone",
+      artist: 'The Cranberries',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkTuV1dx0leIsVAldKdfEiuN76LJ2Uq9kZXW5E1ml5wCxS4epLASkYSp0aWzXBOTspDupF8f_iy",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4.7,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Promises",
+      artist: 'The Cranberries',
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDkTuV1dx0leIsVAldKdfEinQciKcH8g9EVOWq4nlTp6MvrAhYqpTxYz1C-X3qtGWQ\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "I Want To Know What Love Is",
+      artist: "Foreigner",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCsaxqKDvFZVMoAXQ8CZd5x3I8g9Unoq-D88XtJiSzx6WxB0ho11ECH5mQdDu512icpDvo8wMiTlXBlgshuKV2pO_q1tQMhcUTTVQWCa",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "",
+      artist: "",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
+      title: "",
+      artist: "",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
 
 
   ],

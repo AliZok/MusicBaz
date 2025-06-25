@@ -96,14 +96,25 @@ const playAudio = async () => {
 
     try {
         seekAudio();
-        await myMusic.value.play();
+        // await myMusic.value.play();
+
+        await Promise.race([
+            myMusic.value.play(),
+            new Promise((_, reject) => {
+                setTimeout(() => {
+                    reject(new Error("Audio loading timed out after 1 second"));
+                }, 8000);
+            })
+        ]);
+
+
         isLoading.value = false;
         storeSimple.value.isPlaying = true;
 
         // آپدیت وضعیت پخش در Media Session
         updateMediaSession('playing');
     } catch (error) {
-        console.error("Error playing audio:", error);
+        nextOrRepeat()
     }
 
     await videoElement.value.load()
@@ -132,7 +143,7 @@ const playMusic = async () => {
         pauseAudio();
     } else {
         playAudio();
-    
+
     }
 
 }
@@ -335,8 +346,9 @@ watch(() => isLoading.value, (newV) => {
                         <img v-else-if="!isEmpty" class="curve cover" :class="{ 'shine-me  ': storeSimple.isPlaying }"
                             :src="coverMusic">
 
-                        <div v-if="!!pureList[randomNumber] && !isLoading" :class="{ 'opacity-0': storeSimple.isPlaying }"
-                            @click.stop="playMusic()" class="play-button-box">
+                        <div v-if="!!pureList[randomNumber] && !isLoading"
+                            :class="{ 'opacity-0': storeSimple.isPlaying }" @click.stop="playMusic()"
+                            class="play-button-box">
                             <div class="inner">
                                 <div class="play-shape">
                                     <div class='button-icon' :class="{ 'paused': storeSimple.isPlaying }"></div>
