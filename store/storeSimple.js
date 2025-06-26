@@ -11842,37 +11842,37 @@ const storeSimple = ref({
       reference: "https://mp3wr.com/"
     },
     {
-      title: "",
-      artist: "",
-      audio: "",
+      title: "Time Flies By",
+      artist: "Rowland Giles",
+      audio: "https://dc.vmusic.ir/2024/11/VA - Tritonia 497 (2024)/128k/06) Rowland Giles - Time Flies By (Tritonia 497).mp3",
       cover: "",
-      genre: 'pop',
+      genre: 'pop electronic',
       duration: '',
       star: 4,
-      reference: "https://mp3wr.com/"
+      reference: "https://vmusic.ir/"
     },
 
-    {
-      title: "",
-      artist: "",
-      audio: "",
-      cover: "",
-      genre: 'pop',
-      duration: '',
-      star: 4,
-      reference: "https://mp3wr.com/"
-    },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://vmusic.ir/"
+    // },
 
-    {
-      title: "",
-      artist: "",
-      audio: "",
-      cover: "",
-      genre: 'pop',
-      duration: '',
-      star: 4,
-      reference: "https://mp3wr.com/"
-    },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'electronic',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
 
 
   ],
