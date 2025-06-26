@@ -11295,6 +11295,17 @@ const storeSimple = ref({
       reference: "https://mp3wr.com/"
     },
     {
+      title: "Fading Like A Flower (Every Time You Leave)",
+      artist: "Roxette",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDcazKKOyU0QBsEyjNefKXTAOr49SCwB7Y5cW-MOUzWBSh3NXW6-VVXguT2YiYRuic00gkNwcPjOizlo01VcYHJP43qwjrZcZTOd_w\\",
+      cover: "",
+      genre: 'pop rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
+    {
       title: "Metropolis",
       artist: "Schiller",
       audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDgOvKaGwU1i4K0zl9uneZfDOMxDcHD481ZRKqk0bGFxUfB6sI62XGUznf8\\",
@@ -11852,23 +11863,139 @@ const storeSimple = ref({
       reference: "https://vmusic.ir/"
     },
 
-    // {
+    {
+      title: "Prologue",
+      artist: "Thomas Farnon",
+      audio: "https://dc.vmusic.ir/2025/06/Thomas Farnon - Vignettes (2025)/128k/01) Thomas Farnon - Prologue.mp3",
+      cover: "https://vmusic.ir/wp-content/uploads/2025/06/Thomas-Farnon-Vignettes-2025.jpg",
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: "https://vmusic.ir/"
+
+    },
+
+    {
+      title: "Someone Else's World",
+      artist: "Thomas Farnon",
+      audio: "https://dc.vmusic.ir/2025/06/Thomas Farnon - Vignettes (2025)/128k/02) Thomas Farnon - Someone Else's World.mp3",
+      cover: "https://vmusic.ir/wp-content/uploads/2025/06/Thomas-Farnon-Vignettes-2025.jpg",
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: "https://vmusic.ir/"
+
+    },
+    {
+      title: "Elektra",
+      artist: "Thomas Farnon",
+      audio: "https://dc.vmusic.ir/2025/06/Thomas Farnon - Vignettes (2025)/128k/08) Thomas Farnon - Elektra.mp3",
+      cover: "https://vmusic.ir/wp-content/uploads/2025/06/Thomas-Farnon-Vignettes-2025.jpg",
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: "https://vmusic.ir/"
+
+    },
+
+    {
+      title: "Epilogue",
+      artist: "Thomas Farnon",
+      audio: "https://dc.vmusic.ir/2025/06/Thomas Farnon - Vignettes (2025)/128k/10) Thomas Farnon - Epilogue.mp3",
+      cover: "https://vmusic.ir/wp-content/uploads/2025/06/Thomas-Farnon-Vignettes-2025.jpg",
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: "https://vmusic.ir/"
+
+    },
+    {
+      title: "I Still See You",
+      artist: "David A. Molina",
+      audio: "https://dc.vmusic.ir/2025/05/David A. Molina - I Still See You (2025)/128k/David A. Molina - I Still See You.mp3",
+      cover: "",
+      genre: 'relax',
+      duration: '',
+      star: 4,
+      reference: "https://vmusic.ir/"
+
+    },
+    {
+      title: "Cambodia",
+      artist: "Kim Wilde",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSDAUwV1xvlRUJYARhNaaeIzAMHlFWnUp6ItKFsdTnWN0VBl9Y4O5JVH5xRaV1aFta68yf5B7bS_2kiIn",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Smalltown Boy",
+      artist: "Bronski Beat ",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCcdw6uNwFEQAsUvl4mLdonDO82Mfnrbw45eHNpSaFFDSSWniGzJS2QVhkGXyqx-m5QA",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Levitating",
+      artist: "Dua Lipa",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkgtV1mvlhR4KwzmdKsapzAPcBDcHD40JJLN99heEk9Fvh6sI62XGUznf8\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Dance The Night",
+      artist: "Dua Lipa",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkgtV1mvlhR4KQvkcydKXy_NHlrcHMj9T8NPONdmBBNRh22pn91PFglgA-Py612UX04vVphPTTFiU1OujJ-UzFYH7Wxj8glIQ\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "Take On Me",
+      artist: "A-Ha",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCbYnJ46qUlbJYAdkYmFbk7AM5ZlgXD_uYpHOutIbBZ-WQzIso2SGQ\\",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    //     {
     //   title: "",
     //   artist: "",
     //   audio: "",
     //   cover: "",
-    //   genre: 'electronic',
+    //   genre: 'pop',
     //   duration: '',
     //   star: 4,
-    //   reference: "https://vmusic.ir/"
+    //   reference: "https://mp3wr.com/"
     // },
-
-    // {
+    //     {
     //   title: "",
     //   artist: "",
     //   audio: "",
     //   cover: "",
-    //   genre: 'electronic',
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+    //     {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
     //   duration: '',
     //   star: 4,
     //   reference: "https://mp3wr.com/"
