@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev --port 3333",
-    "generate": "nuxt generate",
+    "dev": "set NODE_ENV=development&&nuxt dev",
+    "build": "set NODE_ENV=production&&nuxt build",
+    "generate": "set NODE_ENV=production&&nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
