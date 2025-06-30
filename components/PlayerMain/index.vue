@@ -401,7 +401,7 @@ watch(() => isLoading.value, (newV) => {
             </div>
 
 
-            <div @mouseover="openGenres = true" @mouseleave="openGenres = false" class="px-1 py-1 genre-button-box">
+            <div @click="openGenres =!openGenres" @mouseover="openGenres = true" @mouseleave="openGenres = false" class="px-1 py-1 genre-button-box">
                 <div class="inner fs-10">
                     <span class="text-genre">GENRE</span>
                     <div class="position-relative h-0">
