@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   server: {
     port: 3323,
   },
+  router: {
+    middleware: 'noCache'
+  },
   devtools: { enabled: true },
   css: ['@/assets/style/main.scss'],
   build: {
@@ -53,8 +56,7 @@ export default defineNuxtConfig({
       ],
     },
     workbox: {
-      // navigateFallback: '/',
-      navigateFallback: null,
+      navigateFallback: '/',
       runtimeCaching: [
         {
           urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -71,6 +73,14 @@ export default defineNuxtConfig({
           },
         },
       ],
+
+      preCaching: [],
+      // Skip waiting (forces new SW to take control immediately)
+      skipWaiting: true,
+      // Clear old caches
+      cleanupOutdatedCaches: true,
+      // Don't cache root route
+
     },
     devOptions: {
       enabled: true,

@@ -11952,7 +11952,7 @@ const storeSimple = ref({
       star: 4,
       reference: "https://mp3wr.com/"
     },
-        {
+    {
       title: "I Still See You",
       artist: "David A. Molina",
       audio: "https://dc.vmusic.ir/2025/05/David A. Molina - I Still See You (2025)/128k/David A. Molina - I Still See You.mp3",
@@ -11962,26 +11962,57 @@ const storeSimple = ref({
       star: 4,
       reference: "https://mp3wr.com/"
     },
-    //     {
-    //   title: "",
-    //   artist: "",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
-    //     {
-    //   title: "",
-    //   artist: "",
-    //   audio: "",
-    //   cover: "",
-    //   genre: 'pop',
-    //   duration: '',
-    //   star: 4,
-    //   reference: "https://mp3wr.com/"
-    // },
+    {
+      title: "Always With Me, Always With You",
+      artist: "Joe Satriani",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSC8auV1ttlxiKcE8jIl5dZ-4SMw9XnUv6T8yW50ObFyCRiTHXXG-XFjguT2Yj6FtZao_pmBOZBL7Yjgml2GfUX9aHpFu",
+      cover: "",
+      genre: 'rock',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+    {
+      title: "",
+      artist: "",
+      audio: "",
+      cover: "",
+      genre: 'pop',
+      duration: '',
+      star: 4,
+      reference: "https://mp3wr.com/"
+    },
+
 
 
   ],
