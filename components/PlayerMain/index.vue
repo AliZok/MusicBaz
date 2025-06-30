@@ -103,7 +103,7 @@ const playAudio = async () => {
             new Promise((_, reject) => {
                 setTimeout(() => {
                     reject(new Error("Audio loading timed out after 1 second"));
-                }, 8000);
+                }, 11000);
             })
         ]);
 
