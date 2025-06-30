@@ -1045,15 +1045,6 @@ const storeSimple = ref({
     },
     {
       title: '',
-      artist: 'Paul Thomas',
-      cover:
-        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
-      audio:
-        'https://dc.vmusic.ir/2023/10/Cosmaks & Armedio - Faster (2023)/128k/Cosmaks & Armedio - Faster.mp3',
-      genre: 'electronic techno house'
-    },
-    {
-      title: '',
       artist: '',
       cover:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqIFMTW0JZEpolmImjVTLHxBd15f5O-lD1lg&s',
@@ -1628,15 +1619,6 @@ const storeSimple = ref({
         'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
       audio:
         'https://dc.vmusic.ir/2023/11/Paul Thomas - UV Noir Dark Nights (2023)/128k/15) Paul Thomas - Light.mp3',
-      genre: 'electronic techno house'
-    },
-    {
-      title: '',
-      artist: 'Paul Thomas',
-      cover:
-        'https://vmusic.ir/wp-content/uploads/2023/11/Paul-Thomas-UV-Noir-Dark-Nights-2023.jpg',
-      audio:
-        'https://dc.vmusic.ir/2023/10/Cosmaks & Armedio - Faster (2023)/128k/Cosmaks & Armedio - Faster.mp3',
       genre: 'electronic techno house'
     },
     {

@@ -17,7 +17,6 @@ export const useMusicAPI = () => {
         }
 
         playListLive.liveMusic = data
-        console.log("liiiiiiiiiiive musix:", playListLive.liveMusic);
         // TimeGetNewMusic.value = 
         return playListLive.liveMusic
 

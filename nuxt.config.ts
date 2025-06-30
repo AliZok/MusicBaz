@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxt/image', '@vite-pwa/nuxt','@pinia/nuxt', '@nuxtjs/sitemap'],
+  modules: ['@nuxt/image', '@vite-pwa/nuxt', '@pinia/nuxt', '@nuxtjs/sitemap'],
   sitemap: {
     hostname: 'https://dance-baby-radio.com', // آدرس دامنه خود را وارد کنید
     gzip: true, // در صورت نیاز، برای فشرده‌سازی
@@ -53,7 +53,8 @@ export default defineNuxtConfig({
       ],
     },
     workbox: {
-      navigateFallback: '/',
+      // navigateFallback: '/',
+      navigateFallback: null,
       runtimeCaching: [
         {
           urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -90,17 +91,17 @@ export default defineNuxtConfig({
         { name: "theme-color", content: "#ffffff" },
         { name: "mobile-web-app-capable", content: "yes" },
         { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
-         // NEW: Open Graph (OG) tags for social sharing
-         { property: "og:type", content: "website" },
-         { property: "og:title", content: "Dance Baby Radio" }, // Customize this!
-         { property: "og:description", content: "Listen to Beauties and Dance" }, // Customize!
-         { property: "og:image", content: "https://dance-baby-radio.com/images/background-dance-1.jpg" }, // Absolute URL required
-         { property: "og:url", content: "https://dance-baby-radio.com" }, // Homepage URL
-         { property: "og:image:width", content: "1200" }, // Optimized for WhatsApp/Facebook
-         { property: "og:image:height", content: "630" },
-         
-         // Twitter Card (optional)
-         { name: "twitter:card", content: "https://dance-baby-radio.com/images/background-dance-1.jpg" },
+        // NEW: Open Graph (OG) tags for social sharing
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: "Dance Baby Radio" }, // Customize this!
+        { property: "og:description", content: "Listen to Beauties and Dance" }, // Customize!
+        { property: "og:image", content: "https://dance-baby-radio.com/images/background-dance-1.jpg" }, // Absolute URL required
+        { property: "og:url", content: "https://dance-baby-radio.com" }, // Homepage URL
+        { property: "og:image:width", content: "1200" }, // Optimized for WhatsApp/Facebook
+        { property: "og:image:height", content: "630" },
+
+        // Twitter Card (optional)
+        { name: "twitter:card", content: "https://dance-baby-radio.com/images/background-dance-1.jpg" },
       ],
     },
   },
