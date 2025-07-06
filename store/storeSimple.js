@@ -1640,13 +1640,13 @@ const storeSimple = ref({
       genre: 'electronic techno house'
     },
 
-    {
-      title: 'Easy Lover',
-      artist: 'Philip Bailey ft. Phil Collins',
-      cover: 'https://lh3.googleusercontent.com/wTXvYmIuXs6giffNevgamlwI9o5q7MQMforfk0igktDkXPSc__V1Hnbc72UKdmkBodzaLua8OWfsvg=w200-h200-l90-rj',
-      audio: 'https://cdn.mp3wr.com/?h=JGraYpdVSDUTvamDxQgyIck6iOJYTonKSHlpdoIg80VOWq5iemF4V_nKo4mdUxYz1C-X3qtGWQ\\',
-      genre: 'rock pop'
-    },
+    // {
+    //   title: 'Easy Lover',
+    //   artist: 'Philip Bailey ft. Phil Collins',
+    //   cover: 'https://lh3.googleusercontent.com/wTXvYmIuXs6giffNevgamlwI9o5q7MQMforfk0igktDkXPSc__V1Hnbc72UKdmkBodzaLua8OWfsvg=w200-h200-l90-rj',
+    //   audio: 'https://cdn.mp3wr.com/?h=JGraYpdVSDUTvamDxQgyIck6iOJYTonKSHlpdoIg80VOWq5iemF4V_nKo4mdUxYz1C-X3qtGWQ\\',
+    //   genre: 'rock pop'
+    // },
     {
       title: 'In The Air Tonight',
       artist: 'Phil Collins',

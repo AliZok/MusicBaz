@@ -2,6 +2,11 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
+  runtimeConfig: {
+    public: {
+      apiBaseUrl: process.env.API_BASE_URL || 'http://localhost:4000'
+    }
+  },
   server: {
     port: 3323,
   },
@@ -25,30 +30,30 @@ export default defineNuxtConfig({
     routes: ['/'],
   },
   image: {},
-  pwa: {
-    // ... keep your existing manifest config ...
-    workbox: {
-      navigateFallback: null,
-      globPatterns: ['**/*.{js,css,woff2,png,jpg,jpeg,svg,gif,webp,ico}'],
-      runtimeCaching: [
-        // ... keep your existing caching rules ...
-      ],
-      skipWaiting: true,
-      cleanupOutdatedCaches: true,
-      // Add this:
-      clientsClaim: true,
-      offlineGoogleAnalytics: false
-    },
-    devOptions: {
-      enabled: false, // DISABLE IN DEV MODE
-      type: 'module',
-      navigateFallback: null,
-    },
-    // Add this:
-    strategies: process.env.NODE_ENV === 'development' ? 'injectManifest' : 'generateSW',
-    srcDir: './service-worker',
-    filename: process.env.NODE_ENV === 'development' ? 'sw-dev.js' : 'sw.js',
-  },
+  // pwa: {
+  //   // ... keep your existing manifest config ...
+  //   workbox: {
+  //     navigateFallback: null,
+  //     globPatterns: ['**/*.{js,css,woff2,png,jpg,jpeg,svg,gif,webp,ico}'],
+  //     runtimeCaching: [
+  //       // ... keep your existing caching rules ...
+  //     ],
+  //     skipWaiting: true,
+  //     cleanupOutdatedCaches: true,
+  //     // Add this:
+  //     clientsClaim: true,
+  //     offlineGoogleAnalytics: false
+  //   },
+  //   devOptions: {
+  //     enabled: false, // DISABLE IN DEV MODE
+  //     type: 'module',
+  //     navigateFallback: null,
+  //   },
+  //   // Add this:
+  //   strategies: process.env.NODE_ENV === 'development' ? 'injectManifest' : 'generateSW',
+  //   srcDir: './service-worker',
+  //   filename: process.env.NODE_ENV === 'development' ? 'sw-dev.js' : 'sw.js',
+  // },
   app: {
     head: {
       link: [

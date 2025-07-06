@@ -6,9 +6,7 @@ import playListLive from "@/store/playListLive"
 const { getLiveMusic } = useMusicAPI()
 const { createFinishTime, getUTCnewFormat, createDateFromTime } = useGlobalFunctions()
 
-getLiveMusic(1)
-createFinishTime("00:10:10")
-getUTCnewFormat()
+
 // createDateFromTime("00:10:10")
 
 const myMusic = ref(null);
@@ -22,6 +20,9 @@ const isLoading = ref(true)
 const notShowing = ref(true)
 const letsGoModal = ref(true)
 
+
+createFinishTime("00:10:10")
+getUTCnewFormat()
 
 // const useGlobalStoresssss = useGlobalStore();
 // console.log("iraaaaaaaaaaaaaan",useGlobalStoresssss)
@@ -269,6 +270,7 @@ const setupVideo = async () => {
 
 onMounted(() => {
 
+
     let lastGenres = localStorage.getItem('myGenres')
 
     if (!!lastGenres) {
@@ -278,7 +280,7 @@ onMounted(() => {
     }
 
 
-
+    getLiveMusic(1)
     pureMyList()
     getRandomNumber()
     myMusic.value.load();
@@ -401,7 +403,8 @@ watch(() => isLoading.value, (newV) => {
             </div>
 
 
-            <div @click="openGenres =!openGenres" @mouseover="openGenres = true" @mouseleave="openGenres = false" class="px-1 py-1 genre-button-box">
+            <div @click="openGenres = !openGenres" @mouseover="openGenres = true" @mouseleave="openGenres = false"
+                class="px-1 py-1 genre-button-box">
                 <div class="inner fs-10">
                     <span class="text-genre">GENRE</span>
                     <div class="position-relative h-0">

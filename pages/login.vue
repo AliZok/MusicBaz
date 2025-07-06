@@ -17,6 +17,6 @@ const {
 } = useAPI()
 
 onMounted(async () => {
-  getData("/bagher")
+  postData("http://localhost:4000/api/auth/request-otp",{email:"ali.zokaei.1367@gmail.com"})
 })
 </script>
