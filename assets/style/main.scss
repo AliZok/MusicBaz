@@ -74,6 +74,14 @@ small {
   width: 280px;
 }
 
+.isMobile {
+  display: none;
+}
+
+.isDesktop {
+  display: none;
+}
+
 .hide {
   display: none;
 }
@@ -130,5 +138,16 @@ small {
   .control-item.show {
     right: 35px;
     top: -35px;
+  }
+
+  .isMobile {
+    display: block;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .isDesktop {
+    display: block;
   }
 }
