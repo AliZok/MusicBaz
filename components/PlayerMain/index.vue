@@ -280,7 +280,7 @@ onMounted(() => {
     }
 
 
-    getLiveMusic(1)
+    // getLiveMusic(1)
     pureMyList()
     getRandomNumber()
     myMusic.value.load();
