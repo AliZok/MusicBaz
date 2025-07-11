@@ -10,10 +10,13 @@ const { createFinishTime, getUTCnewFormat, createDateFromTime } = useGlobalFunct
 // createDateFromTime("00:10:10")
 
 const myMusic = ref(null);
+const myMusicSupport = ref(null);
+const originAudio = ref(true)
 const currentTime = ref(0);
 const duration = ref(0);
 const coverMusic = ref('')
 const randomNumber = ref(0)
+const randomNumberSupport = ref(0)
 const pureList = ref([])
 const genres = ref([])
 const isLoading = ref(true)
@@ -21,11 +24,10 @@ const notShowing = ref(true)
 const letsGoModal = ref(true)
 
 
+
 createFinishTime("00:10:10")
 getUTCnewFormat()
 
-// const useGlobalStoresssss = useGlobalStore();
-// console.log("iraaaaaaaaaaaaaan",useGlobalStoresssss)
 function pureMyList() {
     pureList.value = []
     genres.value.forEach(genre => {
@@ -48,21 +50,14 @@ function getRandomNumber() {
     coverMusic.value = pureList.value[randomNumber.value]?.cover
 }
 
-// const playAudio = async () => {
-//     myMusic.value.load();
+function getRandomNumberSupport() {
+    let lenghtMusics = pureList.value.length
+    randomNumberSupport.value = Math.floor(Math.random() * lenghtMusics) + 1;
+}
 
-//     try {
-//         seekAudio()
-//         await myMusic.value.play();
-//         isLoading.value = false
-//         storeSimple.value.isPlaying = true
-//         updateMediaSession('playing');
-//     } catch (error) {
-//         console.error("Error playing audio:", error);
-//     }
-// };
 
 const playAudio = async () => {
+    console.log("qqqqqqqqqqqqqqqqqqqqqqqq", myMusicSupport.value)
     if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
             title: pureList.value[randomNumber.value]?.title,
@@ -73,13 +68,15 @@ const playAudio = async () => {
         });
 
         navigator.mediaSession.setActionHandler('play', () => {
-            myMusic.value.play();
+
+            originAudio.value ? myMusic.value.play() : myMusicSupport.value.play()
             storeSimple.value.isPlaying = true;
             updateMediaSession('playing');
         });
 
         navigator.mediaSession.setActionHandler('pause', () => {
             myMusic.value.pause();
+            myMusicSupport.value.pause();
             storeSimple.value.isPlaying = false;
             updateMediaSession('paused');
         });
@@ -95,25 +92,24 @@ const playAudio = async () => {
 
     myMusic.value.load();
 
+
     try {
         seekAudio();
-        // await myMusic.value.play();
-
         await Promise.race([
             myMusic.value.play(),
             new Promise((_, reject) => {
                 setTimeout(() => {
-                    reject(new Error("Audio loading timed out after 1 second"));
+                    reject(new Error("Audio loading timed out after 11 second"));
                 }, 11000);
             })
         ]);
 
-
         isLoading.value = false;
         storeSimple.value.isPlaying = true;
-
-        // آپدیت وضعیت پخش در Media Session
         updateMediaSession('playing');
+
+        myMusicSupport.value.load();
+
     } catch (error) {
         nextOrRepeat()
     }
@@ -165,8 +161,18 @@ const playNextMusic = async () => {
     isLoading.value = true
     isEmpty.value = true
     pauseAudio();
+
     let lastNumber = randomNumber.value
+    let lastNumberSupport = randomNumberSupport.value
+
     getRandomNumber()
+    getRandomNumberSupport()
+    if (originAudio.value) {
+        myMusicSupport.value.play()
+        originAudio.value = false
+    }
+
+
     isEmpty.value = false
     if (lastNumber != randomNumber.value) {
         goToStart()
@@ -178,6 +184,7 @@ const playNextMusic = async () => {
     }
 
     setupVideo()
+
 }
 
 const formatTime = (value) => {
@@ -197,6 +204,7 @@ const seekAudio = () => {
 const goToStart = () => {
     duration.value = 0
     myMusic.value.currentTime = 0
+    myMusicSupport.value.currentTime = 0
     currentTime.value = 0
 }
 
@@ -219,23 +227,6 @@ const handleKeyPlays = (event) => {
     }
 };
 const videoElement = ref(null)
-// const playVideo = () => {
-//     if (videoElement.value) {
-//         videoElement.value.load()
-//         const playPromise = videoElement.value.play()
-//         videoElement.value.volume = 0
-
-//         if (playPromise !== undefined) {
-//             playPromise.catch(error => {
-//                 console.error('Video play failed:', error)
-//                 // You might want to show a play button here
-//             })
-//         }
-
-
-
-//     }
-// }
 
 const setupVideo = async () => {
     if (videoElement.value) {
@@ -279,11 +270,11 @@ onMounted(() => {
         genres.value = storeSimple.value.genres
     }
 
-
-    // getLiveMusic(1)
     pureMyList()
     getRandomNumber()
     myMusic.value.load();
+    getRandomNumberSupport()
+
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
     });
@@ -378,14 +369,20 @@ watch(() => isLoading.value, (newV) => {
                     <div class="d-flex justify-space-between max-h-100 overflow-hidden text-10 fs-9 transit"
                         :class="{ 'max-h-0': notShowing }">
                         <div class="pt-2 pl-1 text-left fs-12 titles">
-                            <div>{{ pureList[randomNumber]?.title }}</div>
-                            <div>{{ pureList[randomNumber]?.artist }}</div>
+                            <div>{{ originAudio ? pureList[randomNumber]?.title : pureList[randomNumberSupport]?.title
+                                }}</div>
+                            <div>{{ originAudio ? pureList[randomNumber]?.artist :
+                                pureList[randomNumberSupport]?.artist}}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
 
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="nextOrRepeat()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg" preload="auto">
+                    </audio>
+                    <audio ref="myMusicSupport" class="my-music d-none" @timeupdate="updateRange"
+                        @ended="nextOrRepeat()">
+                        <source :src="pureList[randomNumberSupport]?.audio" type="audio/mpeg" preload="auto">
                     </audio>
 
                 </div>
@@ -403,8 +400,7 @@ watch(() => isLoading.value, (newV) => {
             </div>
 
 
-            <div :class="'isMobile'" @click="openGenres = !openGenres"
-                class="px-1 py-1 genre-button-box">
+            <div :class="'isMobile'" @click="openGenres = !openGenres" class="px-1 py-1 genre-button-box">
                 <div class="inner fs-10">
                     <span class="text-genre">GENRE</span>
                     <div class="position-relative h-0">
