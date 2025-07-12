@@ -370,9 +370,9 @@ watch(() => isLoading.value, (newV) => {
                         :class="{ 'max-h-0': notShowing }">
                         <div class="pt-2 pl-1 text-left fs-12 titles">
                             <div>{{ originAudio ? pureList[randomNumber]?.title : pureList[randomNumberSupport]?.title
-                                }}</div>
+                            }}</div>
                             <div>{{ originAudio ? pureList[randomNumber]?.artist :
-                                pureList[randomNumberSupport]?.artist}}</div>
+                                pureList[randomNumberSupport]?.artist }}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
@@ -678,6 +678,7 @@ watch(() => isLoading.value, (newV) => {
 
     .slider {
         -webkit-appearance: none;
+        appearance: none;
         width: 100%;
         height: 5px;
         border-radius: 5px;
