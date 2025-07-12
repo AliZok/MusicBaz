@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative min-h-[100vh] w-full">
      <button class="mb-10" @click='postData("http://localhost:4000/api/auth/request-otp",{email:"ali.zokaei.1367@gmail.com"})'>insertData</button>
     <div class="mb-10">
       <button @click="createUser()">create one user</button>
