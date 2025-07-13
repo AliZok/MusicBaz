@@ -11975,12 +11975,11 @@ const storeSimple = ref({
     {
       title: "",
       artist: "",
-      audio: "",
+      audio: "https://miowhffogcqhjcjjhabr.supabase.co/storage/v1/object/sign/radio.music/Super%20Focus%20Flow%20State%20Music%20-%20Alpha%20Binaural%20Beats,%20Study%20Music%20for%20Focus%20and%20Concentration.mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lNWM1NTczOC03ZDExLTRjZDctOWQ5Mi1hZTc1YjU5OWY3ZWQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJyYWRpby5tdXNpYy9TdXBlciBGb2N1cyBGbG93IFN0YXRlIE11c2ljIC0gQWxwaGEgQmluYXVyYWwgQmVhdHMsIFN0dWR5IE11c2ljIGZvciBGb2N1cyBhbmQgQ29uY2VudHJhdGlvbi5tcDMiLCJpYXQiOjE3NTI0MzQ0OTYsImV4cCI6MTkxMDExNDQ5Nn0.mKuUCqFB-103jalHU_jmdLwiOZRoJMOFptSIxVtWnYA",
       cover: "",
-      genre: 'pop',
+      genre: 'relax',
       duration: '',
       star: 4,
-      reference: "https://mp3wr.com/"
     },
     {
       title: "",

@@ -93,14 +93,18 @@ function createUser(data) {
   //   mobile: "09124888723",
   // }
 
-  postData("http://localhost:4000/api/auth/register", data).then((response)=>{
+  // postData("http://localhost:4000/api/auth/register", data).then((response)=>{
+  //   console.log(response)
+  // }).catch((err)=> alert(err))
+  postData("https://backend-dance-baby-radio.onrender.com/api/auth/register", data).then((response) => {
     console.log(response)
-  }).catch((err)=> alert(err))
+  }).catch((err) => alert(err))
 }
 
 function getUsers() {
 
-  getData("http://localhost:4000/api/users")
+  // getData("http://localhost:4000/api/users")
+  getData("https://backend-dance-baby-radio.onrender.com/api/users")
 }
 
 onMounted(async () => {
