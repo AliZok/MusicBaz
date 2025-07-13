@@ -11982,9 +11982,9 @@ const storeSimple = ref({
       star: 4,
     },
     {
-      title: "",
-      artist: "",
-      audio: "",
+      title: "It's My Life",
+      artist: "Dr. Alban",
+      audio: "https://cdn.mp3wr.com/?h=JGraYpdVSCkdgl1bwUpRLoAXl5CrKXXQ76WGbXHh6oMiR6MkYUViURW8qX17W2Qh1EOWpmk\\",
       cover: "",
       genre: 'pop',
       duration: '',
