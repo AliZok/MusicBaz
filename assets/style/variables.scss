@@ -1,0 +1,16 @@
+@font-face {
+  font-family: farsiFont;
+  src: url('../fonts/vazir-matn/Vazirmatn-Bold.woff2');
+}
+@font-face {
+  font-family: farsiFont;
+  src: url('../fonts/vazir-matn/Vazirmatn-Medium.woff2');
+}
+@font-face {
+  font-family: farsiFont;
+  src: url('../fonts/vazir-matn/Vazirmatn-Regular.woff2');
+}
+
+.farsi{
+  font-family: farsiFont;
+}

@@ -1,4 +1,4 @@
-// assets/scss/main.scss
+@import url('./variables.scss');
 
 $primary-color: #84f3ff;
 
@@ -84,6 +84,19 @@ small {
 
 .hide {
   display: none;
+}
+.my-input{
+  input{
+    background: #10191a97;
+    outline: none !important;
+    display: block;
+  }
+}
+
+.inputs-login-wrap{
+  padding: 10px;
+  background: #0828164d;
+  border-radius: 10px;
 }
 
 .dance-baby-text {

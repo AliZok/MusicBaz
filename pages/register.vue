@@ -1,21 +1,15 @@
 <template>
-  <div class="login relative min-h-[100vh] w-full">
+  <div class="register relative min-h-[100vh] w-full">
     <div class="back-img" :style="`background-image: url(${'images/background-dance-1.jpg'})`"></div>
-
-    <!-- <button class="mb-10"
-      @click='postData("http://localhost:4000/api/auth/request-otp", { email: "ali.zokaei.1367@gmail.com" })'>insertData</button>
-    <div class="mb-10">
-      <button @click="createUser()">create one user</button>
-    </div>
-    <div class="mb-10">
-      <button @click="getUsers()">get all users</button>
-    </div> -->
     <div class="z-10 absolute h-full w-full">
       <div class="relative h-full w-full">
         <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
           <div class="inputs-login-wrap">
-            <Form @submit="submit" :validation-schema="schema">
+            <Form @submit="createUser" :validation-schema="schema">
               <div class="my-input">
+                <div class="farsi">
+                  ایمیل
+                </div>
                 <Field name="email" />
                 <ErrorMessage name="email" />
               </div>
@@ -61,15 +55,17 @@ const schema = yup.object({
   password: yup.string().required().min(8),
 });
 
-function createUser() {
+function createUser(data) {
   alert("fuck this system")
-  const firstUser = {
-    username: "FREEMANZOK",
-    email: "ali.zokaei.1367@gmail.com",
-    password: "this is a pass",
-    mobile: "09124888723",
-  }
-  postData("http://localhost:4000/api/auth/register", firstUser)
+  console.log(data)
+
+  // const firstUser = {
+  //   username: "FREEMANZOK",
+  //   email: "ali.zokaei.1367@gmail.com",
+  //   password: "this is a pass",
+  //   mobile: "09124888723",
+  // }
+  // postData("http://localhost:4000/api/auth/register", firstUser)
 }
 
 function getUsers() {
