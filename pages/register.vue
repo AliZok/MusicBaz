@@ -5,29 +5,51 @@
       <div class="relative h-full w-full">
         <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
           <div class="inputs-login-wrap">
-            <Form @submit="createUser" :validation-schema="schema">
-              <div class="my-input">
-                <div class="farsi">
+            <Form @submit="createUser" :validation-schema="schema" class="text-white text-[14px] text-right" dir="rtl">
+              <div class="my-input min-w-[300px] mb-3">
+                <div class="farsi text-right mb-2">
+                  نام کاربری
+                </div>
+                <Field name="username" class="w-full py-2 px-3 rounded-lg farsi" />
+                <ErrorMessage name="username" class="farsi text-[12px] text-[#c81543]" />
+              </div>
+              <div class="my-input mb-3">
+                <div class="farsi text-right mb-2">
+                  رمز عبور
+                </div>
+                <Field name="password" type="password" class="w-full py-2 px-3 rounded-lg" />
+                <ErrorMessage name="password" class="farsi text-[12px] text-[#c81543]" />
+              </div>
+              <div class="my-input mb-3">
+                <div class="farsi text-right mb-2">
+                  تکرار رمز عبور
+                </div>
+                <Field name="repeatPassword" type="password" class="w-full py-2 px-3 rounded-lg" />
+                <ErrorMessage name="repeatPassword" class="farsi text-[12px] text-[#c81543]" />
+              </div>
+              <div class="my-input mb-3">
+                <div class="farsi text-right mb-2">
+                  موبایل
+                </div>
+                <Field name="mobile" class="w-full py-2 px-3 rounded-lg" />
+                <ErrorMessage name="mobile" class="farsi text-[12px] text-[#c81543]" />
+              </div>
+              <div class="my-input mb-10">
+                <div class="farsi text-right mb-2">
                   ایمیل
                 </div>
-                <Field name="email" />
-                <ErrorMessage name="email" />
+                <Field name="email" class="w-full py-2 px-3 rounded-lg" />
+                <ErrorMessage name="email" class="farsi text-[12px] text-[#c81543]" />
               </div>
-              <div class="my-input">
-                <Field name="password" type="password" />
-                <ErrorMessage name="password" />
-              </div>
-
-              <button>Submit</button>
+              <button
+                class="w-full h-[50px] bg-[#84f3ff45] hover:bg-[#84f3ff] farsi font-bold text-[17px] rounded-xl">ثبت
+                نام</button>
             </Form>
           </div>
         </div>
       </div>
     </div>
-
   </div>
-
-
 </template>
 
 <script setup>
@@ -51,12 +73,17 @@ const {
 } = useAPI()
 
 const schema = yup.object({
-  email: yup.string().required().email(),
-  password: yup.string().required().min(8),
+  username: yup.string().required("لطفن یک نام کاربری برای خودت انتخاب کن."),
+  password: yup.string().required("لطفن رمز عبور تا 5 رقم انتخاب کن.").min(5, "لطفن رمز عبور رو تا 5 رقم انتخاب کن."),
+  mobile: yup.string().matches(/^09\d{9}$/, 'لطفن شماره موبایل رو صحیح وارد کن.'),
+  email: yup.string().email("لطفن ایمیل رو صحیح وارد کن"),
+  repeatPassword: yup.string()
+    .required("برای اطمینان رمز عبورت رو تکرار کن.")
+    .oneOf([yup.ref('password'), null], "رمز عبورها یکی نیست."),
 });
 
 function createUser(data) {
-  alert("fuck this system")
+
   console.log(data)
 
   // const firstUser = {
@@ -65,7 +92,10 @@ function createUser(data) {
   //   password: "this is a pass",
   //   mobile: "09124888723",
   // }
-  // postData("http://localhost:4000/api/auth/register", firstUser)
+
+  postData("http://localhost:4000/api/auth/register", data).then((response)=>{
+    console.log(response)
+  }).catch((err)=> alert(err))
 }
 
 function getUsers() {
