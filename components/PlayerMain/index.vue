@@ -91,6 +91,8 @@ const playAudio = async () => {
     // }
 
     try {
+        myMusic.value.load()
+        myMusicSupport.value.load()
         playBetter()
     } catch (error) {
         nextOrRepeat()
@@ -100,35 +102,57 @@ const playAudio = async () => {
     const playPromise = videoElement.value.play()
 };
 function playBetter() {
-    // if (originAudio.value) {
-    //   alert("madar jende")
-    // } else {
-    //       alert("koskesh")
-    // }
-    try {
-        const audioElement = originAudio.value ? myMusicSupport.value : myMusic.value;
+    if (originAudio.value) {
+        console.log("madar jende")
+        try {
+            // const audioElement = originAudio.value ? myMusicSupport.value : myMusic.value;
 
-        audioElement.load();
-        seekAudio();
 
-        audioElement.play()
-            .then(() => {
-                isLoading.value = false;
-                storeSimple.value.isPlaying = true;
-                updateMediaSession('playing');
-            })
-            .catch(error => {
-                console.error('Playback failed:', error);
-                isLoading.value = false;
-                // Consider adding user feedback here
-            });
+            // myMusicSupport.value.load();
+            seekAudio();
 
-    } catch (error) {
-        console.error('Error in playBetter:', error);
-        isLoading.value = false;
-        // Use more professional/user-friendly messaging
-        alert('Playback error occurred. Please try again.');
+            myMusicSupport.value.play()
+                .then(() => {
+                    isLoading.value = false;
+                    storeSimple.value.isPlaying = true;
+                    updateMediaSession('playing');
+                })
+                .catch(error => {
+                    console.error('Playback failed:', error);
+                    isLoading.value = false;
+                });
+
+        } catch (error) {
+            console.error('Error in playBetter:', error);
+            isLoading.value = false;
+            alert('Playback error occurred. Please try again.');
+        }
+
+    } else {
+        console.log("koskesh")
+        try {
+
+            // myMusic.value.load();
+            seekAudio();
+
+            myMusic.value.play()
+                .then(() => {
+                    isLoading.value = false;
+                    storeSimple.value.isPlaying = true;
+                    updateMediaSession('playing');
+                })
+                .catch(error => {
+                    console.error('Playback failed:', error);
+                    isLoading.value = false;
+                });
+
+        } catch (error) {
+            console.error('Error in playBetter:', error);
+            isLoading.value = false;
+            alert('Playback error occurred. Please try again.');
+        }
     }
+
 }
 
 function playBetter_old() {
@@ -198,8 +222,8 @@ function updateMediaSession(state) {
 const pauseAudio = async () => {
     seekAudio()
     originAudio.value ? await myMusicSupport.value.pause() : await myMusic.value.pause();
-    
-    
+
+
     storeSimple.value.isPlaying = false
     updateMediaSession('paused');
     videoElement.value.pause();
@@ -234,11 +258,7 @@ const playNextMusic = async () => {
     isEmpty.value = true
     pauseAudio();
 
-    let lastNumber = randomNumber.value
-    let lastNumberSupport = randomNumberSupport.value
-
     getRandomNumber()
-    originAudio.value ? getRandomNumberSupport() : false
     originAudio.value = !originAudio.value
 
     // if (originAudio.value) {
@@ -376,7 +396,14 @@ onBeforeUnmount(() => {
 });
 
 watch(() => originAudio.value, (newV) => {
-    newV ? getRandomNumber() : getRandomNumberSupport()
+
+    if (newV) {
+        getRandomNumber()
+        myMusic.value.load();
+    } else {
+        getRandomNumberSupport()
+        myMusicSupport.value.load();
+    }
 })
 
 </script>
@@ -452,9 +479,10 @@ watch(() => originAudio.value, (newV) => {
                     <div class="d-flex justify-space-between max-h-100 overflow-hidden text-10 fs-9 transit"
                         :class="{ 'max-h-0': notShowing }">
                         <div class="pt-2 pl-1 text-left fs-12 titles">
-                            <div>{{ originAudio ? pureList[randomNumberSupport]?.title : pureList[randomNumber]?.title 
+                            <div>{{ originAudio ? pureList[randomNumberSupport]?.title : pureList[randomNumber]?.title
                             }}</div>
-                            <div>{{ originAudio ? pureList[randomNumberSupport]?.artist : pureList[randomNumber]?.artist }}</div>
+                            <div>{{ originAudio ? pureList[randomNumberSupport]?.artist : pureList[randomNumber]?.artist
+                            }}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
