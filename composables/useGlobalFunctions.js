@@ -84,7 +84,6 @@ export function useGlobalFunctions() {
         currentDateTime.setUTCHours(currentDateTime.getUTCHours() + hours);
         currentDateTime.setUTCMinutes(currentDateTime.getUTCMinutes() + minutes);
         currentDateTime.setUTCSeconds(currentDateTime.getUTCSeconds() + seconds);
-        console.log("Finish after:", inputTime, 'innnnnn:', getFormattedUTCDateTime(currentDateTime));
 
         return getFormattedUTCDateTime(currentDateTime);
     }
