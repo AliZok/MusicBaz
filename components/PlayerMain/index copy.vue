@@ -58,40 +58,45 @@ function getRandomNumberSupport() {
 
 const playAudio = async () => {
     console.log("qqqqqqqqqqqqqqqqqqqqqqqq", myMusicSupport.value)
-    // if ('mediaSession' in navigator) {
-    //     navigator.mediaSession.metadata = new MediaMetadata({
-    //         title: pureList.value[randomNumber.value]?.title,
-    //         artist: pureList.value[randomNumber.value]?.artist,
-    //         artwork: [
-    //             { src: coverMusic.value ? coverMusic.value : 'images/background-dance-1.jpg', sizes: '512x512', type: 'image/jpeg' }
-    //         ]
-    //     });
+    if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: pureList.value[randomNumber.value]?.title,
+            artist: pureList.value[randomNumber.value]?.artist,
+            artwork: [
+                { src: coverMusic.value ? coverMusic.value : 'images/background-dance-1.jpg', sizes: '512x512', type: 'image/jpeg' }
+            ]
+        });
 
-    //     navigator.mediaSession.setActionHandler('play', () => {
-    //         playBetter()
+        navigator.mediaSession.setActionHandler('play', () => {
+            playBetter()
 
-    //         storeSimple.value.isPlaying = true;
-    //         updateMediaSession('playing');
-    //     });
+            storeSimple.value.isPlaying = true;
+            updateMediaSession('playing');
+        });
 
-    //     navigator.mediaSession.setActionHandler('pause', () => {
-    //         myMusic.value.pause();
-    //         myMusicSupport.value.pause();
-    //         storeSimple.value.isPlaying = false;
-    //         updateMediaSession('paused');
-    //     });
+        navigator.mediaSession.setActionHandler('pause', () => {
+            myMusic.value.pause();
+            myMusicSupport.value.pause();
+            storeSimple.value.isPlaying = false;
+            updateMediaSession('paused');
+        });
 
-    //     navigator.mediaSession.setActionHandler('seekbackward', () => {
-    //         nextOrRepeat()
-    //     });
+        navigator.mediaSession.setActionHandler('seekbackward', () => {
+            nextOrRepeat()
+        });
 
-    //     navigator.mediaSession.setActionHandler('seekforward', () => {
-    //         nextOrRepeat()
-    //     });
-    // }
+        navigator.mediaSession.setActionHandler('seekforward', () => {
+            nextOrRepeat()
+        });
+    }
 
     try {
-        playBetter()
+         playBetter()
+
+        isLoading.value = false;
+        storeSimple.value.isPlaying = true;
+        updateMediaSession('playing');
+
     } catch (error) {
         nextOrRepeat()
     }
@@ -99,55 +104,19 @@ const playAudio = async () => {
     await videoElement.value.load()
     const playPromise = videoElement.value.play()
 };
+
 function playBetter() {
-    // if (originAudio.value) {
-    //   alert("madar jende")
-    // } else {
-    //       alert("koskesh")
-    // }
-    try {
-        const audioElement = originAudio.value ? myMusicSupport.value : myMusic.value;
-
-        audioElement.load();
-        seekAudio();
-
-        audioElement.play()
-            .then(() => {
-                isLoading.value = false;
-                storeSimple.value.isPlaying = true;
-                updateMediaSession('playing');
-            })
-            .catch(error => {
-                console.error('Playback failed:', error);
-                isLoading.value = false;
-                // Consider adding user feedback here
-            });
-
-    } catch (error) {
-        console.error('Error in playBetter:', error);
-        isLoading.value = false;
-        // Use more professional/user-friendly messaging
-        alert('Playback error occurred. Please try again.');
-    }
-}
-
-function playBetter_old() {
     if (!originAudio.value) {
         alert("koskesh")
         myMusic.value.load();
         seekAudio();
         myMusic.value.play()
-
     } else {
-        alert("madar jende")
+         alert("madar jende")
         myMusicSupport.value.load();
         seekAudio();
         myMusicSupport.value.play()
     }
-
-    isLoading.value = false;
-    storeSimple.value.isPlaying = true;
-    updateMediaSession('playing');
 }
 
 // async function playBetter() {
@@ -197,9 +166,8 @@ function updateMediaSession(state) {
 
 const pauseAudio = async () => {
     seekAudio()
-    originAudio.value ? await myMusicSupport.value.pause() : await myMusic.value.pause();
-    
-    
+    await myMusic.value.pause();
+    await myMusicSupport.value.pause();
     storeSimple.value.isPlaying = false
     updateMediaSession('paused');
     videoElement.value.pause();
@@ -221,7 +189,7 @@ const isRepeat = ref(false)
 
 const nextOrRepeat = () => {
     if (isRepeat.value) {
-
+        
         goToStart()
         playAudio();
     } else {
@@ -238,9 +206,8 @@ const playNextMusic = async () => {
     let lastNumberSupport = randomNumberSupport.value
 
     getRandomNumber()
-    originAudio.value ? getRandomNumberSupport() : false
+    getRandomNumberSupport()
     originAudio.value = !originAudio.value
-
     // if (originAudio.value) {
     //     myMusic.value.play()
     //     originAudio.value = false
@@ -259,9 +226,9 @@ const playNextMusic = async () => {
     //     playNextMusic()
 
     // }
-
     goToStart()
-    playAudio()
+    playAudio();
+
     setupVideo()
 
 }
@@ -375,8 +342,8 @@ onBeforeUnmount(() => {
     window.removeEventListener('keydown', handleKeyPlays);
 });
 
-watch(() => originAudio.value, (newV) => {
-    newV ? getRandomNumber() : getRandomNumberSupport()
+watch(() => isLoading.value, (newV) => {
+    // alert(newV)
 })
 
 </script>
@@ -452,9 +419,10 @@ watch(() => originAudio.value, (newV) => {
                     <div class="d-flex justify-space-between max-h-100 overflow-hidden text-10 fs-9 transit"
                         :class="{ 'max-h-0': notShowing }">
                         <div class="pt-2 pl-1 text-left fs-12 titles">
-                            <div>{{ originAudio ? pureList[randomNumberSupport]?.title : pureList[randomNumber]?.title 
+                            <div>{{ !originAudio ? pureList[randomNumber]?.title : pureList[randomNumberSupport]?.title
                             }}</div>
-                            <div>{{ originAudio ? pureList[randomNumberSupport]?.artist : pureList[randomNumber]?.artist }}</div>
+                            <div>{{ !originAudio ? pureList[randomNumber]?.artist :
+                                pureList[randomNumberSupport]?.artist }}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
@@ -462,8 +430,7 @@ watch(() => originAudio.value, (newV) => {
                     <audio ref="myMusic" class="my-music d-none" @timeupdate="updateRange" @ended="nextOrRepeat()">
                         <source :src="pureList[randomNumber]?.audio" type="audio/mpeg" preload="auto">
                     </audio>
-                    <audio ref="myMusicSupport" class="my-music-support d-none" @timeupdate="updateRangeSupport"
-                        @ended="nextOrRepeat()">
+                    <audio ref="myMusicSupport" class="my-music-support d-none" @timeupdate="updateRangeSupport" @ended="nextOrRepeat()">
                         <source :src="pureList[randomNumberSupport]?.audio" type="audio/mpeg" preload="auto">
                     </audio>
 
