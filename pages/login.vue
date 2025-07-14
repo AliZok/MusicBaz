@@ -69,16 +69,16 @@ function createUser() {
     password: "this is a pass",
     mobile: "09124888723",
   }
-  postData("http://localhost:4000/api/auth/register", firstUser)
+  postData("https://backend-dance-baby-radio.onrender.com/api/auth/register", firstUser)
 }
 
 function getUsers() {
 
-  getData("http://localhost:4000/api/users")
+  getData("https://backend-dance-baby-radio.onrender.com/api/users")
 }
 
 onMounted(async () => {
-
+getUsers()
 })
 </script>
 

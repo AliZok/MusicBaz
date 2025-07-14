@@ -11991,26 +11991,26 @@ const storeSimple = ref({
       star: 4,
       reference: "https://mp3wr.com/"
     },
-    {
-      title: "",
-      artist: "",
-      audio: "",
-      cover: "",
-      genre: 'pop',
-      duration: '',
-      star: 4,
-      reference: "https://mp3wr.com/"
-    },
-    {
-      title: "",
-      artist: "",
-      audio: "",
-      cover: "",
-      genre: 'pop',
-      duration: '',
-      star: 4,
-      reference: "https://mp3wr.com/"
-    },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   audio: "",
+    //   cover: "",
+    //   genre: 'pop',
+    //   duration: '',
+    //   star: 4,
+    //   reference: "https://mp3wr.com/"
+    // },
 
 
 
