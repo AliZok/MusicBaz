@@ -101,17 +101,15 @@ const playAudio = async () => {
     await videoElement.value.load()
     const playPromise = videoElement.value.play()
 };
-function playBetter() {
+async function playBetter() {
     if (originAudio.value) {
-        console.log("madar jende")
+        console.log("runnig support")
+
         try {
-            // const audioElement = originAudio.value ? myMusicSupport.value : myMusic.value;
-
-
-            // myMusicSupport.value.load();
             seekAudio();
 
-            myMusicSupport.value.play()
+            await Promise.race([
+                myMusicSupport.value.play()
                 .then(() => {
                     isLoading.value = false;
                     storeSimple.value.isPlaying = true;
@@ -120,7 +118,24 @@ function playBetter() {
                 .catch(error => {
                     console.error('Playback failed:', error);
                     isLoading.value = false;
-                });
+                }),
+                new Promise((_, reject) => {
+                    setTimeout(() => {
+                        reject(new Error("Audio loading timed out after 11 seconds"));
+                    }, 10000);
+                })
+            ]);
+
+            // myMusicSupport.value.play()
+            //     .then(() => {
+            //         isLoading.value = false;
+            //         storeSimple.value.isPlaying = true;
+            //         updateMediaSession('playing');
+            //     })
+            //     .catch(error => {
+            //         console.error('Playback failed:', error);
+            //         isLoading.value = false;
+            //     });
 
         } catch (error) {
             console.error('Error in playBetter:', error);
@@ -129,13 +144,16 @@ function playBetter() {
         }
 
     } else {
-        console.log("koskesh")
+        console.log("running origin")
         try {
 
             // myMusic.value.load();
             seekAudio();
 
-            myMusic.value.play()
+
+
+            await Promise.race([
+                myMusic.value.play()
                 .then(() => {
                     isLoading.value = false;
                     storeSimple.value.isPlaying = true;
@@ -144,7 +162,26 @@ function playBetter() {
                 .catch(error => {
                     console.error('Playback failed:', error);
                     isLoading.value = false;
-                });
+                }),
+                new Promise((_, reject) => {
+                    setTimeout(() => {
+                        reject(new Error("Audio loading timed out after 11 seconds"));
+                    }, 10000);
+                })
+            ]);
+
+
+
+            // myMusic.value.play()
+            //     .then(() => {
+            //         isLoading.value = false;
+            //         storeSimple.value.isPlaying = true;
+            //         updateMediaSession('playing');
+            //     })
+            //     .catch(error => {
+            //         console.error('Playback failed:', error);
+            //         isLoading.value = false;
+            //     });
 
         } catch (error) {
             console.error('Error in playBetter:', error);
@@ -155,24 +192,6 @@ function playBetter() {
 
 }
 
-function playBetter_old() {
-    if (!originAudio.value) {
-        alert("koskesh")
-        myMusic.value.load();
-        seekAudio();
-        myMusic.value.play()
-
-    } else {
-        alert("madar jende")
-        myMusicSupport.value.load();
-        seekAudio();
-        myMusicSupport.value.play()
-    }
-
-    isLoading.value = false;
-    storeSimple.value.isPlaying = true;
-    updateMediaSession('playing');
-}
 
 // async function playBetter() {
 //     if (!originAudio.value) {
@@ -480,9 +499,9 @@ watch(() => originAudio.value, (newV) => {
                         :class="{ 'max-h-0': notShowing }">
                         <div class="pt-2 pl-1 text-left fs-12 titles">
                             <div>{{ originAudio ? pureList[randomNumberSupport]?.title : pureList[randomNumber]?.title
-                            }}</div>
+                                }}</div>
                             <div>{{ originAudio ? pureList[randomNumberSupport]?.artist : pureList[randomNumber]?.artist
-                            }}</div>
+                                }}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
