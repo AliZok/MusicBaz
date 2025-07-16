@@ -92,7 +92,6 @@ const playAudio = async () => {
 
     try {
 
-        originAudio.value ? myMusic.value.load() : myMusicSupport.value.load()
         playBetter()
     } catch (error) {
         nextOrRepeat()
@@ -245,7 +244,7 @@ function updateMediaSession(state) {
 
 const pauseAudio = async () => {
     seekAudio()
-    originAudio.value ? await myMusicSupport.value.pause() : await myMusic.value.pause();
+    originAudio.value ? await myMusic.value.pause() : await myMusicSupport.value.pause();
 
 
     storeSimple.value.isPlaying = false
@@ -400,9 +399,11 @@ onMounted(() => {
     pureMyList()
     getRandomNumber()
     getRandomNumberSupport()
+   
 
     myMusic.value.addEventListener('loadedmetadata', () => {
         duration.value = myMusic.value.duration;
+         originAudio.value ? myMusic.value.load() : myMusicSupport.value.load()
     });
 
     setTimeout(() => {
@@ -503,9 +504,9 @@ watch(() => originAudio.value, (newV) => {
                         :class="{ 'max-h-0': notShowing }">
                         <div class="pt-2 pl-1 text-left fs-12 titles">
                             <div>{{ originAudio ? pureList[randomNumberSupport]?.title : pureList[randomNumber]?.title
-                            }}</div>
+                                }}</div>
                             <div>{{ originAudio ? pureList[randomNumberSupport]?.artist : pureList[randomNumber]?.artist
-                            }}</div>
+                                }}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>

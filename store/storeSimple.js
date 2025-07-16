@@ -137,7 +137,7 @@ const storeSimple = ref({
       artist: 'LinkinPark',
       cover: 'https://i1.sndcdn.com/artworks-000116080355-gatn8i-t500x500.jpg',
       audio:
-        'https://emmusicdl.ir/Music/Linkin-Park/Papercuts/Breaking-the-Habit-Linkin-Park-320.mp3',
+        'https://dl.ememay.ir/Music/Linkin-Park/Papercuts/Breaking-the-Habit-Linkin-Park-320.mp3',
       genre: 'rock metal',
       star: 5,
       duration: '',
@@ -642,7 +642,7 @@ const storeSimple = ref({
       title: 'Somewhere I Belong',
       artist: 'LinkinPark',
       audio:
-        'https://emmusicdl.ir/Music/Linkin-Park/Meteora-Bonus-Edition/Somewhere-I-Belong-Linkin-Park-320.mp3',
+        'https://dl.ememay.ir/Music/Linkin-Park/Meteora-Bonus-Edition/Somewhere-I-Belong-Linkin-Park-320.mp3',
       cover: '',
       genre: 'rock ',
       duration: '',
@@ -3096,7 +3096,7 @@ const storeSimple = ref({
     },
     {
       title: 'Sheytanat',
-      audio: 'https://emmusicdl.ir/Music/Andy/Beegharar/Shaytanat-Andy-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Andy/Beegharar/Shaytanat-Andy-320.mp3',
       artist: 'Andy',
       cover: '',
       genre: 'raghsi',
@@ -3617,7 +3617,7 @@ const storeSimple = ref({
       artist: 'Andy',
       cover: '',
       audio:
-        'https://emmusicdl.ir/Music/Andy/Love-Songs-Vol.1/Tanhaee-Andy-320.mp3',
+        'https://dl.ememay.ir/Music/Andy/Love-Songs-Vol.1/Tanhaee-Andy-320.mp3',
       genre: 'pop',
       duration: '',
       star: 5,
@@ -3813,7 +3813,7 @@ const storeSimple = ref({
     },
     {
       title: 'Dokhtare Bandar',
-      audio: 'https://emmusicdl.ir/Music/Andy/Devoted/Dokhtaré-Bandar-Andy-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Andy/Devoted/Dokhtaré-Bandar-Andy-320.mp3',
       artist: 'Andy',
       cover: '',
       genre: 'raghsi',
@@ -3916,7 +3916,7 @@ const storeSimple = ref({
       artist: 'Andy',
       cover: 'https://persianbikalam.org/wp-content/uploads/2020/07/Tavalodet-Movarak-Andy-Bikalam.jpg',
       audio:
-        'https://emmusicdl.ir/Music/Andy/Devoted/Tavalod-Andy-320.mp3',
+        'https://dl.ememay.ir/Music/Andy/Devoted/Tavalod-Andy-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -4976,7 +4976,7 @@ const storeSimple = ref({
     },
     {
       title: 'Hel Heleh',
-      audio: 'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Hel-Heleh-Leila-Forouhar-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Leila-Forouhar/Hamsafar/Hel-Heleh-Leila-Forouhar-320.mp3',
       artist: 'Leila Forouhar',
       cover: '',
       genre: 'raghsi',
@@ -7249,7 +7249,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Love-At-First-Sting-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Scorpions/Love-At-First-Sting-Deluxe-Edition/_Still_Loving_You_Live_at_Madison_Square_Garden_1984_Scorpions.mp3',
+        'https://dl.ememay.ir/Music/Scorpions/Love-At-First-Sting-Deluxe-Edition/_Still_Loving_You_Live_at_Madison_Square_Garden_1984_Scorpions.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7261,7 +7261,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Savage-Amusement-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Scorpions/Savage-Amusement/Rhythm-of-Love-2015-Remaster-Scorpions-320.mp3',
+        'https://dl.ememay.ir/Music/Scorpions/Savage-Amusement/Rhythm-of-Love-2015-Remaster-Scorpions-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7273,7 +7273,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Savage-Amusement-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Scorpions/Savage-Amusement/Believe-in-Love-2015-Remaster-Scorpions-320.mp3',
+        'https://dl.ememay.ir/Music/Scorpions/Savage-Amusement/Believe-in-Love-2015-Remaster-Scorpions-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7285,7 +7285,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Savage-Amusement-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Scorpions/Savage-Amusement/_Dont_Stop_at_the_Top_2015_Remaster_Scorpions_320.mp3',
+        'https://dl.ememay.ir/Music/Scorpions/Savage-Amusement/_Dont_Stop_at_the_Top_2015_Remaster_Scorpions_320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7297,7 +7297,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Du-hast-Rammstein-320.mp3',
+        'https://dl.ememay.ir/Music/Rammstein/Sehnsucht/Du-hast-Rammstein-320.mp3',
       genre: 'rock metal',
       duration: '',
       star: 4,
@@ -7309,7 +7309,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Engel-Rammstein-320.mp3',
+        'https://dl.ememay.ir/Music/Rammstein/Sehnsucht/Engel-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7321,7 +7321,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Tier-Rammstein-320.mp3',
+        'https://dl.ememay.ir/Music/Rammstein/Sehnsucht/Tier-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7333,7 +7333,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/Sehnsucht-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Rammstein/Sehnsucht/Bück-dich-Rammstein-320.mp3',
+        'https://dl.ememay.ir/Music/Rammstein/Sehnsucht/Bück-dich-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7582,7 +7582,7 @@ const storeSimple = ref({
       artist: 'Rammstein',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Rammstein/Zeit/Armee-der-Tristen-Rammstein-320.mp3',
+        'https://dl.ememay.ir/Music/Rammstein/Zeit/Armee-der-Tristen-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7593,7 +7593,7 @@ const storeSimple = ref({
       artist: 'Rammstein',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Rammstein/Zeit/Dicke-Titten-Rammstein-320.mp3',
+        'https://dl.ememay.ir/Music/Rammstein/Zeit/Dicke-Titten-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7604,7 +7604,7 @@ const storeSimple = ref({
       artist: 'Rammstein',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Zeit.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Rammstein/Zeit/Lügen-Rammstein-320.mp3',
+        'https://dl.ememay.ir/Music/Rammstein/Zeit/Lügen-Rammstein-320.mp3',
       genre: 'rock',
       duration: '',
       star: 4,
@@ -7615,7 +7615,7 @@ const storeSimple = ref({
       artist: 'Weekend',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Starboy.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/The-Weeknd/Starboy/Rockin-The-Weeknd-320.mp3',
+        'https://dl.ememay.ir/Music/The-Weeknd/Starboy/Rockin-The-Weeknd-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7627,7 +7627,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Cant-Feel-My-Face-The-Weeknd-320.mp3',
+        'https://dl.ememay.ir/Music/The-Weeknd/The-Highlights/Cant-Feel-My-Face-The-Weeknd-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7639,7 +7639,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/I-Feel-It-Coming-The-Weeknd-Daft-Punk-320.mp3',
+        'https://dl.ememay.ir/Music/The-Weeknd/The-Highlights/I-Feel-It-Coming-The-Weeknd-Daft-Punk-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7651,7 +7651,7 @@ const storeSimple = ref({
       cover:
         'https://ememay.ir/music/wp-content/uploads/2025/02/The-Highlights-250x250.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/The-Weeknd/The-Highlights/Call-Out-My-Name-The-Weeknd-320.mp3',
+        'https://dl.ememay.ir/Music/The-Weeknd/The-Highlights/Call-Out-My-Name-The-Weeknd-320.mp3',
       genre: 'pop',
       duration: '',
       star: 4,
@@ -7732,7 +7732,7 @@ const storeSimple = ref({
       artist: 'Leyla',
       cover: 'https://ememay.ir/music/wp-content/uploads/2025/02/Hamsafar.jpeg',
       audio:
-        'https://emmusicdl.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
+        'https://dl.ememay.ir/Music/Leila-Forouhar/Hamsafar/Vadeh-Leila-Forouhar-320.mp3',
       genre: 'raghsi',
       duration: '',
       star: 4,
@@ -8421,7 +8421,7 @@ const storeSimple = ref({
       title: '',
       artist: '',
       audio:
-        "https://emmusicdl.ir/Music/Taylor-Swift/Fearless-Taylor's-Version/_The_Best_Day_Taylors_Version_Taylor_Swift_320.mp3",
+        "https://dl.ememay.ir/Music/Taylor-Swift/Fearless-Taylor's-Version/_The_Best_Day_Taylors_Version_Taylor_Swift_320.mp3",
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8432,7 +8432,7 @@ const storeSimple = ref({
       title: 'We Are Never Ever Getting Back Together',
       artist: 'Taylor Swift',
       audio:
-        'https://emmusicdl.ir/Music/Taylor-Swift/Red/_We_Are_Never_Ever_Getting_Back_Together_Taylor_Swift_320.mp3',
+        'https://dl.ememay.ir/Music/Taylor-Swift/Red/_We_Are_Never_Ever_Getting_Back_Together_Taylor_Swift_320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8487,7 +8487,7 @@ const storeSimple = ref({
       title: 'What Ive Done',
       artist: 'LinkinPark',
       audio:
-        'https://emmusicdl.ir/Music/Linkin-Park/Papercuts/What-Ive-Done-Linkin-Park-320.mp3',
+        'https://dl.ememay.ir/Music/Linkin-Park/Papercuts/What-Ive-Done-Linkin-Park-320.mp3',
       cover: '',
       genre: 'rock',
       duration: '',
@@ -8610,7 +8610,7 @@ const storeSimple = ref({
     {
       title: 'Ashoobam',
       artist: 'Chaartaar',
-      audio: 'https://emmusicdl.ir/Music/Chaartaar/Baaraan-Toee/Ashoobam.mp3',
+      audio: 'https://dl.ememay.ir/Music/Chaartaar/Baaraan-Toee/Ashoobam.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8620,7 +8620,7 @@ const storeSimple = ref({
     {
       title: 'Nimeye Gomshodeh',
       artist: 'Hamed Homayoun',
-      audio: 'https://emmusicdl.ir/Music/Hamed-Homayoun/Barzakhe-Asheghi/Nimeye-Gomshodeh.mp3',
+      audio: 'https://dl.ememay.ir/Music/Hamed-Homayoun/Barzakhe-Asheghi/Nimeye-Gomshodeh.mp3',
       cover: 'raghsi',
       genre: 'electronic',
       duration: '',
@@ -8630,7 +8630,7 @@ const storeSimple = ref({
     {
       title: 'Zelzeleh',
       artist: 'Aron Afshar',
-      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Zelzeleh.mp3',
+      audio: 'https://dl.ememay.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Zelzeleh.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8640,7 +8640,7 @@ const storeSimple = ref({
     {
       title: 'Giso Parishan',
       artist: 'Aron Afshar',
-      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Giso-Parishan.mp3',
+      audio: 'https://dl.ememay.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Giso-Parishan.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8650,7 +8650,7 @@ const storeSimple = ref({
     {
       title: 'Kojaei',
       artist: 'Aron Afshar',
-      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Kojaei.mp3',
+      audio: 'https://dl.ememay.ir/Music/Aron-Afshar/Best-of-Aron-Afshar,-Vol.-1/Kojaei.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8661,7 +8661,7 @@ const storeSimple = ref({
     {
       title: 'Atre Bahar',
       artist: 'Aron Afshar',
-      audio: 'https://emmusicdl.ir/Music/Aron-Afshar/Shabe-Royaei/Atre-Bahar.mp3',
+      audio: 'https://dl.ememay.ir/Music/Aron-Afshar/Shabe-Royaei/Atre-Bahar.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8671,7 +8671,7 @@ const storeSimple = ref({
     {
       title: 'Bist',
       artist: 'Kamran Hooman',
-      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/20.mp3',
+      audio: 'https://dl.ememay.ir/Music/Kamran--Hooman/20/20.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8681,7 +8681,7 @@ const storeSimple = ref({
     {
       title: 'Age Eshghe Man to Nisti',
       artist: 'Kamran Hooman',
-      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Age-Eshghe-Man-to-Nisti.mp3',
+      audio: 'https://dl.ememay.ir/Music/Kamran--Hooman/20/Age-Eshghe-Man-to-Nisti.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8691,7 +8691,7 @@ const storeSimple = ref({
     {
       title: 'Man Toro Mikham',
       artist: 'Kamran Hooman',
-      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Man-Toro-Mikham.mp3',
+      audio: 'https://dl.ememay.ir/Music/Kamran--Hooman/20/Man-Toro-Mikham.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8701,7 +8701,7 @@ const storeSimple = ref({
     {
       title: 'Mano Bebakhsh',
       artist: 'Kamran Hooman',
-      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Mano-Bebakhsh.mp3',
+      audio: 'https://dl.ememay.ir/Music/Kamran--Hooman/20/Mano-Bebakhsh.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8711,7 +8711,7 @@ const storeSimple = ref({
     {
       title: 'Oonike Mikhastam',
       artist: 'Kamran Hooman',
-      audio: 'https://emmusicdl.ir/Music/Kamran--Hooman/20/Oonike-Mikhastam.mp3',
+      audio: 'https://dl.ememay.ir/Music/Kamran--Hooman/20/Oonike-Mikhastam.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8721,7 +8721,7 @@ const storeSimple = ref({
     {
       title: 'Shahlaye Man',
       artist: 'Habib',
-      audio: 'https://emmusicdl.ir/Music/Habib/Mardeh-Tanhayeh-Shab/Shahlaye-Man-Habib-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Habib/Mardeh-Tanhayeh-Shab/Shahlaye-Man-Habib-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8731,7 +8731,7 @@ const storeSimple = ref({
     {
       title: 'Madar',
       artist: 'Habib',
-      audio: 'https://emmusicdl.ir/Music/Habib/Javuni/Madar-Habib-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Habib/Javuni/Madar-Habib-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8741,7 +8741,7 @@ const storeSimple = ref({
     {
       title: 'Donya',
       artist: 'Arash feat Shaggy ',
-      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/_Donya_feat_Shaggy_Single_Version_Arash_Shaggy_320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Arash/Donya-Always-Version/_Donya_feat_Shaggy_Single_Version_Arash_Shaggy_320.mp3',
       cover: '',
       genre: 'pop raghsi',
       duration: '',
@@ -8751,7 +8751,7 @@ const storeSimple = ref({
     {
       title: 'Donya',
       artist: 'Arash & Helena',
-      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/Pure-Love-feat-Helena-Arash-Helena-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Arash/Donya-Always-Version/Pure-Love-feat-Helena-Arash-Helena-320.mp3',
       cover: '',
       genre: 'pop raghsi',
       duration: '',
@@ -8762,7 +8762,7 @@ const storeSimple = ref({
     {
       title: 'Dasta Baalaa',
       artist: 'Arash ',
-      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/_Dasa_Bala_feat_Timbuktu_Yag_Arash_Timbuktu_320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Arash/Donya-Always-Version/_Dasa_Bala_feat_Timbuktu_Yag_Arash_Timbuktu_320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8772,7 +8772,7 @@ const storeSimple = ref({
     {
       title: 'Chori Chori',
       artist: 'Arash ',
-      audio: 'https://emmusicdl.ir/Music/Arash/Donya-Always-Version/Chori-Chori-feat-Aneela-Arash-Aneela-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Arash/Donya-Always-Version/Chori-Chori-feat-Aneela-Arash-Aneela-320.mp3',
       cover: '',
       genre: 'pop raghsi',
       duration: '',
@@ -8782,7 +8782,7 @@ const storeSimple = ref({
     {
       title: 'One Day',
       artist: 'Arash Helena',
-      audio: 'https://emmusicdl.ir/Music/Arash/SUPERMAN/_One_Day_feat_Helena_Radio_Edit_Arash_Helena_320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Arash/SUPERMAN/_One_Day_feat_Helena_Radio_Edit_Arash_Helena_320.mp3',
       cover: '',
       genre: 'pop raghsi',
       duration: '',
@@ -8792,7 +8792,7 @@ const storeSimple = ref({
     {
       title: 'Scorpions',
       artist: 'Arash ',
-      audio: 'https://emmusicdl.ir/Music/Scorpions/Lovedrive/Always-Somewhere-2015-Remaster-Scorpions-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Scorpions/Lovedrive/Always-Somewhere-2015-Remaster-Scorpions-320.mp3',
       cover: '',
       genre: 'rock',
       duration: '',
@@ -8802,7 +8802,7 @@ const storeSimple = ref({
     {
       title: 'Last Friday Night',
       artist: 'Katy Perry',
-      audio: 'https://emmusicdl.ir/Music/Katy-Perry/Teenage-Dream/Last-Friday-Night-TGIF-Katy-Perry-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Katy-Perry/Teenage-Dream/Last-Friday-Night-TGIF-Katy-Perry-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8812,7 +8812,7 @@ const storeSimple = ref({
     {
       title: '',
       artist: 'Sirvan ',
-      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Today-I-Wanna-Tell-You-Sirvan-Khosravi-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Sirvan-Khosravi/Saat-9/Today-I-Wanna-Tell-You-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8822,7 +8822,7 @@ const storeSimple = ref({
     {
       title: 'Zendegy Hamin Emrooze',
       artist: 'Sirvan ',
-      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Live-for-Today-Sirvan-Khosravi-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Sirvan-Khosravi/Saat-9/Live-for-Today-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8832,7 +8832,7 @@ const storeSimple = ref({
     {
       title: 'Delam Gerefte',
       artist: 'Sirvan ',
-      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Im-Down-Sirvan-Khosravi-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Sirvan-Khosravi/Saat-9/Im-Down-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8842,7 +8842,7 @@ const storeSimple = ref({
     {
       title: 'Oon Rooza',
       artist: 'Sirvan ',
-      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/Those-Days-Sirvan-Khosravi-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Sirvan-Khosravi/Saat-9/Those-Days-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8852,7 +8852,7 @@ const storeSimple = ref({
     {
       title: "Sa'ate 9",
       artist: 'Sirvan ',
-      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Saat-9/9-Oclock-Sirvan-Khosravi-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Sirvan-Khosravi/Saat-9/9-Oclock-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8862,7 +8862,7 @@ const storeSimple = ref({
     {
       title: 'Na Naro',
       artist: 'Sirvan ',
-      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Jaddeye-Royaha/Na-Naro-Sirvan-Khosravi-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Sirvan-Khosravi/Jaddeye-Royaha/Na-Naro-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8873,7 +8873,7 @@ const storeSimple = ref({
 
       title: 'Baroone Paeizy',
       artist: 'Sirvan ',
-      audio: 'https://emmusicdl.ir/Music/Sirvan-Khosravi/Jaddeye-Royaha/Baroone-Paizi-Sirvan-Khosravi-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Sirvan-Khosravi/Jaddeye-Royaha/Baroone-Paizi-Sirvan-Khosravi-320.mp3',
       cover: '',
       genre: 'pop',
       duration: '',
@@ -8955,7 +8955,7 @@ const storeSimple = ref({
     {
       title: 'Ghorse Ghamar 2',
       artist: 'Bani',
-      audio: 'https://emmusicdl.ir/Music/Behnam-Bani/Best-Of-Behnam-Bani-Vol.2/Ghorse-Ghamar-2-Behnam-Bani-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Behnam-Bani/Best-Of-Behnam-Bani-Vol.2/Ghorse-Ghamar-2-Behnam-Bani-320.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
@@ -8965,7 +8965,7 @@ const storeSimple = ref({
     {
       title: 'In Eshgheh',
       artist: 'Behnam Bani ',
-      audio: 'https://emmusicdl.ir/Music/Behnam-Bani/Best-Of-Behnam-Bani-Vol.2/In-Eshgheh-Behnam-Bani-320.mp3',
+      audio: 'https://dl.ememay.ir/Music/Behnam-Bani/Best-Of-Behnam-Bani-Vol.2/In-Eshgheh-Behnam-Bani-320.mp3',
       cover: '',
       genre: 'raghsi',
       duration: '',
