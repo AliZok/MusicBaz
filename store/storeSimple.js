@@ -10452,7 +10452,7 @@ const storeSimple = ref({
     {
       title: 'Feeling Good (Nikko Culture Remix)',
       artist: 'Nina Simone',
-      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Nina%20Simone%20-%20Feeling%20Good%20(Nikko%20Culture%20Remix).mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80ODNkOWYwMS01ZjZiLTQ5NDEtOTE0Ni00YjQ5NmZiYzQ5MjkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9OaW5hIFNpbW9uZSAtIEZlZWxpbmcgR29vZCAoTmlra28gQ3VsdHVyZSBSZW1peCkubXAzIiwiaWF0IjoxNzQ4ODc3NTQyLCJleHAiOjE5MDY1NTc1NDJ9.67hzKzlPtoAt-WM1qVbj_tt7K0UV42wnKf93FJrna7M',
+      audio: 'https://fdveybzxmfvhbznemfpr.supabase.co/storage/v1/object/sign/dance-baby-musics/Nina%20Simone%20-%20Feeling%20Good%20(Nikko%20Culture%20Remix).mp3?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNTQ1YjJmZS01ODAxLTQ1ODYtOWMyYS0yN2JkNTZiYjQ2MGQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJkYW5jZS1iYWJ5LW11c2ljcy9OaW5hIFNpbW9uZSAtIEZlZWxpbmcgR29vZCAoTmlra28gQ3VsdHVyZSBSZW1peCkubXAzIiwiaWF0IjoxNzUyNjcxMzE0LCJleHAiOjE5MTAzNTEzMTR9.hUGrqrdiOA8tQeg477ysaJL42jlqwo_0NSoy2coR-vg',
       cover: '',
       genre: 'electronic',
       duration: '',
