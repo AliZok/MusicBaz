@@ -47,16 +47,16 @@ watch(() => genres.value, (newStore) => {
 function getRandomNumber() {
     let lenghtMusics = pureList.value.length
     randomNumber.value = Math.floor(Math.random() * lenghtMusics) + 1;
-    coverMusic.value = pureList.value[randomNumber.value]?.cover
 }
 
 function getRandomNumberSupport() {
     let lenghtMusics = pureList.value.length
     randomNumberSupport.value = Math.floor(Math.random() * lenghtMusics) + 1;
+
 }
 
-
 const playAudio = async () => {
+    console.log("ffffffffffffffffffff", myMusic.value)
     console.log("qqqqqqqqqqqqqqqqqqqqqqqq", myMusicSupport.value)
     // if ('mediaSession' in navigator) {
     //     navigator.mediaSession.metadata = new MediaMetadata({
@@ -91,8 +91,8 @@ const playAudio = async () => {
     // }
 
     try {
-        myMusic.value.load()
-        myMusicSupport.value.load()
+
+        originAudio.value ? myMusic.value.load() : myMusicSupport.value.load()
         playBetter()
     } catch (error) {
         nextOrRepeat()
@@ -110,15 +110,24 @@ async function playBetter() {
 
             await Promise.race([
                 myMusicSupport.value.play()
-                .then(() => {
-                    isLoading.value = false;
-                    storeSimple.value.isPlaying = true;
-                    updateMediaSession('playing');
-                })
-                .catch(error => {
-                    console.error('Playback failed:', error);
-                    isLoading.value = false;
-                }),
+                    .then(() => {
+
+                        isLoading.value = false;
+                        storeSimple.value.isPlaying = true;
+                        coverMusic.value = pureList.value[randomNumberSupport.value]?.cover
+                        updateMediaSession('playing');
+                        myMusic.value.load().then(() => {
+                            console.log("myMusic loaded successfully");
+                        }).catch((error) => {
+                            console.error("myMusic Failed to load music:", error);
+                        });
+
+                    })
+                    .catch(error => {
+                        console.error('myMusicSupport failed to play', error);
+                        isLoading.value = false;
+                        playNextMusic()
+                    }),
                 new Promise((_, reject) => {
                     setTimeout(() => {
                         reject(new Error("Audio loading timed out after 11 seconds"));
@@ -126,21 +135,11 @@ async function playBetter() {
                 })
             ]);
 
-            // myMusicSupport.value.play()
-            //     .then(() => {
-            //         isLoading.value = false;
-            //         storeSimple.value.isPlaying = true;
-            //         updateMediaSession('playing');
-            //     })
-            //     .catch(error => {
-            //         console.error('Playback failed:', error);
-            //         isLoading.value = false;
-            //     });
-
         } catch (error) {
             console.error('Error in playBetter:', error);
             isLoading.value = false;
-            alert('Playback error occurred. Please try again.');
+            playNextMusic()
+
         }
 
     } else {
@@ -154,15 +153,21 @@ async function playBetter() {
 
             await Promise.race([
                 myMusic.value.play()
-                .then(() => {
-                    isLoading.value = false;
-                    storeSimple.value.isPlaying = true;
-                    updateMediaSession('playing');
-                })
-                .catch(error => {
-                    console.error('Playback failed:', error);
-                    isLoading.value = false;
-                }),
+                    .then(() => {
+                        isLoading.value = false;
+                        storeSimple.value.isPlaying = true;
+                        updateMediaSession('playing');
+                        coverMusic.value = pureList.value[randomNumber.value]?.cover
+                        myMusicSupport.value.load().then(() => {
+                            console.log("myMusicSupport loaded successfully");
+                        }).catch((error) => {
+                            console.error("myMusicSupport Failed to load music:", error);
+                        });
+                    })
+                    .catch(error => {
+                        console.error('myMusic failed:', error);
+                        isLoading.value = false;
+                    }),
                 new Promise((_, reject) => {
                     setTimeout(() => {
                         reject(new Error("Audio loading timed out after 11 seconds"));
@@ -186,7 +191,7 @@ async function playBetter() {
         } catch (error) {
             console.error('Error in playBetter:', error);
             isLoading.value = false;
-            alert('Playback error occurred. Please try again.');
+            playNextMusic()
         }
     }
 
@@ -277,7 +282,6 @@ const playNextMusic = async () => {
     isEmpty.value = true
     pauseAudio();
 
-    getRandomNumber()
     originAudio.value = !originAudio.value
 
     // if (originAudio.value) {
@@ -499,9 +503,9 @@ watch(() => originAudio.value, (newV) => {
                         :class="{ 'max-h-0': notShowing }">
                         <div class="pt-2 pl-1 text-left fs-12 titles">
                             <div>{{ originAudio ? pureList[randomNumberSupport]?.title : pureList[randomNumber]?.title
-                                }}</div>
+                            }}</div>
                             <div>{{ originAudio ? pureList[randomNumberSupport]?.artist : pureList[randomNumber]?.artist
-                                }}</div>
+                            }}</div>
                         </div>
                         <span class="">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
