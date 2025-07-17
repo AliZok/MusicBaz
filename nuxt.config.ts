@@ -67,7 +67,7 @@ export default defineNuxtConfig({
           type: "image/png",
           href: "/favicon/dancy-girl.png",
         },
-        { rel: "manifest", href: "/manifest.webmanifest" },
+        // { rel: "manifest", href: "/manifest.webmanifest" },
       ],
       meta: [
         { name: "theme-color", content: "#ffffff" },
