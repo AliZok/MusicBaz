@@ -92,9 +92,29 @@ const playAudio = async () => {
     // }
 
     try {
+<<<<<<< HEAD
         myMusic.value.load()
         myMusicSupport.value.load()
         playBetter()
+=======
+        seekAudio();
+        // await myMusic.value.play();
+
+        await Promise.race([
+            myMusic.value.play(),
+            new Promise((_, reject) => {
+                setTimeout(() => {
+                    reject(new Error("Audio loading timed out after 1 second"));
+                }, 11000);
+            })
+        ]);
+
+
+        isLoading.value = false;
+        storeSimple.value.isPlaying = true;
+
+        updateMediaSession('playing');
+>>>>>>> my-feature-branch
     } catch (error) {
         nextOrRepeat()
     }
@@ -294,6 +314,10 @@ const handleKeyPlays = (event) => {
         playNextMusic()
     }
 };
+<<<<<<< HEAD
+=======
+const videoElement = ref(null)
+>>>>>>> my-feature-branch
 
 
 const setupVideo = async () => {
@@ -326,7 +350,7 @@ const setupVideo = async () => {
     }
 }
 
-
+// this is the fuckin chance
 onMounted(() => {
 
 
@@ -512,6 +536,7 @@ watch(() => originAudio.value, (newV) => {
         </div>
         <WelcomeModal @letsGo="playMusic()" v-if="letsGoModal" />
     </div>
+    
 </template>
 
 
