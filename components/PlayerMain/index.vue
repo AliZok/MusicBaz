@@ -48,6 +48,7 @@ function getRandomNumber() {
     coverMusic.value = pureList.value[randomNumber.value]?.cover
 }
 
+
 // const playAudio = async () => {
 //     myMusic.value.load();
 
