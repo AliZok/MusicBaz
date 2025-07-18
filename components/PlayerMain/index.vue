@@ -112,7 +112,6 @@ const playAudio = async () => {
         isLoading.value = false;
         storeSimple.value.isPlaying = true;
 
-        // آپدیت وضعیت پخش در Media Session
         updateMediaSession('playing');
     } catch (error) {
         nextOrRepeat()
@@ -219,23 +218,7 @@ const handleKeyPlays = (event) => {
     }
 };
 const videoElement = ref(null)
-// const playVideo = () => {
-//     if (videoElement.value) {
-//         videoElement.value.load()
-//         const playPromise = videoElement.value.play()
-//         videoElement.value.volume = 0
 
-//         if (playPromise !== undefined) {
-//             playPromise.catch(error => {
-//                 console.error('Video play failed:', error)
-//                 // You might want to show a play button here
-//             })
-//         }
-
-
-
-//     }
-// }
 
 const setupVideo = async () => {
     if (videoElement.value) {
@@ -267,7 +250,7 @@ const setupVideo = async () => {
     }
 }
 
-
+// this is the fuckin chance
 onMounted(() => {
 
 
@@ -442,6 +425,7 @@ watch(() => isLoading.value, (newV) => {
         </div>
         <WelcomeModal @letsGo="playMusic()" v-if="letsGoModal" />
     </div>
+    
 </template>
 
 
